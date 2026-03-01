@@ -8,7 +8,7 @@ app = Flask(__name__)
 app.register_blueprint(api_bp)
 
 
-@app.get("/")
+@app.route("/")
 def read_root():
     return """
     <!DOCTYPE html>
