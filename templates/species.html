@@ -4,7 +4,7 @@
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>List of Fakemon by NatDex#</title>
-            <link rel="stylesheet" href="https://unpkg.com/sortable-tables@1.0.0/dist/sortable.min.css">
+            <link rel="stylesheet" href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css">
             <link rel="icon" type="image/svg+xml" href="/favicon.ico">
             <style>
                 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -33,47 +33,30 @@
             <main>
                 <h2>Species</h2>
                 <p>All of the fakemon species will go here. Eventually.</p>
-                <table class="sortable">
-                    <thead>
-                        <tr>
-                            <th data-type="number">NatDex#</th>
-                            <th>Name</th>
-                            <th data-type="number">Height</th>
-                            <th data-type="number">Weight</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1026</td>
-                            <td>Bamzu</td>
-                            <td>0.04</td>
-                            <td>0.90</td>
-                        </tr>
-                        <tr>
-                            <td>1027</td>
-                            <td>Bambud</td>
-                            <td>0.08</td>
-                            <td>2.65</td>
-                        </tr>
-                        <tr>
-                            <td>1028</td>
-                            <td>Bamnom</td>
-                            <td>0.17</td>
-                            <td>9.80</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div id="table"></div>
                 <p style="margin-top: 20px; color: #666; font-size: 14px;">
                     Click on any column header to sort the table. Numbers and dates are sorted automatically!
                 </p>
             </main>
-            <script src="https://unpkg.com/sortable-tables@1.0.0/dist/sortable.min.js"></script>
+            <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
             <script>
-                document.addEventListener('DOMContentLoaded', function() {
-                    document.querySelectorAll('.sortable').forEach(table => {
-                        new SortableTable(table);
-                    });
-                });
-            </script>
+                const species = {{ species | tojson }};
+                
+                new gridjs.Grid({
+                    columns: ['NatDex#', 'Name', 'Type1', 'Type2'],
+                    data: species.map(emp => [
+                        emp.id,
+                        emp.name,
+                        emp.type1,
+                        emp.type2
+                    ]),
+                    sort: true,
+                    search: false,
+                    pagination: {
+                        enabled: false
+                    },
+                    resizable: true
+        }).render(document.getElementById('table'));
+    </script>
         </body>
     </html>

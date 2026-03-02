@@ -1,23 +1,15 @@
-from flask import Blueprint, jsonify, render_template
+from flask import Flask, jsonify, render_template
 
 
-api_bp = Blueprint("api", __name__)
+app = Flask(__name__)
 
+testdata = [
+    {"id": 1026, "name": "Bamzu", "type1": "Grass", "type2": ""},
+    {"id": 1027, "name": "Bambud", "type1": "Grass", "type2": "Steel"},
+    {"id": 1028, "name": "Bamnom", "type1": "Grass", "type2": "Steel"}
+]
 
-@api_bp.route("/species")
+@app.route("/species")
 def get_species():
-    return render_template("species.html")
+    return render_template("species.html", species=testdata)
 
-
-@api_bp.route("/api/items/<int:item_id>")
-def get_item(item_id: int):
-    return jsonify(
-        {
-            "item": {
-                "id": item_id,
-                "name": f"Sample Item {item_id}",
-                "value": item_id * 100,
-            },
-            "timestamp": "2024-01-01T00:00:00Z",
-        }
-    )
