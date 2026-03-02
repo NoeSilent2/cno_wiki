@@ -43,7 +43,7 @@
                 const species = {{ species | tojson }};
                 
                 new gridjs.Grid({
-                    columns: [{name:"NatDex#",width:"80px"}, {name:"Name"}, {name:"Type1",width:"30%"}, {name:"Type2",width:"30%"}],
+                    columns: [{name:"Dex",width:"60px"}, {name:"Name"}, {name:"Type1",width:"30%"}, {name:"Type2",width:"30%"}],
                     data: species.map(emp => [
                         emp.id,
                         emp.name,
