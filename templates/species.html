@@ -69,8 +69,10 @@
             </main>
             <script src="https://unpkg.com/sortable-tables@1.0.0/dist/sortable.min.js"></script>
             <script>
-                document.querySelectorAll('.sortable').forEach(table => {
-                    new SortableTable(table);
+                document.addEventListener('DOMContentLoaded', function() {
+                    document.querySelectorAll('.sortable').forEach(table => {
+                        new SortableTable(table);
+                    });
                 });
             </script>
         </body>
