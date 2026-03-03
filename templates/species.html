@@ -41,12 +41,19 @@
                 const species = {{ species | tojson }};
                 
                 new gridjs.Grid({
-                    columns: [{name:"Dex",width:"60px"}, {name:"Name",width:"180px"}, {name:"Type1",width:"120px"}, {name:"Type2",width:"120px"}],
+                    columns: [{name:"Dex",width:"60px"}, {name:"Name",width:"180px"}, {name:"Type1",width:"120px"}, {name:"Type2",width:"120px"}, {name:"HP",width:"60px"}, {name:"Atk",width:"60px"}, {name:"Def",width:"60px"}, {name:"SpA",width:"60px"}, {name:"SpD",width:"60px"}, {name:"Spe",width:"60px"}, {name:"BST",width:"60px"}],
                     data: species.map(emp => [
                         emp.national_pokedex_number,
                         emp.name,
                         emp.primary_type,
-                        emp.secondary_type
+                        emp.secondary_type,
+                        emp.hp,
+                        emp.attack,
+                        emp.defence,
+                        emp.special_attack,
+                        emp.special_defence,
+                        emp.speed,
+                        emp.total
                     ]),
                     sort: true,
                     style: {
