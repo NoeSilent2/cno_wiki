@@ -10,7 +10,7 @@ app = Flask(__name__)
 def read_root():
     return render_template("main.html")
 
-with open('./data/speciesdata.json', 'r', encoding='utf-8') as file:
+with open('./data/species.json', 'r', encoding='utf-8') as file:
     speciesdata = json.load(file)
 
 @app.route("/species")
