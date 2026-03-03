@@ -43,10 +43,10 @@
                 new gridjs.Grid({
                     columns: [{name:"Dex",width:"60px"}, {name:"Name"}, {name:"Type1",width:"30%"}, {name:"Type2",width:"30%"}],
                     data: species.map(emp => [
-                        emp.id,
+                        emp.national_pokedex_number,
                         emp.name,
-                        emp.type1,
-                        emp.type2
+                        emp.primary_type,
+                        emp.secondary_type
                     ]),
                     sort: true,
                     style: {
