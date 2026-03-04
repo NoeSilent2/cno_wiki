@@ -10,9 +10,16 @@ app = Flask(__name__)
 def read_root():
     return render_template("main.html")
 
-with open('./data/species.json', 'r', encoding='utf-8') as file:
-    speciesdata = json.load(file)
 
+with open('./data/species.json', 'r', encoding='utf-8') as file:
+    fakemondata = json.load(file)
 @app.route("/species")
 def get_species():
-    return render_template("species.html", species=speciesdata)
+    return render_template("species.html", species=fakemondata)
+
+
+with open('./data/moves.json', 'r', encoding='utf-8') as file:
+    cmovesdata = json.load(file)
+@app.rout("/moves")
+def get_moves():
+    return render_template("moves.html", moves=cmovesdata)
