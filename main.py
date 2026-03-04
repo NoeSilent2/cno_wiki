@@ -20,6 +20,6 @@ def get_species():
 
 with open('./data/moves.json', 'r', encoding='utf-8') as file:
     cmovesdata = json.load(file)
-@app.rout("/moves")
+@app.route("/moves")
 def get_moves():
     return render_template("moves.html", moves=cmovesdata)
