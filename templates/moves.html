@@ -1,75 +1,45 @@
-<!DOCTYPE html>
-    <html>
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>List of Moves</title>
-            <link rel="stylesheet" href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css">
-            <link rel="icon" type="image/svg+xml" href="/favicon.ico">
-            <style>
-                * { margin: 0; padding: 0; box-sizing: border-box; }
-                body {font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;; background-color: #000000; color: #ffffff; line-height: 1.6; min-height: 100vh; display: flex; flex-direction: column;}
-                header { border-bottom: 1px solid #333333; padding: 0; }
-                nav {max-width: 1200px; margin: 0 auto; display: flex; align-items: center; padding: 1rem 2rem; gap: 2rem;}
-                .logo { font-size: 1.25rem; font-weight: 600; color: #ffffff; text-decoration: none; }
-                .nav-links { display: flex; gap: 1.5rem; margin-left: auto; }
-                .nav-links a { text-decoration: none; color: #888888; padding: 0.5rem 1rem; border-radius: 6px; transition: all 0.2s ease; font-size: 0.875rem; font-weight: 500; }
-                .nav-links a:hover { color: #ffffff; background-color: #111111; }
-                main { max-width: 900px; flex: 1; width: 90%; margin: 2rem auto; padding: 2rem 2rem; display: flex; flex-direction: column; text-align: left; border-radius: 8px; border: 1px solid #333333; }
-                h1 { font-size: 3rem; font-weight: 700; margin-bottom: 1rem; color: #ffffff }
-                h2 { font-size: 2rem; font-weight: normal; display: block; border-bottom: 1px solid #333333; margin-bottom: 1rem; }
-            </style>
-        </head>
-        <body>
-            <header>
-                <nav>
-                    <a href="/" class="logo">C&O Wiki</a>
-                    <div class="nav-links">
-                        <a href="/species">Fakemon</a>
-                        <a href="/moves">Moves</a>
-                    </div>
-                </nav>
-            </header>
-            <main>
-                <h2>Moves</h2>
-                <p>All of the custom move data will go here. Eventually. Part way there already.</p>
-                <p style="margin-top: 20px; color: #666; font-size: 14px; margin-bottom: 10px">Click on any column header to sort the table.</p>
-                <div id="table"></div>
-            </main>
-            <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
-            <script>
-                const moves = {{ moves | tojson }};
-                
-                new gridjs.Grid({
-                    columns: [{name:"Name",width:"100px"}, {name:"Type",width:"70px"}, {name:"Category",width:"100px"}, {name:"Power",width:"60px"}, {name:"PP",width:"50px"}, {name:"Accuracy",width:"80px"}, {name:"Priority",width:"80px"}],
-                    data: moves.map(emp => [
-                        emp.name,
-                        emp.type,
-                        emp.category,
-                        emp.basePower,
-                        emp.pp,
-                        emp.accuracy,
-                        emp.priority
-                    ]),
-                    sort: true,
-                    style: {
-                        table: {
-                            border: '3px solid #fff'
-                        },
-                        th: {
-                            'background-color': '#333',
-                            color: '#fff',
-                            'border-bottom': '3px solid #fff',
-                            padding: "4px 0px 4px 4px"
-                        },
-                        td: {
-                            'background-color': '#000',
-                            color: '#fff',
-                            border: '1px solid #ccc',
-                            padding: "4px"
-                        }
-                    }
-        }).render(document.getElementById('table'));
-    </script>
-        </body>
-    </html>
+{% extends 'header.html' %}
+
+{% block body %}
+<main>
+    <h2>Moves</h2>
+    <p>All of the custom move data will go here. Eventually. Part way there already.</p>
+    <p style="margin-top: 20px; color: #666; font-size: 14px; margin-bottom: 10px">Click on any column header to sort the table.</p>
+    <div id="table"></div>
+</main>
+<script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
+<script>
+    const moves = {{ moves | tojson }};
+    
+    new gridjs.Grid({
+        columns: [{name:"Name",width:"100px"}, {name:"Type",width:"70px"}, {name:"Category",width:"100px"}, {name:"Power",width:"60px"}, {name:"PP",width:"50px"}, {name:"Accuracy",width:"80px"}, {name:"Priority",width:"80px"}],
+        data: moves.map(emp => [
+            emp.name,
+            emp.type,
+            emp.category,
+            emp.basePower,
+            emp.pp,
+            emp.accuracy,
+            emp.priority
+        ]),
+        sort: true,
+        style: {
+            table: {
+                border: '3px solid #fff'
+            },
+            th: {
+                'background-color': '#333',
+                color: '#fff',
+                'border-bottom': '3px solid #fff',
+                padding: "4px 0px 4px 4px"
+            },
+            td: {
+                'background-color': '#000',
+                color: '#fff',
+                border: '1px solid #ccc',
+                padding: "4px"
+            }
+        }
+    }).render(document.getElementById('table'));
+</script>
+{% endblock %}
