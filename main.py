@@ -10,11 +10,11 @@ def read_root():
     return render_template("main.html")
 
 
-with open('./data/species.json', 'r', encoding='utf-8') as file:
+with open('./data/fakemon.json', 'r', encoding='utf-8') as file:
     fakemondata = json.load(file)
-@app.route("/species")
-def get_species():
-    return render_template("species.html", species=fakemondata)
+@app.route("/fakemon")
+def get_fakemon():
+    return render_template("fakemon.html", fakemon=fakemondata)
 
 
 with open('./data/moves.json', 'r', encoding='utf-8') as file:
