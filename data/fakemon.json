@@ -12,6 +12,24 @@
         "special_defence": 55,
         "speed": 40,
         "total": 310,
+        "stat_projections": {
+            "50": {
+                "hp": "105 - 152",
+                "attack": "54 - 117",
+                "defence": "63 - 128",
+                "special_attack": "49 - 112",
+                "special_defence": "54 - 117",
+                "speed": "40 - 101"
+            },
+            "100": {
+                "hp": "200 - 294",
+                "attack": "103 - 229",
+                "defence": "121 - 251",
+                "special_attack": "94 - 218",
+                "special_defence": "103 - 229",
+                "speed": "76 - 196"
+            }
+        },
         "abilities": [
             "Overgrow",
             "Bulletproof (Hidden)"
@@ -75,6 +93,24 @@
         "special_defence": 70,
         "speed": 50,
         "total": 400,
+        "stat_projections": {
+            "50": {
+                "hp": "120 - 167",
+                "attack": "67 - 134",
+                "defence": "81 - 150",
+                "special_attack": "63 - 128",
+                "special_defence": "67 - 134",
+                "speed": "49 - 112"
+            },
+            "100": {
+                "hp": "230 - 324",
+                "attack": "130 - 262",
+                "defence": "157 - 295",
+                "special_attack": "121 - 251",
+                "special_defence": "130 - 262",
+                "speed": "94 - 218"
+            }
+        },
         "abilities": [
             "Overgrow",
             "Bulletproof (Hidden)"
@@ -151,6 +187,24 @@
         "special_defence": 90,
         "speed": 60,
         "total": 530,
+        "stat_projections": {
+            "50": {
+                "hp": "135 - 182",
+                "attack": "94 - 167",
+                "defence": "112 - 189",
+                "special_attack": "81 - 150",
+                "special_defence": "85 - 156",
+                "speed": "58 - 123"
+            },
+            "100": {
+                "hp": "260 - 354",
+                "attack": "184 - 328",
+                "defence": "220 - 372",
+                "special_attack": "157 - 295",
+                "special_defence": "166 - 306",
+                "speed": "112 - 240"
+            }
+        },
         "abilities": [
             "Overgrow",
             "Bulletproof (Hidden)"
@@ -248,6 +302,24 @@
         "special_defence": 50,
         "speed": 60,
         "total": 310,
+        "stat_projections": {
+            "50": {
+                "hp": "105 - 152",
+                "attack": "49 - 112",
+                "defence": "40 - 101",
+                "special_attack": "63 - 128",
+                "special_defence": "49 - 112",
+                "speed": "58 - 123"
+            },
+            "100": {
+                "hp": "200 - 294",
+                "attack": "94 - 218",
+                "defence": "76 - 196",
+                "special_attack": "121 - 251",
+                "special_defence": "94 - 218",
+                "speed": "112 - 240"
+            }
+        },
         "abilities": [
             "Blaze",
             "Magicguard (Hidden)"
@@ -313,6 +385,24 @@
         "special_defence": 50,
         "speed": 20,
         "total": 245,
+        "stat_projections": {
+            "50": {
+                "hp": "110 - 157",
+                "attack": "40 - 101",
+                "defence": "45 - 106",
+                "special_attack": "40 - 101",
+                "special_defence": "49 - 112",
+                "speed": "22 - 79"
+            },
+            "100": {
+                "hp": "210 - 304",
+                "attack": "76 - 196",
+                "defence": "85 - 207",
+                "special_attack": "76 - 196",
+                "special_defence": "94 - 218",
+                "speed": "40 - 152"
+            }
+        },
         "abilities": [
             "Sweetdreams",
             "Sweetdreams (Hidden)"
@@ -433,6 +523,24 @@
         "special_defence": 115,
         "speed": 45,
         "total": 535,
+        "stat_projections": {
+            "50": {
+                "hp": "155 - 202",
+                "attack": "49 - 112",
+                "defence": "90 - 161",
+                "special_attack": "126 - 205",
+                "special_defence": "108 - 183",
+                "speed": "45 - 106"
+            },
+            "100": {
+                "hp": "300 - 394",
+                "attack": "94 - 218",
+                "defence": "175 - 317",
+                "special_attack": "247 - 405",
+                "special_defence": "211 - 361",
+                "speed": "85 - 207"
+            }
+        },
         "abilities": [
             "Sweetdreams",
             "Sweetdreams (Hidden)"
@@ -452,7 +560,7 @@
             "1 Chesto Berry (5.0%)"
         ],
         "level_moves": [
-            "Lvl 1: Sleepcharm",
+            "Lvl 1: Sleep Charm",
             "Lvl 1: Rest",
             "Lvl 1: Snore",
             "Lvl 1: Defensecurl",
@@ -462,8 +570,8 @@
             "Lvl 1: Dreameater",
             "Lvl 1: Moonblast",
             "Lvl 1: Hypnosis",
-            "Lvl 1: Psychicsnap",
-            "Lvl 1: Mindbend",
+            "Lvl 1: Psychic Snap",
+            "Lvl 1: Mind Bend",
             "Lvl 4: Sleeppowder",
             "Lvl 4: Entrainment",
             "Lvl 8: Psybeam",
@@ -500,7 +608,7 @@
             "Icywind",
             "Imprison",
             "Infestation",
-            "Mindbend",
+            "Mind Bend",
             "Nastyplot",
             "Nightshade",
             "Ominouswind",
@@ -509,7 +617,7 @@
             "Poltergeist",
             "Protect",
             "Psychic",
-            "Psychicsnap",
+            "Psychic Snap",
             "Psychup",
             "Raindance",
             "Rest",
@@ -560,6 +668,24 @@
         "special_defence": 65,
         "speed": 80,
         "total": 415,
+        "stat_projections": {
+            "50": {
+                "hp": "120 - 167",
+                "attack": "63 - 128",
+                "defence": "58 - 123",
+                "special_attack": "81 - 150",
+                "special_defence": "63 - 128",
+                "speed": "76 - 145"
+            },
+            "100": {
+                "hp": "230 - 324",
+                "attack": "121 - 251",
+                "defence": "112 - 240",
+                "special_attack": "157 - 295",
+                "special_defence": "121 - 251",
+                "speed": "148 - 284"
+            }
+        },
         "abilities": [
             "Blaze",
             "Magicguard (Hidden)"
@@ -643,6 +769,24 @@
         "special_defence": 115,
         "speed": 45,
         "total": 535,
+        "stat_projections": {
+            "50": {
+                "hp": "155 - 202",
+                "attack": "126 - 205",
+                "defence": "90 - 161",
+                "special_attack": "49 - 112",
+                "special_defence": "108 - 183",
+                "speed": "45 - 106"
+            },
+            "100": {
+                "hp": "300 - 394",
+                "attack": "247 - 405",
+                "defence": "175 - 317",
+                "special_attack": "94 - 218",
+                "special_defence": "211 - 361",
+                "speed": "85 - 207"
+            }
+        },
         "abilities": [
             "Baddreams",
             "Baddreams (Hidden)"
@@ -662,7 +806,7 @@
             "1 Chesto Berry (5.0%)"
         ],
         "level_moves": [
-            "Lvl 1: Nightterror",
+            "Lvl 1: Night Terror",
             "Lvl 1: Rest",
             "Lvl 1: Snore",
             "Lvl 1: Defensecurl",
@@ -672,8 +816,8 @@
             "Lvl 1: Hypnosis",
             "Lvl 1: Dreameater",
             "Lvl 1: Nightslash",
-            "Lvl 1: Psychicsnap",
-            "Lvl 1: Mindbend",
+            "Lvl 1: Psychic Snap",
+            "Lvl 1: Mind Bend",
             "Lvl 4: Sleeppowder",
             "Lvl 4: Confuseray",
             "Lvl 8: Psybeam",
@@ -707,7 +851,7 @@
             "Facade",
             "Gigadrain",
             "Leechlife",
-            "Mindbend",
+            "Mind Bend",
             "Faketears",
             "Hex",
             "Icywind",
@@ -721,7 +865,7 @@
             "Poltergeist",
             "Protect",
             "Psychic",
-            "Psychicsnap",
+            "Psychic Snap",
             "Psychup",
             "Raindance",
             "Rest",
@@ -774,6 +918,24 @@
         "special_defence": 95,
         "speed": 95,
         "total": 530,
+        "stat_projections": {
+            "50": {
+                "hp": "135 - 182",
+                "attack": "72 - 139",
+                "defence": "67 - 134",
+                "special_attack": "112 - 189",
+                "special_defence": "90 - 161",
+                "speed": "90 - 161"
+            },
+            "100": {
+                "hp": "260 - 354",
+                "attack": "139 - 273",
+                "defence": "130 - 262",
+                "special_attack": "220 - 372",
+                "special_defence": "175 - 317",
+                "speed": "175 - 317"
+            }
+        },
         "abilities": [
             "Blaze",
             "Magicguard (Hidden)"
@@ -882,6 +1044,24 @@
         "special_defence": 40,
         "speed": 50,
         "total": 300,
+        "stat_projections": {
+            "50": {
+                "hp": "110 - 157",
+                "attack": "63 - 128",
+                "defence": "54 - 117",
+                "special_attack": "40 - 101",
+                "special_defence": "40 - 101",
+                "speed": "49 - 112"
+            },
+            "100": {
+                "hp": "210 - 304",
+                "attack": "121 - 251",
+                "defence": "103 - 229",
+                "special_attack": "76 - 196",
+                "special_defence": "76 - 196",
+                "speed": "94 - 218"
+            }
+        },
         "abilities": [
             "Torrent",
             "Ironfist (Hidden)"
@@ -946,6 +1126,24 @@
         "special_defence": 60,
         "speed": 65,
         "total": 400,
+        "stat_projections": {
+            "50": {
+                "hp": "125 - 172",
+                "attack": "81 - 150",
+                "defence": "67 - 134",
+                "special_attack": "54 - 117",
+                "special_defence": "58 - 123",
+                "speed": "63 - 128"
+            },
+            "100": {
+                "hp": "240 - 334",
+                "attack": "157 - 295",
+                "defence": "130 - 262",
+                "special_attack": "103 - 229",
+                "special_defence": "112 - 240",
+                "speed": "121 - 251"
+            }
+        },
         "abilities": [
             "Torrent",
             "Ironfist (Hidden)"
@@ -1025,6 +1223,24 @@
         "special_defence": 85,
         "speed": 85,
         "total": 540,
+        "stat_projections": {
+            "50": {
+                "hp": "145 - 192",
+                "attack": "112 - 189",
+                "defence": "90 - 161",
+                "special_attack": "67 - 134",
+                "special_defence": "81 - 150",
+                "speed": "81 - 150"
+            },
+            "100": {
+                "hp": "280 - 374",
+                "attack": "220 - 372",
+                "defence": "175 - 317",
+                "special_attack": "130 - 262",
+                "special_defence": "157 - 295",
+                "speed": "157 - 295"
+            }
+        },
         "abilities": [
             "Torrent",
             "Ironfist (Hidden)"
@@ -1130,6 +1346,24 @@
         "special_defence": 30,
         "speed": 80,
         "total": 320,
+        "stat_projections": {
+            "50": {
+                "hp": "100 - 147",
+                "attack": "63 - 128",
+                "defence": "40 - 101",
+                "special_attack": "63 - 128",
+                "special_defence": "31 - 90",
+                "speed": "76 - 145"
+            },
+            "100": {
+                "hp": "190 - 284",
+                "attack": "121 - 251",
+                "defence": "76 - 196",
+                "special_attack": "121 - 251",
+                "special_defence": "58 - 174",
+                "speed": "148 - 284"
+            }
+        },
         "abilities": [
             "Flashfire",
             "Whitesmoke",
@@ -1205,6 +1439,24 @@
         "special_defence": 60,
         "speed": 90,
         "total": 485,
+        "stat_projections": {
+            "50": {
+                "hp": "135 - 182",
+                "attack": "85 - 156",
+                "defence": "76 - 145",
+                "special_attack": "85 - 156",
+                "special_defence": "58 - 123",
+                "speed": "85 - 156"
+            },
+            "100": {
+                "hp": "260 - 354",
+                "attack": "166 - 306",
+                "defence": "148 - 284",
+                "special_attack": "166 - 306",
+                "special_defence": "112 - 240",
+                "speed": "166 - 306"
+            }
+        },
         "abilities": [
             "Flashfire",
             "Whitesmoke",
@@ -1301,6 +1553,24 @@
         "special_defence": 40,
         "speed": 85,
         "total": 310,
+        "stat_projections": {
+            "50": {
+                "hp": "90 - 137",
+                "attack": "54 - 117",
+                "defence": "49 - 112",
+                "special_attack": "49 - 112",
+                "special_defence": "40 - 101",
+                "speed": "81 - 150"
+            },
+            "100": {
+                "hp": "170 - 264",
+                "attack": "103 - 229",
+                "defence": "94 - 218",
+                "special_attack": "94 - 218",
+                "special_defence": "76 - 196",
+                "speed": "157 - 295"
+            }
+        },
         "abilities": [
             "Magnetpull",
             "Levetric",
@@ -1334,7 +1604,7 @@
             "Lvl 30: Thunderfang",
             "Lvl 33: Charge",
             "Lvl 36: Voltswitch",
-            "Lvl 38: Electrodrain",
+            "Lvl 38: Electro Drain",
             "Lvl 40: Magnetrise",
             "Lvl 45: Iondeluge",
             "Lvl 50: Wildcharge",
@@ -1391,6 +1661,24 @@
         "special_defence": 110,
         "speed": 50,
         "total": 520,
+        "stat_projections": {
+            "50": {
+                "hp": "130 - 177",
+                "attack": "94 - 167",
+                "defence": "85 - 156",
+                "special_attack": "94 - 167",
+                "special_defence": "103 - 178",
+                "speed": "49 - 112"
+            },
+            "100": {
+                "hp": "250 - 344",
+                "attack": "184 - 328",
+                "defence": "166 - 306",
+                "special_attack": "184 - 328",
+                "special_defence": "202 - 350",
+                "speed": "94 - 218"
+            }
+        },
         "abilities": [
             "Magnetpull",
             "Analytic",
@@ -1411,7 +1699,7 @@
             "1 Colbur Berry (5.0%)"
         ],
         "level_moves": [
-            "Lvl 1: Steelcutter",
+            "Lvl 1: Steel Cutter",
             "Lvl 1: Smartstrike",
             "Lvl 1: Metalclaw",
             "Lvl 1: Rapidspin",
@@ -1432,7 +1720,7 @@
             "Lvl 1: Psywave",
             "Lvl 1: Magnetrise",
             "Lvl 1: Magneticflux",
-            "Lvl 1: Psychicsnap",
+            "Lvl 1: Psychic Snap",
             "Lvl 48: Ironhead",
             "Lvl 52: Flashcannon",
             "Lvl 58: Paraboliccharge",
@@ -1473,7 +1761,7 @@
             "Protect",
             "Psybeam",
             "Psychic",
-            "Psychicsnap",
+            "Psychic Snap",
             "Psychocut",
             "Psychup",
             "Psyshock",
@@ -1487,7 +1775,7 @@
             "Sleeptalk",
             "Substitute",
             "Steelbeam",
-            "Steelcutter",
+            "Steel Cutter",
             "Swift",
             "Telekinesis",
             "Terablast",
@@ -1532,6 +1820,24 @@
         "special_defence": 55,
         "speed": 120,
         "total": 470,
+        "stat_projections": {
+            "50": {
+                "hp": "115 - 162",
+                "attack": "99 - 172",
+                "defence": "63 - 128",
+                "special_attack": "67 - 134",
+                "special_defence": "54 - 117",
+                "speed": "112 - 189"
+            },
+            "100": {
+                "hp": "220 - 314",
+                "attack": "193 - 339",
+                "defence": "121 - 251",
+                "special_attack": "130 - 262",
+                "special_defence": "103 - 229",
+                "speed": "220 - 372"
+            }
+        },
         "abilities": [
             "Magnetpull",
             "Levetric",
@@ -1566,7 +1872,7 @@
             "Lvl 30: Brickbreak",
             "Lvl 33: Thunderfang",
             "Lvl 36: Charge",
-            "Lvl 38: Electrodrain",
+            "Lvl 38: Electro Drain",
             "Lvl 40: Voltswitch",
             "Lvl 44: Magnetrise",
             "Lvl 47: Quickguard",
@@ -1634,6 +1940,24 @@
         "special_defence": 55,
         "speed": 60,
         "total": 300,
+        "stat_projections": {
+            "50": {
+                "hp": "100 - 147",
+                "attack": "40 - 101",
+                "defence": "63 - 128",
+                "special_attack": "40 - 101",
+                "special_defence": "54 - 117",
+                "speed": "58 - 123"
+            },
+            "100": {
+                "hp": "190 - 284",
+                "attack": "76 - 196",
+                "defence": "121 - 251",
+                "special_attack": "76 - 196",
+                "special_defence": "103 - 229",
+                "speed": "112 - 240"
+            }
+        },
         "abilities": [
             "Fluffy",
             "Bigpecks",
@@ -1716,6 +2040,24 @@
         "special_defence": 105,
         "speed": 90,
         "total": 500,
+        "stat_projections": {
+            "50": {
+                "hp": "120 - 167",
+                "attack": "67 - 134",
+                "defence": "99 - 172",
+                "special_attack": "67 - 134",
+                "special_defence": "99 - 172",
+                "speed": "85 - 156"
+            },
+            "100": {
+                "hp": "230 - 324",
+                "attack": "130 - 262",
+                "defence": "193 - 339",
+                "special_attack": "130 - 262",
+                "special_defence": "193 - 339",
+                "speed": "166 - 306"
+            }
+        },
         "abilities": [
             "Fluffy",
             "Bigpecks",
@@ -1805,6 +2147,24 @@
         "special_defence": 20,
         "speed": 27,
         "total": 220,
+        "stat_projections": {
+            "50": {
+                "hp": "113 - 160",
+                "attack": "49 - 112",
+                "defence": "22 - 79",
+                "special_attack": "49 - 112",
+                "special_defence": "22 - 79",
+                "speed": "28 - 86"
+            },
+            "100": {
+                "hp": "216 - 310",
+                "attack": "94 - 218",
+                "defence": "40 - 152",
+                "special_attack": "94 - 218",
+                "special_defence": "40 - 152",
+                "speed": "53 - 168"
+            }
+        },
         "abilities": [
             "Rattled",
             "Anotherlife",
@@ -1869,6 +2229,24 @@
         "special_defence": 65,
         "speed": 98,
         "total": 478,
+        "stat_projections": {
+            "50": {
+                "hp": "120 - 167",
+                "attack": "85 - 156",
+                "defence": "72 - 139",
+                "special_attack": "85 - 156",
+                "special_defence": "63 - 128",
+                "speed": "92 - 165"
+            },
+            "100": {
+                "hp": "230 - 324",
+                "attack": "166 - 306",
+                "defence": "139 - 273",
+                "special_attack": "166 - 306",
+                "special_defence": "121 - 251",
+                "speed": "180 - 324"
+            }
+        },
         "abilities": [
             "Rattled",
             "Anotherlife",
@@ -1967,6 +2345,24 @@
         "special_defence": 60,
         "speed": 89,
         "total": 465,
+        "stat_projections": {
+            "50": {
+                "hp": "111 - 158",
+                "attack": "94 - 167",
+                "defence": "108 - 183",
+                "special_attack": "49 - 112",
+                "special_defence": "58 - 123",
+                "speed": "84 - 155"
+            },
+            "100": {
+                "hp": "212 - 306",
+                "attack": "184 - 328",
+                "defence": "211 - 361",
+                "special_attack": "94 - 218",
+                "special_defence": "112 - 240",
+                "speed": "164 - 304"
+            }
+        },
         "abilities": [
             "Shellarmor",
             "Weakarmor",
@@ -2060,6 +2456,24 @@
         "special_defence": 70,
         "speed": 25,
         "total": 320,
+        "stat_projections": {
+            "50": {
+                "hp": "150 - 197",
+                "attack": "27 - 84",
+                "defence": "58 - 123",
+                "special_attack": "49 - 112",
+                "special_defence": "67 - 134",
+                "speed": "27 - 84"
+            },
+            "100": {
+                "hp": "290 - 384",
+                "attack": "49 - 163",
+                "defence": "112 - 240",
+                "special_attack": "94 - 218",
+                "special_defence": "130 - 262",
+                "speed": "49 - 163"
+            }
+        },
         "abilities": [
             "Damp",
             "Stormdrain",
@@ -2146,6 +2560,24 @@
         "special_defence": 115,
         "speed": 20,
         "total": 490,
+        "stat_projections": {
+            "50": {
+                "hp": "210 - 257",
+                "attack": "31 - 90",
+                "defence": "85 - 156",
+                "special_attack": "81 - 150",
+                "special_defence": "108 - 183",
+                "speed": "22 - 79"
+            },
+            "100": {
+                "hp": "410 - 504",
+                "attack": "58 - 174",
+                "defence": "166 - 306",
+                "special_attack": "157 - 295",
+                "special_defence": "211 - 361",
+                "speed": "40 - 152"
+            }
+        },
         "abilities": [
             "Damp",
             "Stormdrain",
@@ -2251,6 +2683,24 @@
         "special_defence": 50,
         "speed": 10,
         "total": 245,
+        "stat_projections": {
+            "50": {
+                "hp": "100 - 147",
+                "attack": "40 - 101",
+                "defence": "54 - 117",
+                "special_attack": "49 - 112",
+                "special_defence": "49 - 112",
+                "speed": "13 - 68"
+            },
+            "100": {
+                "hp": "190 - 284",
+                "attack": "76 - 196",
+                "defence": "103 - 229",
+                "special_attack": "94 - 218",
+                "special_defence": "94 - 218",
+                "speed": "22 - 130"
+            }
+        },
         "abilities": [
             "Arenatrap",
             "Stickyhold (Hidden)"
@@ -2331,6 +2781,24 @@
         "special_defence": 90,
         "speed": 10,
         "total": 450,
+        "stat_projections": {
+            "50": {
+                "hp": "145 - 192",
+                "attack": "94 - 167",
+                "defence": "85 - 156",
+                "special_attack": "72 - 139",
+                "special_defence": "85 - 156",
+                "speed": "13 - 68"
+            },
+            "100": {
+                "hp": "280 - 374",
+                "attack": "184 - 328",
+                "defence": "166 - 306",
+                "special_attack": "139 - 273",
+                "special_defence": "166 - 306",
+                "speed": "22 - 130"
+            }
+        },
         "abilities": [
             "Arenatrap",
             "Stickyhold (Hidden)"
@@ -2442,6 +2910,24 @@
         "special_defence": 109,
         "speed": 125,
         "total": 552,
+        "stat_projections": {
+            "50": {
+                "hp": "138 - 185",
+                "attack": "49 - 112",
+                "defence": "65 - 132",
+                "special_attack": "114 - 191",
+                "special_defence": "102 - 177",
+                "speed": "117 - 194"
+            },
+            "100": {
+                "hp": "266 - 360",
+                "attack": "94 - 218",
+                "defence": "126 - 258",
+                "special_attack": "224 - 377",
+                "special_defence": "200 - 348",
+                "speed": "229 - 383"
+            }
+        },
         "abilities": [
             "Pickup",
             "Symbiosis",
@@ -2481,7 +2967,7 @@
             "Lvl 27: Featherdance",
             "Lvl 33: Hypervoice",
             "Lvl 37: Mistyterrain",
-            "Lvl 39: Fleurdance",
+            "Lvl 39: Fleur Dance",
             "Lvl 41: Moonblast",
             "Lvl 48: Hurricane"
         ],
@@ -2524,7 +3010,7 @@
             "Pollenpuff",
             "Protect",
             "Psychic",
-            "Psychicsnap",
+            "Psychic Snap",
             "Psychicnoise",
             "Raindance",
             "Rest",
@@ -2561,6 +3047,24 @@
         "special_defence": 60,
         "speed": 90,
         "total": 490,
+        "stat_projections": {
+            "50": {
+                "hp": "160 - 207",
+                "attack": "67 - 134",
+                "defence": "112 - 189",
+                "special_attack": "49 - 112",
+                "special_defence": "58 - 123",
+                "speed": "85 - 156"
+            },
+            "100": {
+                "hp": "310 - 404",
+                "attack": "130 - 262",
+                "defence": "220 - 372",
+                "special_attack": "94 - 218",
+                "special_defence": "112 - 240",
+                "speed": "166 - 306"
+            }
+        },
         "abilities": [
             "Steelworker",
             "Heatproof (Hidden)"
@@ -2656,6 +3160,24 @@
         "special_defence": 50,
         "speed": 90,
         "total": 330,
+        "stat_projections": {
+            "50": {
+                "hp": "115 - 162",
+                "attack": "31 - 90",
+                "defence": "49 - 112",
+                "special_attack": "54 - 117",
+                "special_defence": "49 - 112",
+                "speed": "85 - 156"
+            },
+            "100": {
+                "hp": "220 - 314",
+                "attack": "58 - 174",
+                "defence": "94 - 218",
+                "special_attack": "103 - 229",
+                "special_defence": "94 - 218",
+                "speed": "166 - 306"
+            }
+        },
         "abilities": [
             "Aftermath",
             "Limber",
@@ -2683,7 +3205,7 @@
             "Lvl 15: Watersport",
             "Lvl 18: Meanlook",
             "Lvl 21: Headbutt",
-            "Lvl 22: Aguagatcha",
+            "Lvl 22: Puffer Bubble",
             "Lvl 24: Waterpulse",
             "Lvl 30: Surf",
             "Lvl 40: Hydropump"
@@ -2734,6 +3256,24 @@
         "special_defence": 110,
         "speed": 75,
         "total": 535,
+        "stat_projections": {
+            "50": {
+                "hp": "135 - 182",
+                "attack": "90 - 161",
+                "defence": "58 - 123",
+                "special_attack": "112 - 189",
+                "special_defence": "103 - 178",
+                "speed": "72 - 139"
+            },
+            "100": {
+                "hp": "260 - 354",
+                "attack": "175 - 317",
+                "defence": "112 - 240",
+                "special_attack": "220 - 372",
+                "special_defence": "202 - 350",
+                "speed": "139 - 273"
+            }
+        },
         "abilities": [
             "Levitate",
             "Grassysurge (Hidden)"
@@ -2869,6 +3409,24 @@
         "special_defence": 95,
         "speed": 75,
         "total": 480,
+        "stat_projections": {
+            "50": {
+                "hp": "155 - 202",
+                "attack": "45 - 106",
+                "defence": "90 - 161",
+                "special_attack": "72 - 139",
+                "special_defence": "90 - 161",
+                "speed": "72 - 139"
+            },
+            "100": {
+                "hp": "300 - 394",
+                "attack": "85 - 207",
+                "defence": "175 - 317",
+                "special_attack": "139 - 273",
+                "special_defence": "175 - 317",
+                "speed": "139 - 273"
+            }
+        },
         "abilities": [
             "Aftermath",
             "Unburden",
@@ -2898,7 +3456,7 @@
             "Lvl 15: Watersport",
             "Lvl 18: Meanlook",
             "Lvl 21: Headbutt",
-            "Lvl 22: Aguagatcha",
+            "Lvl 22: Puffer Bubble",
             "Lvl 24: Waterpulse",
             "Lvl 29: Fly",
             "Lvl 30: Stockpile",
@@ -2971,6 +3529,24 @@
         "special_defence": 55,
         "speed": 75,
         "total": 325,
+        "stat_projections": {
+            "50": {
+                "hp": "95 - 142",
+                "attack": "40 - 101",
+                "defence": "52 - 115",
+                "special_attack": "64 - 130",
+                "special_defence": "54 - 117",
+                "speed": "72 - 139"
+            },
+            "100": {
+                "hp": "180 - 274",
+                "attack": "76 - 196",
+                "defence": "99 - 225",
+                "special_attack": "125 - 256",
+                "special_defence": "103 - 229",
+                "speed": "139 - 273"
+            }
+        },
         "abilities": [
             "Sturdy",
             "Anticipation",
@@ -3037,6 +3613,24 @@
         "special_defence": 57,
         "speed": 114,
         "total": 425,
+        "stat_projections": {
+            "50": {
+                "hp": "125 - 172",
+                "attack": "36 - 95",
+                "defence": "55 - 119",
+                "special_attack": "91 - 163",
+                "special_defence": "55 - 119",
+                "speed": "107 - 182"
+            },
+            "100": {
+                "hp": "240 - 334",
+                "attack": "67 - 185",
+                "defence": "107 - 234",
+                "special_attack": "179 - 322",
+                "special_defence": "107 - 234",
+                "speed": "209 - 359"
+            }
+        },
         "abilities": [
             "Perishbody",
             "Effectspore",
@@ -3158,6 +3752,24 @@
         "special_defence": 125,
         "speed": 50,
         "total": 475,
+        "stat_projections": {
+            "50": {
+                "hp": "135 - 182",
+                "attack": "76 - 145",
+                "defence": "85 - 156",
+                "special_attack": "54 - 117",
+                "special_defence": "117 - 194",
+                "speed": "49 - 112"
+            },
+            "100": {
+                "hp": "260 - 354",
+                "attack": "148 - 284",
+                "defence": "166 - 306",
+                "special_attack": "103 - 229",
+                "special_defence": "229 - 383",
+                "speed": "94 - 218"
+            }
+        },
         "abilities": [
             "Sturdy",
             "Grasspelt",
@@ -3258,6 +3870,24 @@
         "special_defence": 81,
         "speed": 30,
         "total": 480,
+        "stat_projections": {
+            "50": {
+                "hp": "150 - 197",
+                "attack": "72 - 139",
+                "defence": "72 - 139",
+                "special_attack": "120 - 199",
+                "special_defence": "77 - 146",
+                "speed": "31 - 90"
+            },
+            "100": {
+                "hp": "290 - 384",
+                "attack": "139 - 273",
+                "defence": "139 - 273",
+                "special_attack": "236 - 392",
+                "special_defence": "150 - 287",
+                "speed": "58 - 174"
+            }
+        },
         "abilities": [
             "Comatose",
             "Restful (Hidden)"
@@ -3362,6 +3992,24 @@
         "special_defence": 55,
         "speed": 63,
         "total": 318,
+        "stat_projections": {
+            "50": {
+                "hp": "105 - 152",
+                "attack": "63 - 128",
+                "defence": "41 - 102",
+                "special_attack": "48 - 111",
+                "special_defence": "54 - 117",
+                "speed": "61 - 126"
+            },
+            "100": {
+                "hp": "200 - 294",
+                "attack": "121 - 251",
+                "defence": "78 - 199",
+                "special_attack": "92 - 216",
+                "special_defence": "103 - 229",
+                "speed": "117 - 247"
+            }
+        },
         "abilities": [
             "Strongjaw",
             "Shadowtag (Hidden)"
@@ -3449,6 +4097,24 @@
         "special_defence": 85,
         "speed": 106,
         "total": 475,
+        "stat_projections": {
+            "50": {
+                "hp": "135 - 182",
+                "attack": "89 - 160",
+                "defence": "46 - 108",
+                "special_attack": "65 - 132",
+                "special_defence": "81 - 150",
+                "speed": "99 - 173"
+            },
+            "100": {
+                "hp": "260 - 354",
+                "attack": "173 - 315",
+                "defence": "89 - 212",
+                "special_attack": "126 - 258",
+                "special_defence": "157 - 295",
+                "speed": "195 - 342"
+            }
+        },
         "abilities": [
             "Strongjaw",
             "Startle (Hidden)"
@@ -3540,6 +4206,24 @@
         "special_defence": 45,
         "speed": 82,
         "total": 357,
+        "stat_projections": {
+            "50": {
+                "hp": "125 - 172",
+                "attack": "49 - 112",
+                "defence": "45 - 106",
+                "special_attack": "67 - 134",
+                "special_defence": "45 - 106",
+                "speed": "78 - 147"
+            },
+            "100": {
+                "hp": "240 - 334",
+                "attack": "94 - 218",
+                "defence": "85 - 207",
+                "special_attack": "130 - 262",
+                "special_defence": "85 - 207",
+                "speed": "152 - 289"
+            }
+        },
         "abilities": [
             "Sandstream",
             "Levitate (Hidden)"
@@ -3611,6 +4295,24 @@
         "special_defence": 90,
         "speed": 102,
         "total": 517,
+        "stat_projections": {
+            "50": {
+                "hp": "120 - 167",
+                "attack": "67 - 134",
+                "defence": "85 - 156",
+                "special_attack": "99 - 172",
+                "special_defence": "85 - 156",
+                "speed": "96 - 169"
+            },
+            "100": {
+                "hp": "230 - 324",
+                "attack": "130 - 262",
+                "defence": "166 - 306",
+                "special_attack": "193 - 339",
+                "special_defence": "166 - 306",
+                "speed": "188 - 333"
+            }
+        },
         "abilities": [
             "Sandstream",
             "Windrider (Hidden)"
@@ -3705,6 +4407,24 @@
         "special_defence": 140,
         "speed": 70,
         "total": 530,
+        "stat_projections": {
+            "50": {
+                "hp": "135 - 182",
+                "attack": "117 - 194",
+                "defence": "85 - 156",
+                "special_attack": "31 - 90",
+                "special_defence": "130 - 211",
+                "speed": "67 - 134"
+            },
+            "100": {
+                "hp": "260 - 354",
+                "attack": "229 - 383",
+                "defence": "166 - 306",
+                "special_attack": "58 - 174",
+                "special_defence": "256 - 416",
+                "speed": "130 - 262"
+            }
+        },
         "abilities": [
             "Emergencyexit",
             "Swarm",
@@ -3734,7 +4454,7 @@
             "Lvl 1: Mudsport",
             "Lvl 1: Spite",
             "Lvl 1: Infestation",
-            "Lvl 1: Sandshift",
+            "Lvl 1: Sand Shift",
             "Lvl 4: Rocksmash",
             "Lvl 8: Furycutter",
             "Lvl 8: Metalclaw",
@@ -3742,11 +4462,11 @@
             "Lvl 16: Bugbite",
             "Lvl 20: Bulldoze",
             "Lvl 22: Steamroller",
-            "Lvl 22: Steelcutter",
+            "Lvl 22: Steel Cutter",
             "Lvl 24: Suckerpunch",
             "Lvl 28: Pitfall",
             "Lvl 32: Ironhead",
-            "Lvl 34: Armorpress",
+            "Lvl 34: Armor Press",
             "Lvl 36: Pinmissile",
             "Lvl 40: Swordsdance",
             "Lvl 44: Earthquake",
@@ -3757,7 +4477,7 @@
             "Lvl 60: Attackorder"
         ],
         "tm_moves": [
-            "Armorpress",
+            "Armor Press",
             "Assurance",
             "Brickbreak",
             "Bugbite",
@@ -3778,7 +4498,7 @@
             "Focusblast",
             "Furycutter",
             "Gigaimpact",
-            "Guardpress",
+            "Guard Press",
             "Gyroball",
             "Hardpress",
             "Heavyslam",
@@ -3816,7 +4536,7 @@
             "Snarl",
             "Spikes",
             "Spite",
-            "Steelcutter",
+            "Steel Cutter",
             "Steelroller",
             "Strugglebug",
             "Substitute",
@@ -3851,6 +4571,24 @@
         "special_defence": 80,
         "speed": 50,
         "total": 425,
+        "stat_projections": {
+            "50": {
+                "hp": "105 - 152",
+                "attack": "54 - 117",
+                "defence": "130 - 211",
+                "special_attack": "54 - 117",
+                "special_defence": "76 - 145",
+                "speed": "49 - 112"
+            },
+            "100": {
+                "hp": "200 - 294",
+                "attack": "103 - 229",
+                "defence": "256 - 416",
+                "special_attack": "103 - 229",
+                "special_defence": "148 - 284",
+                "speed": "94 - 218"
+            }
+        },
         "abilities": [
             "Hugepower",
             "Psychout",
@@ -3951,6 +4689,24 @@
         "special_defence": 70,
         "speed": 55,
         "total": 530,
+        "stat_projections": {
+            "50": {
+                "hp": "155 - 202",
+                "attack": "122 - 201",
+                "defence": "81 - 151",
+                "special_attack": "88 - 159",
+                "special_defence": "67 - 134",
+                "speed": "54 - 117"
+            },
+            "100": {
+                "hp": "300 - 394",
+                "attack": "240 - 397",
+                "defence": "159 - 298",
+                "special_attack": "171 - 313",
+                "special_defence": "130 - 262",
+                "speed": "103 - 229"
+            }
+        },
         "abilities": [
             "Moldbreaker",
             "Angerpoint (Hidden)"
@@ -4042,6 +4798,24 @@
         "special_defence": 100,
         "speed": 62,
         "total": 485,
+        "stat_projections": {
+            "50": {
+                "hp": "180 - 227",
+                "attack": "40 - 101",
+                "defence": "67 - 134",
+                "special_attack": "88 - 159",
+                "special_defence": "94 - 167",
+                "speed": "60 - 125"
+            },
+            "100": {
+                "hp": "350 - 444",
+                "attack": "76 - 196",
+                "defence": "130 - 262",
+                "special_attack": "171 - 313",
+                "special_defence": "184 - 328",
+                "speed": "116 - 245"
+            }
+        },
         "abilities": [
             "Sapsipper",
             "Gooey (Hidden)"
@@ -4135,6 +4909,24 @@
         "special_defence": 55,
         "speed": 45,
         "total": 275,
+        "stat_projections": {
+            "50": {
+                "hp": "105 - 152",
+                "attack": "40 - 101",
+                "defence": "36 - 95",
+                "special_attack": "54 - 117",
+                "special_defence": "54 - 117",
+                "speed": "45 - 106"
+            },
+            "100": {
+                "hp": "200 - 294",
+                "attack": "76 - 196",
+                "defence": "67 - 185",
+                "special_attack": "103 - 229",
+                "special_defence": "103 - 229",
+                "speed": "85 - 207"
+            }
+        },
         "abilities": [
             "Electricsurge",
             "Poisontouch",
@@ -4204,6 +4996,24 @@
         "special_defence": 110,
         "speed": 38,
         "total": 499,
+        "stat_projections": {
+            "50": {
+                "hp": "155 - 202",
+                "attack": "103 - 178",
+                "defence": "67 - 134",
+                "special_attack": "72 - 140",
+                "special_defence": "103 - 178",
+                "speed": "38 - 99"
+            },
+            "100": {
+                "hp": "300 - 394",
+                "attack": "202 - 350",
+                "defence": "130 - 262",
+                "special_attack": "141 - 276",
+                "special_defence": "202 - 350",
+                "speed": "72 - 192"
+            }
+        },
         "abilities": [
             "Electricsurge",
             "Poisontouch",
@@ -4308,6 +5118,24 @@
         "special_defence": 104,
         "speed": 20,
         "total": 438,
+        "stat_projections": {
+            "50": {
+                "hp": "150 - 197",
+                "attack": "41 - 102",
+                "defence": "83 - 154",
+                "special_attack": "90 - 161",
+                "special_defence": "98 - 171",
+                "speed": "22 - 79"
+            },
+            "100": {
+                "hp": "290 - 384",
+                "attack": "78 - 199",
+                "defence": "162 - 302",
+                "special_attack": "175 - 317",
+                "special_defence": "191 - 337",
+                "speed": "40 - 152"
+            }
+        },
         "abilities": [
             "Electricsurge",
             "Lightningrod",
@@ -4416,6 +5244,24 @@
         "special_defence": 55,
         "speed": 52,
         "total": 300,
+        "stat_projections": {
+            "50": {
+                "hp": "100 - 147",
+                "attack": "31 - 90",
+                "defence": "54 - 117",
+                "special_attack": "65 - 132",
+                "special_defence": "54 - 117",
+                "speed": "51 - 114"
+            },
+            "100": {
+                "hp": "190 - 284",
+                "attack": "58 - 174",
+                "defence": "103 - 229",
+                "special_attack": "126 - 258",
+                "special_defence": "103 - 229",
+                "speed": "98 - 223"
+            }
+        },
         "abilities": [
             "Levitate",
             "Magicguard",
@@ -4529,6 +5375,24 @@
         "special_defence": 85,
         "speed": 92,
         "total": 500,
+        "stat_projections": {
+            "50": {
+                "hp": "120 - 167",
+                "attack": "67 - 134",
+                "defence": "81 - 150",
+                "special_attack": "101 - 176",
+                "special_defence": "81 - 150",
+                "speed": "87 - 158"
+            },
+            "100": {
+                "hp": "230 - 324",
+                "attack": "130 - 262",
+                "defence": "157 - 295",
+                "special_attack": "198 - 346",
+                "special_defence": "157 - 295",
+                "speed": "170 - 311"
+            }
+        },
         "abilities": [
             "Levitate",
             "Magicguard",
@@ -4667,6 +5531,24 @@
         "special_defence": 85,
         "speed": 90,
         "total": 435,
+        "stat_projections": {
+            "50": {
+                "hp": "110 - 157",
+                "attack": "94 - 167",
+                "defence": "40 - 101",
+                "special_attack": "67 - 134",
+                "special_defence": "81 - 150",
+                "speed": "85 - 156"
+            },
+            "100": {
+                "hp": "210 - 304",
+                "attack": "184 - 328",
+                "defence": "76 - 196",
+                "special_attack": "130 - 262",
+                "special_defence": "157 - 295",
+                "speed": "166 - 306"
+            }
+        },
         "abilities": [
             "Trace",
             "Pickpocket",
@@ -4762,6 +5644,24 @@
         "special_defence": 120,
         "speed": 65,
         "total": 620,
+        "stat_projections": {
+            "50": {
+                "hp": "155 - 202",
+                "attack": "112 - 189",
+                "defence": "121 - 200",
+                "special_attack": "85 - 156",
+                "special_defence": "112 - 189",
+                "speed": "63 - 128"
+            },
+            "100": {
+                "hp": "300 - 394",
+                "attack": "220 - 372",
+                "defence": "238 - 394",
+                "special_attack": "166 - 306",
+                "special_defence": "220 - 372",
+                "speed": "121 - 251"
+            }
+        },
         "abilities": [
             "Supremeoverlord",
             "Pressure",
@@ -4867,6 +5767,24 @@
         "special_defence": 55,
         "speed": 100,
         "total": 355,
+        "stat_projections": {
+            "50": {
+                "hp": "90 - 137",
+                "attack": "67 - 134",
+                "defence": "49 - 112",
+                "special_attack": "49 - 112",
+                "special_defence": "54 - 117",
+                "speed": "94 - 167"
+            },
+            "100": {
+                "hp": "170 - 264",
+                "attack": "130 - 262",
+                "defence": "94 - 218",
+                "special_attack": "94 - 218",
+                "special_defence": "103 - 229",
+                "speed": "184 - 328"
+            }
+        },
         "abilities": [
             "Toughclaws",
             "Sturdy",
@@ -4905,7 +5823,7 @@
             "Lvl 42: Machpunch",
             "Lvl 47: Hammerarm",
             "Lvl 50: Headsmash",
-            "Lvl 51: Mightyslash"
+            "Lvl 51: Mighty Slash"
         ],
         "tm_moves": [
             "Dig",
@@ -4947,6 +5865,24 @@
         "special_defence": 80,
         "speed": 80,
         "total": 480,
+        "stat_projections": {
+            "50": {
+                "hp": "140 - 187",
+                "attack": "76 - 145",
+                "defence": "76 - 145",
+                "special_attack": "76 - 145",
+                "special_defence": "76 - 145",
+                "speed": "76 - 145"
+            },
+            "100": {
+                "hp": "270 - 364",
+                "attack": "148 - 284",
+                "defence": "148 - 284",
+                "special_attack": "148 - 284",
+                "special_defence": "148 - 284",
+                "speed": "148 - 284"
+            }
+        },
         "abilities": [
             "Adaptability",
             "Normalmastery (Hidden)"
@@ -5157,7 +6093,7 @@
             "Substitute",
             "Swordsdance",
             "Terablast",
-            "Terrainblade",
+            "Terrain Blade",
             "Weatherball",
             "Workup"
         ],
@@ -5190,7 +6126,7 @@
             "Shellsmash",
             "Smellingsalts",
             "Softboiled",
-            "Spiritsong",
+            "Spirit Song",
             "Stomp",
             "Stuffcheeks",
             "Superfang",
@@ -5198,9 +6134,9 @@
             "Technoblast",
             "Tidyup",
             "Visegrip",
-            "Papercut",
+            "Paper Cut",
             "Weatherball",
-            "Terrainblade",
+            "Terrain Blade",
             "Terrainpulse"
         ]
     },
@@ -5217,6 +6153,24 @@
         "special_defence": 80,
         "speed": 110,
         "total": 495,
+        "stat_projections": {
+            "50": {
+                "hp": "125 - 172",
+                "attack": "108 - 183",
+                "defence": "49 - 112",
+                "special_attack": "72 - 139",
+                "special_defence": "76 - 145",
+                "speed": "103 - 178"
+            },
+            "100": {
+                "hp": "240 - 334",
+                "attack": "211 - 361",
+                "defence": "94 - 218",
+                "special_attack": "139 - 273",
+                "special_defence": "148 - 284",
+                "speed": "202 - 350"
+            }
+        },
         "abilities": [
             "Toughclaws",
             "Sturdy",
@@ -5255,7 +6209,7 @@
             "Lvl 42: Ancientpower",
             "Lvl 45: Rockslide",
             "Lvl 49: Machpunch",
-            "Lvl 51: Mightyslash",
+            "Lvl 51: Mighty Slash",
             "Lvl 53: Counter",
             "Lvl 57: Dynamicpunch",
             "Lvl 60: Acrobatics",
@@ -5316,6 +6270,24 @@
         "special_defence": 80,
         "speed": 50,
         "total": 355,
+        "stat_projections": {
+            "50": {
+                "hp": "90 - 137",
+                "attack": "49 - 112",
+                "defence": "76 - 145",
+                "special_attack": "63 - 128",
+                "special_defence": "76 - 145",
+                "speed": "49 - 112"
+            },
+            "100": {
+                "hp": "170 - 264",
+                "attack": "94 - 218",
+                "defence": "148 - 284",
+                "special_attack": "121 - 251",
+                "special_defence": "148 - 284",
+                "speed": "94 - 218"
+            }
+        },
         "abilities": [
             "Neuroforce",
             "Telepathy (Hidden)"
@@ -5404,6 +6376,24 @@
         "special_defence": 122,
         "speed": 25,
         "total": 495,
+        "stat_projections": {
+            "50": {
+                "hp": "130 - 177",
+                "attack": "49 - 112",
+                "defence": "99 - 173",
+                "special_attack": "114 - 191",
+                "special_defence": "114 - 191",
+                "speed": "27 - 84"
+            },
+            "100": {
+                "hp": "250 - 344",
+                "attack": "94 - 218",
+                "defence": "195 - 342",
+                "special_attack": "224 - 377",
+                "special_defence": "224 - 377",
+                "speed": "49 - 163"
+            }
+        },
         "abilities": [
             "Neuroforce",
             "Stupefy",
@@ -5511,6 +6501,24 @@
         "special_defence": 120,
         "speed": 40,
         "total": 400,
+        "stat_projections": {
+            "50": {
+                "hp": "100 - 147",
+                "attack": "40 - 101",
+                "defence": "112 - 189",
+                "special_attack": "40 - 101",
+                "special_defence": "112 - 189",
+                "speed": "40 - 101"
+            },
+            "100": {
+                "hp": "190 - 284",
+                "attack": "76 - 196",
+                "defence": "220 - 372",
+                "special_attack": "76 - 196",
+                "special_defence": "220 - 372",
+                "speed": "76 - 196"
+            }
+        },
         "abilities": [
             "Serenegrace",
             "Superluck",
@@ -5594,6 +6602,24 @@
         "special_defence": 160,
         "speed": 100,
         "total": 550,
+        "stat_projections": {
+            "50": {
+                "hp": "120 - 167",
+                "attack": "58 - 123",
+                "defence": "67 - 134",
+                "special_attack": "94 - 167",
+                "special_defence": "148 - 233",
+                "speed": "94 - 167"
+            },
+            "100": {
+                "hp": "230 - 324",
+                "attack": "112 - 240",
+                "defence": "130 - 262",
+                "special_attack": "184 - 328",
+                "special_defence": "292 - 460",
+                "speed": "184 - 328"
+            }
+        },
         "abilities": [
             "Serenegrace",
             "Mistysurge",
@@ -5693,6 +6719,24 @@
         "special_defence": 77,
         "speed": 87,
         "total": 536,
+        "stat_projections": {
+            "50": {
+                "hp": "155 - 202",
+                "attack": "94 - 167",
+                "defence": "73 - 141",
+                "special_attack": "94 - 167",
+                "special_defence": "73 - 141",
+                "speed": "82 - 152"
+            },
+            "100": {
+                "hp": "300 - 394",
+                "attack": "184 - 328",
+                "defence": "143 - 278",
+                "special_attack": "184 - 328",
+                "special_defence": "143 - 278",
+                "speed": "161 - 300"
+            }
+        },
         "abilities": [
             "Intimidate",
             "Chlorophyll",
@@ -5805,6 +6849,24 @@
         "special_defence": 75,
         "speed": 75,
         "total": 500,
+        "stat_projections": {
+            "50": {
+                "hp": "160 - 207",
+                "attack": "85 - 156",
+                "defence": "40 - 101",
+                "special_attack": "112 - 189",
+                "special_defence": "72 - 139",
+                "speed": "72 - 139"
+            },
+            "100": {
+                "hp": "310 - 404",
+                "attack": "166 - 306",
+                "defence": "76 - 196",
+                "special_attack": "220 - 372",
+                "special_defence": "139 - 273",
+                "speed": "139 - 273"
+            }
+        },
         "abilities": [
             "Drizzle",
             "Adaptability (Hidden)"
@@ -5893,6 +6955,24 @@
         "special_defence": 107,
         "speed": 122,
         "total": 600,
+        "stat_projections": {
+            "50": {
+                "hp": "154 - 201",
+                "attack": "73 - 141",
+                "defence": "74 - 143",
+                "special_attack": "114 - 191",
+                "special_defence": "100 - 174",
+                "speed": "114 - 191"
+            },
+            "100": {
+                "hp": "298 - 392",
+                "attack": "143 - 278",
+                "defence": "144 - 280",
+                "special_attack": "224 - 377",
+                "special_defence": "197 - 344",
+                "speed": "224 - 377"
+            }
+        },
         "abilities": [
             "Contrary"
         ],
@@ -5950,6 +7030,24 @@
         "special_defence": 32,
         "speed": 100,
         "total": 397,
+        "stat_projections": {
+            "50": {
+                "hp": "130 - 177",
+                "attack": "85 - 156",
+                "defence": "48 - 111",
+                "special_attack": "54 - 118",
+                "special_defence": "33 - 92",
+                "speed": "94 - 167"
+            },
+            "100": {
+                "hp": "250 - 344",
+                "attack": "166 - 306",
+                "defence": "92 - 216",
+                "special_attack": "105 - 232",
+                "special_defence": "62 - 179",
+                "speed": "184 - 328"
+            }
+        },
         "abilities": [
             "Sharpness",
             "Hugepower (Hidden)"
@@ -6014,6 +7112,24 @@
         "special_defence": 64,
         "speed": 80,
         "total": 500,
+        "stat_projections": {
+            "50": {
+                "hp": "143 - 190",
+                "attack": "112 - 189",
+                "defence": "91 - 163",
+                "special_attack": "54 - 118",
+                "special_defence": "62 - 127",
+                "speed": "76 - 145"
+            },
+            "100": {
+                "hp": "276 - 370",
+                "attack": "220 - 372",
+                "defence": "179 - 322",
+                "special_attack": "105 - 232",
+                "special_defence": "119 - 249",
+                "speed": "148 - 284"
+            }
+        },
         "abilities": [
             "Sharpness",
             "Sturdy (Hidden)"
@@ -6078,6 +7194,24 @@
         "special_defence": 75,
         "speed": 45,
         "total": 310,
+        "stat_projections": {
+            "50": {
+                "hp": "100 - 147",
+                "attack": "36 - 95",
+                "defence": "49 - 112",
+                "special_attack": "63 - 128",
+                "special_defence": "72 - 139",
+                "speed": "45 - 106"
+            },
+            "100": {
+                "hp": "190 - 284",
+                "attack": "67 - 185",
+                "defence": "94 - 218",
+                "special_attack": "121 - 251",
+                "special_defence": "139 - 273",
+                "speed": "85 - 207"
+            }
+        },
         "abilities": [
             "Mirrorarmor",
             "Levitate (Hidden)"
@@ -6167,6 +7301,24 @@
         "special_defence": 120,
         "speed": 40,
         "total": 540,
+        "stat_projections": {
+            "50": {
+                "hp": "150 - 197",
+                "attack": "130 - 211",
+                "defence": "58 - 123",
+                "special_attack": "85 - 156",
+                "special_defence": "112 - 189",
+                "speed": "40 - 101"
+            },
+            "100": {
+                "hp": "290 - 384",
+                "attack": "256 - 416",
+                "defence": "112 - 240",
+                "special_attack": "166 - 306",
+                "special_defence": "220 - 372",
+                "speed": "76 - 196"
+            }
+        },
         "abilities": [
             "Mirrorarmor",
             "Magicguard (Hidden)"
@@ -6293,6 +7445,24 @@
         "special_defence": 65,
         "speed": 85,
         "total": 400,
+        "stat_projections": {
+            "50": {
+                "hp": "120 - 167",
+                "attack": "40 - 101",
+                "defence": "58 - 123",
+                "special_attack": "85 - 156",
+                "special_defence": "63 - 128",
+                "speed": "81 - 150"
+            },
+            "100": {
+                "hp": "230 - 324",
+                "attack": "76 - 196",
+                "defence": "112 - 240",
+                "special_attack": "166 - 306",
+                "special_defence": "121 - 251",
+                "speed": "157 - 295"
+            }
+        },
         "abilities": [
             "Grassysurge",
             "Mistysurge",
@@ -6347,6 +7517,24 @@
         "special_defence": 95,
         "speed": 20,
         "total": 480,
+        "stat_projections": {
+            "50": {
+                "hp": "155 - 202",
+                "attack": "40 - 101",
+                "defence": "103 - 178",
+                "special_attack": "112 - 189",
+                "special_defence": "90 - 161",
+                "speed": "22 - 79"
+            },
+            "100": {
+                "hp": "300 - 394",
+                "attack": "76 - 196",
+                "defence": "202 - 350",
+                "special_attack": "220 - 372",
+                "special_defence": "175 - 317",
+                "speed": "40 - 152"
+            }
+        },
         "abilities": [
             "Grassysurge",
             "Mistysurge",
@@ -6403,6 +7591,24 @@
         "special_defence": 54,
         "speed": 50,
         "total": 308,
+        "stat_projections": {
+            "50": {
+                "hp": "100 - 147",
+                "attack": "45 - 106",
+                "defence": "45 - 106",
+                "special_attack": "71 - 138",
+                "special_defence": "53 - 116",
+                "speed": "49 - 112"
+            },
+            "100": {
+                "hp": "190 - 284",
+                "attack": "85 - 207",
+                "defence": "85 - 207",
+                "special_attack": "137 - 271",
+                "special_defence": "101 - 227",
+                "speed": "94 - 218"
+            }
+        },
         "abilities": [
             "Supersweetsyrup",
             "Cursedbody",
@@ -6448,6 +7654,24 @@
         "special_defence": 80,
         "speed": 106,
         "total": 508,
+        "stat_projections": {
+            "50": {
+                "hp": "131 - 178",
+                "attack": "58 - 123",
+                "defence": "67 - 134",
+                "special_attack": "113 - 190",
+                "special_defence": "76 - 145",
+                "speed": "99 - 173"
+            },
+            "100": {
+                "hp": "252 - 346",
+                "attack": "112 - 240",
+                "defence": "130 - 262",
+                "special_attack": "222 - 375",
+                "special_defence": "148 - 284",
+                "speed": "195 - 342"
+            }
+        },
         "abilities": [
             "Supersweetsyrup",
             "Cursedbody",
@@ -6497,6 +7721,24 @@
         "special_defence": 62,
         "speed": 40,
         "total": 300,
+        "stat_projections": {
+            "50": {
+                "hp": "110 - 157",
+                "attack": "58 - 123",
+                "defence": "56 - 121",
+                "special_attack": "31 - 90",
+                "special_defence": "60 - 125",
+                "speed": "40 - 101"
+            },
+            "100": {
+                "hp": "210 - 304",
+                "attack": "112 - 240",
+                "defence": "108 - 236",
+                "special_attack": "58 - 174",
+                "special_defence": "116 - 245",
+                "speed": "76 - 196"
+            }
+        },
         "abilities": [
             "Overcoat",
             "Zoomy",
@@ -6580,6 +7822,24 @@
         "special_defence": 96,
         "speed": 80,
         "total": 511,
+        "stat_projections": {
+            "50": {
+                "hp": "140 - 187",
+                "attack": "103 - 178",
+                "defence": "76 - 145",
+                "special_attack": "63 - 128",
+                "special_defence": "90 - 162",
+                "speed": "76 - 145"
+            },
+            "100": {
+                "hp": "270 - 364",
+                "attack": "202 - 350",
+                "defence": "148 - 284",
+                "special_attack": "121 - 251",
+                "special_defence": "177 - 320",
+                "speed": "148 - 284"
+            }
+        },
         "abilities": [
             "Overcoat",
             "Waterabsorb (Hidden)"
@@ -6662,6 +7922,24 @@
         "special_defence": 150,
         "speed": 78,
         "total": 530,
+        "stat_projections": {
+            "50": {
+                "hp": "120 - 167",
+                "attack": "42 - 103",
+                "defence": "58 - 123",
+                "special_attack": "130 - 211",
+                "special_defence": "139 - 222",
+                "speed": "74 - 143"
+            },
+            "100": {
+                "hp": "230 - 324",
+                "attack": "80 - 201",
+                "defence": "112 - 240",
+                "special_attack": "256 - 416",
+                "special_defence": "274 - 438",
+                "speed": "144 - 280"
+            }
+        },
         "abilities": [
             "Clearbody",
             "Sturdy",
@@ -6699,9 +7977,9 @@
             "Lvl 1: Powergem",
             "Lvl 1: Stealthrock",
             "Lvl 1: Psychic",
-            "Lvl 1: Psychicsnap",
-            "Lvl 1: Mindbend",
-            "Lvl 1: Guardpress",
+            "Lvl 1: Psychic Snap",
+            "Lvl 1: Mind Bend",
+            "Lvl 1: Guard Press",
             "Lvl 50: Meteorbeam",
             "Lvl 55: Moonlight",
             "Lvl 65: Luminacrash"
@@ -6729,7 +8007,7 @@
             "Futuresight",
             "Gigaimpact",
             "Gravity",
-            "Guardpress",
+            "Guard Press",
             "Guardswap",
             "Gyroball",
             "Hail",
@@ -6743,13 +8021,13 @@
             "Magiccoat",
             "Magnetrise",
             "Meteorbeam",
-            "Mindbend",
+            "Mind Bend",
             "Naturepower",
             "Powergem",
             "Protect",
             "Psybeam",
             "Psychic",
-            "Psychicsnap",
+            "Psychic Snap",
             "Psychicterrain",
             "Psychup",
             "Psyshock",
@@ -6796,6 +8074,24 @@
         "special_defence": 60,
         "speed": 60,
         "total": 530,
+        "stat_projections": {
+            "50": {
+                "hp": "128 - 175",
+                "attack": "139 - 222",
+                "defence": "139 - 222",
+                "special_attack": "42 - 103",
+                "special_defence": "58 - 123",
+                "speed": "58 - 123"
+            },
+            "100": {
+                "hp": "246 - 340",
+                "attack": "274 - 438",
+                "defence": "274 - 438",
+                "special_attack": "80 - 201",
+                "special_defence": "112 - 240",
+                "speed": "112 - 240"
+            }
+        },
         "abilities": [
             "Grassysurge",
             "Sturdy",
@@ -6834,7 +8130,7 @@
             "Lvl 1: Rockslide",
             "Lvl 1: Synthesis",
             "Lvl 1: Powergem",
-            "Lvl 1: Guardpress",
+            "Lvl 1: Guard Press",
             "Lvl 1: Stealthrock",
             "Lvl 1: Seedbomb",
             "Lvl 50: Stoneedge",
@@ -6867,7 +8163,7 @@
             "Grassyglide",
             "Grassyterrain",
             "Gravity",
-            "Guardpress",
+            "Guard Press",
             "Guardswap",
             "Gyroball",
             "Hail",
@@ -6931,6 +8227,24 @@
         "special_defence": 40,
         "speed": 90,
         "total": 530,
+        "stat_projections": {
+            "50": {
+                "hp": "120 - 167",
+                "attack": "139 - 222",
+                "defence": "40 - 101",
+                "special_attack": "139 - 222",
+                "special_defence": "40 - 101",
+                "speed": "85 - 156"
+            },
+            "100": {
+                "hp": "230 - 324",
+                "attack": "274 - 438",
+                "defence": "76 - 196",
+                "special_attack": "274 - 438",
+                "special_defence": "76 - 196",
+                "speed": "166 - 306"
+            }
+        },
         "abilities": [
             "Soundproof",
             "Sturdy",
@@ -6973,7 +8287,7 @@
             "Lvl 1: Rockslide",
             "Lvl 1: Lashout",
             "Lvl 1: Powergem",
-            "Lvl 1: Guardpress",
+            "Lvl 1: Guard Press",
             "Lvl 1: Stealthrock",
             "Lvl 1: Darkpulse",
             "Lvl 50: Stoneedge",
@@ -7004,7 +8318,7 @@
             "Foulplay",
             "Gigaimpact",
             "Gravity",
-            "Guardpress",
+            "Guard Press",
             "Guardswap",
             "Gyroball",
             "Hail",
@@ -7076,6 +8390,24 @@
         "special_defence": 60,
         "speed": 150,
         "total": 530,
+        "stat_projections": {
+            "50": {
+                "hp": "120 - 167",
+                "attack": "139 - 222",
+                "defence": "42 - 103",
+                "special_attack": "65 - 132",
+                "special_defence": "58 - 123",
+                "speed": "139 - 222"
+            },
+            "100": {
+                "hp": "230 - 324",
+                "attack": "274 - 438",
+                "defence": "80 - 201",
+                "special_attack": "126 - 258",
+                "special_defence": "112 - 240",
+                "speed": "274 - 438"
+            }
+        },
         "abilities": [
             "Clearbody",
             "Sturdy",
@@ -7115,11 +8447,11 @@
             "Lvl 1: Rockslide",
             "Lvl 1: Flamethrower",
             "Lvl 1: Powergem",
-            "Lvl 1: Guardpress",
+            "Lvl 1: Guard Press",
             "Lvl 1: Stealthrock",
             "Lvl 1: Spikes",
             "Lvl 50: Lashout",
-            "Lvl 55: Crystalspear",
+            "Lvl 55: Crystal Spear",
             "Lvl 60: Temperflare"
         ],
         "tm_moves": [
@@ -7151,7 +8483,7 @@
             "Futuresight",
             "Gigaimpact",
             "Gravity",
-            "Guardpress",
+            "Guard Press",
             "Guardswap",
             "Gyroball",
             "Heatwave",
@@ -7212,6 +8544,24 @@
         "special_defence": 63,
         "speed": 79,
         "total": 370,
+        "stat_projections": {
+            "50": {
+                "hp": "117 - 164",
+                "attack": "81 - 151",
+                "defence": "54 - 117",
+                "special_attack": "31 - 90",
+                "special_defence": "61 - 126",
+                "speed": "75 - 144"
+            },
+            "100": {
+                "hp": "224 - 318",
+                "attack": "159 - 298",
+                "defence": "103 - 229",
+                "special_attack": "58 - 174",
+                "special_defence": "117 - 247",
+                "speed": "146 - 282"
+            }
+        },
         "abilities": [
             "Magician",
             "Mistysurge",
@@ -7237,7 +8587,7 @@
             "Lvl 1: Playnice",
             "Lvl 1: Roleplay",
             "Lvl 1: Disarmingvoice",
-            "Lvl 1: Magictrick",
+            "Lvl 1: Magic Trick",
             "Lvl 15: Encore",
             "Lvl 20: Flamewheel",
             "Lvl 25: Trick",
@@ -7320,6 +8670,24 @@
         "special_defence": 75,
         "speed": 99,
         "total": 510,
+        "stat_projections": {
+            "50": {
+                "hp": "117 - 164",
+                "attack": "126 - 206",
+                "defence": "61 - 126",
+                "special_attack": "76 - 145",
+                "special_defence": "72 - 139",
+                "speed": "93 - 166"
+            },
+            "100": {
+                "hp": "224 - 318",
+                "attack": "249 - 408",
+                "defence": "117 - 247",
+                "special_attack": "148 - 284",
+                "special_defence": "139 - 273",
+                "speed": "182 - 326"
+            }
+        },
         "abilities": [
             "Magician",
             "Mistysurge",
@@ -7345,7 +8713,7 @@
             "Lvl 1: Ember",
             "Lvl 1: Playnice",
             "Lvl 1: Roleplay",
-            "Lvl 1: Magictrick",
+            "Lvl 1: Magic Trick",
             "Lvl 1: Encore",
             "Lvl 1: Disarmingvoice",
             "Lvl 1: Willowisp",
@@ -7442,6 +8810,24 @@
         "special_defence": 110,
         "speed": 50,
         "total": 480,
+        "stat_projections": {
+            "50": {
+                "hp": "130 - 177",
+                "attack": "40 - 101",
+                "defence": "81 - 150",
+                "special_attack": "117 - 194",
+                "special_defence": "103 - 178",
+                "speed": "49 - 112"
+            },
+            "100": {
+                "hp": "250 - 344",
+                "attack": "76 - 196",
+                "defence": "157 - 295",
+                "special_attack": "229 - 383",
+                "special_defence": "202 - 350",
+                "speed": "94 - 218"
+            }
+        },
         "abilities": [
             "Serenegrace",
             "Recluse",
@@ -7462,7 +8848,7 @@
             "1 Mental Herb (5.0%)"
         ],
         "level_moves": [
-            "Lvl 1: Eeriedance",
+            "Lvl 1: Eerie Dance",
             "Lvl 1: Trickroom",
             "Lvl 1: Growth",
             "Lvl 1: Leechseed",
@@ -7573,6 +8959,24 @@
         "special_defence": 35,
         "speed": 35,
         "total": 270,
+        "stat_projections": {
+            "50": {
+                "hp": "100 - 147",
+                "attack": "67 - 134",
+                "defence": "36 - 95",
+                "special_attack": "54 - 117",
+                "special_defence": "36 - 95",
+                "speed": "36 - 95"
+            },
+            "100": {
+                "hp": "190 - 284",
+                "attack": "130 - 262",
+                "defence": "67 - 185",
+                "special_attack": "103 - 229",
+                "special_defence": "67 - 185",
+                "speed": "67 - 185"
+            }
+        },
         "abilities": [
             "Swiftswim",
             "Paperthin",
@@ -7604,7 +9008,7 @@
             "Lvl 7: Rapidspin",
             "Lvl 8: Stomp",
             "Lvl 12: Charm",
-            "Lvl 18: Papercut",
+            "Lvl 18: Paper Cut",
             "Lvl 21: Acrobatics",
             "Lvl 26: Uturn",
             "Lvl 28: Swordsdance"
@@ -7694,6 +9098,24 @@
         "special_defence": 60,
         "speed": 105,
         "total": 480,
+        "stat_projections": {
+            "50": {
+                "hp": "135 - 182",
+                "attack": "112 - 189",
+                "defence": "58 - 123",
+                "special_attack": "58 - 123",
+                "special_defence": "58 - 123",
+                "speed": "99 - 172"
+            },
+            "100": {
+                "hp": "260 - 354",
+                "attack": "220 - 372",
+                "defence": "112 - 240",
+                "special_attack": "112 - 240",
+                "special_defence": "112 - 240",
+                "speed": "193 - 339"
+            }
+        },
         "abilities": [
             "Swiftswim",
             "Paperthin",
@@ -7740,7 +9162,7 @@
             "Lvl 5: Rapidspin",
             "Lvl 8: Stomp",
             "Lvl 12: Jumpkick",
-            "Lvl 18: Papercut",
+            "Lvl 18: Paper Cut",
             "Lvl 21: Acrobatics",
             "Lvl 26: Uturn",
             "Lvl 28: Swordsdance",
@@ -7836,6 +9258,24 @@
         "special_defence": 40,
         "speed": 20,
         "total": 250,
+        "stat_projections": {
+            "50": {
+                "hp": "100 - 147",
+                "attack": "49 - 112",
+                "defence": "40 - 101",
+                "special_attack": "58 - 123",
+                "special_defence": "40 - 101",
+                "speed": "22 - 79"
+            },
+            "100": {
+                "hp": "190 - 284",
+                "attack": "94 - 218",
+                "defence": "76 - 196",
+                "special_attack": "112 - 240",
+                "special_defence": "76 - 196",
+                "speed": "40 - 152"
+            }
+        },
         "abilities": [
             "Sandspit",
             "Hotsand",
@@ -7871,7 +9311,7 @@
             "Lvl 41: Bodyslam",
             "Lvl 43: Shoreup",
             "Lvl 48: Earthpower",
-            "Lvl 50: Sandshift"
+            "Lvl 50: Sand Shift"
         ],
         "tm_moves": [
             "Afteryou",
@@ -7946,6 +9386,24 @@
         "special_defence": 80,
         "speed": 30,
         "total": 430,
+        "stat_projections": {
+            "50": {
+                "hp": "120 - 167",
+                "attack": "58 - 123",
+                "defence": "112 - 189",
+                "special_attack": "76 - 145",
+                "special_defence": "76 - 145",
+                "speed": "31 - 90"
+            },
+            "100": {
+                "hp": "230 - 324",
+                "attack": "112 - 240",
+                "defence": "220 - 372",
+                "special_attack": "148 - 284",
+                "special_defence": "148 - 284",
+                "speed": "58 - 174"
+            }
+        },
         "abilities": [
             "Sandspit",
             "Hotsand",
@@ -7983,7 +9441,7 @@
             "Lvl 36: Amnesia",
             "Lvl 43: Bodyslam",
             "Lvl 47: Shoreup",
-            "Lvl 50: Sandshift"
+            "Lvl 50: Sand Shift"
         ],
         "tm_moves": [
             "Afteryou",
@@ -8000,7 +9458,7 @@
             "Flamecharge",
             "Flamethrower",
             "Gigaimpact",
-            "Guardpress",
+            "Guard Press",
             "Guardswap",
             "Gyroball",
             "Heatcrash",
@@ -8069,6 +9527,24 @@
         "special_defence": 55,
         "speed": 71,
         "total": 335,
+        "stat_projections": {
+            "50": {
+                "hp": "109 - 156",
+                "attack": "63 - 129",
+                "defence": "67 - 134",
+                "special_attack": "26 - 83",
+                "special_defence": "54 - 117",
+                "speed": "68 - 135"
+            },
+            "100": {
+                "hp": "208 - 302",
+                "attack": "123 - 254",
+                "defence": "130 - 262",
+                "special_attack": "47 - 161",
+                "special_defence": "103 - 229",
+                "speed": "132 - 265"
+            }
+        },
         "abilities": [
             "Drought",
             "Bombard",
@@ -8100,10 +9576,10 @@
             "Lvl 24: Scaryface",
             "Lvl 28: Worryseed",
             "Lvl 32: Seedbomb",
-            "Lvl 36: Firebomb",
+            "Lvl 36: Fire Bomb",
             "Lvl 40: Trick",
             "Lvl 44: Selfdestruct",
-            "Lvl 48: Pumpkinbomb"
+            "Lvl 48: Pumpkin Bomb"
         ],
         "tm_moves": [
             "Allyswitch",
@@ -8191,6 +9667,24 @@
         "special_defence": 75,
         "speed": 104,
         "total": 494,
+        "stat_projections": {
+            "50": {
+                "hp": "125 - 172",
+                "attack": "85 - 156",
+                "defence": "114 - 191",
+                "special_attack": "38 - 99",
+                "special_defence": "72 - 139",
+                "speed": "98 - 171"
+            },
+            "100": {
+                "hp": "240 - 334",
+                "attack": "166 - 306",
+                "defence": "224 - 377",
+                "special_attack": "72 - 192",
+                "special_defence": "139 - 273",
+                "speed": "191 - 337"
+            }
+        },
         "abilities": [
             "Drought",
             "Bombard",
@@ -8224,11 +9718,11 @@
             "Lvl 24: Scaryface",
             "Lvl 28: Worryseed",
             "Lvl 32: Seedbomb",
-            "Lvl 36: Firebomb",
+            "Lvl 36: Fire Bomb",
             "Lvl 40: Trick",
             "Lvl 44: Explosion",
             "Lvl 48: Flareblitz",
-            "Lvl 52: Pumpkinbomb"
+            "Lvl 52: Pumpkin Bomb"
         ],
         "tm_moves": [
             "Allyswitch",
@@ -8321,6 +9815,24 @@
         "special_defence": 70,
         "speed": 40,
         "total": 340,
+        "stat_projections": {
+            "50": {
+                "hp": "100 - 147",
+                "attack": "63 - 128",
+                "defence": "58 - 123",
+                "special_attack": "63 - 128",
+                "special_defence": "67 - 134",
+                "speed": "40 - 101"
+            },
+            "100": {
+                "hp": "190 - 284",
+                "attack": "121 - 251",
+                "defence": "112 - 240",
+                "special_attack": "121 - 251",
+                "special_defence": "130 - 262",
+                "speed": "76 - 196"
+            }
+        },
         "abilities": [
             "Magnetpull",
             "Analytic",
@@ -8354,7 +9866,7 @@
             "Lvl 24: Psybeam",
             "Lvl 28: Smartstrike",
             "Lvl 32: Lightscreen",
-            "Lvl 32: Psychicsnap",
+            "Lvl 32: Psychic Snap",
             "Lvl 36: Powergem",
             "Lvl 40: Psychic",
             "Lvl 44: Gyroball",
@@ -8386,7 +9898,7 @@
             "Protect",
             "Psybeam",
             "Psychic",
-            "Psychicsnap",
+            "Psychic Snap",
             "Psychup",
             "Raindance",
             "Recycle",
@@ -8436,6 +9948,24 @@
         "special_defence": 84,
         "speed": 85,
         "total": 565,
+        "stat_projections": {
+            "50": {
+                "hp": "151 - 198",
+                "attack": "92 - 165",
+                "defence": "79 - 148",
+                "special_attack": "116 - 193",
+                "special_defence": "80 - 149",
+                "speed": "81 - 150"
+            },
+            "100": {
+                "hp": "292 - 386",
+                "attack": "180 - 324",
+                "defence": "153 - 291",
+                "special_attack": "227 - 381",
+                "special_defence": "155 - 293",
+                "speed": "157 - 295"
+            }
+        },
         "abilities": [
             "Fury",
             "Megalauncher (Hidden)"
@@ -8554,6 +10084,24 @@
         "special_defence": 30,
         "speed": 55,
         "total": 255,
+        "stat_projections": {
+            "50": {
+                "hp": "100 - 147",
+                "attack": "49 - 112",
+                "defence": "31 - 90",
+                "special_attack": "49 - 112",
+                "special_defence": "31 - 90",
+                "speed": "54 - 117"
+            },
+            "100": {
+                "hp": "190 - 284",
+                "attack": "94 - 218",
+                "defence": "58 - 174",
+                "special_attack": "94 - 218",
+                "special_defence": "58 - 174",
+                "speed": "103 - 229"
+            }
+        },
         "abilities": [
             "Windrider",
             "Technician",
@@ -8589,7 +10137,7 @@
             "Lvl 36: Airslash",
             "Lvl 40: Weatherball",
             "Lvl 44: Autotomize",
-            "Lvl 44: Breezeball",
+            "Lvl 44: Breeze Ball",
             "Lvl 49: Bodyslam",
             "Lvl 52: Hurricane"
         ],
@@ -8642,6 +10190,24 @@
         "special_defence": 90,
         "speed": 55,
         "total": 525,
+        "stat_projections": {
+            "50": {
+                "hp": "145 - 192",
+                "attack": "117 - 194",
+                "defence": "103 - 178",
+                "special_attack": "58 - 123",
+                "special_defence": "85 - 156",
+                "speed": "54 - 117"
+            },
+            "100": {
+                "hp": "280 - 374",
+                "attack": "229 - 383",
+                "defence": "202 - 350",
+                "special_attack": "112 - 240",
+                "special_defence": "166 - 306",
+                "speed": "103 - 229"
+            }
+        },
         "abilities": [
             "Windrider",
             "Technician",
@@ -8679,7 +10245,7 @@
             "Lvl 1: Mirrorshot",
             "Lvl 1: Airslash",
             "Lvl 1: Rapidspin",
-            "Lvl 1: Armorpress",
+            "Lvl 1: Armor Press",
             "Lvl 8: Holdback",
             "Lvl 12: Irondefense",
             "Lvl 16: Gyroball",
@@ -8690,7 +10256,7 @@
             "Lvl 40: Weatherball",
             "Lvl 44: Flyingpress",
             "Lvl 48: Autotomize",
-            "Lvl 48: Breezeball",
+            "Lvl 48: Breeze Ball",
             "Lvl 52: Bodyslam",
             "Lvl 56: Hurricane",
             "Lvl 68: Meteormash",
@@ -8701,7 +10267,7 @@
             "Aerialace",
             "Airslash",
             "Allyswitch",
-            "Armorpress",
+            "Armor Press",
             "Bide",
             "Brickbreak",
             "Bulkup",
@@ -8778,6 +10344,24 @@
         "special_defence": 90,
         "speed": 95,
         "total": 525,
+        "stat_projections": {
+            "50": {
+                "hp": "135 - 182",
+                "attack": "67 - 134",
+                "defence": "67 - 134",
+                "special_attack": "117 - 194",
+                "special_defence": "85 - 156",
+                "speed": "90 - 161"
+            },
+            "100": {
+                "hp": "260 - 354",
+                "attack": "130 - 262",
+                "defence": "130 - 262",
+                "special_attack": "229 - 383",
+                "special_defence": "166 - 306",
+                "speed": "175 - 317"
+            }
+        },
         "abilities": [
             "Windcharge",
             "Lightningrod",
@@ -8815,7 +10399,7 @@
             "Lvl 1: Swift",
             "Lvl 1: Aircutter",
             "Lvl 1: Mirrorshot",
-            "Lvl 1: Armorpress",
+            "Lvl 1: Armor Press",
             "Lvl 8: Shockwave",
             "Lvl 12: Whirlpool",
             "Lvl 16: Electroball",
@@ -8826,7 +10410,7 @@
             "Lvl 40: Weatherball",
             "Lvl 44: Psyshock",
             "Lvl 48: Autotomize",
-            "Lvl 48: Breezeball",
+            "Lvl 48: Breeze Ball",
             "Lvl 52: Triattack",
             "Lvl 56: Hurricane",
             "Lvl 68: Thunder",
@@ -8837,7 +10421,7 @@
             "Aerialace",
             "Airslash",
             "Allyswitch",
-            "Armorpress",
+            "Armor Press",
             "Brine",
             "Confuseray",
             "Curse",
@@ -8911,6 +10495,24 @@
         "special_defence": 50,
         "speed": 140,
         "total": 500,
+        "stat_projections": {
+            "50": {
+                "hp": "120 - 167",
+                "attack": "94 - 167",
+                "defence": "49 - 112",
+                "special_attack": "94 - 167",
+                "special_defence": "49 - 112",
+                "speed": "130 - 211"
+            },
+            "100": {
+                "hp": "230 - 324",
+                "attack": "184 - 328",
+                "defence": "94 - 218",
+                "special_attack": "184 - 328",
+                "special_defence": "94 - 218",
+                "speed": "256 - 416"
+            }
+        },
         "abilities": [
             "Windrider",
             "Windcharge",
@@ -8945,7 +10547,7 @@
             "Lvl 31: Whirlwind",
             "Lvl 36: Defog",
             "Lvl 39: Electroball",
-            "Lvl 39: Breezeball",
+            "Lvl 39: Breeze Ball",
             "Lvl 43: Raindance",
             "Lvl 43: Sunnyday",
             "Lvl 43: Snowscape",
@@ -9024,6 +10626,24 @@
         "special_defence": 45,
         "speed": 15,
         "total": 320,
+        "stat_projections": {
+            "50": {
+                "hp": "135 - 182",
+                "attack": "36 - 95",
+                "defence": "76 - 145",
+                "special_attack": "67 - 134",
+                "special_defence": "45 - 106",
+                "speed": "18 - 73"
+            },
+            "100": {
+                "hp": "260 - 354",
+                "attack": "67 - 185",
+                "defence": "148 - 284",
+                "special_attack": "130 - 262",
+                "special_defence": "85 - 207",
+                "speed": "31 - 141"
+            }
+        },
         "abilities": [
             "Icebody",
             "Snowcloak",
@@ -9058,7 +10678,7 @@
             "Lvl 45: Shadowball",
             "Lvl 50: Icebeam",
             "Lvl 55: Bittermalice",
-            "Lvl 60: Snowbank",
+            "Lvl 60: Snow Bank",
             "Lvl 65: Hail",
             "Lvl 65: Snowscape",
             "Lvl 65: Blizzard"
@@ -9137,6 +10757,24 @@
         "special_defence": 75,
         "speed": 35,
         "total": 480,
+        "stat_projections": {
+            "50": {
+                "hp": "155 - 202",
+                "attack": "45 - 106",
+                "defence": "112 - 189",
+                "special_attack": "103 - 178",
+                "special_defence": "72 - 139",
+                "speed": "36 - 95"
+            },
+            "100": {
+                "hp": "300 - 394",
+                "attack": "85 - 207",
+                "defence": "220 - 372",
+                "special_attack": "202 - 350",
+                "special_defence": "139 - 273",
+                "speed": "67 - 185"
+            }
+        },
         "abilities": [
             "Icebody",
             "Snowcloak",
@@ -9173,7 +10811,7 @@
             "Lvl 45: Shadowball",
             "Lvl 50: Icebeam",
             "Lvl 55: Bittermalice",
-            "Lvl 60: Snowbank",
+            "Lvl 60: Snow Bank",
             "Lvl 65: Blizzard"
         ],
         "tm_moves": [
@@ -9257,6 +10895,24 @@
         "special_defence": 40,
         "speed": 20,
         "total": 260,
+        "stat_projections": {
+            "50": {
+                "hp": "140 - 187",
+                "attack": "40 - 101",
+                "defence": "40 - 101",
+                "special_attack": "40 - 101",
+                "special_defence": "40 - 101",
+                "speed": "22 - 79"
+            },
+            "100": {
+                "hp": "270 - 364",
+                "attack": "76 - 196",
+                "defence": "76 - 196",
+                "special_attack": "76 - 196",
+                "special_defence": "76 - 196",
+                "speed": "40 - 152"
+            }
+        },
         "abilities": [
             "Harvest",
             "Leafguard",
@@ -9313,6 +10969,24 @@
         "special_defence": 100,
         "speed": 50,
         "total": 480,
+        "stat_projections": {
+            "50": {
+                "hp": "170 - 217",
+                "attack": "40 - 101",
+                "defence": "76 - 145",
+                "special_attack": "94 - 167",
+                "special_defence": "94 - 167",
+                "speed": "49 - 112"
+            },
+            "100": {
+                "hp": "330 - 424",
+                "attack": "76 - 196",
+                "defence": "148 - 284",
+                "special_attack": "184 - 328",
+                "special_defence": "184 - 328",
+                "speed": "94 - 218"
+            }
+        },
         "abilities": [
             "Harvest",
             "Flowerveil",
@@ -9441,6 +11115,24 @@
         "special_defence": 80,
         "speed": 40,
         "total": 480,
+        "stat_projections": {
+            "50": {
+                "hp": "170 - 217",
+                "attack": "94 - 167",
+                "defence": "94 - 167",
+                "special_attack": "49 - 112",
+                "special_defence": "76 - 145",
+                "speed": "40 - 101"
+            },
+            "100": {
+                "hp": "330 - 424",
+                "attack": "184 - 328",
+                "defence": "184 - 328",
+                "special_attack": "94 - 218",
+                "special_defence": "148 - 284",
+                "speed": "76 - 196"
+            }
+        },
         "abilities": [
             "Harvest",
             "Raindish",
@@ -9566,6 +11258,24 @@
         "special_defence": 90,
         "speed": 100,
         "total": 540,
+        "stat_projections": {
+            "50": {
+                "hp": "170 - 217",
+                "attack": "58 - 123",
+                "defence": "58 - 123",
+                "special_attack": "112 - 189",
+                "special_defence": "85 - 156",
+                "speed": "94 - 167"
+            },
+            "100": {
+                "hp": "330 - 424",
+                "attack": "112 - 240",
+                "defence": "112 - 240",
+                "special_attack": "220 - 372",
+                "special_defence": "166 - 306",
+                "speed": "184 - 328"
+            }
+        },
         "abilities": [
             "Harvest",
             "Flowerveil",
@@ -9707,6 +11417,24 @@
         "special_defence": 80,
         "speed": 40,
         "total": 540,
+        "stat_projections": {
+            "50": {
+                "hp": "180 - 227",
+                "attack": "117 - 194",
+                "defence": "126 - 205",
+                "special_attack": "40 - 101",
+                "special_defence": "76 - 145",
+                "speed": "40 - 101"
+            },
+            "100": {
+                "hp": "350 - 444",
+                "attack": "229 - 383",
+                "defence": "247 - 405",
+                "special_attack": "76 - 196",
+                "special_defence": "148 - 284",
+                "speed": "76 - 196"
+            }
+        },
         "abilities": [
             "Harvest",
             "Raindish",
@@ -9854,6 +11582,24 @@
         "special_defence": 45,
         "speed": 50,
         "total": 305,
+        "stat_projections": {
+            "50": {
+                "hp": "110 - 157",
+                "attack": "63 - 128",
+                "defence": "45 - 106",
+                "special_attack": "49 - 112",
+                "special_defence": "45 - 106",
+                "speed": "49 - 112"
+            },
+            "100": {
+                "hp": "210 - 304",
+                "attack": "121 - 251",
+                "defence": "85 - 207",
+                "special_attack": "94 - 218",
+                "special_defence": "85 - 207",
+                "speed": "94 - 218"
+            }
+        },
         "abilities": [
             "Eartheater",
             "Stakeout",
@@ -9950,6 +11696,24 @@
         "special_defence": 80,
         "speed": 90,
         "total": 525,
+        "stat_projections": {
+            "50": {
+                "hp": "160 - 207",
+                "attack": "108 - 183",
+                "defence": "76 - 145",
+                "special_attack": "58 - 123",
+                "special_defence": "76 - 145",
+                "speed": "85 - 156"
+            },
+            "100": {
+                "hp": "310 - 404",
+                "attack": "211 - 361",
+                "defence": "148 - 284",
+                "special_attack": "112 - 240",
+                "special_defence": "148 - 284",
+                "speed": "166 - 306"
+            }
+        },
         "abilities": [
             "Eartheater",
             "Stakeout",
@@ -10050,6 +11814,24 @@
         "special_defence": 70,
         "speed": 60,
         "total": 395,
+        "stat_projections": {
+            "50": {
+                "hp": "125 - 172",
+                "attack": "40 - 101",
+                "defence": "67 - 134",
+                "special_attack": "85 - 156",
+                "special_defence": "67 - 134",
+                "speed": "58 - 123"
+            },
+            "100": {
+                "hp": "240 - 334",
+                "attack": "76 - 196",
+                "defence": "130 - 262",
+                "special_attack": "166 - 306",
+                "special_defence": "130 - 262",
+                "speed": "112 - 240"
+            }
+        },
         "abilities": [
             "Voltabsorb",
             "Download",
@@ -10157,6 +11939,24 @@
         "special_defence": 85,
         "speed": 90,
         "total": 515,
+        "stat_projections": {
+            "50": {
+                "hp": "145 - 192",
+                "attack": "81 - 150",
+                "defence": "76 - 145",
+                "special_attack": "85 - 156",
+                "special_defence": "81 - 150",
+                "speed": "85 - 156"
+            },
+            "100": {
+                "hp": "280 - 374",
+                "attack": "157 - 295",
+                "defence": "148 - 284",
+                "special_attack": "166 - 306",
+                "special_defence": "157 - 295",
+                "speed": "166 - 306"
+            }
+        },
         "abilities": [
             "Voltabsorb",
             "Download",
@@ -10267,6 +12067,24 @@
         "special_defence": 45,
         "speed": 130,
         "total": 545,
+        "stat_projections": {
+            "50": {
+                "hp": "125 - 172",
+                "attack": "117 - 194",
+                "defence": "54 - 117",
+                "special_attack": "117 - 194",
+                "special_defence": "45 - 106",
+                "speed": "121 - 200"
+            },
+            "100": {
+                "hp": "240 - 334",
+                "attack": "229 - 383",
+                "defence": "103 - 229",
+                "special_attack": "229 - 383",
+                "special_defence": "85 - 207",
+                "speed": "238 - 394"
+            }
+        },
         "abilities": [
             "Motordrive",
             "Derivative",
@@ -10387,6 +12205,24 @@
         "special_defence": 100,
         "speed": 28,
         "total": 325,
+        "stat_projections": {
+            "50": {
+                "hp": "105 - 152",
+                "attack": "36 - 95",
+                "defence": "37 - 97",
+                "special_attack": "76 - 145",
+                "special_defence": "94 - 167",
+                "speed": "29 - 88"
+            },
+            "100": {
+                "hp": "200 - 294",
+                "attack": "67 - 185",
+                "defence": "71 - 190",
+                "special_attack": "148 - 284",
+                "special_defence": "184 - 328",
+                "speed": "54 - 170"
+            }
+        },
         "abilities": [
             "Magicguard",
             "Prankster (Hidden)"
@@ -10414,7 +12250,7 @@
             "Lvl 1: Nightshade",
             "Lvl 1: Instruct",
             "Lvl 1: Roleplay",
-            "Lvl 1: Magictrick",
+            "Lvl 1: Magic Trick",
             "Lvl 4: Hypnosis",
             "Lvl 8: Agility",
             "Lvl 12: Psybeam",
@@ -10424,7 +12260,7 @@
             "Lvl 28: Mirrorcoat",
             "Lvl 32: Amnesia",
             "Lvl 36: Eeriespell",
-            "Lvl 38: Psychicsnap",
+            "Lvl 38: Psychic Snap",
             "Lvl 40: Trickroom",
             "Lvl 40: Magicroom",
             "Lvl 40: Wonderroom",
@@ -10461,7 +12297,7 @@
             "Lightscreen",
             "Magicalleaf",
             "Magicroom",
-            "Mindbend",
+            "Mind Bend",
             "Mysticalfire",
             "Nightshade",
             "Phantomforce",
@@ -10470,7 +12306,7 @@
             "Protect",
             "Psybeam",
             "Psychic",
-            "Psychicsnap",
+            "Psychic Snap",
             "Psychicterrain",
             "Psychocut",
             "Psyshock",
@@ -10523,6 +12359,24 @@
         "special_defence": 150,
         "speed": 35,
         "total": 448,
+        "stat_projections": {
+            "50": {
+                "hp": "119 - 166",
+                "attack": "45 - 106",
+                "defence": "48 - 111",
+                "special_attack": "103 - 178",
+                "special_defence": "139 - 222",
+                "speed": "36 - 95"
+            },
+            "100": {
+                "hp": "228 - 322",
+                "attack": "85 - 207",
+                "defence": "92 - 216",
+                "special_attack": "202 - 350",
+                "special_defence": "274 - 438",
+                "speed": "67 - 185"
+            }
+        },
         "abilities": [
             "Magicguard",
             "Prankster (Hidden)"
@@ -10550,7 +12404,7 @@
             "Lvl 1: Nightshade",
             "Lvl 1: Instruct",
             "Lvl 1: Roleplay",
-            "Lvl 1: Magictrick",
+            "Lvl 1: Magic Trick",
             "Lvl 4: Hypnosis",
             "Lvl 8: Agility",
             "Lvl 12: Psybeam",
@@ -10560,7 +12414,7 @@
             "Lvl 28: Mirrorcoat",
             "Lvl 32: Amnesia",
             "Lvl 36: Eeriespell",
-            "Lvl 38: Psychicsnap",
+            "Lvl 38: Psychic Snap",
             "Lvl 40: Trickroom",
             "Lvl 40: Magicroom",
             "Lvl 40: Wonderroom",
@@ -10597,7 +12451,7 @@
             "Lightscreen",
             "Magicalleaf",
             "Magicroom",
-            "Mindbend",
+            "Mind Bend",
             "Mysticalfire",
             "Nightshade",
             "Phantomforce",
@@ -10606,7 +12460,7 @@
             "Protect",
             "Psybeam",
             "Psychic",
-            "Psychicsnap",
+            "Psychic Snap",
             "Psychicterrain",
             "Psychocut",
             "Psyshock",
@@ -10659,6 +12513,24 @@
         "special_defence": 130,
         "speed": 90,
         "total": 500,
+        "stat_projections": {
+            "50": {
+                "hp": "120 - 167",
+                "attack": "31 - 90",
+                "defence": "49 - 112",
+                "special_attack": "130 - 211",
+                "special_defence": "121 - 200",
+                "speed": "85 - 156"
+            },
+            "100": {
+                "hp": "230 - 324",
+                "attack": "58 - 174",
+                "defence": "94 - 218",
+                "special_attack": "256 - 416",
+                "special_defence": "238 - 394",
+                "speed": "166 - 306"
+            }
+        },
         "abilities": [
             "Intellectual",
             "Prankster (Hidden)"
@@ -10687,7 +12559,7 @@
             "Lvl 1: Nightshade",
             "Lvl 1: Instruct",
             "Lvl 1: Roleplay",
-            "Lvl 1: Magictrick",
+            "Lvl 1: Magic Trick",
             "Lvl 4: Hypnosis",
             "Lvl 8: Agility",
             "Lvl 12: Psybeam",
@@ -10697,15 +12569,15 @@
             "Lvl 28: Mirrorcoat",
             "Lvl 32: Amnesia",
             "Lvl 36: Eeriespell",
-            "Lvl 38: Psychicsnap",
+            "Lvl 38: Psychic Snap",
             "Lvl 40: Trickroom",
             "Lvl 40: Magicroom",
             "Lvl 40: Wonderroom",
-            "Lvl 44: Pageturn",
+            "Lvl 44: Page Turn",
             "Lvl 48: Shadowball",
             "Lvl 52: Aurasphere",
             "Lvl 56: Psychic",
-            "Lvl 60: Magicmissile"
+            "Lvl 60: Magic Missile"
         ],
         "tm_moves": [
             "Afteryou",
@@ -10735,7 +12607,7 @@
             "Lightscreen",
             "Magicalleaf",
             "Magicroom",
-            "Mindbend",
+            "Mind Bend",
             "Mysticalfire",
             "Nightshade",
             "Phantomforce",
@@ -10744,7 +12616,7 @@
             "Protect",
             "Psybeam",
             "Psychic",
-            "Psychicsnap",
+            "Psychic Snap",
             "Psychicterrain",
             "Psychocut",
             "Psyshock",
@@ -10797,6 +12669,24 @@
         "special_defence": 70,
         "speed": 10,
         "total": 300,
+        "stat_projections": {
+            "50": {
+                "hp": "105 - 152",
+                "attack": "31 - 90",
+                "defence": "67 - 134",
+                "special_attack": "72 - 139",
+                "special_defence": "67 - 134",
+                "speed": "13 - 68"
+            },
+            "100": {
+                "hp": "200 - 294",
+                "attack": "58 - 174",
+                "defence": "130 - 262",
+                "special_attack": "139 - 273",
+                "special_defence": "130 - 262",
+                "speed": "22 - 130"
+            }
+        },
         "abilities": [
             "Sweetveil",
             "Sweetveil (Hidden)"
@@ -10857,6 +12747,24 @@
         "special_defence": 71,
         "speed": 144,
         "total": 550,
+        "stat_projections": {
+            "50": {
+                "hp": "147 - 194",
+                "attack": "58 - 123",
+                "defence": "63 - 128",
+                "special_attack": "115 - 192",
+                "special_defence": "68 - 135",
+                "speed": "134 - 215"
+            },
+            "100": {
+                "hp": "284 - 378",
+                "attack": "112 - 240",
+                "defence": "121 - 251",
+                "special_attack": "225 - 379",
+                "special_defence": "132 - 265",
+                "speed": "263 - 425"
+            }
+        },
         "abilities": [
             "Wellbakedbody",
             "Wellbakedbody (Hidden)"
@@ -10887,7 +12795,7 @@
             "Lvl 35: Shadowball",
             "Lvl 42: Recover",
             "Lvl 49: Incinerate",
-            "Lvl 56: Letitcook",
+            "Lvl 56: Let It Cook",
             "Lvl 63: Nastyplot",
             "Lvl 70: Decorate"
         ],
@@ -10949,6 +12857,24 @@
         "special_defence": 110,
         "speed": 65,
         "total": 525,
+        "stat_projections": {
+            "50": {
+                "hp": "155 - 202",
+                "attack": "58 - 123",
+                "defence": "121 - 200",
+                "special_attack": "63 - 128",
+                "special_defence": "103 - 178",
+                "speed": "63 - 128"
+            },
+            "100": {
+                "hp": "300 - 394",
+                "attack": "112 - 240",
+                "defence": "238 - 394",
+                "special_attack": "121 - 251",
+                "special_defence": "202 - 350",
+                "speed": "121 - 251"
+            }
+        },
         "abilities": [
             "Soundproof",
             "Serenegrace (Hidden)"
@@ -11068,6 +12994,24 @@
         "special_defence": 65,
         "speed": 95,
         "total": 525,
+        "stat_projections": {
+            "50": {
+                "hp": "120 - 167",
+                "attack": "103 - 178",
+                "defence": "63 - 128",
+                "special_attack": "121 - 200",
+                "special_defence": "63 - 128",
+                "speed": "90 - 161"
+            },
+            "100": {
+                "hp": "230 - 324",
+                "attack": "202 - 350",
+                "defence": "121 - 251",
+                "special_attack": "238 - 394",
+                "special_defence": "121 - 251",
+                "speed": "175 - 317"
+            }
+        },
         "abilities": [
             "Owntempo",
             "Costar (Hidden)"
@@ -11187,6 +13131,24 @@
         "special_defence": 60,
         "speed": 65,
         "total": 525,
+        "stat_projections": {
+            "50": {
+                "hp": "155 - 202",
+                "attack": "121 - 200",
+                "defence": "63 - 128",
+                "special_attack": "103 - 178",
+                "special_defence": "58 - 123",
+                "speed": "63 - 128"
+            },
+            "100": {
+                "hp": "300 - 394",
+                "attack": "238 - 394",
+                "defence": "121 - 251",
+                "special_attack": "202 - 350",
+                "special_defence": "112 - 240",
+                "speed": "121 - 251"
+            }
+        },
         "abilities": [
             "Angerpoint",
             "Rivalry (Hidden)"
@@ -11302,6 +13264,24 @@
         "special_defence": 105,
         "speed": 110,
         "total": 535,
+        "stat_projections": {
+            "50": {
+                "hp": "135 - 182",
+                "attack": "54 - 117",
+                "defence": "58 - 123",
+                "special_attack": "121 - 200",
+                "special_defence": "99 - 172",
+                "speed": "103 - 178"
+            },
+            "100": {
+                "hp": "260 - 354",
+                "attack": "103 - 229",
+                "defence": "112 - 240",
+                "special_attack": "238 - 394",
+                "special_defence": "193 - 339",
+                "speed": "202 - 350"
+            }
+        },
         "abilities": [
             "Prankster",
             "Insomnia",
@@ -11383,6 +13363,24 @@
         "special_defence": 85,
         "speed": 70,
         "total": 500,
+        "stat_projections": {
+            "50": {
+                "hp": "155 - 202",
+                "attack": "63 - 128",
+                "defence": "76 - 145",
+                "special_attack": "99 - 172",
+                "special_defence": "81 - 150",
+                "speed": "67 - 134"
+            },
+            "100": {
+                "hp": "300 - 394",
+                "attack": "121 - 251",
+                "defence": "148 - 284",
+                "special_attack": "193 - 339",
+                "special_defence": "157 - 295",
+                "speed": "130 - 262"
+            }
+        },
         "abilities": [
             "Poisonpoint",
             "Liquidooze",
@@ -11465,6 +13463,24 @@
         "special_defence": 75,
         "speed": 85,
         "total": 520,
+        "stat_projections": {
+            "50": {
+                "hp": "145 - 192",
+                "attack": "121 - 200",
+                "defence": "76 - 145",
+                "special_attack": "63 - 128",
+                "special_defence": "72 - 139",
+                "speed": "81 - 150"
+            },
+            "100": {
+                "hp": "280 - 374",
+                "attack": "238 - 394",
+                "defence": "148 - 284",
+                "special_attack": "121 - 251",
+                "special_defence": "139 - 273",
+                "speed": "157 - 295"
+            }
+        },
         "abilities": [
             "Furcoat",
             "Defiant",
@@ -11547,6 +13563,24 @@
         "special_defence": 85,
         "speed": 110,
         "total": 545,
+        "stat_projections": {
+            "50": {
+                "hp": "135 - 182",
+                "attack": "99 - 172",
+                "defence": "94 - 167",
+                "special_attack": "67 - 134",
+                "special_defence": "81 - 150",
+                "speed": "103 - 178"
+            },
+            "100": {
+                "hp": "260 - 354",
+                "attack": "193 - 339",
+                "defence": "184 - 328",
+                "special_attack": "130 - 262",
+                "special_defence": "157 - 295",
+                "speed": "202 - 350"
+            }
+        },
         "abilities": [
             "Unburden",
             "Hustle",
@@ -11628,6 +13662,24 @@
         "special_defence": 85,
         "speed": 90,
         "total": 545,
+        "stat_projections": {
+            "50": {
+                "hp": "135 - 182",
+                "attack": "108 - 183",
+                "defence": "103 - 178",
+                "special_attack": "67 - 134",
+                "special_defence": "81 - 150",
+                "speed": "85 - 156"
+            },
+            "100": {
+                "hp": "260 - 354",
+                "attack": "211 - 361",
+                "defence": "202 - 350",
+                "special_attack": "130 - 262",
+                "special_defence": "157 - 295",
+                "speed": "166 - 306"
+            }
+        },
         "abilities": [
             "Sandforce",
             "Thickskin",
@@ -11710,6 +13762,24 @@
         "special_defence": 85,
         "speed": 110,
         "total": 555,
+        "stat_projections": {
+            "50": {
+                "hp": "135 - 182",
+                "attack": "108 - 183",
+                "defence": "94 - 167",
+                "special_attack": "67 - 134",
+                "special_defence": "81 - 150",
+                "speed": "103 - 178"
+            },
+            "100": {
+                "hp": "260 - 354",
+                "attack": "211 - 361",
+                "defence": "184 - 328",
+                "special_attack": "130 - 262",
+                "special_defence": "157 - 295",
+                "speed": "202 - 350"
+            }
+        },
         "abilities": [
             "Compoundeyes",
             "Swarm",
@@ -11792,6 +13862,24 @@
         "special_defence": 85,
         "speed": 110,
         "total": 580,
+        "stat_projections": {
+            "50": {
+                "hp": "145 - 192",
+                "attack": "94 - 167",
+                "defence": "121 - 200",
+                "special_attack": "67 - 134",
+                "special_defence": "81 - 150",
+                "speed": "103 - 178"
+            },
+            "100": {
+                "hp": "280 - 374",
+                "attack": "184 - 328",
+                "defence": "238 - 394",
+                "special_attack": "130 - 262",
+                "special_defence": "157 - 295",
+                "speed": "202 - 350"
+            }
+        },
         "abilities": [
             "Battlearmor",
             "Clearbody",
@@ -11874,6 +13962,24 @@
         "special_defence": 75,
         "speed": 95,
         "total": 555,
+        "stat_projections": {
+            "50": {
+                "hp": "145 - 192",
+                "attack": "94 - 167",
+                "defence": "85 - 156",
+                "special_attack": "103 - 178",
+                "special_defence": "72 - 139",
+                "speed": "90 - 161"
+            },
+            "100": {
+                "hp": "280 - 374",
+                "attack": "184 - 328",
+                "defence": "166 - 306",
+                "special_attack": "202 - 350",
+                "special_defence": "139 - 273",
+                "speed": "175 - 317"
+            }
+        },
         "abilities": [
             "Rivalry",
             "Overcoat",
@@ -11956,6 +14062,24 @@
         "special_defence": 70,
         "speed": 85,
         "total": 470,
+        "stat_projections": {
+            "50": {
+                "hp": "130 - 177",
+                "attack": "90 - 161",
+                "defence": "76 - 145",
+                "special_attack": "67 - 134",
+                "special_defence": "67 - 134",
+                "speed": "81 - 150"
+            },
+            "100": {
+                "hp": "250 - 344",
+                "attack": "175 - 317",
+                "defence": "148 - 284",
+                "special_attack": "130 - 262",
+                "special_defence": "130 - 262",
+                "speed": "157 - 295"
+            }
+        },
         "abilities": [
             "Arenatrap",
             "Terrify",
@@ -12036,6 +14160,24 @@
         "special_defence": 95,
         "speed": 110,
         "total": 580,
+        "stat_projections": {
+            "50": {
+                "hp": "145 - 192",
+                "attack": "99 - 172",
+                "defence": "81 - 150",
+                "special_attack": "94 - 167",
+                "special_defence": "90 - 161",
+                "speed": "103 - 178"
+            },
+            "100": {
+                "hp": "280 - 374",
+                "attack": "193 - 339",
+                "defence": "157 - 295",
+                "special_attack": "184 - 328",
+                "special_defence": "175 - 317",
+                "speed": "202 - 350"
+            }
+        },
         "abilities": [
             "Adaptability",
             "Anticipation",
@@ -12121,6 +14263,24 @@
         "special_defence": 90,
         "speed": 92,
         "total": 600,
+        "stat_projections": {
+            "50": {
+                "hp": "158 - 205",
+                "attack": "108 - 183",
+                "defence": "85 - 156",
+                "special_attack": "108 - 183",
+                "special_defence": "85 - 156",
+                "speed": "87 - 158"
+            },
+            "100": {
+                "hp": "306 - 400",
+                "attack": "211 - 361",
+                "defence": "166 - 306",
+                "special_attack": "211 - 361",
+                "special_defence": "166 - 306",
+                "speed": "170 - 311"
+            }
+        },
         "abilities": [
             "Protean",
             "Libero",
@@ -12513,6 +14673,24 @@
         "special_defence": 60,
         "speed": 65,
         "total": 320,
+        "stat_projections": {
+            "50": {
+                "hp": "105 - 152",
+                "attack": "40 - 101",
+                "defence": "45 - 106",
+                "special_attack": "63 - 128",
+                "special_defence": "58 - 123",
+                "speed": "63 - 128"
+            },
+            "100": {
+                "hp": "200 - 294",
+                "attack": "76 - 196",
+                "defence": "85 - 207",
+                "special_attack": "121 - 251",
+                "special_defence": "112 - 240",
+                "speed": "121 - 251"
+            }
+        },
         "abilities": [
             "Telepathy",
             "Healpy",
@@ -12579,6 +14757,24 @@
         "special_defence": 85,
         "speed": 85,
         "total": 460,
+        "stat_projections": {
+            "50": {
+                "hp": "125 - 172",
+                "attack": "58 - 123",
+                "defence": "67 - 134",
+                "special_attack": "90 - 161",
+                "special_defence": "81 - 150",
+                "speed": "81 - 150"
+            },
+            "100": {
+                "hp": "240 - 334",
+                "attack": "112 - 240",
+                "defence": "130 - 262",
+                "special_attack": "175 - 317",
+                "special_defence": "157 - 295",
+                "speed": "157 - 295"
+            }
+        },
         "abilities": [
             "Telepathy",
             "Healpy",
@@ -12655,6 +14851,24 @@
         "special_defence": 115,
         "speed": 105,
         "total": 600,
+        "stat_projections": {
+            "50": {
+                "hp": "145 - 192",
+                "attack": "72 - 139",
+                "defence": "85 - 156",
+                "special_attack": "121 - 200",
+                "special_defence": "108 - 183",
+                "speed": "99 - 172"
+            },
+            "100": {
+                "hp": "280 - 374",
+                "attack": "139 - 273",
+                "defence": "166 - 306",
+                "special_attack": "238 - 394",
+                "special_defence": "211 - 361",
+                "speed": "193 - 339"
+            }
+        },
         "abilities": [
             "Telepathy",
             "Healpy",
@@ -12749,6 +14963,24 @@
         "special_defence": 60,
         "speed": 40,
         "total": 280,
+        "stat_projections": {
+            "50": {
+                "hp": "110 - 157",
+                "attack": "31 - 90",
+                "defence": "54 - 117",
+                "special_attack": "45 - 106",
+                "special_defence": "58 - 123",
+                "speed": "40 - 101"
+            },
+            "100": {
+                "hp": "210 - 304",
+                "attack": "58 - 174",
+                "defence": "103 - 229",
+                "special_attack": "85 - 207",
+                "special_defence": "112 - 240",
+                "speed": "76 - 196"
+            }
+        },
         "abilities": [
             "Keeneye",
             "Cloudnine",
@@ -12821,6 +15053,24 @@
         "special_defence": 60,
         "speed": 100,
         "total": 485,
+        "stat_projections": {
+            "50": {
+                "hp": "145 - 192",
+                "attack": "112 - 189",
+                "defence": "67 - 134",
+                "special_attack": "49 - 112",
+                "special_defence": "58 - 123",
+                "speed": "94 - 167"
+            },
+            "100": {
+                "hp": "280 - 374",
+                "attack": "220 - 372",
+                "defence": "130 - 262",
+                "special_attack": "94 - 218",
+                "special_defence": "112 - 240",
+                "speed": "184 - 328"
+            }
+        },
         "abilities": [
             "Keeneye",
             "Cloudnine",
@@ -12919,6 +15169,24 @@
         "special_defence": 100,
         "speed": 50,
         "total": 580,
+        "stat_projections": {
+            "50": {
+                "hp": "210 - 257",
+                "attack": "76 - 145",
+                "defence": "94 - 167",
+                "special_attack": "94 - 167",
+                "special_defence": "94 - 167",
+                "speed": "49 - 112"
+            },
+            "100": {
+                "hp": "410 - 504",
+                "attack": "148 - 284",
+                "defence": "184 - 328",
+                "special_attack": "184 - 328",
+                "special_defence": "184 - 328",
+                "speed": "94 - 218"
+            }
+        },
         "abilities": [
             "Shrieker",
             "Shrieker (Hidden)"
@@ -12957,7 +15225,7 @@
             "Lvl 48: Darkpulse",
             "Lvl 54: Shadowball",
             "Lvl 60: Uproar",
-            "Lvl 63: Sonicshriek",
+            "Lvl 63: Sonic Shriek",
             "Lvl 66: Eeriespell",
             "Lvl 69: Earthpower",
             "Lvl 72: Hypervoice",
@@ -12994,7 +15262,7 @@
             "Gigadrain",
             "Gigaimpact",
             "Gravity",
-            "Guardpress",
+            "Guard Press",
             "Hardpress",
             "Headbutt",
             "Heavyslam",
@@ -13011,7 +15279,7 @@
             "Poweruppunch",
             "Protect",
             "Psychicnoise",
-            "Psychicsnap",
+            "Psychic Snap",
             "Rest",
             "Roar",
             "Rockclimb",
@@ -13053,6 +15321,24 @@
         "special_defence": 70,
         "speed": 85,
         "total": 462,
+        "stat_projections": {
+            "50": {
+                "hp": "130 - 177",
+                "attack": "64 - 130",
+                "defence": "76 - 145",
+                "special_attack": "85 - 156",
+                "special_defence": "67 - 134",
+                "speed": "81 - 150"
+            },
+            "100": {
+                "hp": "250 - 344",
+                "attack": "125 - 256",
+                "defence": "148 - 284",
+                "special_attack": "166 - 306",
+                "special_defence": "130 - 262",
+                "speed": "157 - 295"
+            }
+        },
         "abilities": [
             "Eartheater",
             "Steadfast",
@@ -13082,7 +15368,7 @@
             "Lvl 24: Uturn",
             "Lvl 34: Takedown",
             "Lvl 40: Bulldoze",
-            "Lvl 50: Bungerblast"
+            "Lvl 50: Bunger Blast"
         ],
         "tm_moves": [
             "Facade",
