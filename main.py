@@ -19,7 +19,7 @@ def get_fakemon():
 fakemondict = {}
 for fakemon in fakemondata:
     fakemondict[fakemon['internal_name']] = fakemon
-@app.route("/fakemon/<name>")
+@app.route("/species/<name>")
 def get_fakemon_specific(name):
     name = name.lower()
     if name in fakemondict:
