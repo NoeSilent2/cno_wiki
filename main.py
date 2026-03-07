@@ -1,5 +1,5 @@
 import json
-from flask import Flask, render_template
+from flask import Flask, render_template, redirect, url_for
 
 
 app = Flask(__name__)
@@ -25,6 +25,8 @@ def get_fakemon_specific(name):
     if name in fakemondict:
         fakemon = fakemondict[name]
         return render_template("species_specific.html", species=fakemon)
+    else:
+        return redirect(url_for('get_fakemon'))
 
 
 with open('./data/moves.json', 'r', encoding='utf-8') as file:
