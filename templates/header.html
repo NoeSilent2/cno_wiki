@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>C&O Wiki</title>
+        <title>{% block title %}C&O Wiki{% endblock %}</title>
         <link rel="stylesheet" href="{{ url_for('static', filename='css/simpletable.css') }}">
         <link rel="icon" type="image/svg+xml" href="/favicon.ico">
         <style>
@@ -12,6 +12,7 @@
             header { border-bottom: 1px solid #333333; padding: 0; }
             nav {max-width: 1200px; margin: 0 auto; display: flex; align-items: center; padding: 1rem 2rem; gap: 2rem;}
             a { color: #fff; text-decoration: none; font-weight: bold; }
+            a:hover { text-decoration: underline #fff; }
             .logo { font-size: 1.25rem; font-weight: 600; color: #ffffff; text-decoration: none; }
             .nav-links { display: flex; gap: 1.5rem; margin-left: auto; }
             .nav-links a { text-decoration: none; color: #888888; padding: 0.5rem 1rem; border-radius: 6px; transition: all 0.2s ease; font-size: 0.875rem; font-weight: 500; }
@@ -20,6 +21,7 @@
             h1 { font-size: 3rem; font-weight: 700; margin-bottom: 1rem; color: #ffffff }
             h2 { font-size: 2rem; font-weight: normal; display: block; border-bottom: 1px solid #333333; margin-bottom: 1rem; }
         </style>
+        {% block extra_head %}{% endblock %}
     </head>
     <body>
         <header>
