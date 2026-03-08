@@ -1,6 +1,7 @@
 [
     {
         "name": "Bamzu",
+        "category": "Sprout",
         "internal_name": "bamzu",
         "national_pokedex_number": 1026,
         "primary_type": "Grass",
@@ -82,6 +83,7 @@
     },
     {
         "name": "Bambud",
+        "category": "Bamboo",
         "internal_name": "bambud",
         "national_pokedex_number": 1027,
         "primary_type": "Grass",
@@ -176,6 +178,7 @@
     },
     {
         "name": "Bamnon",
+        "category": "Bamboo Cannon",
         "internal_name": "bamnon",
         "national_pokedex_number": 1028,
         "primary_type": "Grass",
@@ -291,6 +294,7 @@
     },
     {
         "name": "Flarin",
+        "category": "Ember Sprite",
         "internal_name": "flarin",
         "national_pokedex_number": 1029,
         "primary_type": "Fire",
@@ -374,6 +378,7 @@
     },
     {
         "name": "Pillowisp",
+        "category": "Pillow",
         "internal_name": "pillowisp",
         "national_pokedex_number": 1029,
         "primary_type": "Ghost",
@@ -512,6 +517,7 @@
     },
     {
         "name": "Dreaneuma",
+        "category": "Sandman",
         "internal_name": "dreaneuma",
         "national_pokedex_number": 1030,
         "primary_type": "Ghost",
@@ -657,6 +663,7 @@
     },
     {
         "name": "Pyrilis",
+        "category": "Flamewisp",
         "internal_name": "pyrilis",
         "national_pokedex_number": 1030,
         "primary_type": "Fire",
@@ -758,6 +765,7 @@
     },
     {
         "name": "Phantasmare",
+        "category": "Nightmare",
         "internal_name": "phantasmare",
         "national_pokedex_number": 1031,
         "primary_type": "Ghost",
@@ -907,6 +915,7 @@
     },
     {
         "name": "Solafae",
+        "category": "Enchantress",
         "internal_name": "solafae",
         "national_pokedex_number": 1031,
         "primary_type": "Fire",
@@ -1033,6 +1042,7 @@
     },
     {
         "name": "Yaknoi",
+        "category": "Guardian Cub",
         "internal_name": "yaknoi",
         "national_pokedex_number": 1032,
         "primary_type": "Water",
@@ -1115,6 +1125,7 @@
     },
     {
         "name": "Yakru",
+        "category": "Temple Guardian",
         "internal_name": "yakru",
         "national_pokedex_number": 1033,
         "primary_type": "Water",
@@ -1212,6 +1223,7 @@
     },
     {
         "name": "Yakhan",
+        "category": "Divine Guardian",
         "internal_name": "yakhan",
         "national_pokedex_number": 1034,
         "primary_type": "Water",
@@ -1335,6 +1347,7 @@
     },
     {
         "name": "Smouse",
+        "category": "Smoky Rat",
         "internal_name": "smouse",
         "national_pokedex_number": 1035,
         "primary_type": "Normal",
@@ -1428,6 +1441,7 @@
     },
     {
         "name": "Cigarat",
+        "category": "Tobacco Rat",
         "internal_name": "cigarat",
         "national_pokedex_number": 1036,
         "primary_type": "Dark",
@@ -1542,6 +1556,7 @@
     },
     {
         "name": "Fossie",
+        "category": "Maglev",
         "internal_name": "fossie",
         "national_pokedex_number": 1037,
         "primary_type": "Electric",
@@ -1650,6 +1665,7 @@
     },
     {
         "name": "Starstellation",
+        "category": "North Star",
         "internal_name": "starstellation",
         "national_pokedex_number": 1037,
         "primary_type": "Steel",
@@ -1809,6 +1825,7 @@
     },
     {
         "name": "Amperox",
+        "category": "Maglev",
         "internal_name": "amperox",
         "national_pokedex_number": 1038,
         "primary_type": "Electric",
@@ -1929,6 +1946,7 @@
     },
     {
         "name": "Snowkie",
+        "category": "Cold Chick",
         "internal_name": "snowkie",
         "national_pokedex_number": 1039,
         "primary_type": "Ice",
@@ -2029,6 +2047,7 @@
     },
     {
         "name": "Snowgirl",
+        "category": "Cold Chicken",
         "internal_name": "snowgirl",
         "national_pokedex_number": 1040,
         "primary_type": "Ice",
@@ -2136,6 +2155,7 @@
     },
     {
         "name": "Toombie",
+        "category": "Depressed Soul",
         "internal_name": "toombie",
         "national_pokedex_number": 1041,
         "primary_type": "Ghost",
@@ -2218,6 +2238,7 @@
     },
     {
         "name": "Funerun",
+        "category": "Tombstone",
         "internal_name": "funerun",
         "national_pokedex_number": 1042,
         "primary_type": "Ghost",
@@ -2334,6 +2355,7 @@
     },
     {
         "name": "Suikani",
+        "category": "Fruit Shell",
         "internal_name": "suikani",
         "national_pokedex_number": 1043,
         "primary_type": "Grass",
@@ -2445,6 +2467,7 @@
     },
     {
         "name": "Saprentice",
+        "category": "Apprentice",
         "internal_name": "saprentice",
         "national_pokedex_number": 1044,
         "primary_type": "Grass",
@@ -2549,6 +2572,7 @@
     },
     {
         "name": "Willoch",
+        "category": "Wise Tree",
         "internal_name": "willoch",
         "national_pokedex_number": 1045,
         "primary_type": "Grass",
@@ -2672,6 +2696,7 @@
     },
     {
         "name": "Gubble",
+        "category": "Tar Bubble",
         "internal_name": "gubble",
         "national_pokedex_number": 1046,
         "primary_type": "Ground",
@@ -2770,6 +2795,7 @@
     },
     {
         "name": "Tarblin",
+        "category": "Hot Tar",
         "internal_name": "tarblin",
         "national_pokedex_number": 1047,
         "primary_type": "Ground",
@@ -2899,6 +2925,7 @@
     },
     {
         "name": "Alloette",
+        "category": "Allay",
         "internal_name": "alloette",
         "national_pokedex_number": 1048,
         "primary_type": "Flying",
@@ -3036,6 +3063,7 @@
     },
     {
         "name": "Gyweld",
+        "category": "Rolling Pals",
         "internal_name": "gyweld",
         "national_pokedex_number": 1048,
         "primary_type": "Normal",
@@ -3149,6 +3177,7 @@
     },
     {
         "name": "Fubber",
+        "category": "Rubbery",
         "internal_name": "fubber",
         "national_pokedex_number": 1049,
         "primary_type": "Water",
@@ -3245,6 +3274,7 @@
     },
     {
         "name": "Tanglare",
+        "category": "Glaring",
         "internal_name": "tanglare",
         "national_pokedex_number": 1049,
         "primary_type": "Grass",
@@ -3398,6 +3428,7 @@
     },
     {
         "name": "Puffoon",
+        "category": "Clumsy",
         "internal_name": "puffoon",
         "national_pokedex_number": 1050,
         "primary_type": "Water",
@@ -3518,6 +3549,7 @@
     },
     {
         "name": "Lymming",
+        "category": "Geeky",
         "internal_name": "lymming",
         "national_pokedex_number": 1051,
         "primary_type": "Rock",
@@ -3602,6 +3634,7 @@
     },
     {
         "name": "Melofly",
+        "category": "Deathsong",
         "internal_name": "melofly",
         "national_pokedex_number": 1051,
         "primary_type": "Flying",
@@ -3741,6 +3774,7 @@
     },
     {
         "name": "Karstory",
+        "category": "Historic",
         "internal_name": "karstory",
         "national_pokedex_number": 1052,
         "primary_type": "Rock",
@@ -3859,6 +3893,7 @@
     },
     {
         "name": "Karoshicore",
+        "category": "Restful",
         "internal_name": "karoshicore",
         "national_pokedex_number": 1053,
         "primary_type": "Ghost",
@@ -3981,6 +4016,7 @@
     },
     {
         "name": "Masticat",
+        "category": "Munching",
         "internal_name": "masticat",
         "national_pokedex_number": 1054,
         "primary_type": "Dark",
@@ -4086,6 +4122,7 @@
     },
     {
         "name": "Chewshire",
+        "category": "Grinning",
         "internal_name": "chewshire",
         "national_pokedex_number": 1055,
         "primary_type": "Dark",
@@ -4195,6 +4232,7 @@
     },
     {
         "name": "Ascrolyte",
+        "category": "Scribe",
         "internal_name": "ascrolyte",
         "national_pokedex_number": 1056,
         "primary_type": "Ground",
@@ -4284,6 +4322,7 @@
     },
     {
         "name": "Flapestry",
+        "category": "Duster",
         "internal_name": "flapestry",
         "national_pokedex_number": 1057,
         "primary_type": "Ground",
@@ -4396,6 +4435,7 @@
     },
     {
         "name": "Golisopede",
+        "category": "Burrowing",
         "internal_name": "golisopede",
         "national_pokedex_number": 1058,
         "primary_type": "Bug",
@@ -4560,6 +4600,7 @@
     },
     {
         "name": "Kamikiku",
+        "category": "Cursed Doll",
         "internal_name": "kamikiku",
         "national_pokedex_number": 1058,
         "primary_type": "Fairy",
@@ -4678,6 +4719,7 @@
     },
     {
         "name": "Poseiclops",
+        "category": "One-Eyed",
         "internal_name": "poseiclops",
         "national_pokedex_number": 1059,
         "primary_type": "Fighting",
@@ -4787,6 +4829,7 @@
     },
     {
         "name": "Alpioca",
+        "category": "Chewy",
         "internal_name": "alpioca",
         "national_pokedex_number": 1060,
         "primary_type": "Normal",
@@ -4898,6 +4941,7 @@
     },
     {
         "name": "Anemini",
+        "category": "Plankton",
         "internal_name": "anemini",
         "national_pokedex_number": 1061,
         "primary_type": "Poison",
@@ -4985,6 +5029,7 @@
     },
     {
         "name": "Nurumone",
+        "category": "Slimy",
         "internal_name": "nurumone",
         "national_pokedex_number": 1062,
         "primary_type": "Poison",
@@ -5107,6 +5152,7 @@
     },
     {
         "name": "Pikapod",
+        "category": "Survivor",
         "internal_name": "pikapod",
         "national_pokedex_number": 1063,
         "primary_type": "Water",
@@ -5233,6 +5279,7 @@
     },
     {
         "name": "Jodoki",
+        "category": "Bowl",
         "internal_name": "jodoki",
         "national_pokedex_number": 1064,
         "primary_type": "Fire",
@@ -5364,6 +5411,7 @@
     },
     {
         "name": "Umeltaka",
+        "category": "Melting Pot",
         "internal_name": "umeltaka",
         "national_pokedex_number": 1065,
         "primary_type": "Fire",
@@ -5520,6 +5568,7 @@
     },
     {
         "name": "Cephalange",
+        "category": "Finger Puppet",
         "internal_name": "cephalange",
         "national_pokedex_number": 1066,
         "primary_type": "Dark",
@@ -5633,6 +5682,7 @@
     },
     {
         "name": "Magnipulo",
+        "category": "Puppet Master",
         "internal_name": "magnipulo",
         "national_pokedex_number": 1067,
         "primary_type": "Dark",
@@ -5756,6 +5806,7 @@
     },
     {
         "name": "Protobi",
+        "category": "Fledgling",
         "internal_name": "protobi",
         "national_pokedex_number": 1068,
         "primary_type": "Rock",
@@ -5854,6 +5905,7 @@
     },
     {
         "name": "Typecast",
+        "category": "Type",
         "internal_name": "typecast",
         "national_pokedex_number": 1068,
         "primary_type": "Normal",
@@ -6142,6 +6194,7 @@
     },
     {
         "name": "Protoffin",
+        "category": "Gryphon",
         "internal_name": "protoffin",
         "national_pokedex_number": 1069,
         "primary_type": "Rock",
@@ -6259,6 +6312,7 @@
     },
     {
         "name": "Upsigenia",
+        "category": "Stilts",
         "internal_name": "upsigenia",
         "national_pokedex_number": 1070,
         "primary_type": "Rock",
@@ -6365,6 +6419,7 @@
     },
     {
         "name": "Hallucerebra",
+        "category": "Brain",
         "internal_name": "hallucerebra",
         "national_pokedex_number": 1071,
         "primary_type": "Rock",
@@ -6490,6 +6545,7 @@
     },
     {
         "name": "Croppup",
+        "category": "Mystical Pup",
         "internal_name": "croppup",
         "national_pokedex_number": 1072,
         "primary_type": "Grass",
@@ -6591,6 +6647,7 @@
     },
     {
         "name": "Lunage",
+        "category": "Blossoming Fortune",
         "internal_name": "lunage",
         "national_pokedex_number": 1073,
         "primary_type": "Grass",
@@ -6708,6 +6765,7 @@
     },
     {
         "name": "Maractaya",
+        "category": "Cactus Fruit",
         "internal_name": "maractaya",
         "national_pokedex_number": 1074,
         "primary_type": "Dragon",
@@ -6838,6 +6896,7 @@
     },
     {
         "name": "Hydron",
+        "category": "Fishron from Terraria",
         "internal_name": "hydron",
         "national_pokedex_number": 1075,
         "primary_type": "Water",
@@ -6944,6 +7003,7 @@
     },
     {
         "name": "Hanyabi",
+        "category": "Firework",
         "internal_name": "hanyabi",
         "national_pokedex_number": 1076,
         "primary_type": "Fire",
@@ -7019,6 +7079,7 @@
     },
     {
         "name": "Flintlet",
+        "category": "Flint",
         "internal_name": "flintlet",
         "national_pokedex_number": 1077,
         "primary_type": "Rock",
@@ -7101,6 +7162,7 @@
     },
     {
         "name": "Cragahuitl",
+        "category": "Flint",
         "internal_name": "cragahuitl",
         "national_pokedex_number": 1078,
         "primary_type": "Rock",
@@ -7183,6 +7245,7 @@
     },
     {
         "name": "Validys",
+        "category": "Insecure",
         "internal_name": "validys",
         "national_pokedex_number": 1079,
         "primary_type": "Ghost",
@@ -7290,6 +7353,7 @@
     },
     {
         "name": "Vaniterror",
+        "category": "Conceited",
         "internal_name": "vaniterror",
         "national_pokedex_number": 1080,
         "primary_type": "Ghost",
@@ -7434,6 +7498,7 @@
     },
     {
         "name": "Grantump",
+        "category": "Cherry Blossom",
         "internal_name": "grantump",
         "national_pokedex_number": 1081,
         "primary_type": "Grass",
@@ -7506,6 +7571,7 @@
     },
     {
         "name": "Wystenent",
+        "category": "Cherry Blossom",
         "internal_name": "wystenent",
         "national_pokedex_number": 1082,
         "primary_type": "Grass",
@@ -7580,6 +7646,7 @@
     },
     {
         "name": "Sinisnow",
+        "category": "Iced Drink",
         "internal_name": "sinisnow",
         "national_pokedex_number": 1083,
         "primary_type": "Ice",
@@ -7643,6 +7710,7 @@
     },
     {
         "name": "Frostygeist",
+        "category": "Iced Drink",
         "internal_name": "frostygeist",
         "national_pokedex_number": 1084,
         "primary_type": "Ice",
@@ -7710,6 +7778,7 @@
     },
     {
         "name": "Kazoom",
+        "category": "Aquatic Vehicle",
         "internal_name": "kazoom",
         "national_pokedex_number": 1085,
         "primary_type": "Steel",
@@ -7811,6 +7880,7 @@
     },
     {
         "name": "Amphizoom",
+        "category": "Aquatic Vehicle",
         "internal_name": "amphizoom",
         "national_pokedex_number": 1086,
         "primary_type": "Steel",
@@ -7911,6 +7981,7 @@
     },
     {
         "name": "Clarissie",
+        "category": "Geode",
         "internal_name": "clarissie",
         "national_pokedex_number": 1087,
         "primary_type": "Rock",
@@ -8063,6 +8134,7 @@
     },
     {
         "name": "Beryllius",
+        "category": "Emerald",
         "internal_name": "beryllius",
         "national_pokedex_number": 1088,
         "primary_type": "Rock",
@@ -8216,6 +8288,7 @@
     },
     {
         "name": "Echolyte",
+        "category": "Echo Shard",
         "internal_name": "echolyte",
         "national_pokedex_number": 1089,
         "primary_type": "Rock",
@@ -8379,6 +8452,7 @@
     },
     {
         "name": "Velvettia",
+        "category": "Quartz",
         "internal_name": "velvettia",
         "national_pokedex_number": 1090,
         "primary_type": "Rock",
@@ -8533,6 +8607,7 @@
     },
     {
         "name": "Hattrix",
+        "category": "Juggler",
         "internal_name": "hattrix",
         "national_pokedex_number": 1091,
         "primary_type": "Fire",
@@ -8659,6 +8734,7 @@
     },
     {
         "name": "Hattertainer",
+        "category": "Jumpscare",
         "internal_name": "hattertainer",
         "national_pokedex_number": 1092,
         "primary_type": "Fire",
@@ -8799,6 +8875,7 @@
     },
     {
         "name": "Tuligant",
+        "category": "Moonflower",
         "internal_name": "tuligant",
         "national_pokedex_number": 1095,
         "primary_type": "Grass",
@@ -8948,6 +9025,7 @@
     },
     {
         "name": "Papersol",
+        "category": "Parasol",
         "internal_name": "papersol",
         "national_pokedex_number": 1096,
         "primary_type": "Grass",
@@ -9087,6 +9165,7 @@
     },
     {
         "name": "Umbrelligant",
+        "category": "Umbrella",
         "internal_name": "umbrelligant",
         "national_pokedex_number": 1097,
         "primary_type": "Grass",
@@ -9247,6 +9326,7 @@
     },
     {
         "name": "Slugrit",
+        "category": "Quicksand",
         "internal_name": "slugrit",
         "national_pokedex_number": 1101,
         "primary_type": "Ground",
@@ -9375,6 +9455,7 @@
     },
     {
         "name": "Dunecargo",
+        "category": "Quicksand",
         "internal_name": "dunecargo",
         "national_pokedex_number": 1102,
         "primary_type": "Ground",
@@ -9516,6 +9597,7 @@
     },
     {
         "name": "Pumpkaboom",
+        "category": "Grenade",
         "internal_name": "pumpkaboom",
         "national_pokedex_number": 1103,
         "primary_type": "Fire",
@@ -9656,6 +9738,7 @@
     },
     {
         "name": "Gourgrenade",
+        "category": "Grenadier",
         "internal_name": "gourgrenade",
         "national_pokedex_number": 1104,
         "primary_type": "Fire",
@@ -9804,6 +9887,7 @@
     },
     {
         "name": "Norstar",
+        "category": "North Star",
         "internal_name": "norstar",
         "national_pokedex_number": 1105,
         "primary_type": "Steel",
@@ -9937,6 +10021,7 @@
     },
     {
         "name": "Clawviathan",
+        "category": "Dreadnought",
         "internal_name": "clawviathan",
         "national_pokedex_number": 1107,
         "primary_type": "Water",
@@ -10073,6 +10158,7 @@
     },
     {
         "name": "Galecadet",
+        "category": "Trial",
         "internal_name": "galecadet",
         "national_pokedex_number": 1110,
         "primary_type": "Flying",
@@ -10179,6 +10265,7 @@
     },
     {
         "name": "Zephyrouge",
+        "category": "Mace",
         "internal_name": "zephyrouge",
         "national_pokedex_number": 1111,
         "primary_type": "Flying",
@@ -10333,6 +10420,7 @@
     },
     {
         "name": "Ceruclone",
+        "category": "Trident",
         "internal_name": "ceruclone",
         "national_pokedex_number": 1112,
         "primary_type": "Flying",
@@ -10484,6 +10572,7 @@
     },
     {
         "name": "Breezior",
+        "category": "Breeze",
         "internal_name": "breezior",
         "national_pokedex_number": 1113,
         "primary_type": "Flying",
@@ -10615,6 +10704,7 @@
     },
     {
         "name": "Snowygast",
+        "category": "Snowman",
         "internal_name": "snowygast",
         "national_pokedex_number": 1114,
         "primary_type": "Ghost",
@@ -10746,6 +10836,7 @@
     },
     {
         "name": "Palossnow",
+        "category": "Snow Castle",
         "internal_name": "palossnow",
         "national_pokedex_number": 1115,
         "primary_type": "Ghost",
@@ -10884,6 +10975,7 @@
     },
     {
         "name": "Seedlin",
+        "category": "Ancient Seed",
         "internal_name": "seedlin",
         "national_pokedex_number": 1116,
         "primary_type": "Grass",
@@ -10958,6 +11050,7 @@
     },
     {
         "name": "Torchlin",
+        "category": "Torch Pod",
         "internal_name": "torchlin",
         "national_pokedex_number": 1117,
         "primary_type": "Grass",
@@ -11104,6 +11197,7 @@
     },
     {
         "name": "Podlin",
+        "category": "Pitcher Pod",
         "internal_name": "podlin",
         "national_pokedex_number": 1118,
         "primary_type": "Grass",
@@ -11247,6 +11341,7 @@
     },
     {
         "name": "Torchflyer",
+        "category": "Torch Flower",
         "internal_name": "torchflyer",
         "national_pokedex_number": 1119,
         "primary_type": "Grass",
@@ -11406,6 +11501,7 @@
     },
     {
         "name": "Pitchertun",
+        "category": "Pitcher Plant",
         "internal_name": "pitchertun",
         "national_pokedex_number": 1120,
         "primary_type": "Grass",
@@ -11571,6 +11667,7 @@
     },
     {
         "name": "Stygipede",
+        "category": "Sculk",
         "internal_name": "stygipede",
         "national_pokedex_number": 1121,
         "primary_type": "Dark",
@@ -11685,6 +11782,7 @@
     },
     {
         "name": "Centisculk",
+        "category": "Catalyst",
         "internal_name": "centisculk",
         "national_pokedex_number": 1122,
         "primary_type": "Dark",
@@ -11803,6 +11901,7 @@
     },
     {
         "name": "Porytron",
+        "category": "Tron",
         "internal_name": "porytron",
         "national_pokedex_number": 1123,
         "primary_type": "Electric",
@@ -11928,6 +12027,7 @@
     },
     {
         "name": "Porytron2",
+        "category": "Tron",
         "internal_name": "porytron2",
         "national_pokedex_number": 1124,
         "primary_type": "Electric",
@@ -12056,6 +12156,7 @@
     },
     {
         "name": "Porytronz",
+        "category": "Tron",
         "internal_name": "porytronz",
         "national_pokedex_number": 1125,
         "primary_type": "Electric",
@@ -12194,6 +12295,7 @@
     },
     {
         "name": "Tomledger",
+        "category": "Spellbook",
         "internal_name": "tomledger",
         "national_pokedex_number": 1126,
         "primary_type": "Psychic",
@@ -12348,6 +12450,7 @@
     },
     {
         "name": "Twinledger",
+        "category": "Spellbook",
         "internal_name": "twinledger",
         "national_pokedex_number": 1127,
         "primary_type": "Psychic",
@@ -12502,6 +12605,7 @@
     },
     {
         "name": "Wizledger",
+        "category": "Spellbook",
         "internal_name": "wizledger",
         "national_pokedex_number": 1128,
         "primary_type": "Fire",
@@ -12658,6 +12762,7 @@
     },
     {
         "name": "Gimmibread",
+        "category": "Gingerbread",
         "internal_name": "gimmibread",
         "national_pokedex_number": 1129,
         "primary_type": "Ghost",
@@ -12736,6 +12841,7 @@
     },
     {
         "name": "Gholdendough",
+        "category": "Gingerbread",
         "internal_name": "gholdendough",
         "national_pokedex_number": 1130,
         "primary_type": "Ghost",
@@ -12846,6 +12952,7 @@
     },
     {
         "name": "Mikueon",
+        "category": "Miku",
         "internal_name": "mikueon",
         "national_pokedex_number": 1131,
         "primary_type": "Normal",
@@ -12983,6 +13090,7 @@
     },
     {
         "name": "Tetoeon",
+        "category": "Teto",
         "internal_name": "tetoeon",
         "national_pokedex_number": 1132,
         "primary_type": "Normal",
@@ -13120,6 +13228,7 @@
     },
     {
         "name": "Nerueon",
+        "category": "Neru",
         "internal_name": "nerueon",
         "national_pokedex_number": 1133,
         "primary_type": "Normal",
@@ -13253,6 +13362,7 @@
     },
     {
         "name": "Spectreonee",
+        "category": "Abandoned",
         "internal_name": "spectreonee",
         "national_pokedex_number": 1134,
         "primary_type": "Ghost",
@@ -13352,6 +13462,7 @@
     },
     {
         "name": "Acideon",
+        "category": "Corrosive",
         "internal_name": "acideon",
         "national_pokedex_number": 1135,
         "primary_type": "Poison",
@@ -13452,6 +13563,7 @@
     },
     {
         "name": "Champeon",
+        "category": "Champion",
         "internal_name": "champeon",
         "national_pokedex_number": 1136,
         "primary_type": "Fighting",
@@ -13552,6 +13664,7 @@
     },
     {
         "name": "Aereonee",
+        "category": "Stratus",
         "internal_name": "aereonee",
         "national_pokedex_number": 1137,
         "primary_type": "Flying",
@@ -13651,6 +13764,7 @@
     },
     {
         "name": "Minereon",
+        "category": "Mining",
         "internal_name": "minereon",
         "national_pokedex_number": 1138,
         "primary_type": "Rock",
@@ -13751,6 +13865,7 @@
     },
     {
         "name": "Hiveon",
+        "category": "Hive",
         "internal_name": "hiveon",
         "national_pokedex_number": 1139,
         "primary_type": "Bug",
@@ -13851,6 +13966,7 @@
     },
     {
         "name": "Automeon",
+        "category": "Mechanized",
         "internal_name": "automeon",
         "national_pokedex_number": 1140,
         "primary_type": "Steel",
@@ -13951,6 +14067,7 @@
     },
     {
         "name": "Wyveon",
+        "category": "Wyvern",
         "internal_name": "wyveon",
         "national_pokedex_number": 1141,
         "primary_type": "Dragon",
@@ -14051,6 +14168,7 @@
     },
     {
         "name": "Dungeon",
+        "category": "Alluring",
         "internal_name": "dungeon",
         "national_pokedex_number": 1142,
         "primary_type": "Ground",
@@ -14149,6 +14267,7 @@
     },
     {
         "name": "Eeveeon",
+        "category": "Evolved",
         "internal_name": "eeveeon",
         "national_pokedex_number": 1143,
         "primary_type": "Normal",
@@ -14252,6 +14371,7 @@
     },
     {
         "name": "Evereon",
+        "category": "Singularity",
         "internal_name": "evereon",
         "national_pokedex_number": 1144,
         "primary_type": "Normal",
@@ -14662,6 +14782,7 @@
     },
     {
         "name": "Nebix",
+        "category": "Starlight",
         "internal_name": "nebix",
         "national_pokedex_number": 1145,
         "primary_type": "Fairy",
@@ -14746,6 +14867,7 @@
     },
     {
         "name": "Voryn",
+        "category": "Cosmic Fox",
         "internal_name": "voryn",
         "national_pokedex_number": 1146,
         "primary_type": "Fairy",
@@ -14840,6 +14962,7 @@
     },
     {
         "name": "Cosvul",
+        "category": "Celestial Guardian",
         "internal_name": "cosvul",
         "national_pokedex_number": 1147,
         "primary_type": "Fairy",
@@ -14952,6 +15075,7 @@
     },
     {
         "name": "Owlyn",
+        "category": "Moonlet",
         "internal_name": "owlyn",
         "national_pokedex_number": 1148,
         "primary_type": "Flying",
@@ -15042,6 +15166,7 @@
     },
     {
         "name": "Striglow",
+        "category": "Sentinel Owl",
         "internal_name": "striglow",
         "national_pokedex_number": 1149,
         "primary_type": "Flying",
@@ -15158,6 +15283,7 @@
     },
     {
         "name": "Regisculk",
+        "category": "Warden",
         "internal_name": "regisculk",
         "national_pokedex_number": 1150,
         "primary_type": "Dark",
@@ -15310,6 +15436,7 @@
     },
     {
         "name": "Bunger",
+        "category": "Burger",
         "internal_name": "bunger",
         "national_pokedex_number": 1169,
         "primary_type": "Bug",
