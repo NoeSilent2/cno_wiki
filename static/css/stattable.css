@@ -8,4 +8,4 @@ td.statbar .defence {background-color: #E86412;border: 1px solid #97410C;height:
 td.statbar .special_attack {background-color: #14C3F1;border: 1px solid #0D7F9D;height: 20px}
 td.statbar .special_defence {background-color: #4A6ADF;border: 1px solid #304591;height: 20px}
 td.statbar .speed {background-color: #D51DAD;border: 1px solid #8B1370;height: 20px}
-model-viewer {height: 300px; width: 300px;}
+model-viewer {height: 300px; width: 100%;}
