@@ -4,6 +4,7 @@
 
 {% block extra_head %}
 <link rel="stylesheet" href="{{ url_for('static', filename='css/stattable.css') }}">
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.1.0/model-viewer.min.js"></script>
 {% endblock %}
 
 {% block body %}
@@ -145,7 +146,7 @@
                                         <tbody>
                                             <tr>
                                                 <td colspan="4">
-                                                    <img src="https://archives.bulbagarden.net/media/upload/thumb/f/fb/0001Bulbasaur.png/250px-0001Bulbasaur.png">
+                                                    <model-viewer alt="A 3D model of {{ species.name }}" src="shared-assets/models/{{ species.name }}.glb" camera-controls touch-action="pan-y" autoplay animation-name="animation.{{ species.internal_name }}.ground_idle" camera-orbit="-215deg 77deg 2.3m"></model-viewer>
                                                 </td>
                                             </tr>
                                             <tr>
