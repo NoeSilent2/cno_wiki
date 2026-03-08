@@ -11,7 +11,7 @@
     <h2>{{ species.name }}</h2>
     <p>Work in progress page for specific species data.</p>
 
-    <table class="pokemon">
+    <table class="statbox">
         <tbody>
             <tr>
                 <th colspan="2" rowspan="2" class="text">
@@ -113,6 +113,80 @@
             </tr>
 
         </tbody>
-    </table>    
+    </table>
+    
+    <table class="roundy infobox" style="background:#666;width:33%;border:2px solid #fff;padding:2px;max-width:420px;text-align:center;">
+        <tbody>
+            <tr>
+                <td colspan="2">
+                    <table class="roundy">
+                        <tbody>
+                            <tr>
+                                <td width="75%" class="roundy" style="background: #000">
+                                    <table width="100%">
+                                        <tbody>
+                                            <tr>
+                                                <td width="50%">
+                                                    <big><big><b>{{ species.name }}</b></big></big>
+                                                    <br>
+                                                    <a>Seed Pokemon</a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <th width="25%" class="roundy" style="background: #000">
+                                    <big><big><a>#{{ species.national_pokedex_number }}</a></big></big>
+                                </th>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <table width="100%" class="roundy" style="background: #000">
+                                        <tbody>
+                                            <tr>
+                                                <td colspan="4">
+                                                    <img src="https://archives.bulbagarden.net/media/upload/thumb/f/fb/0001Bulbasaur.png/250px-0001Bulbasaur.png">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="4">
+                                                    <a>Images on the Bulbagarden Archives</a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="roundy" colspan="2" style="background:#333; padding:2px">
+                    <b>Type</b>
+                    <table class="roundy" width="100%" style="background:#000; padding-top:3px">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <table style="margin:auto; background:none;">
+                                        <tbody>
+                                            <tr>
+                                                <td width="45px" class="typebox">
+                                                    <span>
+                                                        <b>Grass</b>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
 </main>
 {% endblock %}
