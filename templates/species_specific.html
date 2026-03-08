@@ -146,7 +146,7 @@
                                         <tbody>
                                             <tr>
                                                 <td colspan="4">
-                                                    <model-viewer alt="A 3D model of {{ species.name }}" src="./shared-assets/models/bunger.glb" camera-controls touch-action="pan-y" autoplay animation-name="animation.bunger.ground_idle" camera-orbit="-215deg 77deg 2.3m"></model-viewer>
+                                                    <model-viewer alt="A 3D model of {{ species.name }}" src="{{ url_for('static', filename='models/bunger.glb') }}" camera-controls touch-action="pan-y" autoplay animation-name="animation.bunger.ground_idle" camera-orbit="-215deg 77deg 2.3m"></model-viewer>
                                                 </td>
                                             </tr>
                                             <tr>
