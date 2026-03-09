@@ -16,6 +16,10 @@ with open('./data/fakemon.json', 'r', encoding='utf-8') as file:
 def get_fakemon():
     return render_template("fakemon.html", fakemon=fakemondata)
 
+@app.route("/species")
+def species_redirect():
+    return redirect(url_for('get_fakemon'))
+
 fakemondict = {}
 for fakemon in fakemondata:
     fakemondict[fakemon['internal_name']] = fakemon
@@ -27,7 +31,6 @@ def get_fakemon_specific(name):
         return render_template("species_specific.html", species=fakemon)
     else:
         return redirect(url_for('get_fakemon'))
-
 
 with open('./data/moves.json', 'r', encoding='utf-8') as file:
     cmovesdata = json.load(file)
