@@ -50,7 +50,7 @@
                                         <tbody>
                                             <tr>
                                                 <td colspan="4">
-                                                    <model-viewer alt="A 3D model of {{ species.name }}" src="/static/models/{{ species.internal_name }}.glb" camera-controls touch-action="pan-y" autoplay animation-name="animation.{{ species.internal_name}}.ground_idle" camera-orbit="-215deg 77deg 6px" camera-target="auto">
+                                                    <model-viewer id="pokemon" alt="A 3D model of {{ species.name }}" src="/static/models/{{ species.internal_name }}.glb" camera-controls touch-action="pan-y" autoplay animation-name="animation.{{ species.internal_name}}.ground_idle" camera-orbit="-215deg 77deg 6px" camera-target="auto">
                                                         <button id="shinyToggle" class="shiny-toggle">
                                                             ✨
                                                         </button>
@@ -215,4 +215,29 @@
     </table>
 
 </main>
+
+<script type="module">
+    const modelViewerTexture1 = document.querySelector("model-viewer#pokemon");
+
+    modelViewerTexture1.addEventListener("load", () => {
+        const material = modelViewerTexture1.model.materials[0];
+        let isShiny = false;
+
+        const toggleShiny = async (channel, event) => {
+            if (isShiny) {
+                await material.pbrMetallicRoughness.baseColorTexture.setTexture(null);
+                isShiny = false;
+            } else {
+                const texture = await modelViewerTexture1.createTexture('/static/textures/bunger_shiny.png');
+                await material.pbrMetallicRoughness.baseColorTexture.setTexture(texture);
+                isShiny = true;
+            }
+        }
+
+        document.querySelector('#shiny-toggle').addEventListener('click', () => {
+            toggleShiny()
+        })
+    })
+</script>
+
 {% endblock %}

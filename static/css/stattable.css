@@ -28,4 +28,4 @@ model-viewer {height: 300px; width: 100%;}
 .Dark {background: #624D4E}
 .Steel {background: #60A1B8}
 .Fairy {background: #EF70EF}
-.shiny-toggle {cursor: pointer; border: 1px solid #fff; background-color: #000; transform: translateX(-50%);}
+.shiny-toggle {cursor: pointer; border: 1px solid #fff; background-color: #000;}
