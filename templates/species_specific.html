@@ -68,11 +68,24 @@
                                     <table style="margin:auto; background:none;">
                                         <tbody>
                                             <tr>
-                                                <td width="45px" class="typebox">
-                                                    <span>
-                                                        <b>Grass</b>
-                                                    </span>
+                                                {% if data.primary_type %}
+                                                <td width="45px" class="typebox {{ data.primary_type }}">
+                                                    <a>
+                                                        <span>
+                                                            <b>{{ data.primary_type }}</b>
+                                                        </span>
+                                                    </a>
                                                 </td>
+                                                {% endif %}
+                                                {% if data.secondary_type %}
+                                                <td width="45px" class="typebox {{ data.secondary_type }}">
+                                                    <a>
+                                                        <span>
+                                                            <b>{{ data.secondary_type }}</b>
+                                                        </span>
+                                                    </a>
+                                                </td>
+                                                {% endif %}
                                             </tr>
                                         </tbody>
                                     </table>
