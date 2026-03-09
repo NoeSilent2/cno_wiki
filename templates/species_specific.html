@@ -225,7 +225,7 @@
 
         const toggleShiny = async (channel, event) => {
             if (isShiny) {
-                await material.pbrMetallicRoughness.baseColorTexture.setTexture(null);
+                await material.pbrMetallicRoughness.baseColorTexture.texture.source.setURI(null);
                 isShiny = false;
             } else {
                 const texture = await modelViewerTexture1.createTexture('/static/textures/bunger_shiny.png');
