@@ -231,9 +231,8 @@
                 isShiny = false;
             } else {
                 const texture = await modelViewerTexture1.createTexture('/static/textures/bunger_shiny.png');
+                texture = await material.pbrMetallicRoughness.baseColorTexture.setTexture(texture);
                 texture.sampler.setMagFilter('nearest');
-                texture.sampler.setMinFilter('nearest');
-                await material.pbrMetallicRoughness.baseColorTexture.setTexture(texture);
                 isShiny = true;
             }
         }
