@@ -222,9 +222,6 @@
     modelViewerTexture1.addEventListener("load", () => {
         const material = modelViewerTexture1.model.materials[0];
         const baseTexture = material.pbrMetallicRoughness.baseColorTexture.texture;
-        const sampler = baseTexture.sampler;
-
-        sampler.setMagFilter('linear');
 
         let isShiny = false;
 
@@ -235,6 +232,8 @@
             } else {
                 const texture = await modelViewerTexture1.createTexture('/static/textures/bunger_shiny.png');
                 await material.pbrMetallicRoughness.baseColorTexture.setTexture(texture);
+                texture.sampler.setMagFilter('nearest');
+                texture.sampler.setMinFilter('nearest');
                 isShiny = true;
             }
         }
