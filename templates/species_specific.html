@@ -68,20 +68,20 @@
                                     <table style="margin:auto; background:none;">
                                         <tbody>
                                             <tr>
-                                                {% if data.primary_type %}
-                                                <td width="45px" class="typebox {{ data.primary_type }}">
+                                                {% if species.primary_type %}
+                                                <td width="45px" class="typebox {{ species.primary_type }}">
                                                     <a>
                                                         <span>
-                                                            <b>{{ data.primary_type }}</b>
+                                                            <b>{{ species.primary_type }}</b>
                                                         </span>
                                                     </a>
                                                 </td>
                                                 {% endif %}
-                                                {% if data.secondary_type %}
-                                                <td width="45px" class="typebox {{ data.secondary_type }}">
+                                                {% if species.secondary_type %}
+                                                <td width="45px" class="typebox {{ species.secondary_type }}">
                                                     <a>
                                                         <span>
-                                                            <b>{{ data.secondary_type }}</b>
+                                                            <b>{{ species.secondary_type }}</b>
                                                         </span>
                                                     </a>
                                                 </td>
