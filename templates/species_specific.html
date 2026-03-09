@@ -222,8 +222,6 @@
     modelViewerTexture1.addEventListener("load", () => {
         const material = modelViewerTexture1.model.materials[0];
         const baseTexture = material.pbrMetallicRoughness.baseColorTexture.texture;
-        const shinyTexture = modelViewerTexture1.createTexture('/static/textures/bunger_shiny.png');
-        shinyTexture.sampler.magFilter = 'nearest';
 
         let isShiny = false;
 
@@ -232,7 +230,9 @@
                 await material.pbrMetallicRoughness.baseColorTexture.setTexture(baseTexture);
                 isShiny = false;
             } else {
-                await material.pbrMetallicRoughness.baseColorTexture.setTexture(shinyTexture);
+                const texture = await modelViewerTexture1.createTexture('/static/textures/bunger_shiny.png');
+                texture.sampler.magFilter = 'nearest';
+                await material.pbrMetallicRoughness.baseColorTexture.setTexture(texture);
                 isShiny = true;
             }
         }
