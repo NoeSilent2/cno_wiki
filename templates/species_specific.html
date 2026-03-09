@@ -233,7 +233,6 @@
                 const texture = await modelViewerTexture1.createTexture('/static/textures/bunger_shiny.png');
                 texture.sampler.setMagFilter('nearest');
                 texture.sampler.setMinFilter('nearest');
-                texture.sampler.setWrapMode('clamp-to-edge', 'clamp-to-edge');
                 await material.pbrMetallicRoughness.baseColorTexture.setTexture(texture);
                 isShiny = true;
             }
