@@ -31,10 +31,9 @@
                 "speed": "76 - 196"
             }
         },
-        "abilities": [
-            "Overgrow",
-            "Bulletproof (Hidden)"
-        ],
+        "ability_primary": "Overgrow",
+        "ability_secondary": null,
+        "ability_hidden": "Bulletproof",
         "height": 0.4,
         "weight": 9.0,
         "catch_rate": "45 (11.9%)",
@@ -113,10 +112,9 @@
                 "speed": "94 - 218"
             }
         },
-        "abilities": [
-            "Overgrow",
-            "Bulletproof (Hidden)"
-        ],
+        "ability_primary": "Overgrow",
+        "ability_secondary": null,
+        "ability_hidden": "Bulletproof",
         "height": 0.8,
         "weight": 26.5,
         "catch_rate": "45 (11.9%)",
@@ -208,10 +206,9 @@
                 "speed": "112 - 240"
             }
         },
-        "abilities": [
-            "Overgrow",
-            "Bulletproof (Hidden)"
-        ],
+        "ability_primary": "Overgrow",
+        "ability_secondary": null,
+        "ability_hidden": "Bulletproof",
         "height": 1.7,
         "weight": 98.0,
         "catch_rate": "45 (11.9%)",
@@ -324,10 +321,9 @@
                 "speed": "112 - 240"
             }
         },
-        "abilities": [
-            "Blaze",
-            "Magicguard (Hidden)"
-        ],
+        "ability_primary": "Blaze",
+        "ability_secondary": null,
+        "ability_hidden": "Magicguard",
         "height": 0.4,
         "weight": 6.5,
         "catch_rate": "45 (11.9%)",
@@ -408,10 +404,9 @@
                 "speed": "40 - 152"
             }
         },
-        "abilities": [
-            "Sweetdreams",
-            "Sweetdreams (Hidden)"
-        ],
+        "ability_primary": "Sweetdreams",
+        "ability_secondary": null,
+        "ability_hidden": "Sweetdreams",
         "height": 13,
         "weight": 1,
         "catch_rate": "190 (35.2%)",
@@ -547,10 +542,9 @@
                 "speed": "85 - 207"
             }
         },
-        "abilities": [
-            "Sweetdreams",
-            "Sweetdreams (Hidden)"
-        ],
+        "ability_primary": "Sweetdreams",
+        "ability_secondary": null,
+        "ability_hidden": "Sweetdreams",
         "height": 15,
         "weight": 12,
         "catch_rate": "65 (15.7%)",
@@ -693,10 +687,9 @@
                 "speed": "148 - 284"
             }
         },
-        "abilities": [
-            "Blaze",
-            "Magicguard (Hidden)"
-        ],
+        "ability_primary": "Blaze",
+        "ability_secondary": null,
+        "ability_hidden": "Magicguard",
         "height": 0.7,
         "weight": 18.5,
         "catch_rate": "45 (11.9%)",
@@ -795,10 +788,9 @@
                 "speed": "85 - 207"
             }
         },
-        "abilities": [
-            "Baddreams",
-            "Baddreams (Hidden)"
-        ],
+        "ability_primary": "Baddreams",
+        "ability_secondary": null,
+        "ability_hidden": "Baddreams",
         "height": 15,
         "weight": 12,
         "catch_rate": "65 (15.7%)",
@@ -945,10 +937,9 @@
                 "speed": "175 - 317"
             }
         },
-        "abilities": [
-            "Blaze",
-            "Magicguard (Hidden)"
-        ],
+        "ability_primary": "Blaze",
+        "ability_secondary": null,
+        "ability_hidden": "Magicguard",
         "height": 1.2,
         "weight": 32.5,
         "catch_rate": "45 (11.9%)",
@@ -1072,10 +1063,9 @@
                 "speed": "94 - 218"
             }
         },
-        "abilities": [
-            "Torrent",
-            "Ironfist (Hidden)"
-        ],
+        "ability_primary": "Torrent",
+        "ability_secondary": null,
+        "ability_hidden": "Ironfist",
         "height": 0.5,
         "weight": 9.0,
         "catch_rate": "45 (11.9%)",
@@ -1155,10 +1145,9 @@
                 "speed": "121 - 251"
             }
         },
-        "abilities": [
-            "Torrent",
-            "Ironfist (Hidden)"
-        ],
+        "ability_primary": "Torrent",
+        "ability_secondary": null,
+        "ability_hidden": "Ironfist",
         "height": 0.9,
         "weight": 21.5,
         "catch_rate": "45 (11.9%)",
@@ -1253,10 +1242,9 @@
                 "speed": "157 - 295"
             }
         },
-        "abilities": [
-            "Torrent",
-            "Ironfist (Hidden)"
-        ],
+        "ability_primary": "Torrent",
+        "ability_secondary": null,
+        "ability_hidden": "Ironfist",
         "height": 1.5,
         "weight": 85.0,
         "catch_rate": "45 (11.9%)",
@@ -1377,11 +1365,9 @@
                 "speed": "148 - 284"
             }
         },
-        "abilities": [
-            "Flashfire",
-            "Whitesmoke",
-            "Neutralizinggas (Hidden)"
-        ],
+        "ability_primary": "Flashfire",
+        "ability_secondary": "Whitesmoke",
+        "ability_hidden": "Neutralizinggas",
         "height": 3,
         "weight": 30,
         "catch_rate": "240 (41.9%)",
@@ -1471,11 +1457,9 @@
                 "speed": "166 - 306"
             }
         },
-        "abilities": [
-            "Flashfire",
-            "Whitesmoke",
-            "Neutralizinggas (Hidden)"
-        ],
+        "ability_primary": "Flashfire",
+        "ability_secondary": "Whitesmoke",
+        "ability_hidden": "Neutralizinggas",
         "height": 14,
         "weight": 700,
         "catch_rate": "90 (20.1%)",
@@ -1586,11 +1570,9 @@
                 "speed": "157 - 295"
             }
         },
-        "abilities": [
-            "Magnetpull",
-            "Levetric",
-            "Motordrive (Hidden)"
-        ],
+        "ability_primary": "Magnetpull",
+        "ability_secondary": "Levetric",
+        "ability_hidden": "Motordrive",
         "height": 5,
         "weight": 20,
         "catch_rate": "230 (40.6%)",
@@ -1695,11 +1677,9 @@
                 "speed": "94 - 218"
             }
         },
-        "abilities": [
-            "Magnetpull",
-            "Analytic",
-            "Costar (Hidden)"
-        ],
+        "ability_primary": "Magnetpull",
+        "ability_secondary": "Analytic",
+        "ability_hidden": "Costar",
         "height": 11,
         "weight": 2025,
         "catch_rate": "60 (14.8%)",
@@ -1855,11 +1835,9 @@
                 "speed": "220 - 372"
             }
         },
-        "abilities": [
-            "Magnetpull",
-            "Levetric",
-            "Motordrive (Hidden)"
-        ],
+        "ability_primary": "Magnetpull",
+        "ability_secondary": "Levetric",
+        "ability_hidden": "Motordrive",
         "height": 13,
         "weight": 260,
         "catch_rate": "120 (24.9%)",
@@ -1976,11 +1954,9 @@
                 "speed": "112 - 240"
             }
         },
-        "abilities": [
-            "Fluffy",
-            "Bigpecks",
-            "Snowcloak (Hidden)"
-        ],
+        "ability_primary": "Fluffy",
+        "ability_secondary": "Bigpecks",
+        "ability_hidden": "Snowcloak",
         "height": 1,
         "weight": 8,
         "catch_rate": "255 (43.9%)",
@@ -2077,11 +2053,9 @@
                 "speed": "166 - 306"
             }
         },
-        "abilities": [
-            "Fluffy",
-            "Bigpecks",
-            "Snowcloak (Hidden)"
-        ],
+        "ability_primary": "Fluffy",
+        "ability_secondary": "Bigpecks",
+        "ability_hidden": "Snowcloak",
         "height": 3,
         "weight": 26,
         "catch_rate": "90 (20.1%)",
@@ -2185,11 +2159,9 @@
                 "speed": "53 - 168"
             }
         },
-        "abilities": [
-            "Rattled",
-            "Anotherlife",
-            "Limber (Hidden)"
-        ],
+        "ability_primary": "Rattled",
+        "ability_secondary": "Anotherlife",
+        "ability_hidden": "Limber",
         "height": 5,
         "weight": 54,
         "catch_rate": "255 (43.9%)",
@@ -2268,11 +2240,9 @@
                 "speed": "180 - 324"
             }
         },
-        "abilities": [
-            "Rattled",
-            "Anotherlife",
-            "Rockhead (Hidden)"
-        ],
+        "ability_primary": "Rattled",
+        "ability_secondary": "Anotherlife",
+        "ability_hidden": "Rockhead",
         "height": 12,
         "weight": 360,
         "catch_rate": "45 (11.9%)",
@@ -2385,11 +2355,9 @@
                 "speed": "164 - 304"
             }
         },
-        "abilities": [
-            "Shellarmor",
-            "Weakarmor",
-            "Ripen (Hidden)"
-        ],
+        "ability_primary": "Shellarmor",
+        "ability_secondary": "Weakarmor",
+        "ability_hidden": "Ripen",
         "height": 4,
         "weight": 50,
         "catch_rate": "190 (35.2%)",
@@ -2497,11 +2465,9 @@
                 "speed": "49 - 163"
             }
         },
-        "abilities": [
-            "Damp",
-            "Stormdrain",
-            "Magician (Hidden)"
-        ],
+        "ability_primary": "Damp",
+        "ability_secondary": "Stormdrain",
+        "ability_hidden": "Magician",
         "height": 8,
         "weight": 32,
         "catch_rate": "150 (29.5%)",
@@ -2602,11 +2568,9 @@
                 "speed": "40 - 152"
             }
         },
-        "abilities": [
-            "Damp",
-            "Stormdrain",
-            "Magician (Hidden)"
-        ],
+        "ability_primary": "Damp",
+        "ability_secondary": "Stormdrain",
+        "ability_hidden": "Magician",
         "height": 34,
         "weight": 2640,
         "catch_rate": "40 (10.9%)",
@@ -2726,10 +2690,9 @@
                 "speed": "22 - 130"
             }
         },
-        "abilities": [
-            "Arenatrap",
-            "Stickyhold (Hidden)"
-        ],
+        "ability_primary": "Arenatrap",
+        "ability_secondary": null,
+        "ability_hidden": "Stickyhold",
         "height": 3,
         "weight": 450,
         "catch_rate": "190 (35.2%)",
@@ -2825,10 +2788,9 @@
                 "speed": "22 - 130"
             }
         },
-        "abilities": [
-            "Arenatrap",
-            "Stickyhold (Hidden)"
-        ],
+        "ability_primary": "Arenatrap",
+        "ability_secondary": null,
+        "ability_hidden": "Stickyhold",
         "height": 11,
         "weight": 2500,
         "catch_rate": "75 (17.5%)",
@@ -2955,11 +2917,9 @@
                 "speed": "229 - 383"
             }
         },
-        "abilities": [
-            "Pickup",
-            "Symbiosis",
-            "Dancer (Hidden)"
-        ],
+        "ability_primary": "Pickup",
+        "ability_secondary": "Symbiosis",
+        "ability_hidden": "Dancer",
         "height": 2,
         "weight": 9,
         "catch_rate": "45 (11.9%)",
@@ -3093,10 +3053,9 @@
                 "speed": "166 - 306"
             }
         },
-        "abilities": [
-            "Steelworker",
-            "Heatproof (Hidden)"
-        ],
+        "ability_primary": "Steelworker",
+        "ability_secondary": null,
+        "ability_hidden": "Heatproof",
         "height": 15,
         "weight": 1200,
         "catch_rate": "35 (9.9%)",
@@ -3207,11 +3166,9 @@
                 "speed": "166 - 306"
             }
         },
-        "abilities": [
-            "Aftermath",
-            "Limber",
-            "Hydration (Hidden)"
-        ],
+        "ability_primary": "Aftermath",
+        "ability_secondary": "Limber",
+        "ability_hidden": "Hydration",
         "height": 6,
         "weight": 106,
         "catch_rate": "160 (30.9%)",
@@ -3304,10 +3261,9 @@
                 "speed": "139 - 273"
             }
         },
-        "abilities": [
-            "Levitate",
-            "Grassysurge (Hidden)"
-        ],
+        "ability_primary": "Levitate",
+        "ability_secondary": null,
+        "ability_hidden": "Grassysurge",
         "height": 10,
         "weight": 350,
         "catch_rate": "30 (8.8%)",
@@ -3458,11 +3414,9 @@
                 "speed": "139 - 273"
             }
         },
-        "abilities": [
-            "Aftermath",
-            "Unburden",
-            "Hydration (Hidden)"
-        ],
+        "ability_primary": "Aftermath",
+        "ability_secondary": "Unburden",
+        "ability_hidden": "Hydration",
         "height": 11,
         "weight": 132,
         "catch_rate": "80 (18.4%)",
@@ -3579,11 +3533,9 @@
                 "speed": "139 - 273"
             }
         },
-        "abilities": [
-            "Sturdy",
-            "Anticipation",
-            "Quickfeet (Hidden)"
-        ],
+        "ability_primary": "Sturdy",
+        "ability_secondary": "Anticipation",
+        "ability_hidden": "Quickfeet",
         "height": 6,
         "weight": 561,
         "catch_rate": "165 (31.6%)",
@@ -3664,11 +3616,9 @@
                 "speed": "209 - 359"
             }
         },
-        "abilities": [
-            "Perishbody",
-            "Effectspore",
-            "Adaptability (Hidden)"
-        ],
+        "ability_primary": "Perishbody",
+        "ability_secondary": "Effectspore",
+        "ability_hidden": "Adaptability",
         "height": 1,
         "weight": 9,
         "catch_rate": "45 (11.9%)",
@@ -3804,11 +3754,9 @@
                 "speed": "94 - 218"
             }
         },
-        "abilities": [
-            "Sturdy",
-            "Grasspelt",
-            "Solidrock (Hidden)"
-        ],
+        "ability_primary": "Sturdy",
+        "ability_secondary": "Grasspelt",
+        "ability_hidden": "Solidrock",
         "height": 41,
         "weight": 3075,
         "catch_rate": "55 (13.9%)",
@@ -3923,10 +3871,9 @@
                 "speed": "58 - 174"
             }
         },
-        "abilities": [
-            "Comatose",
-            "Restful (Hidden)"
-        ],
+        "ability_primary": "Comatose",
+        "ability_secondary": null,
+        "ability_hidden": "Restful",
         "height": 10,
         "weight": 100,
         "catch_rate": "75 (17.5%)",
@@ -4046,10 +3993,9 @@
                 "speed": "117 - 247"
             }
         },
-        "abilities": [
-            "Strongjaw",
-            "Shadowtag (Hidden)"
-        ],
+        "ability_primary": "Strongjaw",
+        "ability_secondary": null,
+        "ability_hidden": "Shadowtag",
         "height": 6,
         "weight": 312,
         "catch_rate": "120 (24.9%)",
@@ -4152,10 +4098,9 @@
                 "speed": "195 - 342"
             }
         },
-        "abilities": [
-            "Strongjaw",
-            "Startle (Hidden)"
-        ],
+        "ability_primary": "Strongjaw",
+        "ability_secondary": null,
+        "ability_hidden": "Startle",
         "height": 14,
         "weight": 894,
         "catch_rate": "60 (14.8%)",
@@ -4262,10 +4207,9 @@
                 "speed": "152 - 289"
             }
         },
-        "abilities": [
-            "Sandstream",
-            "Levitate (Hidden)"
-        ],
+        "ability_primary": "Sandstream",
+        "ability_secondary": null,
+        "ability_hidden": "Levitate",
         "height": 6,
         "weight": 3,
         "catch_rate": "135 (27.2%)",
@@ -4352,10 +4296,9 @@
                 "speed": "188 - 333"
             }
         },
-        "abilities": [
-            "Sandstream",
-            "Windrider (Hidden)"
-        ],
+        "ability_primary": "Sandstream",
+        "ability_secondary": null,
+        "ability_hidden": "Windrider",
         "height": 30,
         "weight": 600,
         "catch_rate": "95 (20.9%)",
@@ -4465,11 +4408,9 @@
                 "speed": "130 - 262"
             }
         },
-        "abilities": [
-            "Emergencyexit",
-            "Swarm",
-            "Hivemind (Hidden)"
-        ],
+        "ability_primary": "Emergencyexit",
+        "ability_secondary": "Swarm",
+        "ability_hidden": "Hivemind",
         "height": 20,
         "weight": 1080,
         "catch_rate": "45 (11.9%)",
@@ -4630,11 +4571,9 @@
                 "speed": "94 - 218"
             }
         },
-        "abilities": [
-            "Hugepower",
-            "Psychout",
-            "Tanglinghair (Hidden)"
-        ],
+        "ability_primary": "Hugepower",
+        "ability_secondary": "Psychout",
+        "ability_hidden": "Tanglinghair",
         "height": 2,
         "weight": 2,
         "catch_rate": "45 (11.9%)",
@@ -4749,10 +4688,9 @@
                 "speed": "103 - 229"
             }
         },
-        "abilities": [
-            "Moldbreaker",
-            "Angerpoint (Hidden)"
-        ],
+        "ability_primary": "Moldbreaker",
+        "ability_secondary": null,
+        "ability_hidden": "Angerpoint",
         "height": 20,
         "weight": 2810,
         "catch_rate": "10 (3.9%)",
@@ -4859,10 +4797,9 @@
                 "speed": "116 - 245"
             }
         },
-        "abilities": [
-            "Sapsipper",
-            "Gooey (Hidden)"
-        ],
+        "ability_primary": "Sapsipper",
+        "ability_secondary": null,
+        "ability_hidden": "Gooey",
         "height": 25,
         "weight": 980,
         "catch_rate": "45 (11.9%)",
@@ -4971,11 +4908,9 @@
                 "speed": "85 - 207"
             }
         },
-        "abilities": [
-            "Electricsurge",
-            "Poisontouch",
-            "Owntempo (Hidden)"
-        ],
+        "ability_primary": "Electricsurge",
+        "ability_secondary": "Poisontouch",
+        "ability_hidden": "Owntempo",
         "height": 4,
         "weight": 0.5,
         "catch_rate": "190 (35.2%)",
@@ -5059,11 +4994,9 @@
                 "speed": "72 - 192"
             }
         },
-        "abilities": [
-            "Electricsurge",
-            "Poisontouch",
-            "Toughclaws (Hidden)"
-        ],
+        "ability_primary": "Electricsurge",
+        "ability_secondary": "Poisontouch",
+        "ability_hidden": "Toughclaws",
         "height": 18,
         "weight": 120,
         "catch_rate": "75 (17.5%)",
@@ -5182,11 +5115,9 @@
                 "speed": "40 - 152"
             }
         },
-        "abilities": [
-            "Electricsurge",
-            "Lightningrod",
-            "Regenerator (Hidden)"
-        ],
+        "ability_primary": "Electricsurge",
+        "ability_secondary": "Lightningrod",
+        "ability_hidden": "Regenerator",
         "height": 3,
         "weight": 15,
         "catch_rate": "60 (14.8%)",
@@ -5309,11 +5240,9 @@
                 "speed": "98 - 223"
             }
         },
-        "abilities": [
-            "Levitate",
-            "Magicguard",
-            "Magmaarmor (Hidden)"
-        ],
+        "ability_primary": "Levitate",
+        "ability_secondary": "Magicguard",
+        "ability_hidden": "Magmaarmor",
         "height": 2,
         "weight": 100,
         "catch_rate": "255 (43.9%)",
@@ -5441,11 +5370,9 @@
                 "speed": "170 - 311"
             }
         },
-        "abilities": [
-            "Levitate",
-            "Magicguard",
-            "Magmaarmor (Hidden)"
-        ],
+        "ability_primary": "Levitate",
+        "ability_secondary": "Magicguard",
+        "ability_hidden": "Magmaarmor",
         "height": 14,
         "weight": 1000,
         "catch_rate": "90 (20.1%)",
@@ -5598,11 +5525,9 @@
                 "speed": "166 - 306"
             }
         },
-        "abilities": [
-            "Trace",
-            "Pickpocket",
-            "Prankster (Hidden)"
-        ],
+        "ability_primary": "Trace",
+        "ability_secondary": "Pickpocket",
+        "ability_hidden": "Prankster",
         "height": 12,
         "weight": 180,
         "catch_rate": "60 (14.8%)",
@@ -5712,11 +5637,9 @@
                 "speed": "121 - 251"
             }
         },
-        "abilities": [
-            "Supremeoverlord",
-            "Pressure",
-            "Stall (Hidden)"
-        ],
+        "ability_primary": "Supremeoverlord",
+        "ability_secondary": "Pressure",
+        "ability_hidden": "Stall",
         "height": 88,
         "weight": 2200,
         "catch_rate": "15 (5.2%)",
@@ -5836,11 +5759,9 @@
                 "speed": "184 - 328"
             }
         },
-        "abilities": [
-            "Toughclaws",
-            "Sturdy",
-            "Sandstream (Hidden)"
-        ],
+        "ability_primary": "Toughclaws",
+        "ability_secondary": "Sturdy",
+        "ability_hidden": "Sandstream",
         "height": 6,
         "weight": 100,
         "catch_rate": "45 (11.9%)",
@@ -5935,10 +5856,9 @@
                 "speed": "148 - 284"
             }
         },
-        "abilities": [
-            "Adaptability",
-            "Normalmastery (Hidden)"
-        ],
+        "ability_primary": "Adaptability",
+        "ability_secondary": null,
+        "ability_hidden": "Normalmastery",
         "height": 3,
         "weight": 8,
         "catch_rate": "45 (11.9%)",
@@ -6224,11 +6144,9 @@
                 "speed": "202 - 350"
             }
         },
-        "abilities": [
-            "Toughclaws",
-            "Sturdy",
-            "Sandstream (Hidden)"
-        ],
+        "ability_primary": "Toughclaws",
+        "ability_secondary": "Sturdy",
+        "ability_hidden": "Sandstream",
         "height": 10,
         "weight": 100,
         "catch_rate": "45 (11.9%)",
@@ -6342,10 +6260,9 @@
                 "speed": "94 - 218"
             }
         },
-        "abilities": [
-            "Neuroforce",
-            "Telepathy (Hidden)"
-        ],
+        "ability_primary": "Neuroforce",
+        "ability_secondary": null,
+        "ability_hidden": "Telepathy",
         "height": 12,
         "weight": 450,
         "catch_rate": "45 (11.9%)",
@@ -6449,11 +6366,9 @@
                 "speed": "49 - 163"
             }
         },
-        "abilities": [
-            "Neuroforce",
-            "Stupefy",
-            "Telepathy (Hidden)"
-        ],
+        "ability_primary": "Neuroforce",
+        "ability_secondary": "Stupefy",
+        "ability_hidden": "Telepathy",
         "height": 30,
         "weight": 960,
         "catch_rate": "45 (11.9%)",
@@ -6575,11 +6490,9 @@
                 "speed": "76 - 196"
             }
         },
-        "abilities": [
-            "Serenegrace",
-            "Superluck",
-            "Unaware (Hidden)"
-        ],
+        "ability_primary": "Serenegrace",
+        "ability_secondary": "Superluck",
+        "ability_hidden": "Unaware",
         "height": 3,
         "weight": 70,
         "catch_rate": "75 (17.5%)",
@@ -6677,11 +6590,9 @@
                 "speed": "184 - 328"
             }
         },
-        "abilities": [
-            "Serenegrace",
-            "Mistysurge",
-            "Unaware (Hidden)"
-        ],
+        "ability_primary": "Serenegrace",
+        "ability_secondary": "Mistysurge",
+        "ability_hidden": "Unaware",
         "height": 11,
         "weight": 312,
         "catch_rate": "25 (7.7%)",
@@ -6795,11 +6706,9 @@
                 "speed": "161 - 300"
             }
         },
-        "abilities": [
-            "Intimidate",
-            "Chlorophyll",
-            "Dancer (Hidden)"
-        ],
+        "ability_primary": "Intimidate",
+        "ability_secondary": "Chlorophyll",
+        "ability_hidden": "Dancer",
         "height": 11,
         "weight": 455,
         "catch_rate": "75 (17.5%)",
@@ -6926,10 +6835,9 @@
                 "speed": "139 - 273"
             }
         },
-        "abilities": [
-            "Drizzle",
-            "Adaptability (Hidden)"
-        ],
+        "ability_primary": "Drizzle",
+        "ability_secondary": null,
+        "ability_hidden": "Adaptability",
         "height": 15,
         "weight": 810,
         "catch_rate": "45 (11.9%)",
@@ -7033,9 +6941,9 @@
                 "speed": "224 - 377"
             }
         },
-        "abilities": [
-            "Contrary"
-        ],
+        "ability_primary": "Contrary",
+        "ability_secondary": null,
+        "ability_hidden": null,
         "height": 1,
         "weight": 1,
         "catch_rate": "30 (8.8%)",
@@ -7109,10 +7017,9 @@
                 "speed": "184 - 328"
             }
         },
-        "abilities": [
-            "Sharpness",
-            "Hugepower (Hidden)"
-        ],
+        "ability_primary": "Sharpness",
+        "ability_secondary": null,
+        "ability_hidden": "Hugepower",
         "height": 3,
         "weight": 200,
         "catch_rate": "90 (20.1%)",
@@ -7192,10 +7099,9 @@
                 "speed": "148 - 284"
             }
         },
-        "abilities": [
-            "Sharpness",
-            "Sturdy (Hidden)"
-        ],
+        "ability_primary": "Sharpness",
+        "ability_secondary": null,
+        "ability_hidden": "Sturdy",
         "height": 11,
         "weight": 1200,
         "catch_rate": "65 (15.7%)",
@@ -7275,10 +7181,9 @@
                 "speed": "85 - 207"
             }
         },
-        "abilities": [
-            "Mirrorarmor",
-            "Levitate (Hidden)"
-        ],
+        "ability_primary": "Mirrorarmor",
+        "ability_secondary": null,
+        "ability_hidden": "Levitate",
         "height": 1,
         "weight": 2,
         "catch_rate": "101 (21.9%)",
@@ -7383,10 +7288,9 @@
                 "speed": "76 - 196"
             }
         },
-        "abilities": [
-            "Mirrorarmor",
-            "Magicguard (Hidden)"
-        ],
+        "ability_primary": "Mirrorarmor",
+        "ability_secondary": null,
+        "ability_hidden": "Magicguard",
         "height": 17,
         "weight": 765,
         "catch_rate": "80 (18.4%)",
@@ -7528,11 +7432,9 @@
                 "speed": "157 - 295"
             }
         },
-        "abilities": [
-            "Grassysurge",
-            "Mistysurge",
-            "Healer (Hidden)"
-        ],
+        "ability_primary": "Grassysurge",
+        "ability_secondary": "Mistysurge",
+        "ability_hidden": "Healer",
         "height": 4,
         "weight": 75,
         "catch_rate": "150 (29.5%)",
@@ -7601,11 +7503,9 @@
                 "speed": "40 - 152"
             }
         },
-        "abilities": [
-            "Grassysurge",
-            "Mistysurge",
-            "Healer (Hidden)"
-        ],
+        "ability_primary": "Grassysurge",
+        "ability_secondary": "Mistysurge",
+        "ability_hidden": "Healer",
         "height": 15,
         "weight": 800,
         "catch_rate": "80 (18.4%)",
@@ -7676,11 +7576,9 @@
                 "speed": "94 - 218"
             }
         },
-        "abilities": [
-            "Supersweetsyrup",
-            "Cursedbody",
-            "Snowwarning (Hidden)"
-        ],
+        "ability_primary": "Supersweetsyrup",
+        "ability_secondary": "Cursedbody",
+        "ability_hidden": "Snowwarning",
         "height": 1,
         "weight": 1,
         "catch_rate": "150 (29.5%)",
@@ -7740,11 +7638,9 @@
                 "speed": "195 - 342"
             }
         },
-        "abilities": [
-            "Supersweetsyrup",
-            "Cursedbody",
-            "Snowwarning (Hidden)"
-        ],
+        "ability_primary": "Supersweetsyrup",
+        "ability_secondary": "Cursedbody",
+        "ability_hidden": "Snowwarning",
         "height": 1,
         "weight": 1,
         "catch_rate": "150 (29.5%)",
@@ -7808,11 +7704,9 @@
                 "speed": "76 - 196"
             }
         },
-        "abilities": [
-            "Overcoat",
-            "Zoomy",
-            "Waterabsorb (Hidden)"
-        ],
+        "ability_primary": "Overcoat",
+        "ability_secondary": "Zoomy",
+        "ability_hidden": "Waterabsorb",
         "height": 12,
         "weight": 300,
         "catch_rate": "190 (35.2%)",
@@ -7910,10 +7804,9 @@
                 "speed": "148 - 284"
             }
         },
-        "abilities": [
-            "Overcoat",
-            "Waterabsorb (Hidden)"
-        ],
+        "ability_primary": "Overcoat",
+        "ability_secondary": null,
+        "ability_hidden": "Waterabsorb",
         "height": 20,
         "weight": 1100,
         "catch_rate": "75 (17.5%)",
@@ -8011,11 +7904,9 @@
                 "speed": "144 - 280"
             }
         },
-        "abilities": [
-            "Clearbody",
-            "Sturdy",
-            "Psychicsurge (Hidden)"
-        ],
+        "ability_primary": "Clearbody",
+        "ability_secondary": "Sturdy",
+        "ability_hidden": "Psychicsurge",
         "height": 7,
         "weight": 88,
         "catch_rate": "30 (8.8%)",
@@ -8164,11 +8055,9 @@
                 "speed": "112 - 240"
             }
         },
-        "abilities": [
-            "Grassysurge",
-            "Sturdy",
-            "Superluck (Hidden)"
-        ],
+        "ability_primary": "Grassysurge",
+        "ability_secondary": "Sturdy",
+        "ability_hidden": "Superluck",
         "height": 7,
         "weight": 88,
         "catch_rate": "30 (8.8%)",
@@ -8318,11 +8207,9 @@
                 "speed": "166 - 306"
             }
         },
-        "abilities": [
-            "Soundproof",
-            "Sturdy",
-            "Weakarmor (Hidden)"
-        ],
+        "ability_primary": "Soundproof",
+        "ability_secondary": "Sturdy",
+        "ability_hidden": "Weakarmor",
         "height": 7,
         "weight": 88,
         "catch_rate": "30 (8.8%)",
@@ -8482,11 +8369,9 @@
                 "speed": "274 - 438"
             }
         },
-        "abilities": [
-            "Clearbody",
-            "Sturdy",
-            "Sharpness (Hidden)"
-        ],
+        "ability_primary": "Clearbody",
+        "ability_secondary": "Sturdy",
+        "ability_hidden": "Sharpness",
         "height": 7,
         "weight": 68,
         "catch_rate": "30 (8.8%)",
@@ -8637,11 +8522,9 @@
                 "speed": "146 - 282"
             }
         },
-        "abilities": [
-            "Magician",
-            "Mistysurge",
-            "Costar (Hidden)"
-        ],
+        "ability_primary": "Magician",
+        "ability_secondary": "Mistysurge",
+        "ability_hidden": "Costar",
         "height": 6,
         "weight": 48,
         "catch_rate": "120 (24.9%)",
@@ -8764,11 +8647,9 @@
                 "speed": "182 - 326"
             }
         },
-        "abilities": [
-            "Magician",
-            "Mistysurge",
-            "Costar (Hidden)"
-        ],
+        "ability_primary": "Magician",
+        "ability_secondary": "Mistysurge",
+        "ability_hidden": "Costar",
         "height": 21,
         "weight": 51,
         "catch_rate": "45 (11.9%)",
@@ -8905,11 +8786,9 @@
                 "speed": "94 - 218"
             }
         },
-        "abilities": [
-            "Serenegrace",
-            "Recluse",
-            "Aftermath (Hidden)"
-        ],
+        "ability_primary": "Serenegrace",
+        "ability_secondary": "Recluse",
+        "ability_hidden": "Aftermath",
         "height": 11,
         "weight": 153,
         "catch_rate": "75 (17.5%)",
@@ -9055,11 +8934,9 @@
                 "speed": "67 - 185"
             }
         },
-        "abilities": [
-            "Swiftswim",
-            "Paperthin",
-            "Windrider (Hidden)"
-        ],
+        "ability_primary": "Swiftswim",
+        "ability_secondary": "Paperthin",
+        "ability_hidden": "Windrider",
         "height": 5,
         "weight": 10,
         "catch_rate": "225 (39.9%)",
@@ -9195,11 +9072,9 @@
                 "speed": "193 - 339"
             }
         },
-        "abilities": [
-            "Swiftswim",
-            "Paperthin",
-            "Windrider (Hidden)"
-        ],
+        "ability_primary": "Swiftswim",
+        "ability_secondary": "Paperthin",
+        "ability_hidden": "Windrider",
         "height": 10,
         "weight": 15,
         "catch_rate": "75 (17.5%)",
@@ -9356,11 +9231,9 @@
                 "speed": "40 - 152"
             }
         },
-        "abilities": [
-            "Sandspit",
-            "Hotsand",
-            "Sandstream (Hidden)"
-        ],
+        "ability_primary": "Sandspit",
+        "ability_secondary": "Hotsand",
+        "ability_hidden": "Sandstream",
         "height": 7,
         "weight": 350,
         "catch_rate": "190 (35.2%)",
@@ -9485,11 +9358,9 @@
                 "speed": "58 - 174"
             }
         },
-        "abilities": [
-            "Sandspit",
-            "Hotsand",
-            "Sandstream (Hidden)"
-        ],
+        "ability_primary": "Sandspit",
+        "ability_secondary": "Hotsand",
+        "ability_hidden": "Sandstream",
         "height": 8,
         "weight": 550,
         "catch_rate": "75 (17.5%)",
@@ -9627,11 +9498,9 @@
                 "speed": "132 - 265"
             }
         },
-        "abilities": [
-            "Drought",
-            "Bombard",
-            "Reckless (Hidden)"
-        ],
+        "ability_primary": "Drought",
+        "ability_secondary": "Bombard",
+        "ability_hidden": "Reckless",
         "height": 4,
         "weight": 50,
         "catch_rate": "120 (24.9%)",
@@ -9768,11 +9637,9 @@
                 "speed": "191 - 337"
             }
         },
-        "abilities": [
-            "Drought",
-            "Bombard",
-            "Reckless (Hidden)"
-        ],
+        "ability_primary": "Drought",
+        "ability_secondary": "Bombard",
+        "ability_hidden": "Reckless",
         "height": 9,
         "weight": 125,
         "catch_rate": "60 (14.8%)",
@@ -9917,11 +9784,9 @@
                 "speed": "76 - 196"
             }
         },
-        "abilities": [
-            "Magnetpull",
-            "Analytic",
-            "Costar (Hidden)"
-        ],
+        "ability_primary": "Magnetpull",
+        "ability_secondary": "Analytic",
+        "ability_hidden": "Costar",
         "height": 8,
         "weight": 952,
         "catch_rate": "225 (39.9%)",
@@ -10051,10 +9916,9 @@
                 "speed": "157 - 295"
             }
         },
-        "abilities": [
-            "Fury",
-            "Megalauncher (Hidden)"
-        ],
+        "ability_primary": "Fury",
+        "ability_secondary": null,
+        "ability_hidden": "Megalauncher",
         "height": 16,
         "weight": 455,
         "catch_rate": "35 (9.9%)",
@@ -10188,11 +10052,9 @@
                 "speed": "103 - 229"
             }
         },
-        "abilities": [
-            "Windrider",
-            "Technician",
-            "Aerilate (Hidden)"
-        ],
+        "ability_primary": "Windrider",
+        "ability_secondary": "Technician",
+        "ability_hidden": "Aerilate",
         "height": 6,
         "weight": 105,
         "catch_rate": "90 (20.1%)",
@@ -10295,11 +10157,9 @@
                 "speed": "103 - 229"
             }
         },
-        "abilities": [
-            "Windrider",
-            "Technician",
-            "Aerilate (Hidden)"
-        ],
+        "ability_primary": "Windrider",
+        "ability_secondary": "Technician",
+        "ability_hidden": "Aerilate",
         "height": 15,
         "weight": 9999,
         "catch_rate": "25 (7.7%)",
@@ -10450,11 +10310,9 @@
                 "speed": "175 - 317"
             }
         },
-        "abilities": [
-            "Windcharge",
-            "Lightningrod",
-            "Aerilate (Hidden)"
-        ],
+        "ability_primary": "Windcharge",
+        "ability_secondary": "Lightningrod",
+        "ability_hidden": "Aerilate",
         "height": 16,
         "weight": 620,
         "catch_rate": "25 (7.7%)",
@@ -10602,11 +10460,9 @@
                 "speed": "256 - 416"
             }
         },
-        "abilities": [
-            "Windrider",
-            "Windcharge",
-            "Aerilate (Hidden)"
-        ],
+        "ability_primary": "Windrider",
+        "ability_secondary": "Windcharge",
+        "ability_hidden": "Aerilate",
         "height": 3,
         "weight": 1,
         "catch_rate": "255 (43.9%)",
@@ -10734,11 +10590,9 @@
                 "speed": "31 - 141"
             }
         },
-        "abilities": [
-            "Icebody",
-            "Snowcloak",
-            "Snowwarning (Hidden)"
-        ],
+        "ability_primary": "Icebody",
+        "ability_secondary": "Snowcloak",
+        "ability_hidden": "Snowwarning",
         "height": 5,
         "weight": 700,
         "catch_rate": "140 (28.0%)",
@@ -10866,11 +10720,9 @@
                 "speed": "67 - 185"
             }
         },
-        "abilities": [
-            "Icebody",
-            "Snowcloak",
-            "Snowwarning (Hidden)"
-        ],
+        "ability_primary": "Icebody",
+        "ability_secondary": "Snowcloak",
+        "ability_hidden": "Snowwarning",
         "height": 13,
         "weight": 2500,
         "catch_rate": "60 (14.8%)",
@@ -11005,11 +10857,9 @@
                 "speed": "40 - 152"
             }
         },
-        "abilities": [
-            "Harvest",
-            "Leafguard",
-            "Dragonsmaw (Hidden)"
-        ],
+        "ability_primary": "Harvest",
+        "ability_secondary": "Leafguard",
+        "ability_hidden": "Dragonsmaw",
         "height": 2,
         "weight": 5,
         "catch_rate": "255 (43.9%)",
@@ -11080,11 +10930,9 @@
                 "speed": "94 - 218"
             }
         },
-        "abilities": [
-            "Harvest",
-            "Flowerveil",
-            "Dragonsmaw (Hidden)"
-        ],
+        "ability_primary": "Harvest",
+        "ability_secondary": "Flowerveil",
+        "ability_hidden": "Dragonsmaw",
         "height": 2,
         "weight": 5,
         "catch_rate": "45 (11.9%)",
@@ -11227,11 +11075,9 @@
                 "speed": "76 - 196"
             }
         },
-        "abilities": [
-            "Harvest",
-            "Raindish",
-            "Dragonsmaw (Hidden)"
-        ],
+        "ability_primary": "Harvest",
+        "ability_secondary": "Raindish",
+        "ability_hidden": "Dragonsmaw",
         "height": 2,
         "weight": 5,
         "catch_rate": "45 (11.9%)",
@@ -11371,11 +11217,9 @@
                 "speed": "184 - 328"
             }
         },
-        "abilities": [
-            "Harvest",
-            "Flowerveil",
-            "Dragonsmaw (Hidden)"
-        ],
+        "ability_primary": "Harvest",
+        "ability_secondary": "Flowerveil",
+        "ability_hidden": "Dragonsmaw",
         "height": 2,
         "weight": 5,
         "catch_rate": "10 (3.9%)",
@@ -11531,11 +11375,9 @@
                 "speed": "76 - 196"
             }
         },
-        "abilities": [
-            "Harvest",
-            "Raindish",
-            "Dragonsmaw (Hidden)"
-        ],
+        "ability_primary": "Harvest",
+        "ability_secondary": "Raindish",
+        "ability_hidden": "Dragonsmaw",
         "height": 4,
         "weight": 1260,
         "catch_rate": "10 (3.9%)",
@@ -11697,11 +11539,9 @@
                 "speed": "94 - 218"
             }
         },
-        "abilities": [
-            "Eartheater",
-            "Stakeout",
-            "Mirrorarmor (Hidden)"
-        ],
+        "ability_primary": "Eartheater",
+        "ability_secondary": "Stakeout",
+        "ability_hidden": "Mirrorarmor",
         "height": 7,
         "weight": 10,
         "catch_rate": "190 (35.2%)",
@@ -11812,11 +11652,9 @@
                 "speed": "166 - 306"
             }
         },
-        "abilities": [
-            "Eartheater",
-            "Stakeout",
-            "Mirrorarmor (Hidden)"
-        ],
+        "ability_primary": "Eartheater",
+        "ability_secondary": "Stakeout",
+        "ability_hidden": "Mirrorarmor",
         "height": 30,
         "weight": 1200,
         "catch_rate": "75 (17.5%)",
@@ -11931,11 +11769,9 @@
                 "speed": "112 - 240"
             }
         },
-        "abilities": [
-            "Voltabsorb",
-            "Download",
-            "Levitate (Hidden)"
-        ],
+        "ability_primary": "Voltabsorb",
+        "ability_secondary": "Download",
+        "ability_hidden": "Levitate",
         "height": 8,
         "weight": 365,
         "catch_rate": "45 (11.9%)",
@@ -12057,11 +11893,9 @@
                 "speed": "166 - 306"
             }
         },
-        "abilities": [
-            "Voltabsorb",
-            "Download",
-            "Levitate (Hidden)"
-        ],
+        "ability_primary": "Voltabsorb",
+        "ability_secondary": "Download",
+        "ability_hidden": "Levitate",
         "height": 6,
         "weight": 325,
         "catch_rate": "45 (11.9%)",
@@ -12186,11 +12020,9 @@
                 "speed": "238 - 394"
             }
         },
-        "abilities": [
-            "Motordrive",
-            "Derivative",
-            "Surgesurfer (Hidden)"
-        ],
+        "ability_primary": "Motordrive",
+        "ability_secondary": "Derivative",
+        "ability_hidden": "Surgesurfer",
         "height": 9,
         "weight": 340,
         "catch_rate": "30 (8.8%)",
@@ -12325,10 +12157,9 @@
                 "speed": "54 - 170"
             }
         },
-        "abilities": [
-            "Magicguard",
-            "Prankster (Hidden)"
-        ],
+        "ability_primary": "Magicguard",
+        "ability_secondary": null,
+        "ability_hidden": "Prankster",
         "height": 8,
         "weight": 10,
         "catch_rate": "180 (33.8%)",
@@ -12480,10 +12311,9 @@
                 "speed": "67 - 185"
             }
         },
-        "abilities": [
-            "Magicguard",
-            "Prankster (Hidden)"
-        ],
+        "ability_primary": "Magicguard",
+        "ability_secondary": null,
+        "ability_hidden": "Prankster",
         "height": 8,
         "weight": 20,
         "catch_rate": "90 (20.1%)",
@@ -12635,10 +12465,9 @@
                 "speed": "166 - 306"
             }
         },
-        "abilities": [
-            "Intellectual",
-            "Prankster (Hidden)"
-        ],
+        "ability_primary": "Intellectual",
+        "ability_secondary": null,
+        "ability_hidden": "Prankster",
         "height": 14,
         "weight": 230,
         "catch_rate": "45 (11.9%)",
@@ -12792,10 +12621,9 @@
                 "speed": "22 - 130"
             }
         },
-        "abilities": [
-            "Sweetveil",
-            "Sweetveil (Hidden)"
-        ],
+        "ability_primary": "Sweetveil",
+        "ability_secondary": null,
+        "ability_hidden": "Sweetveil",
         "height": 3,
         "weight": 50,
         "catch_rate": "45 (11.9%)",
@@ -12871,10 +12699,9 @@
                 "speed": "263 - 425"
             }
         },
-        "abilities": [
-            "Wellbakedbody",
-            "Wellbakedbody (Hidden)"
-        ],
+        "ability_primary": "Wellbakedbody",
+        "ability_secondary": null,
+        "ability_hidden": "Wellbakedbody",
         "height": 12,
         "weight": 150,
         "catch_rate": "45 (11.9%)",
@@ -12982,10 +12809,9 @@
                 "speed": "121 - 251"
             }
         },
-        "abilities": [
-            "Soundproof",
-            "Serenegrace (Hidden)"
-        ],
+        "ability_primary": "Soundproof",
+        "ability_secondary": null,
+        "ability_hidden": "Serenegrace",
         "height": 1,
         "weight": 52,
         "catch_rate": "45 (11.9%)",
@@ -13120,10 +12946,9 @@
                 "speed": "175 - 317"
             }
         },
-        "abilities": [
-            "Owntempo",
-            "Costar (Hidden)"
-        ],
+        "ability_primary": "Owntempo",
+        "ability_secondary": null,
+        "ability_hidden": "Costar",
         "height": 1,
         "weight": 56,
         "catch_rate": "45 (11.9%)",
@@ -13258,10 +13083,9 @@
                 "speed": "121 - 251"
             }
         },
-        "abilities": [
-            "Angerpoint",
-            "Rivalry (Hidden)"
-        ],
+        "ability_primary": "Angerpoint",
+        "ability_secondary": null,
+        "ability_hidden": "Rivalry",
         "height": 1,
         "weight": 53,
         "catch_rate": "45 (11.9%)",
@@ -13392,11 +13216,9 @@
                 "speed": "202 - 350"
             }
         },
-        "abilities": [
-            "Prankster",
-            "Insomnia",
-            "Perishbody (Hidden)"
-        ],
+        "ability_primary": "Prankster",
+        "ability_secondary": "Insomnia",
+        "ability_hidden": "Perishbody",
         "height": 11,
         "weight": 300,
         "catch_rate": "45 (11.9%)",
@@ -13492,11 +13314,9 @@
                 "speed": "130 - 262"
             }
         },
-        "abilities": [
-            "Poisonpoint",
-            "Liquidooze",
-            "Corrosion (Hidden)"
-        ],
+        "ability_primary": "Poisonpoint",
+        "ability_secondary": "Liquidooze",
+        "ability_hidden": "Corrosion",
         "height": 11,
         "weight": 300,
         "catch_rate": "45 (11.9%)",
@@ -13593,11 +13413,9 @@
                 "speed": "157 - 295"
             }
         },
-        "abilities": [
-            "Furcoat",
-            "Defiant",
-            "Scrappy (Hidden)"
-        ],
+        "ability_primary": "Furcoat",
+        "ability_secondary": "Defiant",
+        "ability_hidden": "Scrappy",
         "height": 11,
         "weight": 300,
         "catch_rate": "45 (11.9%)",
@@ -13694,11 +13512,9 @@
                 "speed": "202 - 350"
             }
         },
-        "abilities": [
-            "Unburden",
-            "Hustle",
-            "Simple (Hidden)"
-        ],
+        "ability_primary": "Unburden",
+        "ability_secondary": "Hustle",
+        "ability_hidden": "Simple",
         "height": 11,
         "weight": 300,
         "catch_rate": "45 (11.9%)",
@@ -13794,11 +13610,9 @@
                 "speed": "166 - 306"
             }
         },
-        "abilities": [
-            "Sandforce",
-            "Thickskin",
-            "Keeneye (Hidden)"
-        ],
+        "ability_primary": "Sandforce",
+        "ability_secondary": "Thickskin",
+        "ability_hidden": "Keeneye",
         "height": 11,
         "weight": 300,
         "catch_rate": "45 (11.9%)",
@@ -13895,11 +13709,9 @@
                 "speed": "202 - 350"
             }
         },
-        "abilities": [
-            "Compoundeyes",
-            "Swarm",
-            "Pressure (Hidden)"
-        ],
+        "ability_primary": "Compoundeyes",
+        "ability_secondary": "Swarm",
+        "ability_hidden": "Pressure",
         "height": 11,
         "weight": 300,
         "catch_rate": "45 (11.9%)",
@@ -13996,11 +13808,9 @@
                 "speed": "202 - 350"
             }
         },
-        "abilities": [
-            "Battlearmor",
-            "Clearbody",
-            "Analytic (Hidden)"
-        ],
+        "ability_primary": "Battlearmor",
+        "ability_secondary": "Clearbody",
+        "ability_hidden": "Analytic",
         "height": 11,
         "weight": 300,
         "catch_rate": "45 (11.9%)",
@@ -14097,11 +13907,9 @@
                 "speed": "175 - 317"
             }
         },
-        "abilities": [
-            "Rivalry",
-            "Overcoat",
-            "Rockhead (Hidden)"
-        ],
+        "ability_primary": "Rivalry",
+        "ability_secondary": "Overcoat",
+        "ability_hidden": "Rockhead",
         "height": 11,
         "weight": 300,
         "catch_rate": "45 (11.9%)",
@@ -14198,11 +14006,9 @@
                 "speed": "157 - 295"
             }
         },
-        "abilities": [
-            "Arenatrap",
-            "Terrify",
-            "Moldbreaker (Hidden)"
-        ],
+        "ability_primary": "Arenatrap",
+        "ability_secondary": "Terrify",
+        "ability_hidden": "Moldbreaker",
         "height": 11,
         "weight": 300,
         "catch_rate": "45 (11.9%)",
@@ -14297,11 +14103,9 @@
                 "speed": "202 - 350"
             }
         },
-        "abilities": [
-            "Adaptability",
-            "Anticipation",
-            "Normalize (Hidden)"
-        ],
+        "ability_primary": "Adaptability",
+        "ability_secondary": "Anticipation",
+        "ability_hidden": "Normalize",
         "height": 11,
         "weight": 300,
         "catch_rate": "45 (11.9%)",
@@ -14401,11 +14205,9 @@
                 "speed": "170 - 311"
             }
         },
-        "abilities": [
-            "Protean",
-            "Libero",
-            "Purepower (Hidden)"
-        ],
+        "ability_primary": "Protean",
+        "ability_secondary": "Libero",
+        "ability_hidden": "Purepower",
         "height": 11,
         "weight": 300,
         "catch_rate": "45 (11.9%)",
@@ -14812,11 +14614,9 @@
                 "speed": "121 - 251"
             }
         },
-        "abilities": [
-            "Telepathy",
-            "Healpy",
-            "Magicbounce (Hidden)"
-        ],
+        "ability_primary": "Telepathy",
+        "ability_secondary": "Healpy",
+        "ability_hidden": "Magicbounce",
         "height": 0.6,
         "weight": 10.0,
         "catch_rate": "45 (11.9%)",
@@ -14897,11 +14697,9 @@
                 "speed": "157 - 295"
             }
         },
-        "abilities": [
-            "Telepathy",
-            "Healpy",
-            "Magicbounce (Hidden)"
-        ],
+        "ability_primary": "Telepathy",
+        "ability_secondary": "Healpy",
+        "ability_hidden": "Magicbounce",
         "height": 0.8,
         "weight": 19.5,
         "catch_rate": "45 (11.9%)",
@@ -14992,11 +14790,9 @@
                 "speed": "193 - 339"
             }
         },
-        "abilities": [
-            "Telepathy",
-            "Healpy",
-            "Magicbounce (Hidden)"
-        ],
+        "ability_primary": "Telepathy",
+        "ability_secondary": "Healpy",
+        "ability_hidden": "Magicbounce",
         "height": 1.5,
         "weight": 48.0,
         "catch_rate": "3 (1.6%)",
@@ -15105,11 +14901,9 @@
                 "speed": "76 - 196"
             }
         },
-        "abilities": [
-            "Keeneye",
-            "Cloudnine",
-            "Telepathy (Hidden)"
-        ],
+        "ability_primary": "Keeneye",
+        "ability_secondary": "Cloudnine",
+        "ability_hidden": "Telepathy",
         "height": 0.3,
         "weight": 1.8,
         "catch_rate": "190 (35.2%)",
@@ -15196,11 +14990,9 @@
                 "speed": "184 - 328"
             }
         },
-        "abilities": [
-            "Keeneye",
-            "Cloudnine",
-            "Magicguard (Hidden)"
-        ],
+        "ability_primary": "Keeneye",
+        "ability_secondary": "Cloudnine",
+        "ability_hidden": "Magicguard",
         "height": 12,
         "weight": 24.9,
         "catch_rate": "45 (11.9%)",
@@ -15313,10 +15105,9 @@
                 "speed": "94 - 218"
             }
         },
-        "abilities": [
-            "Shrieker",
-            "Shrieker (Hidden)"
-        ],
+        "ability_primary": "Shrieker",
+        "ability_secondary": null,
+        "ability_hidden": "Shrieker",
         "height": 17,
         "weight": 2100,
         "catch_rate": "3 (1.6%)",
@@ -15466,11 +15257,9 @@
                 "speed": "157 - 295"
             }
         },
-        "abilities": [
-            "Eartheater",
-            "Steadfast",
-            "Merciless (Hidden)"
-        ],
+        "ability_primary": "Eartheater",
+        "ability_secondary": "Steadfast",
+        "ability_hidden": "Merciless",
         "height": 5,
         "weight": 408,
         "catch_rate": "43 (11.5%)",

@@ -107,6 +107,29 @@
                     </table>
                 </td>
             </tr>
+            <tr>
+                <td class="roundy" colspan="2" style="background:#333; padding:2px">
+                    <b>Abilities</b>
+                    <table class="roundy" width="100%" style="background:#000; padding-top:3px">
+                        <tbody>
+                            <tr>
+                                <td width="50%">
+                                    <a>{{ species.ability_primary }}</a>
+                                    {% if species.ability_secondary %}
+                                    or
+                                    <a>{{ species.ability_secondary }}</a>
+                                    {% endif %}
+                                </td>
+                                {% if species.ability_hidden %}
+                                <td width="50%">
+                                    <a>{{ species.ability_hidden }}</a>
+                                </td>
+                                {% endif %}
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
         </tbody>
     </table>
 
