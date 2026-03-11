@@ -397,6 +397,7 @@
     modelViewerObject.addEventListener("load", () => {
 
         let isShiny = false;
+        modelViewerObject.variantName = "default";
 
         const toggleShiny = async (channel, event) => {
             if (isShiny) {
