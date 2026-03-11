@@ -63,7 +63,7 @@
                                         <tbody>
                                             <tr>
                                                 <td colspan="4">
-                                                    <model-viewer id="pokemon" alt="A 3D model of {{ species.name }}" src="/static/models/{{ species.internal_name }}.glb" autoplay animation-name="water_idle" camera-controls touch-action="pan-y" camera-orbit="-215deg 77deg 6px" camera-target="auto">
+                                                    <model-viewer id="pokemon" alt="A 3D model of {{ species.name }}" src="/static/models/{{ species.internal_name }}.glb" camera-controls touch-action="pan-y" camera-orbit="-215deg 77deg 6px" camera-target="auto">
                                                         <button id="shinyToggle" class="shiny-toggle" style="float:right; height:32px; width:32px; margin:8px; border:2px solid #fff; border-radius:6px; text-align:center;">
                                                             ✨
                                                         </button>
@@ -412,6 +412,14 @@
         document.querySelector("#shinyToggle").addEventListener('click', () => {
             toggleShiny();
         })
+
+        for (const animName of modelViewerObject.availableAnimations) {
+            if (animName.toLowerCase().includes('idle') && !animName.toLowerCase().includes('ride')) {
+                modelViewerObject.animationName = animName;
+                break
+            }
+        }
+        modelViewerObject.play();
     })
 </script>
 
