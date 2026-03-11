@@ -3,8 +3,23 @@
 {% block title %}{{ species.name }} - C&O Wiki{% endblock %}
 
 {% block extra_head %}
-<link rel="stylesheet" href="{{ url_for('static', filename='css/stattable.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/typecolors.css') }}">
 <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.1.0/model-viewer.min.js"></script>
+<style>
+    table.pokemon {line-height: 1.5em; text-align: center; font-size: 100%; white-space: nowrap;}
+    th.text {background-color: #000;}
+    th.stat {padding-left: 0.2em;padding-right: 0.2em;display: flex;justify-content: space-between;}
+    td.statbar {width: 255px}
+    td.statbar .health {background-color: #69DC12;border: 1px solid #c6f8a0;height: 25px;}
+    td.statbar .attack {background-color: #EFCC18;border: 1px solid #f5e9a3;height: 25px;}
+    td.statbar .defence {background-color: #E86412;border: 1px solid #f8c2a0;height: 25px;}
+    td.statbar .special_attack {background-color: #14C3F1;border: 1px solid #a0e6f8;height: 25px;}
+    td.statbar .special_defence {background-color: #4A6ADF;border: 1px solid #b3bee6;height: 25px;}
+    td.statbar .speed {background-color: #D51DAD;border: 1px solid #f3a5e1;height: 25px;}
+    model-viewer {height: 300px; width: 100%;}
+    .shiny-toggle {cursor: pointer; border: 1px solid #fff; background-color: #000;}
+    .typebox {font-size: 85%; line-height:12px; border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; -khtml-border-radius: 2px; -icab-border-radius: 2px; -o-border-radius: 2px;}
+</style>
 {% endblock %}
 
 {% block body %}

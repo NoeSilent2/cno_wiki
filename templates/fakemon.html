@@ -2,6 +2,10 @@
 
 {% block title %}Fakemon - C&O Wiki{% endblock %}
 
+{% block extra_head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/typecolors.css') }}">
+{% endblock %}
+
 {% block body %}
 <main>
     <h2>Fakemon</h2>
@@ -17,8 +21,14 @@
         columns: [
             {name:"Dex",width:"50px"}, 
             {name:"Name",width:"100px", formatter: (cell, row) => gridjs.html(`<a href='/species/${row.cells[11].data}'>${cell}</a>`)}, 
-            {name:"Type1",width:"70px"}, 
-            {name:"Type2",width:"70px"}, 
+            {name:"Type",width:"70px", formatter: (cell, row) => {
+                if (row.cells[3].data) {
+                    return gridjs.html(`<table width="100%" height="100%" style="background:#fff"><tbody><tr style="text-align:center"><td width="50%" class=${cell}>${cell}</td><td width="50%" class=${row.cells[3].data}>${row.cells[3].data}</td></tr></tbody></table>`)
+                } else {
+                    return gridjs.html(`<p width="100%" height="100%" class=${cell} style="text-align:center">${cell}</p>`)
+                }
+            }}, 
+            {name:"Type2",width:"70px",hidden:true}, 
             {name:"HP",width:"50px"}, 
             {name:"Atk",width:"50px"}, 
             {name:"Def",width:"50px"}, 
