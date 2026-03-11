@@ -416,10 +416,10 @@
         for (const animName of modelViewerObject.availableAnimations) {
             if (animName.toLowerCase().includes('idle') && !animName.toLowerCase().includes('ride')) {
                 modelViewerObject.animationName = animName;
+                modelViewerObject.play();
                 break
             }
         }
-        modelViewerObject.play();
     })
 </script>
 
