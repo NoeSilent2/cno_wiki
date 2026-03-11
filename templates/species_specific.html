@@ -12,7 +12,7 @@
     <h2>{{ species.name }}</h2>
     <p>Work in progress page for specific species data.</p>
     
-    <table class="roundy infobox" style="background:#666;width:33%;border:2px solid #fff;padding:2px;max-width:420px;text-align:center;">
+    <table class="roundy infobox" style="background:#666;width:45%;border:2px solid #fff;padding:2px;max-width:500px;text-align:center;">
         <tbody>
             <tr>
                 <td colspan="2">
@@ -155,80 +155,80 @@
                                 </th>
                             </tr>
 
-                            <tr style="background: #344d22; text-align:center">
-                                <th class="stat">
+                            <tr style="background: #111a0b; text-align:center">
+                                <th class="roundy stat">
                                     <div>HP:</div>
                                     <div>{{ species.hp }}</div>
                                 </th>
-                                <td class="statbar">
-                                    <div class="health" style="width: calc(100% * {{ species.hp }} / 255)"></div>
+                                <td class="roundy statbar">
+                                    <div class="roundy health" style="width: calc(100% * {{ species.hp }} / 255)"></div>
                                 </td>
                                 <td><small>{{ species.stat_projections['50'].hp }}</small></td>
                                 <td><small>{{ species.stat_projections['100'].hp }}</small></td>
                             </tr>
 
-                            <tr style="background: #4d4521; text-align:center">
-                                <th class="stat">
+                            <tr style="background: #221e0e; text-align:center">
+                                <th class="roundy stat">
                                     <div>Attack:</div>
                                     <div>{{ species.attack }}</div>
                                 </th>
-                                <td class="statbar">
-                                    <div class="attack" style="width: calc(100% * {{ species.attack }} / 255)"></div>
+                                <td class="roundy statbar">
+                                    <div class="roundy attack" style="width: calc(100% * {{ species.attack }} / 255)"></div>
                                 </td>
                                 <td><small>{{ species.stat_projections['50'].attack }}</small></td>
                                 <td><small>{{ species.stat_projections['100'].attack }}</small></td>
                             </tr>
 
-                            <tr style="background: #4d3120; text-align:center">
-                                <th class="stat">
+                            <tr style="background: #251810; text-align:center">
+                                <th class="roundy stat">
                                     <div>Defense:</div>
                                     <div>{{ species.defence }}</div>
                                 </th>
-                                <td class="statbar">
-                                    <div class="defence" style="width: calc(100% * {{ species.defence }} / 255)"></div>
+                                <td class="roundy statbar">
+                                    <div class="roundy defence" style="width: calc(100% * {{ species.defence }} / 255)"></div>
                                 </td>
                                 <td><small>{{ species.stat_projections['50'].defence }}</small></td>
                                 <td><small>{{ species.stat_projections['100'].defence }}</small></td>
                             </tr>
 
-                            <tr style="background: #1f434d; text-align:center">
-                                <th class="stat">
+                            <tr style="background: #0f2125; text-align:center">
+                                <th class="roundy stat">
                                     <div>Sp. Atk:</div>
                                     <div>{{ species.special_attack }}</div>
                                 </th>
-                                <td class="statbar">
-                                    <div class="special_attack" style="width: calc(100% * {{ species.special_attack }} / 255)"></div>
+                                <td class="roundy statbar">
+                                    <div class="roundy special_attack" style="width: calc(100% * {{ species.special_attack }} / 255)"></div>
                                 </td>
                                 <td><small>{{ species.stat_projections['50'].special_attack }}</small></td>
                                 <td><small>{{ species.stat_projections['100'].special_attack }}</small></td>
                             </tr>
                 
-                            <tr style="background: #2d344d; text-align:center">
-                                <th class="stat">
+                            <tr style="background: #141722; text-align:center">
+                                <th class="roundy stat">
                                     <div>Sp. Def:</div>
                                     <div>{{ species.special_defence }}</div>
                                 </th>
-                                <td class="statbar">
-                                    <div class="special_defence" style="width: calc(100% * {{ species.special_defence }} / 255)"></div>
+                                <td class="roundy statbar">
+                                    <div class="roundy special_defence" style="width: calc(100% * {{ species.special_defence }} / 255)"></div>
                                 </td>
                                 <td><small>{{ species.stat_projections['50'].special_defence }}</small></td>
                                 <td><small>{{ species.stat_projections['100'].special_defence }}</small></td>
                             </tr>
                 
-                            <tr style="background: #4d2444; text-align:center">
-                                <th class="stat">
+                            <tr style="background: #2c1427; text-align:center">
+                                <th class="roundy stat">
                                     <div>Speed:</div>
                                     <div>{{ species.speed }}</div>
                                 </th>
-                                <td class="statbar">
-                                    <div class="speed" style="width: calc(100% * {{ species.speed }} / 255)"></div>
+                                <td class="roundy statbar">
+                                    <div class="roundy speed" style="width: calc(100% * {{ species.speed }} / 255)"></div>
                                 </td>
                                 <td><small>{{ species.stat_projections['50'].speed }}</small></td>
                                 <td><small>{{ species.stat_projections['100'].speed }}</small></td>
                             </tr>
                 
                             <tr>
-                                <th class="stat" style="width: 6.5em; background-color: #000">
+                                <th class="roundy stat" style="width: 6.5em; background-color: #000">
                                     <div>Total:</div>
                                     <div>{{ species.total }}</div>
                                 </th>
