@@ -19,7 +19,7 @@
     model-viewer {height: 300px; width: 100%;}
     .shiny-toggle {cursor: pointer; border: 1px solid #fff; background-color: #000;}
     .typebox {font-size: 85%; line-height:12px; border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; -khtml-border-radius: 2px; -icab-border-radius: 2px; -o-border-radius: 2px;}
-    .switch {position: absolute; width: 32px; height: 32px; margin: 8px; text-align:center;}
+    .switch {position: relative; width: 32px; height: 32px; margin: 8px; text-align:center;}
     .switch .toggle {position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #333; transition: .4s; border: 2px solid #fff; border-radius: 6px;}
     input:checked + .toggle {
         background-color: #ccc
@@ -274,18 +274,12 @@
         let isShiny = false;
         modelViewerObject.variantName = "default";
 
-        const toggleShiny = async (channel, event) => {
-            if (isShiny) {
-                modelViewerObject.variantName = "default";
-            } else {
-                modelViewerObject.variantName = "shiny";
-            }
-        }
-
         shinyToggle.addEventListener('change', () => {
-            console.log(shinyToggle.checked)
-            if (shinyToggle.checked) { isShiny = true } else { isShiny = false }
-            toggleShiny();
+            if (shinyToggle.checked) {
+                modelViewerObject.variantName = "shiny";
+            } else {
+                modelViewerObject.variantName = "default";
+            }
         })
 
         for (const animName of modelViewerObject.availableAnimations) {
