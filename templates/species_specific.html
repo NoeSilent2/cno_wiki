@@ -412,6 +412,12 @@
         document.querySelector("#shinyToggle").addEventListener('click', () => {
             toggleShiny()
         })
+
+        if (!modelViewerObject.animationName.includes("ground_idle")) {
+            modelViewerObject.availableAnimations.forEach(animationName => {
+                modelViewerObject.animationName = animationName
+            })
+        }
     })
 </script>
 
