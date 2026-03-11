@@ -392,19 +392,22 @@
 </main>
 
 <script type="module">
-    const modelViewerObject = document.querySelector("model-viewer#pokemon");
+    const modelViewerTexture1 = document.querySelector("model-viewer#pokemon");
 
-    modelViewerObject.addEventListener("load", () => {
+    modelViewerTexture1.addEventListener("load", () => {
+        const material = modelViewerTexture1.model.materials[0];
+        const baseTexture = material.pbrMetallicRoughness.baseColorTexture.texture;
 
         let isShiny = false;
         modelViewerObject.variantName = "shiny";
 
         const toggleShiny = async (channel, event) => {
             if (isShiny) {
-                modelViewerObject.variantName = "default";
+                await material.pbrMetallicRoughness.baseColorTexture.setTexture(baseTexture);
                 isShiny = false;
             } else {
-                modelViewerObject.variantName = "shiny";
+                const texture = await modelViewerTexture1.createTexture('');
+                await material.pbrMetallicRoughness.baseColorTexture.setTexture(texture);
                 isShiny = true;
             }
         }
