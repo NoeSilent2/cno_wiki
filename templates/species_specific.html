@@ -65,7 +65,7 @@
                                                 <td colspan="4">
                                                     <model-viewer id="pokemon" alt="A 3D model of {{ species.name }}" src="/static/models/{{ species.internal_name }}.glb" camera-controls touch-action="pan-y" camera-orbit="-215deg 77deg 6px" camera-target="auto">
                                                         <effect-composer render-mode="quality">
-                                                            <bloom-effect></bloom-effect>
+                                                            <bloom-effect threshold="0.1" strength="10"></bloom-effect>
                                                         </effect-composer>
                                                         <button id="shinyToggle" class="shiny-toggle" style="float:right; height:32px; width:32px; margin:8px; border:2px solid #fff; border-radius:6px; text-align:center;">
                                                             ✨
