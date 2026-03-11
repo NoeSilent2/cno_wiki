@@ -9,8 +9,6 @@
 
 {% block body %}
 <main style="display: block">
-    <h2>{{ species.name }}</h2>
-    <p>Work in progress page for specific species data.</p>
     
     <table class="roundy infobox" style="background:#666;width:45%;border:2px solid #fff;padding:2px;max-width:500px;text-align:center;">
         <tbody>
@@ -106,7 +104,31 @@
                         </tbody>
                     </table>
                 </td>
+                <td class="roundy" colspan="2" style="background:#333; padding:2px">
+                    <b>Abilities</b>
+                    <table class="roundy" width="100%" style="background:#000; padding-top:3px">
+                        <tbody>
+                            <tr>
+                                <td width="50%">
+                                    <a>{{ species.ability_primary }}</a>
+                                    {% if species.ability_secondary %}
+                                    or
+                                    <a>{{ species.ability_secondary }}</a>
+                                    {% endif %}
+                                </td>
+                                {% if species.ability_hidden %}
+                                <td width="50%">
+                                    <a>{{ species.ability_hidden }}</a>
+                                    <br>
+                                    <small>Hidden Ability</small>
+                                </td>
+                                {% endif %}
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
             </tr>
+            <!--
             <tr>
                 <td class="roundy" colspan="2" style="background:#333; padding:2px">
                     <b>Abilities</b>
@@ -132,6 +154,7 @@
                     </table>
                 </td>
             </tr>
+            -->
             <tr>
                 <td colspan="2">
                     <table class="roundy pokemon" style="background: #333; padding:2px; border-spacing:3px">
@@ -241,6 +264,9 @@
             </tr>
         </tbody>
     </table>
+
+    <h2>{{ species.name }}</h2>
+    <p>Work in progress page for specific species data.</p>
 
     <!--
     <table class="pokemon">
