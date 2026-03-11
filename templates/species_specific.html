@@ -19,6 +19,11 @@
     model-viewer {height: 300px; width: 100%;}
     .shiny-toggle {cursor: pointer; border: 1px solid #fff; background-color: #000;}
     .typebox {font-size: 85%; line-height:12px; border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; -khtml-border-radius: 2px; -icab-border-radius: 2px; -o-border-radius: 2px;}
+    .switch {position: absolute; width: 32px; height: 32px; margin: 8px; text-align:center;}
+    .switch .toggle {position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #333; transition: .4s; border: 2px solid #fff; border-radius: 6px;}
+    input:checked + .toggle {
+        background-color: #ccc
+    }
 </style>
 {% endblock %}
 
@@ -64,9 +69,10 @@
                                             <tr>
                                                 <td colspan="4">
                                                     <model-viewer id="pokemon" alt="A 3D model of {{ species.name }}" src="/static/models/{{ species.internal_name }}.glb" camera-controls touch-action="pan-y" camera-orbit="-215deg 77deg 6px" camera-target="auto">
-                                                        <button id="shinyToggle" class="shiny-toggle" style="float:right; height:32px; width:32px; margin:8px; border:2px solid #fff; border-radius:6px; text-align:center;">
-                                                            ✨
-                                                        </button>
+                                                        <label class="switch" id="shinyToggle" style="float:right;">
+                                                            <input type="checkbox">
+                                                            <span class="toggle">✨</span>
+                                                        </label>
                                                     </model-viewer>
                                                 </td>
                                             </tr>
@@ -264,20 +270,20 @@
 
     modelViewerObject.addEventListener("load", () => {
 
+        const shinyToggle = document.querySelector('#shinyToggle')
         let isShiny = false;
         modelViewerObject.variantName = "default";
 
         const toggleShiny = async (channel, event) => {
             if (isShiny) {
                 modelViewerObject.variantName = "default";
-                isShiny = false;
             } else {
                 modelViewerObject.variantName = "shiny";
-                isShiny = true;
             }
         }
 
-        document.querySelector("#shinyToggle").addEventListener('click', () => {
+        shinyToggle.addEventListener('change', () => {
+            isShiny = shinyToggle.checked
             toggleShiny();
         })
 
