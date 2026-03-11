@@ -270,7 +270,7 @@
 
     modelViewerObject.addEventListener("load", () => {
 
-        const shinyToggle = document.querySelector('#shinyToggle')
+        const shinyToggle = document.querySelector('input[type="checkbox"]')
         let isShiny = false;
         modelViewerObject.variantName = "default";
 
@@ -283,6 +283,7 @@
         }
 
         shinyToggle.addEventListener('change', () => {
+            console.log(shinyToggle.checked)
             if (shinyToggle.checked) { isShiny = true } else { isShiny = false }
             toggleShiny();
         })
