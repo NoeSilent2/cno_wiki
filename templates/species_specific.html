@@ -283,7 +283,7 @@
         }
 
         shinyToggle.addEventListener('change', () => {
-            isShiny = shinyToggle.checked
+            if (shinyToggle.checked) { isShiny = true } else { isShiny = false }
             toggleShiny();
         })
 
