@@ -414,7 +414,7 @@
         })
 
         for (const animName of modelViewerObject.availableAnimations) {
-            if (animName.toLowerCase().includes('idle')) {
+            if (animName.toLowerCase().includes('idle') && !animName.toLowerCase().includes('ride')) {
                 modelViewerObject.animationName = animName;
                 break
             }
