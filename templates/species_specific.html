@@ -410,11 +410,12 @@
         }
 
         document.querySelector("#shinyToggle").addEventListener('click', () => {
-            toggleShiny()
+            toggleShiny();
         })
 
         if (!modelViewerObject.animationName.includes("ground_idle")) {
-            modelViewerObject.animationName = "animation.fubber.water_idle"
+            modelViewerObject.animationName = "animation.fubber.water_idle";
+            modelViewerObject.play();
         }
     })
 </script>
