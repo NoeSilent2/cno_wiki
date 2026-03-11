@@ -23,9 +23,15 @@
             {name:"Name",width:"100px", formatter: (cell, row) => gridjs.html(`<a href='/species/${row.cells[11].data}'>${cell}</a>`)}, 
             {name:"Type",width:"70px", formatter: (cell, row) => {
                 if (row.cells[3].data) {
-                    return gridjs.html(`<table width="100%" height="32px" style="background:#fff"><tbody><tr style="text-align:center"><td width="50%" class=${cell}>${cell}</td><td width="50%" class=${row.cells[3].data}>${row.cells[3].data}</td></tr></tbody></table>`)
+                    return gridjs.html(`<table width="100%" height="100%" style="background:#fff"><tbody><tr style="text-align:center"><td width="50%" class=${cell}>${cell}</td><td width="50%" class=${row.cells[3].data}>${row.cells[3].data}</td></tr></tbody></table>`)
                 } else {
-                    return gridjs.html(`<div width="100%" height="32px" class=${cell} style="border:2px solid #fff"><p width="100%" style="text-align:center;background:transparent">${cell}</p></div>`)
+                    return gridjs.html(`<div width="100%" height="100%" class=${cell} style="border:2px solid #fff"><p width="100%" style="text-align:center;background:transparent">${cell}</p></div>`)
+                }
+            }, attributes: (cell) => {
+                if (cell) {
+                    return {
+                        'style': 'padding: 0px'
+                    }
                 }
             }}, 
             {name:"Type2",width:"70px",hidden:true}, 
