@@ -290,13 +290,13 @@
                                     <table class="roundy" width="100%" style="background:#000; padding-top:3px; height:60px">
                                         <tbody>
                                             <tr>
-                                                <td width="50%">{{ (species.height // 3.048)|int }}' {{ (((species.height / 3.048) - (species.height // 3.048)) * 12)|round(0, 'floor') }}"</td>
+                                                <td width="50%">{{ (species.height // 3.048)|int }}' {{ ((((species.height / 3.048) - (species.height // 3.048)) * 12)|round(0, 'floor'))|int }}"</td>
                                                 <td width="50%">{{ species.height / 10 }} m</td>
                                             </tr>
                                         </tbody>
                                     </table>
                                 </td>
-                                
+
                                 <td class="roundy" width="33%" colspan="1" style="background:#333; padding:2px; width:30%">
                                     <b>Weight</b>
                                     <table class="roundy" width="100%" style="background:#000; padding-top:3px; height:60px">
