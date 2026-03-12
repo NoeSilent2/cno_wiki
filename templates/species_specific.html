@@ -264,29 +264,36 @@
                                 <td class="roundy" width="33%" colspan="1" style="background:#333; padding:2px">
                                     <b>Gender</b>
                                     <table class="roundy" width="100%" style="background:#000; padding-top:3px; height:60px">
-                                        <tr>
-                                            <td>
-                                                {% if species.male_percent and species.male_percent != -1 %}
-                                                    {% if species.male_percent == 1 %}
-                                                        <div style="height:30px; border:2px solid #fff; border-radius:15px; background:#00f"></div>
-                                                    {% elif species.male_percent == 0 %}
-                                                        <div style="height:30px; border:2px solid #fff; border-radius:15px; background:#f7d"></div>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    {% if species.male_percent and species.male_percent != -1 %}
+                                                        {% if species.male_percent == 1 %}
+                                                            <div style="height:30px; border:2px solid #fff; border-radius:15px; background:#00f"></div>
+                                                        {% elif species.male_percent == 0 %}
+                                                            <div style="height:30px; border:2px solid #fff; border-radius:15px; background:#f7d"></div>
+                                                        {% else %}
+                                                            <div style="height:30px; border:2px solid #fff; border-radius:15px; background:#f7d">
+                                                                <div style="width: calc(100% * {{ species.male_percent }}); height:100%; background:#00f; border-top-left-radius:15px; border-bottom-left-radius:15px"></div>
+                                                            </div>
+                                                        {% endif %}
                                                     {% else %}
-                                                        <div style="height:30px; border:2px solid #fff; border-radius:15px; background:#f7d">
-                                                            <div style="width: calc(100% * {{ species.male_percent }}); height:100%; background:#00f; border-top-left-radius:15px; border-bottom-left-radius:15px"></div>
-                                                        </div>
+                                                        <div style="height:30px; border:2px solid #fff; border-radius:15px; background:#aaa"></div>
                                                     {% endif %}
-                                                {% else %}
-                                                    <div style="height:30px; border:2px solid #fff; border-radius:15px; background:#aaa"></div>
-                                                {% endif %}
-                                            </td>
-                                        </tr>
+                                                </td>
+                                            </tr>
+                                        </tbody>
                                     </table>
                                 </td>
                                 <td class="roundy" width="33%" colspan="1" style="background:#333; padding:2px; width:30%">
                                     <b>Height</b>
                                     <table class="roundy" width="100%" style="background:#000; padding-top:3px; height:60px">
-                                        
+                                        <tbody>
+                                            <tr>
+                                                <td width="50%">{{ species.height / 10 }} m</td>
+                                                <td width="50%">{{ species.weight / 10 }} kg</td>
+                                            </tr>
+                                        </tbody>
                                     </table>
                                 </td>
                                 <td class="roundy" width="33%" colspan="1" style="background:#333; padding:2px; width:30%">
