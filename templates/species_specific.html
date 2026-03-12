@@ -291,7 +291,7 @@
                                         <tbody>
                                             <tr>
                                                 <td width="50%">{{ (species.height // 3.048)|int }}' {{ ((((species.height / 3.048) - (species.height // 3.048)) * 12)|round(0, 'floor'))|int }}"</td>
-                                                <td width="50%">{{ species.height / 10 }} m</td>
+                                                <td width="50%">{{ (species.height / 10)|round(2) }} m</td>
                                             </tr>
                                         </tbody>
                                     </table>
