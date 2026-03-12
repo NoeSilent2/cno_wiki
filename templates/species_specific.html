@@ -257,8 +257,8 @@
                 </td>
             </tr>
             <tr>
-                <td colspan="2" style="width:100%">
-                    <table>
+                <td colspan="2">
+                    <table style="width:100%">
                         <tbody>
                             <tr>
                                 <td class="roundy" width="33%" colspan="1" style="background:#333; padding:2px">
@@ -266,11 +266,19 @@
                                     <table class="roundy" width="100%" style="background:#000; padding-top:3px; height:60px">
                                         <tr>
                                             <td>
-                                                <div style="height:30px; border:2px solid #fff; border-radius:15px; background:#f7d">
-                                                    <div style="width:50%; height:100%; background:#00f; border-top-left-radius:15px; border-bottom-left-radius:15px">
-
-                                                    </div>
-                                                </div>
+                                                {% if species.male_ratio and species.male_ratio != -1 %}
+                                                    {% if species.male_ratio == 1 %}
+                                                        <div style="height:30px; border:2px solid #fff; border-radius:15px; background:#00f"></div>
+                                                    {% elif species.male_ratio == 0 %}
+                                                        <div style="height:30px; border:2px solid #fff; border-radius:15px; background:#f7d"></div>
+                                                    {% else %}
+                                                        <div style="height:30px; border:2px solid #fff; border-radius:15px; background:#f7d">
+                                                            <div style="width: calc(100% * {{ species.hp }}); height:100%; background:#00f; border-top-left-radius:15px; border-bottom-left-radius:15px"></div>
+                                                        </div>
+                                                    {% endif %}
+                                                {% else %}
+                                                    <div style="height:30px; border:2px solid #fff; border-radius:15px; background:#aaa"></div>
+                                                {% endif %}
                                             </td>
                                         </tr>
                                     </table>
