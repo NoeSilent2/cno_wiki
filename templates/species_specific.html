@@ -290,8 +290,8 @@
                                     <table class="roundy" width="100%" style="background:#000; padding-top:3px; height:60px">
                                         <tbody>
                                             <tr>
+                                                <td width="50%">{{ species.height // 3.048 }}' {{ (((species.height / 3.048) - (species.height // 3.048)) * 12) // 1 }}"</td>
                                                 <td width="50%">{{ species.height / 10 }} m</td>
-                                                <td width="50%">{{ species.weight / 10 }} kg</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -299,7 +299,12 @@
                                 <td class="roundy" width="33%" colspan="1" style="background:#333; padding:2px; width:30%">
                                     <b>Weight</b>
                                     <table class="roundy" width="100%" style="background:#000; padding-top:3px; height:60px">
-                                        
+                                        <tbody>
+                                            <tr>
+                                                <td width="50%"></td>
+                                                <td width="50%">{{ species.weight / 10 }} kg</td>
+                                            </tr>
+                                        </tbody>
                                     </table>
                                 </td>
                             </tr>
