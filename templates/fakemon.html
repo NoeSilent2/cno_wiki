@@ -44,11 +44,11 @@
             {name:"Spe",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#2c1427; color:#fff; border:1px solid #ccc; padding: 4px'}}}}, 
             {name:"BST",width:"50px"},
             {name:"Height",width:"70px", formatter: (cell, row) => {
-                const height = cell*0.1
+                const height = (cell*0.1).toFixed(2)
                 return gridjs.html(`${height}`)
             }},
             {name:"Weight",width:"70px", formatter: (cell, row) => {
-                const weight = cell*0.1
+                const weight = (cell*0.1).toFixed(2)
                 return gridjs.html(`${weight}`)
             }},
             {name:"internal_name",hidden:true},
