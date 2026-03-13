@@ -1,9 +1,42 @@
 {% extends 'header.html' %}
 
+{% block extra_head %}
+<style>
+    .card {display:flex; flex-direction:column; gap:2px}
+    .card .image {flex:1; min-height:0; padding:5px 0px 0px; border-top-left-radius:8px;border-top-right-radius:8px; display:flex; align-items: center; justify-content: center;}
+    .card .caption {flex-shrink:0; text-align:center; font-size:140%; border-bottom-left-radius:8px; border-bottom-right-radius:8px;}
+    .card .caption p {margin: 0.3em 0 0.6em 0}
+    .align-center {margin: 0 auto; display:table; border-collapse: collapse; clear: none; float: none;}
+</style>
+{% endblock %}
+
 {% block body %}
 <main>
     <h2>Welcome to the Cobblemon & Origins Wiki.</h2>
     <p>This is incredibly work-in-progress. There is a lot of information that isnt yet on display.</p>
     <p>Check the header for links to the other pages.</p>
+
+    <div style="display:flex; width:100%; gap:12px; margin-top:21px; margin-bottom:21px; flex-wrap:wrap;">
+        <div style="display:grid; grid-template-columns:repeat(3, 1fr); grid-template-rows: repeat(3, 1fr); gap: 2px; height:100%;">
+            <div class="card">
+                <div class="image" style="border:3px solid white">
+                    <div class="align-center">
+                        <a title="Fakemon" href="/fakemon">
+                            <img src="https://deadlock.wiki/images/thumb/6/6b/Hero_Nav.png/140px-Hero_Nav.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image" style="border:3px solid white">
+                    <div class="align-center">
+                        <a title="Moves" href="/moves">
+                            <img src="https://deadlock.wiki/images/thumb/6/6b/Hero_Nav.png/140px-Hero_Nav.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
 {% endblock %}
