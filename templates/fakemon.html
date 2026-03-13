@@ -22,17 +22,11 @@
         columns: [
             {name:"Dex",width:"50px"}, 
             {name:"Name",width:"110px", formatter: (cell, row) => gridjs.html(`<a href='/species/${row.cells[13].data}'>${cell}</a>`)}, 
-            {name:"Type",width:"90px", formatter: (cell, row) => {
+            {name:"Type",width:"80px", formatter: (cell, row) => {
                 if (row.cells[3].data) {
-                    return gridjs.html(`<table style="margin:1px 0px 0px 0px"><tbody><tr style="text-align:center"><td width="50%" style="padding:0px"><img src="/types/${cell}.png"></td><td width="50%" style="padding:0px"><img src="/types/${row.cells[3].data}.png"></td></tr></tbody></table>`)
+                    return gridjs.html(`<table><tbody><tr style="text-align:center"><td width="50%" style="padding:0px"><img src="/types/${cell}.png"></td><td width="50%" style="padding:0px"><img src="/types/${row.cells[3].data}.png"></td></tr></tbody></table>`)
                 } else {
-                    return gridjs.html(`<div style="margin:4px 0px 0px 4px"><img src="/types/${cell}.png"></div>`)
-                }
-            }, attributes: (cell) => {
-                if (cell) {
-                    return {
-                        'style': 'padding: 0px; background:#000; color:#fff'
-                    }
+                    return gridjs.html(`<div style="height:36px"><img src="/types/${cell}.png"></div>`)
                 }
             }}, 
             {name:"Type2",width:"10px",hidden:true},
@@ -80,7 +74,7 @@
                 'background-color': '#333',
                 color: '#fff',
                 'border-bottom': '3px solid #fff',
-                padding: "4px 0px 4px 4px"
+                padding: "4px"
             },
             td: {
                 'background-color': '#000',
