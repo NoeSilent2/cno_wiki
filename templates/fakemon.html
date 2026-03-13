@@ -24,7 +24,7 @@
             {name:"Name",width:"110px", formatter: (cell, row) => gridjs.html(`<a href='/species/${row.cells[13].data}'>${cell}</a>`)}, 
             {name:"Type",width:"120px", formatter: (cell, row) => {
                 if (row.cells[3].data) {
-                    return gridjs.html(`<table width="100%" height="100%"><tbody><tr style="text-align:center"><td width="50%" class="${cell} roundy">${cell}</td><td width="50%" class="${row.cells[3].data} roundy">${row.cells[3].data}</td></tr></tbody></table>`)
+                    return gridjs.html(`<table width="100%" height="100%"><tbody><tr style="text-align:center"><td width="50%"><img src="/types/${cell}.png"></td><td width="50%"><img src="/types/${row.cells[3].data}.png"></td></tr></tbody></table>`)
                 } else {
                     return gridjs.html(`<div class="${cell} roundy" style="margin:0px 2px"><p style="text-align:center;background:transparent">${cell}</p></div>`)
                 }
