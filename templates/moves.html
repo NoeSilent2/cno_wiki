@@ -14,7 +14,14 @@
     const moves = {{ moves | tojson }};
     
     new gridjs.Grid({
-        columns: [{name:"Name",width:"100px"}, {name:"Type",width:"70px"}, {name:"Category",width:"100px"}, {name:"Power",width:"60px"}, {name:"PP",width:"50px"}, {name:"Accuracy",width:"80px"}, {name:"Priority",width:"80px"}],
+        columns: [
+        {name:"Name",width:"100px"},
+        {name:"Type",width:"40px",formatter: (cell, row) => gridjs.html(`<div style="margin:0px 2px"><img src="/types/${cell}.png"></div>`)},
+        {name:"Category",width:"100px"},
+        {name:"Power",width:"60px"},
+        {name:"PP",width:"50px"},
+        {name:"Accuracy",width:"80px"},
+        {name:"Priority",width:"80px"}],
         data: moves.map(emp => [
             emp.name,
             emp.type,
