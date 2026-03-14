@@ -1,0 +1,502 @@
+[
+    {
+        "name": "Abduct",
+        "type": "Steel",
+        "category": "Special",
+        "pp": 10,
+        "basePower": 85,
+        "accuracy": 90,
+        "target": "Normal",
+        "flags": "Contact, Protect, Mirror, Metronome"
+    },
+    {
+        "name": "Puffer Bubble",
+        "type": "Water",
+        "category": "Special",
+        "pp": 20,
+        "basePower": 75,
+        "accuracy": 90,
+        "target": "All Adjacent Foes",
+        "flags": "Protect, Mirror, Heal, Metronome"
+    },
+    {
+        "name": "Armor Press",
+        "type": "Steel",
+        "category": "Physical",
+        "pp": 10,
+        "basePower": 80,
+        "accuracy": 100,
+        "target": "Normal",
+        "flags": "Contact, Protect, Mirror"
+    },
+    {
+        "name": "Breeze Ball",
+        "type": "Flying",
+        "category": "Special",
+        "pp": 10,
+        "basePower": 0,
+        "accuracy": 100,
+        "target": "Normal",
+        "flags": "Protect, Mirror, Metronome, Bullet, Wind"
+    },
+    {
+        "name": "Bullet Barrage",
+        "type": "Steel",
+        "category": "Physical",
+        "pp": 15,
+        "basePower": 25,
+        "accuracy": 90,
+        "target": "Normal",
+        "flags": "Protect, Mirror, Metronome, Bullet"
+    },
+    {
+        "name": "Bunger Blast",
+        "type": "Bug",
+        "category": "Special",
+        "pp": 5,
+        "basePower": 150,
+        "accuracy": 90,
+        "target": "Normal",
+        "flags": "Recharge, Protect, Mirror, Metronome"
+    },
+    {
+        "name": "Bygone Bash",
+        "type": "Ghost",
+        "category": "Physical",
+        "pp": 5,
+        "basePower": 120,
+        "accuracy": 100,
+        "target": "Normal",
+        "flags": "Contact, Protect, Mirror, Punch"
+    },
+    {
+        "name": "Crystal Spear",
+        "type": "Rock",
+        "category": "Physical",
+        "pp": 15,
+        "basePower": 70,
+        "accuracy": 999,
+        "target": "Normal",
+        "flags": "Contact, Protect, Mirror, Metronome, Slicing"
+    },
+    {
+        "name": "Daybreak Cannon",
+        "type": "Fire",
+        "category": "Special",
+        "pp": 5,
+        "basePower": 150,
+        "accuracy": 100,
+        "target": "Normal",
+        "flags": "Recharge, Protect, Mirror, Metronome"
+    },
+    {
+        "name": "Dig Deep",
+        "type": "Steel",
+        "category": "Physical",
+        "pp": 20,
+        "basePower": 80,
+        "accuracy": 100,
+        "target": "Normal",
+        "flags": "Protect, Mirror, Metronome"
+    },
+    {
+        "name": "Dragon Press",
+        "type": "Dragon",
+        "category": "Physical",
+        "pp": 10,
+        "basePower": 80,
+        "accuracy": 100,
+        "target": "Normal",
+        "flags": "Contact, Protect, Mirror"
+    },
+    {
+        "name": "Eerie Dance",
+        "type": "Ghost",
+        "category": "Status",
+        "pp": 20,
+        "basePower": 0,
+        "accuracy": 999,
+        "target": "Self",
+        "flags": "Snatch, Dance, Metronome"
+    },
+    {
+        "name": "Electro Drain",
+        "type": "Electric",
+        "category": "Special",
+        "pp": 15,
+        "basePower": 90,
+        "accuracy": 90,
+        "target": "All Adjacent Foes",
+        "flags": "Protect, Mirror, Heal, Metronome"
+    },
+    {
+        "name": "Fire Bomb",
+        "type": "Fire",
+        "category": "Physical",
+        "pp": 10,
+        "basePower": 40,
+        "accuracy": 85,
+        "target": "Normal",
+        "flags": "Protect, Mirror, Metronome, Bullet"
+    },
+    {
+        "name": "Fleur Dance",
+        "type": "Fairy",
+        "category": "Special",
+        "pp": 15,
+        "basePower": 55,
+        "accuracy": 100,
+        "target": "Any",
+        "flags": "Contact, Protect, Mirror, Dance, Metronome"
+    },
+    {
+        "name": "Generation Dance",
+        "type": "Rock",
+        "category": "Status",
+        "pp": 5,
+        "basePower": 0,
+        "accuracy": 999,
+        "target": "Self",
+        "flags": "Snatch, Heal, Metronome, Dance"
+    },
+    {
+        "name": "Glacial Crash",
+        "type": "Ice",
+        "category": "Physical",
+        "pp": 10,
+        "basePower": 85,
+        "accuracy": 90,
+        "target": "Normal",
+        "flags": "Contact, Protect, Mirror"
+    },
+    {
+        "name": "G-Max Presto",
+        "type": "Fairy",
+        "category": "Physical",
+        "pp": 5,
+        "basePower": 10,
+        "accuracy": 999,
+        "target": "Adjacent Foe",
+        "flags": "-"
+    },
+    {
+        "name": "Guard Press",
+        "type": "Rock",
+        "category": "Physical",
+        "pp": 10,
+        "basePower": 80,
+        "accuracy": 100,
+        "target": "Normal",
+        "flags": "Contact, Protect, Mirror"
+    },
+    {
+        "name": "Hold the Line",
+        "type": "Fighting",
+        "category": "Status",
+        "pp": 5,
+        "basePower": 0,
+        "accuracy": 999,
+        "target": "Self",
+        "flags": "Snatch, Metronome"
+    },
+    {
+        "name": "Last Stand",
+        "type": "Fighting",
+        "category": "Status",
+        "pp": 5,
+        "basePower": 0,
+        "accuracy": 999,
+        "target": "Self",
+        "flags": "Snatch, Metronome"
+    },
+    {
+        "name": "Let It Cook",
+        "type": "Fairy",
+        "category": "Special",
+        "pp": 5,
+        "basePower": 110,
+        "accuracy": 100,
+        "target": "All Adjacent Foes",
+        "flags": "Protect, Mirror"
+    },
+    {
+        "name": "Magic Missile",
+        "type": "Psychic",
+        "category": "Special",
+        "pp": 10,
+        "basePower": 90,
+        "accuracy": 100,
+        "target": "Normal",
+        "flags": "Protect, Mirror, Metronome"
+    },
+    {
+        "name": "Magic Trick",
+        "type": "Fairy",
+        "category": "Status",
+        "pp": 10,
+        "basePower": 0,
+        "accuracy": 999,
+        "target": "Self",
+        "flags": "Protect, Mirror, Bypasssub, Allyanim, Metronome"
+    },
+    {
+        "name": "Mighty Slash",
+        "type": "Rock",
+        "category": "Physical",
+        "pp": 6,
+        "basePower": 85,
+        "accuracy": 100,
+        "target": "Normal",
+        "flags": "Contact, Protect, Mirror, Metronome"
+    },
+    {
+        "name": "Mind Bend",
+        "type": "Psychic",
+        "category": "Special",
+        "pp": 10,
+        "basePower": 80,
+        "accuracy": 100,
+        "target": "Normal",
+        "flags": "Protect, Mirror"
+    },
+    {
+        "name": "Night Terror",
+        "type": "Dark",
+        "category": "Physical",
+        "pp": 15,
+        "basePower": 100,
+        "accuracy": 100,
+        "target": "Normal",
+        "flags": "Protect, Mirror, Heal, Metronome"
+    },
+    {
+        "name": "Page Turn",
+        "type": "Psychic",
+        "category": "Status",
+        "pp": 20,
+        "basePower": 0,
+        "accuracy": 999,
+        "target": "Self",
+        "flags": "Snatch, Metronome"
+    },
+    {
+        "name": "Paper Cut",
+        "type": "Normal",
+        "category": "Physical",
+        "pp": 15,
+        "basePower": 60,
+        "accuracy": 100,
+        "target": "Normal",
+        "flags": "Contact, Protect, Mirror, Slicing"
+    },
+    {
+        "name": "Phantom Blade",
+        "type": "Ghost",
+        "category": "Physical",
+        "pp": 15,
+        "basePower": 75,
+        "accuracy": 999,
+        "target": "Normal",
+        "flags": "Protect, Mirror, Metronome, Slicing"
+    },
+    {
+        "name": "Pitfall",
+        "type": "Ground",
+        "category": "Physical",
+        "pp": 5,
+        "basePower": 70,
+        "accuracy": 100,
+        "target": "Normal",
+        "flags": "Protect, Mirror, Metronome, Priority+1"
+    },
+    {
+        "name": "Psychic Snap",
+        "type": "Psychic",
+        "category": "Special",
+        "pp": 15,
+        "basePower": 75,
+        "accuracy": 100,
+        "target": "Normal",
+        "flags": "Protect, Mirror, Sound, Bypasssub, Metronome"
+    },
+    {
+        "name": "Psydrive",
+        "type": "Psychic",
+        "category": "Physical",
+        "pp": 10,
+        "basePower": 100,
+        "accuracy": 100,
+        "target": "Normal",
+        "flags": "Contact, Protect, Mirror, Metronome"
+    },
+    {
+        "name": "Pumpkin Bomb",
+        "type": "Grass",
+        "category": "Physical",
+        "pp": 5,
+        "basePower": 120,
+        "accuracy": 100,
+        "target": "All Adjacent",
+        "flags": "Protect, Mirror, Metronome, Bullet"
+    },
+    {
+        "name": "Rupture",
+        "type": "Ground",
+        "category": "Special",
+        "pp": 10,
+        "basePower": 70,
+        "accuracy": 100,
+        "target": "Normal",
+        "flags": "Protect, Mirror, Nonsky"
+    },
+    {
+        "name": "Sand Shift",
+        "type": "Ground",
+        "category": "Special",
+        "pp": 10,
+        "basePower": 60,
+        "accuracy": 100,
+        "target": "Normal",
+        "flags": "Protect, Mirror, Metronome"
+    },
+    {
+        "name": "Shiver Dance",
+        "type": "Ice",
+        "category": "Status",
+        "pp": 20,
+        "basePower": 0,
+        "accuracy": 999,
+        "target": "Self",
+        "flags": "Snatch, Dance, Metronome"
+    },
+    {
+        "name": "Sleep Charm",
+        "type": "Psychic",
+        "category": "Status",
+        "pp": 5,
+        "basePower": 0,
+        "accuracy": 75,
+        "target": "Normal",
+        "flags": "Protect, Reflectable, Mirror, Metronome, Heal"
+    },
+    {
+        "name": "Snow Bank",
+        "type": "Ice",
+        "category": "Status",
+        "pp": 5,
+        "basePower": 0,
+        "accuracy": 999,
+        "target": "Self",
+        "flags": "Snatch, Heal, Metronome"
+    },
+    {
+        "name": "Somber Song",
+        "type": "Fairy",
+        "category": "Special",
+        "pp": 15,
+        "basePower": 85,
+        "accuracy": 100,
+        "target": "All Adjacent Foes",
+        "flags": "Protect, Mirror, Sound, Bypasssub"
+    },
+    {
+        "name": "Sonic Shriek",
+        "type": "Dark",
+        "category": "Special",
+        "pp": 10,
+        "basePower": 90,
+        "accuracy": 100,
+        "target": "Normal",
+        "flags": "Protect, Mirror, Metronome, Sound, Bypasssub"
+    },
+    {
+        "name": "Soul Blade",
+        "type": "Ghost",
+        "category": "Physical",
+        "pp": 10,
+        "basePower": 75,
+        "accuracy": 100,
+        "target": "Normal",
+        "flags": "Mirror, Noassist, Failcopycat"
+    },
+    {
+        "name": "Soul Blaze",
+        "type": "Ghost",
+        "category": "Special",
+        "pp": 10,
+        "basePower": 75,
+        "accuracy": 100,
+        "target": "Any",
+        "flags": "Contact, Protect, Mirror, Gravity, Distance, Nonsky, Metronome"
+    },
+    {
+        "name": "Spirit Song",
+        "type": "Normal",
+        "category": "Special",
+        "pp": 10,
+        "basePower": 90,
+        "accuracy": 100,
+        "target": "All Adjacent Foes",
+        "flags": "Protect, Mirror, Sound, Bypasssub"
+    },
+    {
+        "name": "Steel Cutter",
+        "type": "Steel",
+        "category": "Physical",
+        "pp": 20,
+        "basePower": 70,
+        "accuracy": 100,
+        "target": "Normal",
+        "flags": "Protect, Mirror, Metronome, Slicing"
+    },
+    {
+        "name": "Terrain Blade",
+        "type": "Normal",
+        "category": "Physical",
+        "pp": 10,
+        "basePower": 50,
+        "accuracy": 100,
+        "target": "Normal",
+        "flags": "Protect, Mirror, Metronome, Slicing"
+    },
+    {
+        "name": "Twilight Veil",
+        "type": "Fairy",
+        "category": "Status",
+        "pp": 20,
+        "basePower": 0,
+        "accuracy": 999,
+        "target": "Ally Side",
+        "flags": "Snatch, Metronome"
+    },
+    {
+        "name": "Vengeance of Generations",
+        "type": "Ghost",
+        "category": "Physical",
+        "pp": 1,
+        "basePower": 200,
+        "accuracy": 999,
+        "target": "Normal",
+        "flags": "-"
+    },
+    {
+        "name": "Vital Drain",
+        "type": "Dark",
+        "category": "Special",
+        "pp": 10,
+        "basePower": 75,
+        "accuracy": 100,
+        "target": "Normal",
+        "flags": "Contact, Protect, Mirror, Heal, Metronome"
+    },
+    {
+        "name": "Vital Slash",
+        "type": "Dark",
+        "category": "Physical",
+        "pp": 10,
+        "basePower": 75,
+        "accuracy": 100,
+        "target": "Normal",
+        "flags": "Contact, Protect, Mirror, Slicing, Heal, Metronome"
+    }
+]
