@@ -39,11 +39,11 @@
             {name:"BST",width:"50px"},
             {name:"Height",width:"70px", formatter: (cell, row) => {
                 const height = (cell/10).toPrecision(8).replace(/\.?0+$/, '');
-                return gridjs.html(`${height}`);
+                return gridjs.html(`${height}m`);
             }},
             {name:"Weight",width:"70px", formatter: (cell, row) => {
                 const weight = (cell/10).toPrecision(8).replace(/\.?0+$/, '');
-                return gridjs.html(`${weight}`)
+                return gridjs.html(`${weight}kg`)
             }},
             {name:"internal_name",hidden:true},
             {name:"Catch Rate",width:"80px"}],
