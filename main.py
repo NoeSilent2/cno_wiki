@@ -43,5 +43,5 @@ def get_cmoves():
 with open('./data/moves.json', 'r', encoding='utf-8') as file:
     movesdata = json.load(file)
 @app.route("/moves")
-def get_cmoves():
+def get_moves():
     return render_template("moves.html", moves=movesdata)
