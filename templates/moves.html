@@ -16,7 +16,7 @@
     new gridjs.Grid({
         columns: [
         {name:"Name",width:"160px"},
-        {name:"",width:"30px",formatter: (cell, row) => gridjs.html(`<div style="height:100%; width:100%;"><img style="height:24px; width:24px; display:block; margin:auto; image-rendering:pixelated" src="/types/${cell}Small.png"></div>`)},
+        {name:"",width:"30px",formatter: (cell, row) => gridjs.html(`<div style="height:100%; width:100%;"><img style="height:24px; width:24px; display:block; margin:auto; image-rendering:pixelated" src="/types/${cell}.png"></div>`)},
         {name:"",width:"30px",formatter: (cell, row) => gridjs.html(`<div style="height:100%; width:100%;"><img style="height:24px; width:36px; display:block; margin:auto; image-rendering:pixelated" src="/categories/${cell}.png"></div>`)},
         {name:"PP",width:"50px"},
         {name:"Power",width:"70px"},
@@ -36,19 +36,19 @@
         sort: true,
         style: {
             table: {
-                border: '3px solid #ddd',
+                border: '3px solid #fff',
                 width: 'auto'
             },
             th: {
                 'background-color': '#333',
-                color: '#ddd',
-                'border-bottom': '3px solid #ddd',
+                color: '#fff',
+                'border-bottom': '3px solid #fff',
                 padding: "4px"
             },
             td: {
                 'background-color': '#000',
-                color: '#ddd',
-                border: '1px solid #aaa',
+                color: '#fff',
+                border: '1px solid #ccc',
                 padding: "4px"
             }
         }
