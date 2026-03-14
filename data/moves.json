@@ -5,7 +5,7 @@
         "category": "Special",
         "pp": 10,
         "basePower": 85,
-        "accuracy": "90%",
+        "accuracy": 90,
         "target": "Normal",
         "flags": "Contact, Protect, Mirror, Metronome"
     },
@@ -15,7 +15,7 @@
         "category": "Special",
         "pp": 20,
         "basePower": 75,
-        "accuracy": "90%",
+        "accuracy": 90,
         "target": "All Adjacent Foes",
         "flags": "Protect, Mirror, Heal, Metronome"
     },
@@ -25,7 +25,7 @@
         "category": "Physical",
         "pp": 10,
         "basePower": 80,
-        "accuracy": "100%",
+        "accuracy": 100,
         "target": "Normal",
         "flags": "Contact, Protect, Mirror"
     },
@@ -35,7 +35,7 @@
         "category": "Special",
         "pp": 10,
         "basePower": 0,
-        "accuracy": "100%",
+        "accuracy": 100,
         "target": "Normal",
         "flags": "Protect, Mirror, Metronome, Bullet, Wind"
     },
@@ -45,7 +45,7 @@
         "category": "Physical",
         "pp": 15,
         "basePower": 25,
-        "accuracy": "90%",
+        "accuracy": 90,
         "target": "Normal",
         "flags": "Protect, Mirror, Metronome, Bullet"
     },
@@ -55,7 +55,7 @@
         "category": "Special",
         "pp": 5,
         "basePower": 150,
-        "accuracy": "90%",
+        "accuracy": 90,
         "target": "Normal",
         "flags": "Recharge, Protect, Mirror, Metronome"
     },
@@ -65,7 +65,7 @@
         "category": "Physical",
         "pp": 5,
         "basePower": 120,
-        "accuracy": "100%",
+        "accuracy": 100,
         "target": "Normal",
         "flags": "Contact, Protect, Mirror, Punch"
     },
@@ -75,7 +75,7 @@
         "category": "Physical",
         "pp": 15,
         "basePower": 70,
-        "accuracy": "-",
+        "accuracy": true,
         "target": "Normal",
         "flags": "Contact, Protect, Mirror, Metronome, Slicing"
     },
@@ -85,7 +85,7 @@
         "category": "Special",
         "pp": 5,
         "basePower": 150,
-        "accuracy": "100%",
+        "accuracy": 100,
         "target": "Normal",
         "flags": "Recharge, Protect, Mirror, Metronome"
     },
@@ -95,7 +95,7 @@
         "category": "Physical",
         "pp": 20,
         "basePower": 80,
-        "accuracy": "100%",
+        "accuracy": 100,
         "target": "Normal",
         "flags": "Protect, Mirror, Metronome"
     },
@@ -105,7 +105,7 @@
         "category": "Physical",
         "pp": 10,
         "basePower": 80,
-        "accuracy": "100%",
+        "accuracy": 100,
         "target": "Normal",
         "flags": "Contact, Protect, Mirror"
     },
@@ -115,7 +115,7 @@
         "category": "Status",
         "pp": 20,
         "basePower": 0,
-        "accuracy": "-",
+        "accuracy": true,
         "target": "Self",
         "flags": "Snatch, Dance, Metronome"
     },
@@ -125,7 +125,7 @@
         "category": "Special",
         "pp": 15,
         "basePower": 90,
-        "accuracy": "90%",
+        "accuracy": 90,
         "target": "All Adjacent Foes",
         "flags": "Protect, Mirror, Heal, Metronome"
     },
@@ -135,7 +135,7 @@
         "category": "Physical",
         "pp": 10,
         "basePower": 40,
-        "accuracy": "85%",
+        "accuracy": 85,
         "target": "Normal",
         "flags": "Protect, Mirror, Metronome, Bullet"
     },
@@ -145,7 +145,7 @@
         "category": "Special",
         "pp": 15,
         "basePower": 55,
-        "accuracy": "100%",
+        "accuracy": 100,
         "target": "Any",
         "flags": "Contact, Protect, Mirror, Dance, Metronome"
     },
@@ -155,7 +155,7 @@
         "category": "Status",
         "pp": 5,
         "basePower": 0,
-        "accuracy": "-",
+        "accuracy": true,
         "target": "Self",
         "flags": "Snatch, Heal, Metronome, Dance"
     },
@@ -165,7 +165,7 @@
         "category": "Physical",
         "pp": 10,
         "basePower": 85,
-        "accuracy": "90%",
+        "accuracy": 90,
         "target": "Normal",
         "flags": "Contact, Protect, Mirror"
     },
@@ -175,7 +175,7 @@
         "category": "Physical",
         "pp": 5,
         "basePower": 10,
-        "accuracy": "-",
+        "accuracy": true,
         "target": "Adjacent Foe",
         "flags": "-"
     },
@@ -185,7 +185,7 @@
         "category": "Physical",
         "pp": 10,
         "basePower": 80,
-        "accuracy": "100%",
+        "accuracy": 100,
         "target": "Normal",
         "flags": "Contact, Protect, Mirror"
     },
@@ -195,7 +195,7 @@
         "category": "Status",
         "pp": 5,
         "basePower": 0,
-        "accuracy": "-",
+        "accuracy": true,
         "target": "Self",
         "flags": "Snatch, Metronome"
     },
@@ -205,7 +205,7 @@
         "category": "Status",
         "pp": 5,
         "basePower": 0,
-        "accuracy": "-",
+        "accuracy": true,
         "target": "Self",
         "flags": "Snatch, Metronome"
     },
@@ -215,7 +215,7 @@
         "category": "Special",
         "pp": 5,
         "basePower": 110,
-        "accuracy": "100%",
+        "accuracy": 100,
         "target": "All Adjacent Foes",
         "flags": "Protect, Mirror"
     },
@@ -225,7 +225,7 @@
         "category": "Special",
         "pp": 10,
         "basePower": 90,
-        "accuracy": "100%",
+        "accuracy": 100,
         "target": "Normal",
         "flags": "Protect, Mirror, Metronome"
     },
@@ -235,7 +235,7 @@
         "category": "Status",
         "pp": 10,
         "basePower": 0,
-        "accuracy": "-",
+        "accuracy": true,
         "target": "Self",
         "flags": "Protect, Mirror, Bypasssub, Allyanim, Metronome"
     },
@@ -245,7 +245,7 @@
         "category": "Physical",
         "pp": 6,
         "basePower": 85,
-        "accuracy": "100%",
+        "accuracy": 100,
         "target": "Normal",
         "flags": "Contact, Protect, Mirror, Metronome"
     },
@@ -255,7 +255,7 @@
         "category": "Special",
         "pp": 10,
         "basePower": 80,
-        "accuracy": "100%",
+        "accuracy": 100,
         "target": "Normal",
         "flags": "Protect, Mirror"
     },
@@ -265,7 +265,7 @@
         "category": "Physical",
         "pp": 15,
         "basePower": 100,
-        "accuracy": "100%",
+        "accuracy": 100,
         "target": "Normal",
         "flags": "Protect, Mirror, Heal, Metronome"
     },
@@ -275,7 +275,7 @@
         "category": "Status",
         "pp": 20,
         "basePower": 0,
-        "accuracy": "-",
+        "accuracy": true,
         "target": "Self",
         "flags": "Snatch, Metronome"
     },
@@ -285,7 +285,7 @@
         "category": "Physical",
         "pp": 15,
         "basePower": 60,
-        "accuracy": "100%",
+        "accuracy": 100,
         "target": "Normal",
         "flags": "Contact, Protect, Mirror, Slicing"
     },
@@ -295,7 +295,7 @@
         "category": "Physical",
         "pp": 15,
         "basePower": 75,
-        "accuracy": "-",
+        "accuracy": true,
         "target": "Normal",
         "flags": "Protect, Mirror, Metronome, Slicing"
     },
@@ -305,7 +305,7 @@
         "category": "Physical",
         "pp": 5,
         "basePower": 70,
-        "accuracy": "100%",
+        "accuracy": 100,
         "target": "Normal",
         "flags": "Protect, Mirror, Metronome, Priority+1"
     },
@@ -315,7 +315,7 @@
         "category": "Special",
         "pp": 15,
         "basePower": 75,
-        "accuracy": "100%",
+        "accuracy": 100,
         "target": "Normal",
         "flags": "Protect, Mirror, Sound, Bypasssub, Metronome"
     },
@@ -325,7 +325,7 @@
         "category": "Physical",
         "pp": 10,
         "basePower": 100,
-        "accuracy": "100%",
+        "accuracy": 100,
         "target": "Normal",
         "flags": "Contact, Protect, Mirror, Metronome"
     },
@@ -335,7 +335,7 @@
         "category": "Physical",
         "pp": 5,
         "basePower": 120,
-        "accuracy": "100%",
+        "accuracy": 100,
         "target": "All Adjacent",
         "flags": "Protect, Mirror, Metronome, Bullet"
     },
@@ -345,7 +345,7 @@
         "category": "Special",
         "pp": 10,
         "basePower": 70,
-        "accuracy": "100%",
+        "accuracy": 100,
         "target": "Normal",
         "flags": "Protect, Mirror, Nonsky"
     },
@@ -355,7 +355,7 @@
         "category": "Special",
         "pp": 10,
         "basePower": 60,
-        "accuracy": "100%",
+        "accuracy": 100,
         "target": "Normal",
         "flags": "Protect, Mirror, Metronome"
     },
@@ -365,7 +365,7 @@
         "category": "Status",
         "pp": 20,
         "basePower": 0,
-        "accuracy": "-",
+        "accuracy": true,
         "target": "Self",
         "flags": "Snatch, Dance, Metronome"
     },
@@ -375,7 +375,7 @@
         "category": "Status",
         "pp": 5,
         "basePower": 0,
-        "accuracy": "75%",
+        "accuracy": 75,
         "target": "Normal",
         "flags": "Protect, Reflectable, Mirror, Metronome, Heal"
     },
@@ -385,7 +385,7 @@
         "category": "Status",
         "pp": 5,
         "basePower": 0,
-        "accuracy": "-",
+        "accuracy": true,
         "target": "Self",
         "flags": "Snatch, Heal, Metronome"
     },
@@ -395,7 +395,7 @@
         "category": "Special",
         "pp": 15,
         "basePower": 85,
-        "accuracy": "100%",
+        "accuracy": 100,
         "target": "All Adjacent Foes",
         "flags": "Protect, Mirror, Sound, Bypasssub"
     },
@@ -405,7 +405,7 @@
         "category": "Special",
         "pp": 10,
         "basePower": 90,
-        "accuracy": "100%",
+        "accuracy": 100,
         "target": "Normal",
         "flags": "Protect, Mirror, Metronome, Sound, Bypasssub"
     },
@@ -415,7 +415,7 @@
         "category": "Physical",
         "pp": 10,
         "basePower": 75,
-        "accuracy": "100%",
+        "accuracy": 100,
         "target": "Normal",
         "flags": "Mirror, Noassist, Failcopycat"
     },
@@ -425,7 +425,7 @@
         "category": "Special",
         "pp": 10,
         "basePower": 75,
-        "accuracy": "100%",
+        "accuracy": 100,
         "target": "Any",
         "flags": "Contact, Protect, Mirror, Gravity, Distance, Nonsky, Metronome"
     },
@@ -435,7 +435,7 @@
         "category": "Special",
         "pp": 10,
         "basePower": 90,
-        "accuracy": "100%",
+        "accuracy": 100,
         "target": "All Adjacent Foes",
         "flags": "Protect, Mirror, Sound, Bypasssub"
     },
@@ -445,7 +445,7 @@
         "category": "Physical",
         "pp": 20,
         "basePower": 70,
-        "accuracy": "100%",
+        "accuracy": 100,
         "target": "Normal",
         "flags": "Protect, Mirror, Metronome, Slicing"
     },
@@ -455,7 +455,7 @@
         "category": "Physical",
         "pp": 10,
         "basePower": 50,
-        "accuracy": "100%",
+        "accuracy": 100,
         "target": "Normal",
         "flags": "Protect, Mirror, Metronome, Slicing"
     },
@@ -465,7 +465,7 @@
         "category": "Status",
         "pp": 20,
         "basePower": 0,
-        "accuracy": "-",
+        "accuracy": true,
         "target": "Ally Side",
         "flags": "Snatch, Metronome"
     },
@@ -475,7 +475,7 @@
         "category": "Physical",
         "pp": 1,
         "basePower": 200,
-        "accuracy": "-",
+        "accuracy": true,
         "target": "Normal",
         "flags": "-"
     },
@@ -485,7 +485,7 @@
         "category": "Special",
         "pp": 10,
         "basePower": 75,
-        "accuracy": "100%",
+        "accuracy": 100,
         "target": "Normal",
         "flags": "Contact, Protect, Mirror, Heal, Metronome"
     },
@@ -495,7 +495,7 @@
         "category": "Physical",
         "pp": 10,
         "basePower": 75,
-        "accuracy": "100%",
+        "accuracy": 100,
         "target": "Normal",
         "flags": "Contact, Protect, Mirror, Slicing, Heal, Metronome"
     }
