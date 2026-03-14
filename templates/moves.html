@@ -21,7 +21,7 @@
         {name:"PP",width:"50px"},
         {name:"Power",width:"70px"},
         {name:"Accuracy",width:"80px",formatter: (cell, row) => {
-            if(cell == 0) {
+            if(cell == 0 || cell == true) {
                 return gridjs.html(`-`)
             } else {
                 return gridjs.html(`${cell}%`)
