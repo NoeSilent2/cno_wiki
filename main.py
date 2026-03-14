@@ -32,8 +32,16 @@ def get_fakemon_specific(name):
     else:
         return redirect(url_for('get_fakemon'))
 
-with open('./data/moves.json', 'r', encoding='utf-8') as file:
+
+
+with open('./data/cmoves.json', 'r', encoding='utf-8') as file:
     cmovesdata = json.load(file)
+@app.route("/cmoves")
+def get_cmoves():
+    return render_template("cmoves.html", moves=cmovesdata)
+
+with open('./data/moves.json', 'r', encoding='utf-8') as file:
+    movesdata = json.load(file)
 @app.route("/moves")
-def get_moves():
-    return render_template("moves.html", moves=cmovesdata)
+def get_cmoves():
+    return render_template("moves.html", moves=movesdata)
