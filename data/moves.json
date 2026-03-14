@@ -4,7 +4,7 @@
         "type": "Steel",
         "category": "Special",
         "pp": 10,
-        "basePower": "85",
+        "basePower": 85,
         "accuracy": "90%",
         "target": "Normal",
         "flags": "Contact, Protect, Mirror, Metronome"
@@ -14,7 +14,7 @@
         "type": "Water",
         "category": "Special",
         "pp": 20,
-        "basePower": "75",
+        "basePower": 75,
         "accuracy": "90%",
         "target": "All Adjacent Foes",
         "flags": "Protect, Mirror, Heal, Metronome"
@@ -24,7 +24,7 @@
         "type": "Steel",
         "category": "Physical",
         "pp": 10,
-        "basePower": "80",
+        "basePower": 80,
         "accuracy": "100%",
         "target": "Normal",
         "flags": "Contact, Protect, Mirror"
@@ -34,7 +34,7 @@
         "type": "Flying",
         "category": "Special",
         "pp": 10,
-        "basePower": "-",
+        "basePower": 0,
         "accuracy": "100%",
         "target": "Normal",
         "flags": "Protect, Mirror, Metronome, Bullet, Wind"
@@ -44,7 +44,7 @@
         "type": "Steel",
         "category": "Physical",
         "pp": 15,
-        "basePower": "25",
+        "basePower": 25,
         "accuracy": "90%",
         "target": "Normal",
         "flags": "Protect, Mirror, Metronome, Bullet"
@@ -54,7 +54,7 @@
         "type": "Bug",
         "category": "Special",
         "pp": 5,
-        "basePower": "150",
+        "basePower": 150,
         "accuracy": "90%",
         "target": "Normal",
         "flags": "Recharge, Protect, Mirror, Metronome"
@@ -64,7 +64,7 @@
         "type": "Ghost",
         "category": "Physical",
         "pp": 5,
-        "basePower": "120",
+        "basePower": 120,
         "accuracy": "100%",
         "target": "Normal",
         "flags": "Contact, Protect, Mirror, Punch"
@@ -74,7 +74,7 @@
         "type": "Rock",
         "category": "Physical",
         "pp": 15,
-        "basePower": "70",
+        "basePower": 70,
         "accuracy": "-",
         "target": "Normal",
         "flags": "Contact, Protect, Mirror, Metronome, Slicing"
@@ -84,7 +84,7 @@
         "type": "Fire",
         "category": "Special",
         "pp": 5,
-        "basePower": "150",
+        "basePower": 150,
         "accuracy": "100%",
         "target": "Normal",
         "flags": "Recharge, Protect, Mirror, Metronome"
@@ -94,7 +94,7 @@
         "type": "Steel",
         "category": "Physical",
         "pp": 20,
-        "basePower": "80",
+        "basePower": 80,
         "accuracy": "100%",
         "target": "Normal",
         "flags": "Protect, Mirror, Metronome"
@@ -104,7 +104,7 @@
         "type": "Dragon",
         "category": "Physical",
         "pp": 10,
-        "basePower": "80",
+        "basePower": 80,
         "accuracy": "100%",
         "target": "Normal",
         "flags": "Contact, Protect, Mirror"
@@ -114,7 +114,7 @@
         "type": "Ghost",
         "category": "Status",
         "pp": 20,
-        "basePower": "-",
+        "basePower": 0,
         "accuracy": "-",
         "target": "Self",
         "flags": "Snatch, Dance, Metronome"
@@ -124,7 +124,7 @@
         "type": "Electric",
         "category": "Special",
         "pp": 15,
-        "basePower": "90",
+        "basePower": 90,
         "accuracy": "90%",
         "target": "All Adjacent Foes",
         "flags": "Protect, Mirror, Heal, Metronome"
@@ -134,7 +134,7 @@
         "type": "Fire",
         "category": "Physical",
         "pp": 10,
-        "basePower": "40",
+        "basePower": 40,
         "accuracy": "85%",
         "target": "Normal",
         "flags": "Protect, Mirror, Metronome, Bullet"
@@ -144,7 +144,7 @@
         "type": "Fairy",
         "category": "Special",
         "pp": 15,
-        "basePower": "55",
+        "basePower": 55,
         "accuracy": "100%",
         "target": "Any",
         "flags": "Contact, Protect, Mirror, Dance, Metronome"
@@ -154,7 +154,7 @@
         "type": "Rock",
         "category": "Status",
         "pp": 5,
-        "basePower": "-",
+        "basePower": 0,
         "accuracy": "-",
         "target": "Self",
         "flags": "Snatch, Heal, Metronome, Dance"
@@ -164,7 +164,7 @@
         "type": "Ice",
         "category": "Physical",
         "pp": 10,
-        "basePower": "85",
+        "basePower": 85,
         "accuracy": "90%",
         "target": "Normal",
         "flags": "Contact, Protect, Mirror"
@@ -174,7 +174,7 @@
         "type": "Fairy",
         "category": "Physical",
         "pp": 5,
-        "basePower": "10",
+        "basePower": 10,
         "accuracy": "-",
         "target": "Adjacent Foe",
         "flags": "-"
@@ -184,7 +184,7 @@
         "type": "Rock",
         "category": "Physical",
         "pp": 10,
-        "basePower": "80",
+        "basePower": 80,
         "accuracy": "100%",
         "target": "Normal",
         "flags": "Contact, Protect, Mirror"
@@ -194,7 +194,7 @@
         "type": "Fighting",
         "category": "Status",
         "pp": 5,
-        "basePower": "-",
+        "basePower": 0,
         "accuracy": "-",
         "target": "Self",
         "flags": "Snatch, Metronome"
@@ -204,7 +204,7 @@
         "type": "Fighting",
         "category": "Status",
         "pp": 5,
-        "basePower": "-",
+        "basePower": 0,
         "accuracy": "-",
         "target": "Self",
         "flags": "Snatch, Metronome"
@@ -214,7 +214,7 @@
         "type": "Fairy",
         "category": "Special",
         "pp": 5,
-        "basePower": "110",
+        "basePower": 110,
         "accuracy": "100%",
         "target": "All Adjacent Foes",
         "flags": "Protect, Mirror"
@@ -224,7 +224,7 @@
         "type": "Psychic",
         "category": "Special",
         "pp": 10,
-        "basePower": "90",
+        "basePower": 90,
         "accuracy": "100%",
         "target": "Normal",
         "flags": "Protect, Mirror, Metronome"
@@ -234,7 +234,7 @@
         "type": "Fairy",
         "category": "Status",
         "pp": 10,
-        "basePower": "-",
+        "basePower": 0,
         "accuracy": "-",
         "target": "Self",
         "flags": "Protect, Mirror, Bypasssub, Allyanim, Metronome"
@@ -244,7 +244,7 @@
         "type": "Rock",
         "category": "Physical",
         "pp": 6,
-        "basePower": "85",
+        "basePower": 85,
         "accuracy": "100%",
         "target": "Normal",
         "flags": "Contact, Protect, Mirror, Metronome"
@@ -254,7 +254,7 @@
         "type": "Psychic",
         "category": "Special",
         "pp": 10,
-        "basePower": "80",
+        "basePower": 80,
         "accuracy": "100%",
         "target": "Normal",
         "flags": "Protect, Mirror"
@@ -264,7 +264,7 @@
         "type": "Dark",
         "category": "Physical",
         "pp": 15,
-        "basePower": "100",
+        "basePower": 100,
         "accuracy": "100%",
         "target": "Normal",
         "flags": "Protect, Mirror, Heal, Metronome"
@@ -274,7 +274,7 @@
         "type": "Psychic",
         "category": "Status",
         "pp": 20,
-        "basePower": "-",
+        "basePower": 0,
         "accuracy": "-",
         "target": "Self",
         "flags": "Snatch, Metronome"
@@ -284,7 +284,7 @@
         "type": "Normal",
         "category": "Physical",
         "pp": 15,
-        "basePower": "60",
+        "basePower": 60,
         "accuracy": "100%",
         "target": "Normal",
         "flags": "Contact, Protect, Mirror, Slicing"
@@ -294,7 +294,7 @@
         "type": "Ghost",
         "category": "Physical",
         "pp": 15,
-        "basePower": "75",
+        "basePower": 75,
         "accuracy": "-",
         "target": "Normal",
         "flags": "Protect, Mirror, Metronome, Slicing"
@@ -304,7 +304,7 @@
         "type": "Ground",
         "category": "Physical",
         "pp": 5,
-        "basePower": "70",
+        "basePower": 70,
         "accuracy": "100%",
         "target": "Normal",
         "flags": "Protect, Mirror, Metronome, Priority+1"
@@ -314,7 +314,7 @@
         "type": "Psychic",
         "category": "Special",
         "pp": 15,
-        "basePower": "75",
+        "basePower": 75,
         "accuracy": "100%",
         "target": "Normal",
         "flags": "Protect, Mirror, Sound, Bypasssub, Metronome"
@@ -324,7 +324,7 @@
         "type": "Psychic",
         "category": "Physical",
         "pp": 10,
-        "basePower": "100",
+        "basePower": 100,
         "accuracy": "100%",
         "target": "Normal",
         "flags": "Contact, Protect, Mirror, Metronome"
@@ -334,7 +334,7 @@
         "type": "Grass",
         "category": "Physical",
         "pp": 5,
-        "basePower": "120",
+        "basePower": 120,
         "accuracy": "100%",
         "target": "All Adjacent",
         "flags": "Protect, Mirror, Metronome, Bullet"
@@ -344,7 +344,7 @@
         "type": "Ground",
         "category": "Special",
         "pp": 10,
-        "basePower": "70",
+        "basePower": 70,
         "accuracy": "100%",
         "target": "Normal",
         "flags": "Protect, Mirror, Nonsky"
@@ -354,7 +354,7 @@
         "type": "Ground",
         "category": "Special",
         "pp": 10,
-        "basePower": "60",
+        "basePower": 60,
         "accuracy": "100%",
         "target": "Normal",
         "flags": "Protect, Mirror, Metronome"
@@ -364,7 +364,7 @@
         "type": "Ice",
         "category": "Status",
         "pp": 20,
-        "basePower": "-",
+        "basePower": 0,
         "accuracy": "-",
         "target": "Self",
         "flags": "Snatch, Dance, Metronome"
@@ -374,7 +374,7 @@
         "type": "Psychic",
         "category": "Status",
         "pp": 5,
-        "basePower": "-",
+        "basePower": 0,
         "accuracy": "75%",
         "target": "Normal",
         "flags": "Protect, Reflectable, Mirror, Metronome, Heal"
@@ -384,7 +384,7 @@
         "type": "Ice",
         "category": "Status",
         "pp": 5,
-        "basePower": "-",
+        "basePower": 0,
         "accuracy": "-",
         "target": "Self",
         "flags": "Snatch, Heal, Metronome"
@@ -394,7 +394,7 @@
         "type": "Fairy",
         "category": "Special",
         "pp": 15,
-        "basePower": "85",
+        "basePower": 85,
         "accuracy": "100%",
         "target": "All Adjacent Foes",
         "flags": "Protect, Mirror, Sound, Bypasssub"
@@ -404,7 +404,7 @@
         "type": "Dark",
         "category": "Special",
         "pp": 10,
-        "basePower": "90",
+        "basePower": 90,
         "accuracy": "100%",
         "target": "Normal",
         "flags": "Protect, Mirror, Metronome, Sound, Bypasssub"
@@ -414,7 +414,7 @@
         "type": "Ghost",
         "category": "Physical",
         "pp": 10,
-        "basePower": "75",
+        "basePower": 75,
         "accuracy": "100%",
         "target": "Normal",
         "flags": "Mirror, Noassist, Failcopycat"
@@ -424,7 +424,7 @@
         "type": "Ghost",
         "category": "Special",
         "pp": 10,
-        "basePower": "75",
+        "basePower": 75,
         "accuracy": "100%",
         "target": "Any",
         "flags": "Contact, Protect, Mirror, Gravity, Distance, Nonsky, Metronome"
@@ -434,7 +434,7 @@
         "type": "Normal",
         "category": "Special",
         "pp": 10,
-        "basePower": "90",
+        "basePower": 90,
         "accuracy": "100%",
         "target": "All Adjacent Foes",
         "flags": "Protect, Mirror, Sound, Bypasssub"
@@ -444,7 +444,7 @@
         "type": "Steel",
         "category": "Physical",
         "pp": 20,
-        "basePower": "70",
+        "basePower": 70,
         "accuracy": "100%",
         "target": "Normal",
         "flags": "Protect, Mirror, Metronome, Slicing"
@@ -454,7 +454,7 @@
         "type": "Normal",
         "category": "Physical",
         "pp": 10,
-        "basePower": "50",
+        "basePower": 50,
         "accuracy": "100%",
         "target": "Normal",
         "flags": "Protect, Mirror, Metronome, Slicing"
@@ -464,7 +464,7 @@
         "type": "Fairy",
         "category": "Status",
         "pp": 20,
-        "basePower": "-",
+        "basePower": 0,
         "accuracy": "-",
         "target": "Ally Side",
         "flags": "Snatch, Metronome"
@@ -474,7 +474,7 @@
         "type": "Ghost",
         "category": "Physical",
         "pp": 1,
-        "basePower": "200",
+        "basePower": 200,
         "accuracy": "-",
         "target": "Normal",
         "flags": "-"
@@ -484,7 +484,7 @@
         "type": "Dark",
         "category": "Special",
         "pp": 10,
-        "basePower": "75",
+        "basePower": 75,
         "accuracy": "100%",
         "target": "Normal",
         "flags": "Contact, Protect, Mirror, Heal, Metronome"
@@ -494,7 +494,7 @@
         "type": "Dark",
         "category": "Physical",
         "pp": 10,
-        "basePower": "75",
+        "basePower": 75,
         "accuracy": "100%",
         "target": "Normal",
         "flags": "Contact, Protect, Mirror, Slicing, Heal, Metronome"
