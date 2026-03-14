@@ -34,7 +34,7 @@
         "type": "Flying",
         "category": "Special",
         "pp": 10,
-        "basePower": 0,
+        "basePower": "-",
         "accuracy": "100%",
         "target": "Normal",
         "flags": "Protect, Mirror, Metronome, Bullet, Wind"
@@ -114,7 +114,7 @@
         "type": "Ghost",
         "category": "Status",
         "pp": 20,
-        "basePower": 0,
+        "basePower": "-",
         "accuracy": "-",
         "target": "Self",
         "flags": "Snatch, Dance, Metronome"
@@ -154,7 +154,7 @@
         "type": "Rock",
         "category": "Status",
         "pp": 5,
-        "basePower": 0,
+        "basePower": "-",
         "accuracy": "-",
         "target": "Self",
         "flags": "Snatch, Heal, Metronome, Dance"
@@ -194,7 +194,7 @@
         "type": "Fighting",
         "category": "Status",
         "pp": 5,
-        "basePower": 0,
+        "basePower": "-",
         "accuracy": "-",
         "target": "Self",
         "flags": "Snatch, Metronome"
@@ -204,7 +204,7 @@
         "type": "Fighting",
         "category": "Status",
         "pp": 5,
-        "basePower": 0,
+        "basePower": "-",
         "accuracy": "-",
         "target": "Self",
         "flags": "Snatch, Metronome"
@@ -234,7 +234,7 @@
         "type": "Fairy",
         "category": "Status",
         "pp": 10,
-        "basePower": 0,
+        "basePower": "-",
         "accuracy": "-",
         "target": "Self",
         "flags": "Protect, Mirror, Bypasssub, Allyanim, Metronome"
@@ -274,7 +274,7 @@
         "type": "Psychic",
         "category": "Status",
         "pp": 20,
-        "basePower": 0,
+        "basePower": "-",
         "accuracy": "-",
         "target": "Self",
         "flags": "Snatch, Metronome"
@@ -364,7 +364,7 @@
         "type": "Ice",
         "category": "Status",
         "pp": 20,
-        "basePower": 0,
+        "basePower": "-",
         "accuracy": "-",
         "target": "Self",
         "flags": "Snatch, Dance, Metronome"
@@ -374,7 +374,7 @@
         "type": "Psychic",
         "category": "Status",
         "pp": 5,
-        "basePower": 0,
+        "basePower": "-",
         "accuracy": "75%",
         "target": "Normal",
         "flags": "Protect, Reflectable, Mirror, Metronome, Heal"
@@ -384,7 +384,7 @@
         "type": "Ice",
         "category": "Status",
         "pp": 5,
-        "basePower": 0,
+        "basePower": "-",
         "accuracy": "-",
         "target": "Self",
         "flags": "Snatch, Heal, Metronome"
@@ -464,7 +464,7 @@
         "type": "Fairy",
         "category": "Status",
         "pp": 20,
-        "basePower": 0,
+        "basePower": "-",
         "accuracy": "-",
         "target": "Ally Side",
         "flags": "Snatch, Metronome"
