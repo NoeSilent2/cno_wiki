@@ -16,8 +16,8 @@
     new gridjs.Grid({
         columns: [
         {name:"Name",width:"160px"},
-        {name:"Type",width:"40px",formatter: (cell, row) => gridjs.html(`<div style="height:100%; width:100%;"><img style="height:24px; width:24px; display:block; margin:auto; image-rendering:pixelated" src="/types/${cell}Small.png"></div>`)},
-        {name:"Category",width:"46px",formatter: (cell, row) => gridjs.html(`<div style="height:100%; width:100%;"><img style="height:24px; width:36px; display:block; margin:auto; image-rendering:pixelated" src="/categories/${cell}.png"></div>`)},
+        {name:"Type",width:"30px",formatter: (cell, row) => gridjs.html(`<div style="height:100%; width:100%;"><img style="height:24px; width:24px; display:block; margin:auto; image-rendering:pixelated" src="/types/${cell}Small.png"></div>`)},
+        {name:"Category",width:"30px",formatter: (cell, row) => gridjs.html(`<div style="height:100%; width:100%;"><img style="height:24px; width:36px; display:block; margin:auto; image-rendering:pixelated" src="/categories/${cell}.png"></div>`)},
         {name:"PP",width:"50px"},
         {name:"Power",width:"70px"},
         {name:"Accuracy",width:"80px"},
