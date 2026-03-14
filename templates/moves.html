@@ -27,7 +27,7 @@
             }
         }},
         {name:"Accuracy",width:"80px",formatter: (cell, row) => {
-            if(cell == 0 || cell == true) {
+            if(cell == 999) {
                 return gridjs.html(`-`)
             } else {
                 return gridjs.html(`${cell}%`)

@@ -75,7 +75,7 @@
         "category": "Physical",
         "pp": 15,
         "basePower": 70,
-        "accuracy": true,
+        "accuracy": 999,
         "target": "Normal",
         "flags": "Contact, Protect, Mirror, Metronome, Slicing"
     },
@@ -115,7 +115,7 @@
         "category": "Status",
         "pp": 20,
         "basePower": 0,
-        "accuracy": true,
+        "accuracy": 999,
         "target": "Self",
         "flags": "Snatch, Dance, Metronome"
     },
@@ -155,7 +155,7 @@
         "category": "Status",
         "pp": 5,
         "basePower": 0,
-        "accuracy": true,
+        "accuracy": 999,
         "target": "Self",
         "flags": "Snatch, Heal, Metronome, Dance"
     },
@@ -175,7 +175,7 @@
         "category": "Physical",
         "pp": 5,
         "basePower": 10,
-        "accuracy": true,
+        "accuracy": 999,
         "target": "Adjacent Foe",
         "flags": "-"
     },
@@ -195,7 +195,7 @@
         "category": "Status",
         "pp": 5,
         "basePower": 0,
-        "accuracy": true,
+        "accuracy": 999,
         "target": "Self",
         "flags": "Snatch, Metronome"
     },
@@ -205,7 +205,7 @@
         "category": "Status",
         "pp": 5,
         "basePower": 0,
-        "accuracy": true,
+        "accuracy": 999,
         "target": "Self",
         "flags": "Snatch, Metronome"
     },
@@ -235,7 +235,7 @@
         "category": "Status",
         "pp": 10,
         "basePower": 0,
-        "accuracy": true,
+        "accuracy": 999,
         "target": "Self",
         "flags": "Protect, Mirror, Bypasssub, Allyanim, Metronome"
     },
@@ -275,7 +275,7 @@
         "category": "Status",
         "pp": 20,
         "basePower": 0,
-        "accuracy": true,
+        "accuracy": 999,
         "target": "Self",
         "flags": "Snatch, Metronome"
     },
@@ -295,7 +295,7 @@
         "category": "Physical",
         "pp": 15,
         "basePower": 75,
-        "accuracy": true,
+        "accuracy": 999,
         "target": "Normal",
         "flags": "Protect, Mirror, Metronome, Slicing"
     },
@@ -365,7 +365,7 @@
         "category": "Status",
         "pp": 20,
         "basePower": 0,
-        "accuracy": true,
+        "accuracy": 999,
         "target": "Self",
         "flags": "Snatch, Dance, Metronome"
     },
@@ -385,7 +385,7 @@
         "category": "Status",
         "pp": 5,
         "basePower": 0,
-        "accuracy": true,
+        "accuracy": 999,
         "target": "Self",
         "flags": "Snatch, Heal, Metronome"
     },
@@ -465,7 +465,7 @@
         "category": "Status",
         "pp": 20,
         "basePower": 0,
-        "accuracy": true,
+        "accuracy": 999,
         "target": "Ally Side",
         "flags": "Snatch, Metronome"
     },
@@ -475,7 +475,7 @@
         "category": "Physical",
         "pp": 1,
         "basePower": 200,
-        "accuracy": true,
+        "accuracy": 999,
         "target": "Normal",
         "flags": "-"
     },
