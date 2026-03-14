@@ -22,7 +22,7 @@
         columns: [
             {name:"Dex",width:"50px"}, 
             {name:"Name",width:"110px", formatter: (cell, row) => gridjs.html(`<a href='/species/${row.cells[13].data}'>${cell}</a>`)}, 
-            {name:"Type",width:"80px", formatter: (cell, row) => {
+            {name:"Type",width:"82px", formatter: (cell, row) => {
                 if (row.cells[3].data) {
                     return gridjs.html(`<div style="display:flex"><div style="height:36px; padding:0px 1px 0px 0px"><img src="/types/${cell}.png"></div><div style="height:36px;"><img src="/types/${row.cells[3].data}.png"></div></div>`)
                 } else {
@@ -68,7 +68,7 @@
         style: {
             table: {
                 border: '3px solid #fff',
-                width: '730px'
+                width: 'auto'
             },
             th: {
                 'background-color': '#333',
