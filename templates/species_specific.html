@@ -100,13 +100,21 @@
                                         <tbody>
                                             <tr>
                                                 {% if species.primary_type %}
-                                                <td width="30px" height="30px">
-                                                    <img src="/types/{{ species.primary_type }}.png" title="{{ species.primary_type }}" alt="{{ species.primary_type }}">
+                                                <td width="90px" height="25px" class="typebox {{ species.primary_type }}">
+                                                    <a>
+                                                        <span>
+                                                            <p style="font-size:17px">{{ species.primary_type }}</p>
+                                                        </span>
+                                                    </a>
                                                 </td>
                                                 {% endif %}
                                                 {% if species.secondary_type %}
-                                                <td width="30px" height="30px">
-                                                     <img src="/types/{{ species.secondary_type }}.png" title="{{ species.secondary_type }}" alt="{{ species.secondary_type }}">
+                                                <td width="90px" height="25px" class="typebox {{ species.secondary_type }}">
+                                                    <a>
+                                                        <span>
+                                                            <p style="font-size:17px">{{ species.secondary_type }}</p>
+                                                        </span>
+                                                    </a>
                                                 </td>
                                                 {% endif %}
                                             </tr>
