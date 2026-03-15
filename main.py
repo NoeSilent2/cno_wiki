@@ -31,7 +31,7 @@ for i, species in enumerate(speciesdata):
 def get_species_specific(name):
     name = name.lower()
     if name == "random":
-        species = speciesdata[random.randint(0,speciesdata.len())]
+        species = speciesdata[random.randint(0,len(speciesdata))]
         if species:
             rname = species['name']
             if rname:
