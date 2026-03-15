@@ -1,4 +1,5 @@
 import json
+import random
 from flask import Flask, render_template, redirect, url_for
 
 
@@ -22,17 +23,25 @@ with open('./data/species.json', 'r', encoding='utf-8') as file:
 def get_species():
     return render_template("species.html", species=speciesdata)
 
+
 speciesdict = {}
 for i, species in enumerate(speciesdata):
     speciesdict[species['internal_name']] = i
 @app.route("/species/<name>")
 def get_species_specific(name):
     name = name.lower()
-    if name in speciesdict:
+    if name == "random":
+        species = speciesdata[random.randint(0,speciesdata.len())]
+        if species:
+            rname = species['name']
+            if rname:
+                return redirect(url_for('get_species_specific', name=rname))
+    elif name in speciesdict:
         species = speciesdata[speciesdict[name]]
         return render_template("species_specific.html", species=species)
     else:
         return redirect(url_for('get_species'))
+
 
 
 
