@@ -16,21 +16,23 @@ with open('./data/fakemon.json', 'r', encoding='utf-8') as file:
 def get_fakemon():
     return render_template("fakemon.html", fakemon=fakemondata)
 
+with open('./data/species.json', 'r', encoding='utf-8') as file:
+    speciesdata = json.load(file)
 @app.route("/species")
-def species_redirect():
-    return redirect(url_for('get_fakemon'))
+def get_species():
+    return render_template("species.html", species=speciesdata)
 
-fakemondict = {}
-for fakemon in fakemondata:
-    fakemondict[fakemon['internal_name']] = fakemon
+speciesdict = {}
+for i, species in enumerate(speciesdata):
+    speciesdict[species['internal_name']] = i
 @app.route("/species/<name>")
-def get_fakemon_specific(name):
+def get_species_specific(name):
     name = name.lower()
-    if name in fakemondict:
-        fakemon = fakemondict[name]
-        return render_template("species_specific.html", species=fakemon)
+    if name in speciesdict:
+        species = speciesdata[speciesdict[name]]
+        return render_template("species_specific.html", species=species)
     else:
-        return redirect(url_for('get_fakemon'))
+        return redirect(url_for('get_species'))
 
 
 
