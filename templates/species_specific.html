@@ -73,6 +73,14 @@
                                                             <input type="checkbox">
                                                             <span class="toggle">✨</span>
                                                         </label>
+                                                        <div style="float:left; margin:4px; gap:1px; display:flex;">
+                                                            {% if species.primary_type %}
+                                                                <img src="/types/{{ species.primary_type }}.png" title="{{ species.primary_type }}" alt="{{ species.primary_type }}">
+                                                            {% endif %}
+                                                            {% if species.secondary_type %}
+                                                                <img src="/types/{{ species.secondary_type }}.png" title="{{ species.secondary_type }}" alt="{{ species.secondary_type }}">
+                                                            {% endif %}
+                                                        </div>
                                                     </model-viewer>
                                                 </td>
                                             </tr>
