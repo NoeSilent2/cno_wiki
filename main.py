@@ -33,7 +33,7 @@ def get_species_specific(name):
     if name == "random":
         species = speciesdata[random.randint(0,len(speciesdata))]
         if species:
-            rname = species['name']
+            rname = species['internal_name']
             if rname:
                 return redirect(url_for('get_species_specific', name=rname))
     elif name in speciesdict:
