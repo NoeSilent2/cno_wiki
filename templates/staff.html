@@ -1,0 +1,27 @@
+{% extends 'header.html' %}
+
+{% block title %}Staff - C&O Wiki{% endblock %}
+
+{% block extra_head %}
+<style>
+    .entry {border:2px solid white; display:flex; align-items:center; justify-content:center; flex-direction:column; padding:0.5rem; gap:5px; flex:1;}
+    .entry img {border-radius: 50%; width:100%; height:auto;}
+</style>
+{% endblock %}
+
+{% block body %}
+<main style="display:grid; grid-template-columns:repeat(5, 1fr);">
+
+    <div class="entry">
+        <img src="https://cdn.discordapp.com/avatars/990786248471896125/63c548e6d278c40b96846546d2938c66.webp?size=256">
+        <a style="text-align:center">duder65</a>
+        <p style="font-size:50%; text-decoration:none;">Owner</p>
+    </div>
+    <div class="entry">
+        <img src="https://cdn.discordapp.com/avatars/515584466329141259/7189492665dc414ed392df7119cee285.webp?size=256">
+        <a style="text-align:center">NoeSilent</a>
+        <p style="font-size:50%; text-decoration:none;">Admin / Dev</p>
+    </div>
+
+</main>
+{% endblock %}

@@ -56,3 +56,9 @@ with open('./data/moves.json', 'r', encoding='utf-8') as file:
 @app.route("/moves")
 def get_moves():
     return render_template("moves.html", moves=movesdata)
+
+
+
+@app.route("/staff")
+def get_staff():
+    return render_template("staff.html")
