@@ -16,8 +16,8 @@
     new gridjs.Grid({
         columns: [
         {name:"Name",width:"160px"},
-        {name:"",width:"30px",formatter: (cell, row) => gridjs.html(`<div style="height:100%; width:100%;"><img style="height:24px; width:24px; display:block; margin:auto; image-rendering:pixelated" src="/types/${cell}.png"></div>`)},
-        {name:"",width:"30px",formatter: (cell, row) => gridjs.html(`<div style="height:100%; width:100%;"><img style="height:24px; width:36px; display:block; margin:auto; image-rendering:pixelated" src="/categories/${cell}.png"></div>`)},
+        {name:"",width:"30px",formatter: (cell, row) => gridjs.html(`<div style="height:100%; width:100%;"><img style="height:24px; width:24px; display:block; margin:auto; image-rendering:pixelated" src="/types/${cell}.png" title="${cell}" alt="${cell}"></div>`)},
+        {name:"",width:"30px",formatter: (cell, row) => gridjs.html(`<div style="height:100%; width:100%;"><img style="height:24px; width:36px; display:block; margin:auto; image-rendering:pixelated" src="/categories/${cell}.png" title="${cell}" alt="${cell}"></div>`)},
         {name:"PP"},
         {name:"Power",formatter: (cell, row) => {
             if(cell == 0) {
