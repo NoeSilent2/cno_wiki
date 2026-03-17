@@ -1,14 +1,34 @@
 import json
 import random
+import hashlib
+from datetime import date
 from flask import Flask, render_template, redirect, url_for
 
 
 app = Flask(__name__)
 
 
+with open('./data/species.json', 'r', encoding='utf-8') as file:
+    speciesdict = json.load(file)
+
+def get_daily_object():
+    today = date.today()
+    random.seed(int(hashlib.md5(f"{today.year}-{today.month}-{today.day}".encode()).hexdigest()[:8], 16))
+    species_id = random.choice(list(speciesdict.keys()))
+    rspecies = random.choice(speciesdict[species_id])
+    return {
+        'name': rspecies.get('name', 'ERROR'),
+        'img': rspecies.get('alt_internal_name', 'unown-qm'),
+        'link': species_id
+    }
+
+
+
+
+
 @app.route("/")
 def read_root():
-    return render_template("main.html")
+    return render_template("main.html", pokemon=get_daily_object())
 
 
 with open('./data/fakemon_simple.json', 'r', encoding='utf-8') as file:
@@ -24,8 +44,7 @@ def get_species():
     return render_template("species.html", species=speciestable)
 
 
-with open('./data/species.json', 'r', encoding='utf-8') as file:
-    speciesdict = json.load(file)
+
 @app.route("/species/<name>")
 def get_species_specific(name):
     name = name.lower()
