@@ -1,6 +1,6 @@
 {% extends 'header.html' %}
 
-{% block title %}{{ species.name }} - C&O Wiki{% endblock %}
+{% block title %}{{ species_forms[0].name }} - C&O Wiki{% endblock %}
 
 {% block extra_head %}
 <link rel="stylesheet" href="{{ url_for('static', filename='css/typecolors.css') }}">
@@ -30,6 +30,7 @@
 {% block body %}
 <main style="display: block">
     
+    {% for species in species_forms %}
     <table class="roundy infobox" style="background:#666;width:45%;border:2px solid #fff;padding:2px;max-width:500px;text-align:center;">
         <tbody>
             <tr>
@@ -323,9 +324,10 @@
             </tr>
         </tbody>
     </table>
+    {% endfor %}
 
-    <h2 style="width: 50%">{{ species.name }}</h2>
-    <p>Work in progress page for specific data on {{ species.name }}.</p>
+    <h2 style="width: 50%">{{ species_forms[0].name }}</h2>
+    <p>Work in progress page for specific data on {{ species_forms[0].name }}.</p>
     <p>Not everything is on display yet.</p>
 
 
@@ -336,6 +338,7 @@
     const shinyToggle = document.querySelector('input[type="checkbox"]')
     let modelLoaded = false;
 
+    ```
     shinyToggle.addEventListener('change', () => {
         if (modelLoaded) {
             return
@@ -346,6 +349,7 @@
             modelViewerObject.poster ='https://img.pokemondb.net/sprites/home/normal/{{ species.alt_internal_name }}.png'
         }
     })
+    ```
 
     modelViewerObject.addEventListener("load", () => {
         modelLoaded = true

@@ -35,7 +35,7 @@ def get_species_specific(name):
             return redirect(url_for('get_species_specific', name=species))
     elif name in speciesdict:
         species = speciesdict[name]
-        return render_template("species_specific.html", species=species)
+        return render_template("species_specific.html", species_forms=species)
     else:
         return redirect(url_for('get_species'))
 
