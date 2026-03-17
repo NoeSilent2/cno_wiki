@@ -59,7 +59,7 @@
                                 <th width="25%" class="roundy" style="background: #000">
                                     <big>
                                         <big>
-                                            <a href="/species">#{{ species.nationalPokedexNumber }}</a>
+                                            <a href="/species">#{{ species.national_pokedex_number }}</a>
                                         </big>
                                     </big>
                                 </th>
@@ -277,14 +277,14 @@
                                         <tbody>
                                             <tr>
                                                 <td>
-                                                    {% if species.maleRatio and species.maleRatio != -1 %}
-                                                        {% if species.maleRatio == 1 %}
+                                                    {% if species.male_ratio and species.male_ratio != -1 %}
+                                                        {% if species.male_ratio == 1 %}
                                                             <div style="height:30px; border:2px solid #fff; border-radius:15px; background:#00f"></div>
-                                                        {% elif species.maleRatio == 0 %}
+                                                        {% elif species.male_ratio == 0 %}
                                                             <div style="height:30px; border:2px solid #fff; border-radius:15px; background:#f7d"></div>
                                                         {% else %}
                                                             <div style="height:30px; border:2px solid #fff; border-radius:15px; background:#f7d">
-                                                                <div style="width: calc(100% * {{ species.maleRatio }}); height:100%; background:#00f; border-top-left-radius:15px; border-bottom-left-radius:15px"></div>
+                                                                <div style="width: calc(100% * {{ species.male_ratio }}); height:100%; background:#00f; border-top-left-radius:15px; border-bottom-left-radius:15px"></div>
                                                             </div>
                                                         {% endif %}
                                                     {% else %}
@@ -319,6 +319,47 @@
                                                     <td width="50%">{{ (species.weight * 0.22046)|round(1) }} lbs.</td>
                                                     <td width="50%">{{ species.weight / 10 }} kg</td>
                                                 {% endif %}
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+             <tr>
+                <td colspan="2">
+                    <table style="width:100%">
+                        <tbody>
+                            <tr>
+                                <td class="roundy" width="33%" colspan="1" style="background:#333; padding:2px">
+                                    <b>Catch Rate</b>
+                                    <table class="roundy" width="100%" style="background:#000; padding-top:3px; height:60px">
+                                        <tbody>
+                                            <tr>
+                                                <td>{{ species.catch_rate }}</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td class="roundy" width="33%" colspan="1" style="background:#333; padding:2px; width:30%">
+                                    <b>Egg Groups</b>
+                                    <table class="roundy" width="100%" style="background:#000; padding-top:3px; height:60px">
+                                        <tbody>
+                                            <tr>
+                                                <td>{{ species.egg_groups }}</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+
+                                <td class="roundy" width="33%" colspan="1" style="background:#333; padding:2px; width:30%">
+                                    <b>Leveling Rate</b>
+                                    <table class="roundy" width="100%" style="background:#000; padding-top:3px; height:60px">
+                                        <tbody>
+                                            <tr>
+                                                <td>{{ species.leveling_rate }}</td>
                                             </tr>
                                         </tbody>
                                     </table>

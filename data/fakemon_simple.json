@@ -1,6 +1,6 @@
 [
     {
-        "nationalPokedexNumber": 1026,
+        "national_pokedex_number": 1026,
         "name": "Bamzu",
         "primary_type": "Grass",
         "secondary_type": "",
@@ -17,7 +17,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1027,
+        "national_pokedex_number": 1027,
         "name": "Bambud",
         "primary_type": "Grass",
         "secondary_type": "Steel",
@@ -34,7 +34,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1028,
+        "national_pokedex_number": 1028,
         "name": "Bamnon",
         "primary_type": "Grass",
         "secondary_type": "Steel",
@@ -51,7 +51,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1029,
+        "national_pokedex_number": 1029,
         "name": "Flarin",
         "primary_type": "Fire",
         "secondary_type": "",
@@ -68,7 +68,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1029,
+        "national_pokedex_number": 1029,
         "name": "Pillowisp",
         "primary_type": "Ghost",
         "secondary_type": "Psychic",
@@ -85,7 +85,7 @@
         "catch_rate_raw": 190
     },
     {
-        "nationalPokedexNumber": 1029,
+        "national_pokedex_number": 1029,
         "name": "Pillowisp Bad-Dreams",
         "primary_type": "Ghost",
         "secondary_type": "Psychic",
@@ -102,7 +102,7 @@
         "catch_rate_raw": 190
     },
     {
-        "nationalPokedexNumber": 1030,
+        "national_pokedex_number": 1030,
         "name": "Dreaneuma",
         "primary_type": "Ghost",
         "secondary_type": "Psychic",
@@ -119,7 +119,7 @@
         "catch_rate_raw": 65
     },
     {
-        "nationalPokedexNumber": 1030,
+        "national_pokedex_number": 1030,
         "name": "Pyrilis",
         "primary_type": "Fire",
         "secondary_type": "Fairy",
@@ -136,7 +136,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1031,
+        "national_pokedex_number": 1031,
         "name": "Phantasmare",
         "primary_type": "Ghost",
         "secondary_type": "Psychic",
@@ -153,7 +153,7 @@
         "catch_rate_raw": 65
     },
     {
-        "nationalPokedexNumber": 1031,
+        "national_pokedex_number": 1031,
         "name": "Phantasmare Bad-Dreams",
         "primary_type": "Ghost",
         "secondary_type": "Psychic",
@@ -170,7 +170,7 @@
         "catch_rate_raw": 65
     },
     {
-        "nationalPokedexNumber": 1031,
+        "national_pokedex_number": 1031,
         "name": "Solafae",
         "primary_type": "Fire",
         "secondary_type": "Fairy",
@@ -187,7 +187,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1032,
+        "national_pokedex_number": 1032,
         "name": "Yaknoi",
         "primary_type": "Water",
         "secondary_type": "",
@@ -204,7 +204,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1033,
+        "national_pokedex_number": 1033,
         "name": "Yakru",
         "primary_type": "Water",
         "secondary_type": "Fighting",
@@ -221,7 +221,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1034,
+        "national_pokedex_number": 1034,
         "name": "Yakhan",
         "primary_type": "Water",
         "secondary_type": "Fighting",
@@ -238,7 +238,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1035,
+        "national_pokedex_number": 1035,
         "name": "Smouse",
         "primary_type": "Normal",
         "secondary_type": "Poison",
@@ -255,7 +255,7 @@
         "catch_rate_raw": 240
     },
     {
-        "nationalPokedexNumber": 1036,
+        "national_pokedex_number": 1036,
         "name": "Cigarat",
         "primary_type": "Dark",
         "secondary_type": "Poison",
@@ -272,7 +272,7 @@
         "catch_rate_raw": 90
     },
     {
-        "nationalPokedexNumber": 1037,
+        "national_pokedex_number": 1037,
         "name": "Fossie",
         "primary_type": "Electric",
         "secondary_type": "",
@@ -289,7 +289,7 @@
         "catch_rate_raw": 230
     },
     {
-        "nationalPokedexNumber": 1037,
+        "national_pokedex_number": 1037,
         "name": "Starstellation",
         "primary_type": "Steel",
         "secondary_type": "Psychic",
@@ -306,7 +306,7 @@
         "catch_rate_raw": 60
     },
     {
-        "nationalPokedexNumber": 1037,
+        "national_pokedex_number": 1037,
         "name": "Starstellation Mega",
         "primary_type": "Steel",
         "secondary_type": "Psychic",
@@ -323,7 +323,7 @@
         "catch_rate_raw": 60
     },
     {
-        "nationalPokedexNumber": 1038,
+        "national_pokedex_number": 1038,
         "name": "Amperox",
         "primary_type": "Electric",
         "secondary_type": "Fighting",
@@ -340,7 +340,7 @@
         "catch_rate_raw": 120
     },
     {
-        "nationalPokedexNumber": 1039,
+        "national_pokedex_number": 1039,
         "name": "Snowkie",
         "primary_type": "Ice",
         "secondary_type": "Flying",
@@ -357,7 +357,7 @@
         "catch_rate_raw": 255
     },
     {
-        "nationalPokedexNumber": 1040,
+        "national_pokedex_number": 1040,
         "name": "Snowgirl",
         "primary_type": "Ice",
         "secondary_type": "Flying",
@@ -374,7 +374,7 @@
         "catch_rate_raw": 90
     },
     {
-        "nationalPokedexNumber": 1041,
+        "national_pokedex_number": 1041,
         "name": "Toombie",
         "primary_type": "Ghost",
         "secondary_type": "",
@@ -391,7 +391,7 @@
         "catch_rate_raw": 255
     },
     {
-        "nationalPokedexNumber": 1042,
+        "national_pokedex_number": 1042,
         "name": "Funerun",
         "primary_type": "Ghost",
         "secondary_type": "Rock",
@@ -408,7 +408,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1043,
+        "national_pokedex_number": 1043,
         "name": "Suikani",
         "primary_type": "Grass",
         "secondary_type": "Water",
@@ -425,7 +425,7 @@
         "catch_rate_raw": 190
     },
     {
-        "nationalPokedexNumber": 1044,
+        "national_pokedex_number": 1044,
         "name": "Saprentice",
         "primary_type": "Grass",
         "secondary_type": "Psychic",
@@ -442,7 +442,7 @@
         "catch_rate_raw": 150
     },
     {
-        "nationalPokedexNumber": 1045,
+        "national_pokedex_number": 1045,
         "name": "Willoch",
         "primary_type": "Grass",
         "secondary_type": "Psychic",
@@ -459,7 +459,7 @@
         "catch_rate_raw": 40
     },
     {
-        "nationalPokedexNumber": 1046,
+        "national_pokedex_number": 1046,
         "name": "Gubble",
         "primary_type": "Ground",
         "secondary_type": "Fire",
@@ -476,7 +476,7 @@
         "catch_rate_raw": 190
     },
     {
-        "nationalPokedexNumber": 1047,
+        "national_pokedex_number": 1047,
         "name": "Tarblin",
         "primary_type": "Ground",
         "secondary_type": "Fire",
@@ -493,7 +493,7 @@
         "catch_rate_raw": 75
     },
     {
-        "nationalPokedexNumber": 1048,
+        "national_pokedex_number": 1048,
         "name": "Alloette",
         "primary_type": "Flying",
         "secondary_type": "Fairy",
@@ -510,7 +510,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1048,
+        "national_pokedex_number": 1048,
         "name": "Alloette Allay",
         "primary_type": "Flying",
         "secondary_type": "Fairy",
@@ -527,7 +527,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1048,
+        "national_pokedex_number": 1048,
         "name": "Alloette Vex",
         "primary_type": "Flying",
         "secondary_type": "Ghost",
@@ -544,7 +544,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1048,
+        "national_pokedex_number": 1048,
         "name": "Alloette Mega",
         "primary_type": "Flying",
         "secondary_type": "Fairy",
@@ -561,7 +561,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1048,
+        "national_pokedex_number": 1048,
         "name": "Alloette Mega-Vex",
         "primary_type": "Flying",
         "secondary_type": "Ghost",
@@ -578,7 +578,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1048,
+        "national_pokedex_number": 1048,
         "name": "Gyweld",
         "primary_type": "Normal",
         "secondary_type": "Steel",
@@ -595,7 +595,7 @@
         "catch_rate_raw": 35
     },
     {
-        "nationalPokedexNumber": 1049,
+        "national_pokedex_number": 1049,
         "name": "Fubber",
         "primary_type": "Water",
         "secondary_type": "",
@@ -612,7 +612,7 @@
         "catch_rate_raw": 160
     },
     {
-        "nationalPokedexNumber": 1049,
+        "national_pokedex_number": 1049,
         "name": "Tanglare",
         "primary_type": "Grass",
         "secondary_type": "Dark",
@@ -629,7 +629,7 @@
         "catch_rate_raw": 30
     },
     {
-        "nationalPokedexNumber": 1049,
+        "national_pokedex_number": 1049,
         "name": "Tanglare Lush-Cave",
         "primary_type": "Grass",
         "secondary_type": "Dark",
@@ -646,7 +646,7 @@
         "catch_rate_raw": 30
     },
     {
-        "nationalPokedexNumber": 1049,
+        "national_pokedex_number": 1049,
         "name": "Tanglare Mega",
         "primary_type": "Grass",
         "secondary_type": "Dark",
@@ -663,7 +663,7 @@
         "catch_rate_raw": 30
     },
     {
-        "nationalPokedexNumber": 1050,
+        "national_pokedex_number": 1050,
         "name": "Puffoon",
         "primary_type": "Water",
         "secondary_type": "Flying",
@@ -680,7 +680,7 @@
         "catch_rate_raw": 80
     },
     {
-        "nationalPokedexNumber": 1051,
+        "national_pokedex_number": 1051,
         "name": "Lymming",
         "primary_type": "Rock",
         "secondary_type": "Grass",
@@ -697,7 +697,7 @@
         "catch_rate_raw": 165
     },
     {
-        "nationalPokedexNumber": 1051,
+        "national_pokedex_number": 1051,
         "name": "Melofly",
         "primary_type": "Flying",
         "secondary_type": "Poison",
@@ -714,7 +714,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1052,
+        "national_pokedex_number": 1052,
         "name": "Karstory",
         "primary_type": "Rock",
         "secondary_type": "Grass",
@@ -731,7 +731,7 @@
         "catch_rate_raw": 55
     },
     {
-        "nationalPokedexNumber": 1053,
+        "national_pokedex_number": 1053,
         "name": "Karoshicore",
         "primary_type": "Ghost",
         "secondary_type": "Psychic",
@@ -748,7 +748,7 @@
         "catch_rate_raw": 75
     },
     {
-        "nationalPokedexNumber": 1054,
+        "national_pokedex_number": 1054,
         "name": "Masticat",
         "primary_type": "Dark",
         "secondary_type": "Ghost",
@@ -765,7 +765,7 @@
         "catch_rate_raw": 120
     },
     {
-        "nationalPokedexNumber": 1055,
+        "national_pokedex_number": 1055,
         "name": "Chewshire",
         "primary_type": "Dark",
         "secondary_type": "Ghost",
@@ -782,7 +782,7 @@
         "catch_rate_raw": 60
     },
     {
-        "nationalPokedexNumber": 1056,
+        "national_pokedex_number": 1056,
         "name": "Ascrolyte",
         "primary_type": "Ground",
         "secondary_type": "",
@@ -799,7 +799,7 @@
         "catch_rate_raw": 135
     },
     {
-        "nationalPokedexNumber": 1057,
+        "national_pokedex_number": 1057,
         "name": "Flapestry",
         "primary_type": "Ground",
         "secondary_type": "Flying",
@@ -816,7 +816,7 @@
         "catch_rate_raw": 95
     },
     {
-        "nationalPokedexNumber": 1058,
+        "national_pokedex_number": 1058,
         "name": "Golisopede",
         "primary_type": "Bug",
         "secondary_type": "Ground",
@@ -833,7 +833,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1058,
+        "national_pokedex_number": 1058,
         "name": "Golisopede Silverfish",
         "primary_type": "Bug",
         "secondary_type": "Ground",
@@ -850,7 +850,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1058,
+        "national_pokedex_number": 1058,
         "name": "Golisopede Mega",
         "primary_type": "Bug",
         "secondary_type": "Ground",
@@ -867,7 +867,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1058,
+        "national_pokedex_number": 1058,
         "name": "Kamikiku",
         "primary_type": "Fairy",
         "secondary_type": "Ghost",
@@ -884,7 +884,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1059,
+        "national_pokedex_number": 1059,
         "name": "Poseiclops",
         "primary_type": "Fighting",
         "secondary_type": "Water",
@@ -901,7 +901,7 @@
         "catch_rate_raw": 10
     },
     {
-        "nationalPokedexNumber": 1060,
+        "national_pokedex_number": 1060,
         "name": "Alpioca",
         "primary_type": "Normal",
         "secondary_type": "Water",
@@ -918,7 +918,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1061,
+        "national_pokedex_number": 1061,
         "name": "Anemini",
         "primary_type": "Poison",
         "secondary_type": "Electric",
@@ -935,7 +935,7 @@
         "catch_rate_raw": 190
     },
     {
-        "nationalPokedexNumber": 1062,
+        "national_pokedex_number": 1062,
         "name": "Nurumone",
         "primary_type": "Poison",
         "secondary_type": "Electric",
@@ -952,7 +952,7 @@
         "catch_rate_raw": 75
     },
     {
-        "nationalPokedexNumber": 1063,
+        "national_pokedex_number": 1063,
         "name": "Pikapod",
         "primary_type": "Water",
         "secondary_type": "Electric",
@@ -969,7 +969,7 @@
         "catch_rate_raw": 60
     },
     {
-        "nationalPokedexNumber": 1063,
+        "national_pokedex_number": 1063,
         "name": "Pikapod Normal",
         "primary_type": "Water",
         "secondary_type": "Electric",
@@ -986,7 +986,7 @@
         "catch_rate_raw": 60
     },
     {
-        "nationalPokedexNumber": 1063,
+        "national_pokedex_number": 1063,
         "name": "Pikapod Wild",
         "primary_type": "Water",
         "secondary_type": "Electric",
@@ -1003,7 +1003,7 @@
         "catch_rate_raw": 60
     },
     {
-        "nationalPokedexNumber": 1064,
+        "national_pokedex_number": 1064,
         "name": "Jodoki",
         "primary_type": "Fire",
         "secondary_type": "Psychic",
@@ -1020,7 +1020,7 @@
         "catch_rate_raw": 255
     },
     {
-        "nationalPokedexNumber": 1065,
+        "national_pokedex_number": 1065,
         "name": "Umeltaka",
         "primary_type": "Fire",
         "secondary_type": "Psychic",
@@ -1037,7 +1037,7 @@
         "catch_rate_raw": 90
     },
     {
-        "nationalPokedexNumber": 1066,
+        "national_pokedex_number": 1066,
         "name": "Cephalange",
         "primary_type": "Dark",
         "secondary_type": "Water",
@@ -1054,7 +1054,7 @@
         "catch_rate_raw": 60
     },
     {
-        "nationalPokedexNumber": 1067,
+        "national_pokedex_number": 1067,
         "name": "Magnipulo",
         "primary_type": "Dark",
         "secondary_type": "Water",
@@ -1071,7 +1071,7 @@
         "catch_rate_raw": 15
     },
     {
-        "nationalPokedexNumber": 1068,
+        "national_pokedex_number": 1068,
         "name": "Protobi",
         "primary_type": "Rock",
         "secondary_type": "Fighting",
@@ -1088,7 +1088,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1068,
+        "national_pokedex_number": 1068,
         "name": "Typecast",
         "primary_type": "Normal",
         "secondary_type": "Normal",
@@ -1105,7 +1105,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1068,
+        "national_pokedex_number": 1068,
         "name": "Typecast Fire",
         "primary_type": "Fire",
         "secondary_type": "Fire",
@@ -1122,7 +1122,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1068,
+        "national_pokedex_number": 1068,
         "name": "Typecast Water",
         "primary_type": "Water",
         "secondary_type": "Water",
@@ -1139,7 +1139,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1068,
+        "national_pokedex_number": 1068,
         "name": "Typecast Grass",
         "primary_type": "Grass",
         "secondary_type": "Grass",
@@ -1156,7 +1156,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1068,
+        "national_pokedex_number": 1068,
         "name": "Typecast Electric",
         "primary_type": "Electric",
         "secondary_type": "Electric",
@@ -1173,7 +1173,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1068,
+        "national_pokedex_number": 1068,
         "name": "Typecast Psychic",
         "primary_type": "Psychic",
         "secondary_type": "Psychic",
@@ -1190,7 +1190,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1068,
+        "national_pokedex_number": 1068,
         "name": "Typecast Ice",
         "primary_type": "Ice",
         "secondary_type": "Ice",
@@ -1207,7 +1207,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1068,
+        "national_pokedex_number": 1068,
         "name": "Typecast Dragon",
         "primary_type": "Dragon",
         "secondary_type": "Dragon",
@@ -1224,7 +1224,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1068,
+        "national_pokedex_number": 1068,
         "name": "Typecast Dark",
         "primary_type": "Dark",
         "secondary_type": "Dark",
@@ -1241,7 +1241,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1068,
+        "national_pokedex_number": 1068,
         "name": "Typecast Fairy",
         "primary_type": "Fairy",
         "secondary_type": "Fairy",
@@ -1258,7 +1258,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1068,
+        "national_pokedex_number": 1068,
         "name": "Typecast Fighting",
         "primary_type": "Fighting",
         "secondary_type": "Fighting",
@@ -1275,7 +1275,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1068,
+        "national_pokedex_number": 1068,
         "name": "Typecast Flying",
         "primary_type": "Flying",
         "secondary_type": "Flying",
@@ -1292,7 +1292,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1068,
+        "national_pokedex_number": 1068,
         "name": "Typecast Poison",
         "primary_type": "Poison",
         "secondary_type": "Poison",
@@ -1309,7 +1309,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1068,
+        "national_pokedex_number": 1068,
         "name": "Typecast Ground",
         "primary_type": "Ground",
         "secondary_type": "Ground",
@@ -1326,7 +1326,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1068,
+        "national_pokedex_number": 1068,
         "name": "Typecast Rock",
         "primary_type": "Rock",
         "secondary_type": "Rock",
@@ -1343,7 +1343,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1068,
+        "national_pokedex_number": 1068,
         "name": "Typecast Bug",
         "primary_type": "Bug",
         "secondary_type": "Bug",
@@ -1360,7 +1360,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1068,
+        "national_pokedex_number": 1068,
         "name": "Typecast Ghost",
         "primary_type": "Ghost",
         "secondary_type": "Ghost",
@@ -1377,7 +1377,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1068,
+        "national_pokedex_number": 1068,
         "name": "Typecast Steel",
         "primary_type": "Steel",
         "secondary_type": "Steel",
@@ -1394,7 +1394,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1069,
+        "national_pokedex_number": 1069,
         "name": "Protoffin",
         "primary_type": "Rock",
         "secondary_type": "Fighting",
@@ -1411,7 +1411,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1070,
+        "national_pokedex_number": 1070,
         "name": "Upsigenia",
         "primary_type": "Rock",
         "secondary_type": "Psychic",
@@ -1428,7 +1428,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1071,
+        "national_pokedex_number": 1071,
         "name": "Hallucerebra",
         "primary_type": "Rock",
         "secondary_type": "Psychic",
@@ -1445,7 +1445,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1072,
+        "national_pokedex_number": 1072,
         "name": "Croppup",
         "primary_type": "Grass",
         "secondary_type": "",
@@ -1462,7 +1462,7 @@
         "catch_rate_raw": 75
     },
     {
-        "nationalPokedexNumber": 1073,
+        "national_pokedex_number": 1073,
         "name": "Lunage",
         "primary_type": "Grass",
         "secondary_type": "Fairy",
@@ -1479,7 +1479,7 @@
         "catch_rate_raw": 25
     },
     {
-        "nationalPokedexNumber": 1074,
+        "national_pokedex_number": 1074,
         "name": "Maractaya",
         "primary_type": "Dragon",
         "secondary_type": "Grass",
@@ -1496,7 +1496,7 @@
         "catch_rate_raw": 75
     },
     {
-        "nationalPokedexNumber": 1075,
+        "national_pokedex_number": 1075,
         "name": "Hydron",
         "primary_type": "Water",
         "secondary_type": "",
@@ -1513,7 +1513,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1076,
+        "national_pokedex_number": 1076,
         "name": "Hanyabi",
         "primary_type": "Fire",
         "secondary_type": "Dark",
@@ -1530,7 +1530,7 @@
         "catch_rate_raw": 30
     },
     {
-        "nationalPokedexNumber": 1077,
+        "national_pokedex_number": 1077,
         "name": "Flintlet",
         "primary_type": "Rock",
         "secondary_type": "Dark",
@@ -1547,7 +1547,7 @@
         "catch_rate_raw": 90
     },
     {
-        "nationalPokedexNumber": 1078,
+        "national_pokedex_number": 1078,
         "name": "Cragahuitl",
         "primary_type": "Rock",
         "secondary_type": "Dark",
@@ -1564,7 +1564,7 @@
         "catch_rate_raw": 65
     },
     {
-        "nationalPokedexNumber": 1079,
+        "national_pokedex_number": 1079,
         "name": "Validys",
         "primary_type": "Ghost",
         "secondary_type": "",
@@ -1581,7 +1581,7 @@
         "catch_rate_raw": 101
     },
     {
-        "nationalPokedexNumber": 1080,
+        "national_pokedex_number": 1080,
         "name": "Vaniterror",
         "primary_type": "Ghost",
         "secondary_type": "Dark",
@@ -1598,7 +1598,7 @@
         "catch_rate_raw": 80
     },
     {
-        "nationalPokedexNumber": 1080,
+        "national_pokedex_number": 1080,
         "name": "Vaniterror Mega",
         "primary_type": "Ghost",
         "secondary_type": "Dark",
@@ -1615,7 +1615,7 @@
         "catch_rate_raw": 80
     },
     {
-        "nationalPokedexNumber": 1081,
+        "national_pokedex_number": 1081,
         "name": "Grantump",
         "primary_type": "Grass",
         "secondary_type": "Fairy",
@@ -1632,7 +1632,7 @@
         "catch_rate_raw": 150
     },
     {
-        "nationalPokedexNumber": 1082,
+        "national_pokedex_number": 1082,
         "name": "Wystenent",
         "primary_type": "Grass",
         "secondary_type": "Fairy",
@@ -1649,7 +1649,7 @@
         "catch_rate_raw": 80
     },
     {
-        "nationalPokedexNumber": 1083,
+        "national_pokedex_number": 1083,
         "name": "Sinisnow",
         "primary_type": "Ice",
         "secondary_type": "Ghost",
@@ -1666,7 +1666,7 @@
         "catch_rate_raw": 150
     },
     {
-        "nationalPokedexNumber": 1084,
+        "national_pokedex_number": 1084,
         "name": "Frostygeist",
         "primary_type": "Ice",
         "secondary_type": "Ghost",
@@ -1683,7 +1683,7 @@
         "catch_rate_raw": 150
     },
     {
-        "nationalPokedexNumber": 1085,
+        "national_pokedex_number": 1085,
         "name": "Kazoom",
         "primary_type": "Steel",
         "secondary_type": "Water",
@@ -1700,7 +1700,7 @@
         "catch_rate_raw": 190
     },
     {
-        "nationalPokedexNumber": 1086,
+        "national_pokedex_number": 1086,
         "name": "Amphizoom",
         "primary_type": "Steel",
         "secondary_type": "Water",
@@ -1717,7 +1717,7 @@
         "catch_rate_raw": 75
     },
     {
-        "nationalPokedexNumber": 1087,
+        "national_pokedex_number": 1087,
         "name": "Clarissie",
         "primary_type": "Rock",
         "secondary_type": "Psychic",
@@ -1734,7 +1734,7 @@
         "catch_rate_raw": 30
     },
     {
-        "nationalPokedexNumber": 1087,
+        "national_pokedex_number": 1087,
         "name": "Clarissie Amethyst-Crystal",
         "primary_type": "Rock",
         "secondary_type": "Psychic",
@@ -1751,7 +1751,7 @@
         "catch_rate_raw": 30
     },
     {
-        "nationalPokedexNumber": 1088,
+        "national_pokedex_number": 1088,
         "name": "Beryllius",
         "primary_type": "Rock",
         "secondary_type": "Grass",
@@ -1768,7 +1768,7 @@
         "catch_rate_raw": 30
     },
     {
-        "nationalPokedexNumber": 1088,
+        "national_pokedex_number": 1088,
         "name": "Beryllius Emerald-Crystal",
         "primary_type": "Rock",
         "secondary_type": "Grass",
@@ -1785,7 +1785,7 @@
         "catch_rate_raw": 30
     },
     {
-        "nationalPokedexNumber": 1089,
+        "national_pokedex_number": 1089,
         "name": "Echolyte",
         "primary_type": "Rock",
         "secondary_type": "Dark",
@@ -1802,7 +1802,7 @@
         "catch_rate_raw": 30
     },
     {
-        "nationalPokedexNumber": 1089,
+        "national_pokedex_number": 1089,
         "name": "Echolyte Echo-Shard-Crystal",
         "primary_type": "Rock",
         "secondary_type": "Dark",
@@ -1819,7 +1819,7 @@
         "catch_rate_raw": 30
     },
     {
-        "nationalPokedexNumber": 1090,
+        "national_pokedex_number": 1090,
         "name": "Velvettia",
         "primary_type": "Rock",
         "secondary_type": "Fire",
@@ -1836,7 +1836,7 @@
         "catch_rate_raw": 30
     },
     {
-        "nationalPokedexNumber": 1090,
+        "national_pokedex_number": 1090,
         "name": "Velvettia Quartz-Crystal",
         "primary_type": "Rock",
         "secondary_type": "Fire",
@@ -1853,7 +1853,7 @@
         "catch_rate_raw": 30
     },
     {
-        "nationalPokedexNumber": 1091,
+        "national_pokedex_number": 1091,
         "name": "Hattrix",
         "primary_type": "Fire",
         "secondary_type": "Fairy",
@@ -1870,7 +1870,7 @@
         "catch_rate_raw": 120
     },
     {
-        "nationalPokedexNumber": 1091,
+        "national_pokedex_number": 1091,
         "name": "Hattrix Midnight",
         "primary_type": "Fire",
         "secondary_type": "Fairy",
@@ -1887,7 +1887,7 @@
         "catch_rate_raw": 120
     },
     {
-        "nationalPokedexNumber": 1092,
+        "national_pokedex_number": 1092,
         "name": "Hattertainer",
         "primary_type": "Fire",
         "secondary_type": "Fairy",
@@ -1904,7 +1904,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1092,
+        "national_pokedex_number": 1092,
         "name": "Hattertainer Midnight",
         "primary_type": "Fire",
         "secondary_type": "Fairy",
@@ -1921,7 +1921,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1092,
+        "national_pokedex_number": 1092,
         "name": "Hattertainer Gmax",
         "primary_type": "Fire",
         "secondary_type": "Fairy",
@@ -1938,7 +1938,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1095,
+        "national_pokedex_number": 1095,
         "name": "Tuligant",
         "primary_type": "Grass",
         "secondary_type": "Ghost",
@@ -1955,7 +1955,7 @@
         "catch_rate_raw": 75
     },
     {
-        "nationalPokedexNumber": 1096,
+        "national_pokedex_number": 1096,
         "name": "Papersol",
         "primary_type": "Grass",
         "secondary_type": "Normal",
@@ -1972,7 +1972,7 @@
         "catch_rate_raw": 225
     },
     {
-        "nationalPokedexNumber": 1096,
+        "national_pokedex_number": 1096,
         "name": "Papersol Yellow",
         "primary_type": "Grass",
         "secondary_type": "Normal",
@@ -1989,7 +1989,7 @@
         "catch_rate_raw": 225
     },
     {
-        "nationalPokedexNumber": 1096,
+        "national_pokedex_number": 1096,
         "name": "Papersol Light-Blue",
         "primary_type": "Grass",
         "secondary_type": "Normal",
@@ -2006,7 +2006,7 @@
         "catch_rate_raw": 225
     },
     {
-        "nationalPokedexNumber": 1096,
+        "national_pokedex_number": 1096,
         "name": "Papersol Blue",
         "primary_type": "Grass",
         "secondary_type": "Normal",
@@ -2023,7 +2023,7 @@
         "catch_rate_raw": 225
     },
     {
-        "nationalPokedexNumber": 1096,
+        "national_pokedex_number": 1096,
         "name": "Papersol Pink",
         "primary_type": "Grass",
         "secondary_type": "Normal",
@@ -2040,7 +2040,7 @@
         "catch_rate_raw": 225
     },
     {
-        "nationalPokedexNumber": 1096,
+        "national_pokedex_number": 1096,
         "name": "Papersol Green",
         "primary_type": "Grass",
         "secondary_type": "Normal",
@@ -2057,7 +2057,7 @@
         "catch_rate_raw": 225
     },
     {
-        "nationalPokedexNumber": 1097,
+        "national_pokedex_number": 1097,
         "name": "Umbrelligant",
         "primary_type": "Grass",
         "secondary_type": "Normal",
@@ -2074,7 +2074,7 @@
         "catch_rate_raw": 75
     },
     {
-        "nationalPokedexNumber": 1097,
+        "national_pokedex_number": 1097,
         "name": "Umbrelligant Yellow",
         "primary_type": "Grass",
         "secondary_type": "Normal",
@@ -2091,7 +2091,7 @@
         "catch_rate_raw": 75
     },
     {
-        "nationalPokedexNumber": 1097,
+        "national_pokedex_number": 1097,
         "name": "Umbrelligant Light-Blue",
         "primary_type": "Grass",
         "secondary_type": "Normal",
@@ -2108,7 +2108,7 @@
         "catch_rate_raw": 75
     },
     {
-        "nationalPokedexNumber": 1097,
+        "national_pokedex_number": 1097,
         "name": "Umbrelligant Blue",
         "primary_type": "Grass",
         "secondary_type": "Normal",
@@ -2125,7 +2125,7 @@
         "catch_rate_raw": 75
     },
     {
-        "nationalPokedexNumber": 1097,
+        "national_pokedex_number": 1097,
         "name": "Umbrelligant Pink",
         "primary_type": "Grass",
         "secondary_type": "Normal",
@@ -2142,7 +2142,7 @@
         "catch_rate_raw": 75
     },
     {
-        "nationalPokedexNumber": 1097,
+        "national_pokedex_number": 1097,
         "name": "Umbrelligant Green",
         "primary_type": "Grass",
         "secondary_type": "Normal",
@@ -2159,7 +2159,7 @@
         "catch_rate_raw": 75
     },
     {
-        "nationalPokedexNumber": 1101,
+        "national_pokedex_number": 1101,
         "name": "Slugrit",
         "primary_type": "Ground",
         "secondary_type": "",
@@ -2176,7 +2176,7 @@
         "catch_rate_raw": 190
     },
     {
-        "nationalPokedexNumber": 1102,
+        "national_pokedex_number": 1102,
         "name": "Dunecargo",
         "primary_type": "Ground",
         "secondary_type": "",
@@ -2193,7 +2193,7 @@
         "catch_rate_raw": 75
     },
     {
-        "nationalPokedexNumber": 1103,
+        "national_pokedex_number": 1103,
         "name": "Pumpkaboom",
         "primary_type": "Fire",
         "secondary_type": "Grass",
@@ -2210,7 +2210,7 @@
         "catch_rate_raw": 120
     },
     {
-        "nationalPokedexNumber": 1103,
+        "national_pokedex_number": 1103,
         "name": "Pumpkaboom Small",
         "primary_type": "Fire",
         "secondary_type": "Grass",
@@ -2227,7 +2227,7 @@
         "catch_rate_raw": 120
     },
     {
-        "nationalPokedexNumber": 1103,
+        "national_pokedex_number": 1103,
         "name": "Pumpkaboom Large",
         "primary_type": "Fire",
         "secondary_type": "Grass",
@@ -2244,7 +2244,7 @@
         "catch_rate_raw": 120
     },
     {
-        "nationalPokedexNumber": 1103,
+        "national_pokedex_number": 1103,
         "name": "Pumpkaboom Super",
         "primary_type": "Fire",
         "secondary_type": "Grass",
@@ -2261,7 +2261,7 @@
         "catch_rate_raw": 120
     },
     {
-        "nationalPokedexNumber": 1104,
+        "national_pokedex_number": 1104,
         "name": "Gourgrenade",
         "primary_type": "Fire",
         "secondary_type": "Grass",
@@ -2278,7 +2278,7 @@
         "catch_rate_raw": 60
     },
     {
-        "nationalPokedexNumber": 1104,
+        "national_pokedex_number": 1104,
         "name": "Gourgrenade Small",
         "primary_type": "Fire",
         "secondary_type": "Grass",
@@ -2295,7 +2295,7 @@
         "catch_rate_raw": 60
     },
     {
-        "nationalPokedexNumber": 1104,
+        "national_pokedex_number": 1104,
         "name": "Gourgrenade Large",
         "primary_type": "Fire",
         "secondary_type": "Grass",
@@ -2312,7 +2312,7 @@
         "catch_rate_raw": 60
     },
     {
-        "nationalPokedexNumber": 1104,
+        "national_pokedex_number": 1104,
         "name": "Gourgrenade Super",
         "primary_type": "Fire",
         "secondary_type": "Grass",
@@ -2329,7 +2329,7 @@
         "catch_rate_raw": 60
     },
     {
-        "nationalPokedexNumber": 1105,
+        "national_pokedex_number": 1105,
         "name": "Norstar",
         "primary_type": "Steel",
         "secondary_type": "Psychic",
@@ -2346,7 +2346,7 @@
         "catch_rate_raw": 225
     },
     {
-        "nationalPokedexNumber": 1107,
+        "national_pokedex_number": 1107,
         "name": "Clawviathan",
         "primary_type": "Water",
         "secondary_type": "Dragon",
@@ -2363,7 +2363,7 @@
         "catch_rate_raw": 35
     },
     {
-        "nationalPokedexNumber": 1110,
+        "national_pokedex_number": 1110,
         "name": "Galecadet",
         "primary_type": "Flying",
         "secondary_type": "",
@@ -2380,7 +2380,7 @@
         "catch_rate_raw": 90
     },
     {
-        "nationalPokedexNumber": 1111,
+        "national_pokedex_number": 1111,
         "name": "Zephyrouge",
         "primary_type": "Flying",
         "secondary_type": "Steel",
@@ -2397,7 +2397,7 @@
         "catch_rate_raw": 25
     },
     {
-        "nationalPokedexNumber": 1112,
+        "national_pokedex_number": 1112,
         "name": "Ceruclone",
         "primary_type": "Flying",
         "secondary_type": "Electric",
@@ -2414,7 +2414,7 @@
         "catch_rate_raw": 25
     },
     {
-        "nationalPokedexNumber": 1113,
+        "national_pokedex_number": 1113,
         "name": "Breezior",
         "primary_type": "Flying",
         "secondary_type": "",
@@ -2431,7 +2431,7 @@
         "catch_rate_raw": 255
     },
     {
-        "nationalPokedexNumber": 1114,
+        "national_pokedex_number": 1114,
         "name": "Snowygast",
         "primary_type": "Ghost",
         "secondary_type": "Ice",
@@ -2448,7 +2448,7 @@
         "catch_rate_raw": 140
     },
     {
-        "nationalPokedexNumber": 1115,
+        "national_pokedex_number": 1115,
         "name": "Palossnow",
         "primary_type": "Ghost",
         "secondary_type": "Ice",
@@ -2465,7 +2465,7 @@
         "catch_rate_raw": 60
     },
     {
-        "nationalPokedexNumber": 1116,
+        "national_pokedex_number": 1116,
         "name": "Seedlin",
         "primary_type": "Grass",
         "secondary_type": "Ground",
@@ -2482,7 +2482,7 @@
         "catch_rate_raw": 255
     },
     {
-        "nationalPokedexNumber": 1116,
+        "national_pokedex_number": 1116,
         "name": "Seedlin Pitcher-Plant",
         "primary_type": "Grass",
         "secondary_type": "Ground",
@@ -2499,7 +2499,7 @@
         "catch_rate_raw": 255
     },
     {
-        "nationalPokedexNumber": 1117,
+        "national_pokedex_number": 1117,
         "name": "Torchlin",
         "primary_type": "Grass",
         "secondary_type": "Fire",
@@ -2516,7 +2516,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1118,
+        "national_pokedex_number": 1118,
         "name": "Podlin",
         "primary_type": "Grass",
         "secondary_type": "Ground",
@@ -2533,7 +2533,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1119,
+        "national_pokedex_number": 1119,
         "name": "Torchflyer",
         "primary_type": "Grass",
         "secondary_type": "Fire",
@@ -2550,7 +2550,7 @@
         "catch_rate_raw": 10
     },
     {
-        "nationalPokedexNumber": 1120,
+        "national_pokedex_number": 1120,
         "name": "Pitchertun",
         "primary_type": "Grass",
         "secondary_type": "Ground",
@@ -2567,7 +2567,7 @@
         "catch_rate_raw": 10
     },
     {
-        "nationalPokedexNumber": 1121,
+        "national_pokedex_number": 1121,
         "name": "Stygipede",
         "primary_type": "Dark",
         "secondary_type": "Bug",
@@ -2584,7 +2584,7 @@
         "catch_rate_raw": 190
     },
     {
-        "nationalPokedexNumber": 1122,
+        "national_pokedex_number": 1122,
         "name": "Centisculk",
         "primary_type": "Dark",
         "secondary_type": "Bug",
@@ -2601,7 +2601,7 @@
         "catch_rate_raw": 75
     },
     {
-        "nationalPokedexNumber": 1123,
+        "national_pokedex_number": 1123,
         "name": "Porytron",
         "primary_type": "Electric",
         "secondary_type": "",
@@ -2618,7 +2618,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1124,
+        "national_pokedex_number": 1124,
         "name": "Porytron2",
         "primary_type": "Electric",
         "secondary_type": "",
@@ -2635,7 +2635,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1125,
+        "national_pokedex_number": 1125,
         "name": "Porytronz",
         "primary_type": "Electric",
         "secondary_type": "",
@@ -2652,7 +2652,7 @@
         "catch_rate_raw": 30
     },
     {
-        "nationalPokedexNumber": 1126,
+        "national_pokedex_number": 1126,
         "name": "Tomledger",
         "primary_type": "Psychic",
         "secondary_type": "Ghost",
@@ -2669,7 +2669,7 @@
         "catch_rate_raw": 180
     },
     {
-        "nationalPokedexNumber": 1127,
+        "national_pokedex_number": 1127,
         "name": "Twinledger",
         "primary_type": "Psychic",
         "secondary_type": "Ghost",
@@ -2686,7 +2686,7 @@
         "catch_rate_raw": 90
     },
     {
-        "nationalPokedexNumber": 1128,
+        "national_pokedex_number": 1128,
         "name": "Wizledger",
         "primary_type": "Fire",
         "secondary_type": "Ghost",
@@ -2703,7 +2703,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1128,
+        "national_pokedex_number": 1128,
         "name": "Wizledger Firespell",
         "primary_type": "Fire",
         "secondary_type": "Ghost",
@@ -2720,7 +2720,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1128,
+        "national_pokedex_number": 1128,
         "name": "Wizledger Icespell",
         "primary_type": "Ice",
         "secondary_type": "Ghost",
@@ -2737,7 +2737,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1128,
+        "national_pokedex_number": 1128,
         "name": "Wizledger Lightningspell",
         "primary_type": "Electric",
         "secondary_type": "Ghost",
@@ -2754,7 +2754,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1129,
+        "national_pokedex_number": 1129,
         "name": "Gimmibread",
         "primary_type": "Ghost",
         "secondary_type": "Fairy",
@@ -2771,7 +2771,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1129,
+        "national_pokedex_number": 1129,
         "name": "Gimmibread Roaming",
         "primary_type": "Ghost",
         "secondary_type": "Fairy",
@@ -2788,7 +2788,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1130,
+        "national_pokedex_number": 1130,
         "name": "Gholdendough",
         "primary_type": "Ghost",
         "secondary_type": "Fairy",
@@ -2805,7 +2805,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1131,
+        "national_pokedex_number": 1131,
         "name": "Mikueon",
         "primary_type": "Normal",
         "secondary_type": "",
@@ -2822,7 +2822,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1132,
+        "national_pokedex_number": 1132,
         "name": "Tetoeon",
         "primary_type": "Normal",
         "secondary_type": "",
@@ -2839,7 +2839,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1133,
+        "national_pokedex_number": 1133,
         "name": "Nerueon",
         "primary_type": "Normal",
         "secondary_type": "",
@@ -2856,7 +2856,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1134,
+        "national_pokedex_number": 1134,
         "name": "Spectreonee",
         "primary_type": "Ghost",
         "secondary_type": "",
@@ -2873,7 +2873,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1135,
+        "national_pokedex_number": 1135,
         "name": "Acideon",
         "primary_type": "Poison",
         "secondary_type": "",
@@ -2890,7 +2890,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1136,
+        "national_pokedex_number": 1136,
         "name": "Champeon",
         "primary_type": "Fighting",
         "secondary_type": "",
@@ -2907,7 +2907,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1137,
+        "national_pokedex_number": 1137,
         "name": "Aereonee",
         "primary_type": "Flying",
         "secondary_type": "",
@@ -2924,7 +2924,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1138,
+        "national_pokedex_number": 1138,
         "name": "Minereon",
         "primary_type": "Rock",
         "secondary_type": "",
@@ -2941,7 +2941,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1139,
+        "national_pokedex_number": 1139,
         "name": "Hiveon",
         "primary_type": "Bug",
         "secondary_type": "",
@@ -2958,7 +2958,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1140,
+        "national_pokedex_number": 1140,
         "name": "Automeon",
         "primary_type": "Steel",
         "secondary_type": "",
@@ -2975,7 +2975,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1141,
+        "national_pokedex_number": 1141,
         "name": "Wyveon",
         "primary_type": "Dragon",
         "secondary_type": "",
@@ -2992,7 +2992,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1142,
+        "national_pokedex_number": 1142,
         "name": "Dungeon",
         "primary_type": "Ground",
         "secondary_type": "",
@@ -3009,7 +3009,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1143,
+        "national_pokedex_number": 1143,
         "name": "Eeveeon",
         "primary_type": "Normal",
         "secondary_type": "",
@@ -3026,7 +3026,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1144,
+        "national_pokedex_number": 1144,
         "name": "Evereon",
         "primary_type": "Normal",
         "secondary_type": "",
@@ -3043,7 +3043,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1145,
+        "national_pokedex_number": 1145,
         "name": "Nebix",
         "primary_type": "Fairy",
         "secondary_type": "Psychic",
@@ -3060,7 +3060,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1146,
+        "national_pokedex_number": 1146,
         "name": "Voryn",
         "primary_type": "Fairy",
         "secondary_type": "Psychic",
@@ -3077,7 +3077,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1147,
+        "national_pokedex_number": 1147,
         "name": "Cosvul",
         "primary_type": "Fairy",
         "secondary_type": "Psychic",
@@ -3094,7 +3094,7 @@
         "catch_rate_raw": 3
     },
     {
-        "nationalPokedexNumber": 1148,
+        "national_pokedex_number": 1148,
         "name": "Owlyn",
         "primary_type": "Flying",
         "secondary_type": "Psychic",
@@ -3111,7 +3111,7 @@
         "catch_rate_raw": 190
     },
     {
-        "nationalPokedexNumber": 1149,
+        "national_pokedex_number": 1149,
         "name": "Striglow",
         "primary_type": "Flying",
         "secondary_type": "Psychic",
@@ -3128,7 +3128,7 @@
         "catch_rate_raw": 45
     },
     {
-        "nationalPokedexNumber": 1150,
+        "national_pokedex_number": 1150,
         "name": "Regisculk",
         "primary_type": "Dark",
         "secondary_type": "",
@@ -3145,7 +3145,7 @@
         "catch_rate_raw": 3
     },
     {
-        "nationalPokedexNumber": 1169,
+        "national_pokedex_number": 1169,
         "name": "Bunger",
         "primary_type": "Bug",
         "secondary_type": "Fighting",
