@@ -17,38 +17,6 @@
 <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
 <script>
     const fakemon = {{ fakemon | tojson }};
-    
-    function mergeIdenticalCells(tableElement) {
-        const rows = tableElement.querySelectorAll('tbody tr');
-
-        rows.forEach(row => {
-            const cells = row.querySelectorAll('td');
-            cells.forEach(cell => {
-                cell.style.borderTop = '';
-                cell.textContent = cell.dataset.originalText || cell.textContent;
-            });
-        });
-
-        if (rows.length > 0) {
-            const columns = rows[0].querySelectorAll('th').length;
-
-            for (let col = 0; col < columns; col++) {
-                for (let row = 1; row < rows.length; row++) {
-                    const currentCell = rows[row].querySelectorAll('td')[col];
-                    const previousCell = rows[row - 1].querySelectorAll('td')[col];
-
-                    if (!currentCell.dataset.originalText) {
-                        currentCell.dataset.originalText = currentCell.textContent;
-                    }
-
-                    if (currentCell.textContent === previousCell.textContent) {
-                        currentCell.textContent = '';
-                        currentCell.style.borderTop = 'none';
-                    }
-                }
-            }
-        }
-    }
 
     new gridjs.Grid({
         columns: [
@@ -78,7 +46,7 @@
                 }
             }},
             {name:"Weight",width:"70px", formatter: (cell) => {
-                if (cell == "?") {
+                if (cell == 69420) {
                     return gridjs.html('???.?kg')
                 } else if (cell) {
                     const weight = (cell/10).toPrecision(8).replace(/\.?0+$/, '');
