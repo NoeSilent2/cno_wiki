@@ -12,7 +12,6 @@
         "speed": 40,
         "total": 310,
         "height": 4,
-        "weight": 90,
         "internal_name": "bamzu",
         "catch_rate_raw": 45
     },
@@ -29,7 +28,6 @@
         "speed": 50,
         "total": 400,
         "height": 8,
-        "weight": 265,
         "internal_name": "bambud",
         "catch_rate_raw": 45
     },
@@ -46,7 +44,6 @@
         "speed": 60,
         "total": 530,
         "height": 17,
-        "weight": 980,
         "internal_name": "bamnon",
         "catch_rate_raw": 45
     },
@@ -63,7 +60,6 @@
         "speed": 60,
         "total": 310,
         "height": 4,
-        "weight": 65,
         "internal_name": "flarin",
         "catch_rate_raw": 45
     },
@@ -80,7 +76,6 @@
         "speed": 20,
         "total": 245,
         "height": 13,
-        "weight": 1,
         "internal_name": "pillowisp",
         "catch_rate_raw": 190
     },
@@ -97,7 +92,6 @@
         "speed": "",
         "total": "",
         "height": "",
-        "weight": "",
         "internal_name": "pillowisp",
         "catch_rate_raw": ""
     },
@@ -114,7 +108,6 @@
         "speed": 45,
         "total": 535,
         "height": 15,
-        "weight": 12,
         "internal_name": "dreaneuma",
         "catch_rate_raw": 65
     },
@@ -131,7 +124,6 @@
         "speed": 80,
         "total": 415,
         "height": 7,
-        "weight": 185,
         "internal_name": "pyrilis",
         "catch_rate_raw": 45
     },
@@ -148,7 +140,6 @@
         "speed": 45,
         "total": 535,
         "height": 15,
-        "weight": 12,
         "internal_name": "phantasmare",
         "catch_rate_raw": 65
     },
@@ -165,7 +156,6 @@
         "speed": "",
         "total": "",
         "height": "",
-        "weight": "",
         "internal_name": "phantasmare",
         "catch_rate_raw": ""
     },
@@ -182,7 +172,6 @@
         "speed": 95,
         "total": 530,
         "height": 12,
-        "weight": 325,
         "internal_name": "solafae",
         "catch_rate_raw": 45
     },
@@ -199,7 +188,6 @@
         "speed": 50,
         "total": 300,
         "height": 5,
-        "weight": 90,
         "internal_name": "yaknoi",
         "catch_rate_raw": 45
     },
@@ -216,7 +204,6 @@
         "speed": 65,
         "total": 400,
         "height": 9,
-        "weight": 215,
         "internal_name": "yakru",
         "catch_rate_raw": 45
     },
@@ -233,7 +220,6 @@
         "speed": 85,
         "total": 540,
         "height": 15,
-        "weight": 850,
         "internal_name": "yakhan",
         "catch_rate_raw": 45
     },
@@ -250,7 +236,6 @@
         "speed": 80,
         "total": 320,
         "height": 3,
-        "weight": 30,
         "internal_name": "smouse",
         "catch_rate_raw": 240
     },
@@ -267,7 +252,6 @@
         "speed": 90,
         "total": 485,
         "height": 14,
-        "weight": 700,
         "internal_name": "cigarat",
         "catch_rate_raw": 90
     },
@@ -284,7 +268,6 @@
         "speed": 85,
         "total": 310,
         "height": 5,
-        "weight": 20,
         "internal_name": "fossie",
         "catch_rate_raw": 230
     },
@@ -301,7 +284,6 @@
         "speed": 50,
         "total": 520,
         "height": 11,
-        "weight": 2025,
         "internal_name": "starstellation",
         "catch_rate_raw": 60
     },
@@ -318,7 +300,6 @@
         "speed": "",
         "total": 620,
         "height": 12,
-        "weight": 1025,
         "internal_name": "starstellation",
         "catch_rate_raw": ""
     },
@@ -335,7 +316,6 @@
         "speed": 120,
         "total": 470,
         "height": 13,
-        "weight": 260,
         "internal_name": "amperox",
         "catch_rate_raw": 120
     },
@@ -352,7 +332,6 @@
         "speed": 60,
         "total": 300,
         "height": 1,
-        "weight": 8,
         "internal_name": "snowkie",
         "catch_rate_raw": 255
     },
@@ -369,7 +348,6 @@
         "speed": 90,
         "total": 500,
         "height": 3,
-        "weight": 26,
         "internal_name": "snowgirl",
         "catch_rate_raw": 90
     },
@@ -386,7 +364,6 @@
         "speed": 27,
         "total": 285,
         "height": 5,
-        "weight": 54,
         "internal_name": "toombie",
         "catch_rate_raw": 255
     },
@@ -403,7 +380,6 @@
         "speed": 98,
         "total": 608,
         "height": 12,
-        "weight": 360,
         "internal_name": "funerun",
         "catch_rate_raw": 45
     },
@@ -420,7 +396,6 @@
         "speed": 89,
         "total": 465,
         "height": 4,
-        "weight": 50,
         "internal_name": "suikani",
         "catch_rate_raw": 190
     },
@@ -437,7 +412,6 @@
         "speed": 25,
         "total": 320,
         "height": 8,
-        "weight": 32,
         "internal_name": "saprentice",
         "catch_rate_raw": 150
     },
@@ -454,7 +428,6 @@
         "speed": 20,
         "total": 490,
         "height": 34,
-        "weight": 2640,
         "internal_name": "willoch",
         "catch_rate_raw": 40
     },
@@ -471,7 +444,6 @@
         "speed": 10,
         "total": 245,
         "height": 3,
-        "weight": 450,
         "internal_name": "gubble",
         "catch_rate_raw": 190
     },
@@ -488,7 +460,6 @@
         "speed": 10,
         "total": 450,
         "height": 11,
-        "weight": 2500,
         "internal_name": "tarblin",
         "catch_rate_raw": 75
     },
@@ -505,7 +476,6 @@
         "speed": 125,
         "total": 552,
         "height": 2,
-        "weight": 9,
         "internal_name": "alloette",
         "catch_rate_raw": 45
     },
@@ -522,7 +492,6 @@
         "speed": "",
         "total": "",
         "height": "",
-        "weight": "",
         "internal_name": "alloette",
         "catch_rate_raw": ""
     },
@@ -533,15 +502,14 @@
         "secondary_type": "Ghost",
         "hp": 68,
         "attack": 122,
-        "defence": 68,
+        "defence": "",
         "special_attack": 70,
         "special_defence": 99,
-        "speed": 125,
-        "total": 552,
-        "height": 2,
-        "weight": 9,
+        "speed": "",
+        "total": "",
+        "height": "",
         "internal_name": "alloette",
-        "catch_rate_raw": 45
+        "catch_rate_raw": ""
     },
     {
         "nationalPokedexNumber": 1048,
@@ -556,7 +524,6 @@
         "speed": 135,
         "total": 652,
         "height": "",
-        "weight": 18,
         "internal_name": "alloette",
         "catch_rate_raw": ""
     },
@@ -573,9 +540,8 @@
         "speed": 155,
         "total": "",
         "height": 4,
-        "weight": 9,
         "internal_name": "alloette",
-        "catch_rate_raw": 45
+        "catch_rate_raw": ""
     },
     {
         "nationalPokedexNumber": 1048,
@@ -590,7 +556,6 @@
         "speed": 90,
         "total": 490,
         "height": 15,
-        "weight": 1200,
         "internal_name": "gyweld",
         "catch_rate_raw": 35
     },
@@ -607,7 +572,6 @@
         "speed": 90,
         "total": 330,
         "height": 6,
-        "weight": 106,
         "internal_name": "fubber",
         "catch_rate_raw": 160
     },
@@ -624,7 +588,6 @@
         "speed": 75,
         "total": 535,
         "height": 10,
-        "weight": 350,
         "internal_name": "tanglare",
         "catch_rate_raw": 30
     },
@@ -641,7 +604,6 @@
         "speed": "",
         "total": "",
         "height": "",
-        "weight": "",
         "internal_name": "tanglare",
         "catch_rate_raw": ""
     },
@@ -650,7 +612,7 @@
         "name": "Tanglare Mega",
         "primary_type": "Grass",
         "secondary_type": "Dark",
-        "hp": 75,
+        "hp": "",
         "attack": 100,
         "defence": 85,
         "special_attack": 150,
@@ -658,9 +620,8 @@
         "speed": 85,
         "total": 635,
         "height": 12,
-        "weight": 350,
         "internal_name": "tanglare",
-        "catch_rate_raw": 30
+        "catch_rate_raw": ""
     },
     {
         "nationalPokedexNumber": 1050,
@@ -675,7 +636,6 @@
         "speed": 75,
         "total": 480,
         "height": 11,
-        "weight": 132,
         "internal_name": "puffoon",
         "catch_rate_raw": 80
     },
@@ -692,7 +652,6 @@
         "speed": 75,
         "total": 325,
         "height": 6,
-        "weight": 561,
         "internal_name": "lymming",
         "catch_rate_raw": 165
     },
@@ -709,7 +668,6 @@
         "speed": 114,
         "total": 425,
         "height": 1,
-        "weight": 9,
         "internal_name": "melofly",
         "catch_rate_raw": 45
     },
@@ -726,7 +684,6 @@
         "speed": 50,
         "total": 475,
         "height": 41,
-        "weight": 3075,
         "internal_name": "karstory",
         "catch_rate_raw": 55
     },
@@ -743,7 +700,6 @@
         "speed": 30,
         "total": 480,
         "height": 10,
-        "weight": 100,
         "internal_name": "karoshicore",
         "catch_rate_raw": 75
     },
@@ -760,7 +716,6 @@
         "speed": 63,
         "total": 318,
         "height": 6,
-        "weight": 312,
         "internal_name": "masticat",
         "catch_rate_raw": 120
     },
@@ -777,7 +732,6 @@
         "speed": 106,
         "total": 475,
         "height": 14,
-        "weight": 894,
         "internal_name": "chewshire",
         "catch_rate_raw": 60
     },
@@ -794,7 +748,6 @@
         "speed": 82,
         "total": 357,
         "height": 6,
-        "weight": 3,
         "internal_name": "ascrolyte",
         "catch_rate_raw": 135
     },
@@ -811,7 +764,6 @@
         "speed": 102,
         "total": 517,
         "height": 30,
-        "weight": 600,
         "internal_name": "flapestry",
         "catch_rate_raw": 95
     },
@@ -828,7 +780,6 @@
         "speed": 70,
         "total": 530,
         "height": 20,
-        "weight": 1080,
         "internal_name": "golisopede",
         "catch_rate_raw": 45
     },
@@ -845,7 +796,6 @@
         "speed": "",
         "total": "",
         "height": "",
-        "weight": "",
         "internal_name": "golisopede",
         "catch_rate_raw": ""
     },
@@ -854,17 +804,16 @@
         "name": "Golisopede Mega",
         "primary_type": "Bug",
         "secondary_type": "Ground",
-        "hp": 75,
+        "hp": "",
         "attack": 150,
         "defence": 185,
-        "special_attack": 30,
+        "special_attack": "",
         "special_defence": 130,
         "speed": 60,
         "total": 630,
         "height": 24,
-        "weight": 1280,
         "internal_name": "golisopede",
-        "catch_rate_raw": 45
+        "catch_rate_raw": ""
     },
     {
         "nationalPokedexNumber": 1058,
@@ -879,7 +828,6 @@
         "speed": 50,
         "total": 425,
         "height": 2,
-        "weight": 2,
         "internal_name": "kamikiku",
         "catch_rate_raw": 45
     },
@@ -896,7 +844,6 @@
         "speed": 55,
         "total": 530,
         "height": 20,
-        "weight": 2810,
         "internal_name": "poseiclops",
         "catch_rate_raw": 10
     },
@@ -913,7 +860,6 @@
         "speed": 62,
         "total": 485,
         "height": 25,
-        "weight": 980,
         "internal_name": "alpioca",
         "catch_rate_raw": 45
     },
@@ -930,7 +876,6 @@
         "speed": 45,
         "total": 275,
         "height": 4,
-        "weight": 0.5,
         "internal_name": "anemini",
         "catch_rate_raw": 190
     },
@@ -947,7 +892,6 @@
         "speed": 38,
         "total": 499,
         "height": 18,
-        "weight": 120,
         "internal_name": "nurumone",
         "catch_rate_raw": 75
     },
@@ -964,7 +908,6 @@
         "speed": 20,
         "total": 438,
         "height": 3,
-        "weight": 15,
         "internal_name": "pikapod",
         "catch_rate_raw": 60
     },
@@ -981,7 +924,6 @@
         "speed": "",
         "total": "",
         "height": "",
-        "weight": "",
         "internal_name": "pikapod",
         "catch_rate_raw": ""
     },
@@ -990,17 +932,16 @@
         "name": "Pikapod Wild",
         "primary_type": "Water",
         "secondary_type": "Electric",
-        "hp": 90,
-        "attack": 41,
-        "defence": 88,
-        "special_attack": 95,
-        "special_defence": 104,
-        "speed": 20,
-        "total": 438,
-        "height": 3,
-        "weight": 15,
+        "hp": "",
+        "attack": "",
+        "defence": "",
+        "special_attack": "",
+        "special_defence": "",
+        "speed": "",
+        "total": "",
+        "height": "",
         "internal_name": "pikapod",
-        "catch_rate_raw": 60
+        "catch_rate_raw": ""
     },
     {
         "nationalPokedexNumber": 1064,
@@ -1015,7 +956,6 @@
         "speed": 52,
         "total": 300,
         "height": 2,
-        "weight": 100,
         "internal_name": "jodoki",
         "catch_rate_raw": 255
     },
@@ -1032,7 +972,6 @@
         "speed": 92,
         "total": 500,
         "height": 14,
-        "weight": 1000,
         "internal_name": "umeltaka",
         "catch_rate_raw": 90
     },
@@ -1049,7 +988,6 @@
         "speed": 90,
         "total": 435,
         "height": 12,
-        "weight": 180,
         "internal_name": "cephalange",
         "catch_rate_raw": 60
     },
@@ -1066,7 +1004,6 @@
         "speed": 65,
         "total": 620,
         "height": 88,
-        "weight": 2200,
         "internal_name": "magnipulo",
         "catch_rate_raw": 15
     },
@@ -1083,7 +1020,6 @@
         "speed": 100,
         "total": 355,
         "height": 6,
-        "weight": 100,
         "internal_name": "protobi",
         "catch_rate_raw": 45
     },
@@ -1100,7 +1036,6 @@
         "speed": 80,
         "total": 480,
         "height": 3,
-        "weight": 8,
         "internal_name": "typecast",
         "catch_rate_raw": 45
     },
@@ -1117,7 +1052,6 @@
         "speed": "",
         "total": "",
         "height": "",
-        "weight": "",
         "internal_name": "typecast",
         "catch_rate_raw": ""
     },
@@ -1126,17 +1060,16 @@
         "name": "Typecast Water",
         "primary_type": "Water",
         "secondary_type": "Water",
-        "hp": 80,
-        "attack": 80,
-        "defence": 80,
-        "special_attack": 80,
-        "special_defence": 80,
-        "speed": 80,
-        "total": 480,
-        "height": 3,
-        "weight": 8,
+        "hp": "",
+        "attack": "",
+        "defence": "",
+        "special_attack": "",
+        "special_defence": "",
+        "speed": "",
+        "total": "",
+        "height": "",
         "internal_name": "typecast",
-        "catch_rate_raw": 45
+        "catch_rate_raw": ""
     },
     {
         "nationalPokedexNumber": 1068,
@@ -1151,7 +1084,6 @@
         "speed": "",
         "total": "",
         "height": "",
-        "weight": "",
         "internal_name": "typecast",
         "catch_rate_raw": ""
     },
@@ -1160,17 +1092,16 @@
         "name": "Typecast Electric",
         "primary_type": "Electric",
         "secondary_type": "Electric",
-        "hp": 80,
-        "attack": 80,
-        "defence": 80,
-        "special_attack": 80,
-        "special_defence": 80,
-        "speed": 80,
-        "total": 480,
-        "height": 3,
-        "weight": 8,
+        "hp": "",
+        "attack": "",
+        "defence": "",
+        "special_attack": "",
+        "special_defence": "",
+        "speed": "",
+        "total": "",
+        "height": "",
         "internal_name": "typecast",
-        "catch_rate_raw": 45
+        "catch_rate_raw": ""
     },
     {
         "nationalPokedexNumber": 1068,
@@ -1185,7 +1116,6 @@
         "speed": "",
         "total": "",
         "height": "",
-        "weight": "",
         "internal_name": "typecast",
         "catch_rate_raw": ""
     },
@@ -1194,17 +1124,16 @@
         "name": "Typecast Ice",
         "primary_type": "Ice",
         "secondary_type": "Ice",
-        "hp": 80,
-        "attack": 80,
-        "defence": 80,
-        "special_attack": 80,
-        "special_defence": 80,
-        "speed": 80,
-        "total": 480,
-        "height": 3,
-        "weight": 8,
+        "hp": "",
+        "attack": "",
+        "defence": "",
+        "special_attack": "",
+        "special_defence": "",
+        "speed": "",
+        "total": "",
+        "height": "",
         "internal_name": "typecast",
-        "catch_rate_raw": 45
+        "catch_rate_raw": ""
     },
     {
         "nationalPokedexNumber": 1068,
@@ -1219,7 +1148,6 @@
         "speed": "",
         "total": "",
         "height": "",
-        "weight": "",
         "internal_name": "typecast",
         "catch_rate_raw": ""
     },
@@ -1228,17 +1156,16 @@
         "name": "Typecast Dark",
         "primary_type": "Dark",
         "secondary_type": "Dark",
-        "hp": 80,
-        "attack": 80,
-        "defence": 80,
-        "special_attack": 80,
-        "special_defence": 80,
-        "speed": 80,
-        "total": 480,
-        "height": 3,
-        "weight": 8,
+        "hp": "",
+        "attack": "",
+        "defence": "",
+        "special_attack": "",
+        "special_defence": "",
+        "speed": "",
+        "total": "",
+        "height": "",
         "internal_name": "typecast",
-        "catch_rate_raw": 45
+        "catch_rate_raw": ""
     },
     {
         "nationalPokedexNumber": 1068,
@@ -1253,7 +1180,6 @@
         "speed": "",
         "total": "",
         "height": "",
-        "weight": "",
         "internal_name": "typecast",
         "catch_rate_raw": ""
     },
@@ -1262,17 +1188,16 @@
         "name": "Typecast Fighting",
         "primary_type": "Fighting",
         "secondary_type": "Fighting",
-        "hp": 80,
-        "attack": 80,
-        "defence": 80,
-        "special_attack": 80,
-        "special_defence": 80,
-        "speed": 80,
-        "total": 480,
-        "height": 3,
-        "weight": 8,
+        "hp": "",
+        "attack": "",
+        "defence": "",
+        "special_attack": "",
+        "special_defence": "",
+        "speed": "",
+        "total": "",
+        "height": "",
         "internal_name": "typecast",
-        "catch_rate_raw": 45
+        "catch_rate_raw": ""
     },
     {
         "nationalPokedexNumber": 1068,
@@ -1287,7 +1212,6 @@
         "speed": "",
         "total": "",
         "height": "",
-        "weight": "",
         "internal_name": "typecast",
         "catch_rate_raw": ""
     },
@@ -1296,17 +1220,16 @@
         "name": "Typecast Poison",
         "primary_type": "Poison",
         "secondary_type": "Poison",
-        "hp": 80,
-        "attack": 80,
-        "defence": 80,
-        "special_attack": 80,
-        "special_defence": 80,
-        "speed": 80,
-        "total": 480,
-        "height": 3,
-        "weight": 8,
+        "hp": "",
+        "attack": "",
+        "defence": "",
+        "special_attack": "",
+        "special_defence": "",
+        "speed": "",
+        "total": "",
+        "height": "",
         "internal_name": "typecast",
-        "catch_rate_raw": 45
+        "catch_rate_raw": ""
     },
     {
         "nationalPokedexNumber": 1068,
@@ -1321,7 +1244,6 @@
         "speed": "",
         "total": "",
         "height": "",
-        "weight": "",
         "internal_name": "typecast",
         "catch_rate_raw": ""
     },
@@ -1330,17 +1252,16 @@
         "name": "Typecast Rock",
         "primary_type": "Rock",
         "secondary_type": "Rock",
-        "hp": 80,
-        "attack": 80,
-        "defence": 80,
-        "special_attack": 80,
-        "special_defence": 80,
-        "speed": 80,
-        "total": 480,
-        "height": 3,
-        "weight": 8,
+        "hp": "",
+        "attack": "",
+        "defence": "",
+        "special_attack": "",
+        "special_defence": "",
+        "speed": "",
+        "total": "",
+        "height": "",
         "internal_name": "typecast",
-        "catch_rate_raw": 45
+        "catch_rate_raw": ""
     },
     {
         "nationalPokedexNumber": 1068,
@@ -1355,7 +1276,6 @@
         "speed": "",
         "total": "",
         "height": "",
-        "weight": "",
         "internal_name": "typecast",
         "catch_rate_raw": ""
     },
@@ -1364,17 +1284,16 @@
         "name": "Typecast Ghost",
         "primary_type": "Ghost",
         "secondary_type": "Ghost",
-        "hp": 80,
-        "attack": 80,
-        "defence": 80,
-        "special_attack": 80,
-        "special_defence": 80,
-        "speed": 80,
-        "total": 480,
-        "height": 3,
-        "weight": 8,
+        "hp": "",
+        "attack": "",
+        "defence": "",
+        "special_attack": "",
+        "special_defence": "",
+        "speed": "",
+        "total": "",
+        "height": "",
         "internal_name": "typecast",
-        "catch_rate_raw": 45
+        "catch_rate_raw": ""
     },
     {
         "nationalPokedexNumber": 1068,
@@ -1389,7 +1308,6 @@
         "speed": "",
         "total": "",
         "height": "",
-        "weight": "",
         "internal_name": "typecast",
         "catch_rate_raw": ""
     },
@@ -1406,7 +1324,6 @@
         "speed": 110,
         "total": 495,
         "height": 10,
-        "weight": 100,
         "internal_name": "protoffin",
         "catch_rate_raw": 45
     },
@@ -1423,7 +1340,6 @@
         "speed": 50,
         "total": 355,
         "height": 12,
-        "weight": 450,
         "internal_name": "upsigenia",
         "catch_rate_raw": 45
     },
@@ -1440,7 +1356,6 @@
         "speed": 25,
         "total": 495,
         "height": 30,
-        "weight": 960,
         "internal_name": "hallucerebra",
         "catch_rate_raw": 45
     },
@@ -1457,7 +1372,6 @@
         "speed": 40,
         "total": 400,
         "height": 3,
-        "weight": 70,
         "internal_name": "croppup",
         "catch_rate_raw": 75
     },
@@ -1474,7 +1388,6 @@
         "speed": 100,
         "total": 550,
         "height": 11,
-        "weight": 312,
         "internal_name": "lunage",
         "catch_rate_raw": 25
     },
@@ -1491,7 +1404,6 @@
         "speed": 87,
         "total": 536,
         "height": 11,
-        "weight": 455,
         "internal_name": "maractaya",
         "catch_rate_raw": 75
     },
@@ -1508,7 +1420,6 @@
         "speed": 75,
         "total": 500,
         "height": 15,
-        "weight": 810,
         "internal_name": "hydron",
         "catch_rate_raw": 45
     },
@@ -1525,7 +1436,6 @@
         "speed": 122,
         "total": 600,
         "height": 1,
-        "weight": 1,
         "internal_name": "hanyabi",
         "catch_rate_raw": 30
     },
@@ -1542,7 +1452,6 @@
         "speed": 100,
         "total": 397,
         "height": 3,
-        "weight": 200,
         "internal_name": "flintlet",
         "catch_rate_raw": 90
     },
@@ -1559,7 +1468,6 @@
         "speed": 80,
         "total": 500,
         "height": 11,
-        "weight": 1200,
         "internal_name": "cragahuitl",
         "catch_rate_raw": 65
     },
@@ -1576,7 +1484,6 @@
         "speed": 45,
         "total": 310,
         "height": 1,
-        "weight": 2,
         "internal_name": "validys",
         "catch_rate_raw": 101
     },
@@ -1593,7 +1500,6 @@
         "speed": 40,
         "total": 540,
         "height": 17,
-        "weight": 765,
         "internal_name": "vaniterror",
         "catch_rate_raw": 80
     },
@@ -1610,7 +1516,6 @@
         "speed": 80,
         "total": 695,
         "height": 23,
-        "weight": 700,
         "internal_name": "vaniterror",
         "catch_rate_raw": ""
     },
@@ -1627,7 +1532,6 @@
         "speed": 85,
         "total": 400,
         "height": 4,
-        "weight": 75,
         "internal_name": "grantump",
         "catch_rate_raw": 150
     },
@@ -1644,7 +1548,6 @@
         "speed": 20,
         "total": 480,
         "height": 15,
-        "weight": 800,
         "internal_name": "wystenent",
         "catch_rate_raw": 80
     },
@@ -1661,7 +1564,6 @@
         "speed": 50,
         "total": 308,
         "height": 1,
-        "weight": 1,
         "internal_name": "sinisnow",
         "catch_rate_raw": 150
     },
@@ -1678,7 +1580,6 @@
         "speed": 106,
         "total": 508,
         "height": 1,
-        "weight": 1,
         "internal_name": "frostygeist",
         "catch_rate_raw": 150
     },
@@ -1695,7 +1596,6 @@
         "speed": 40,
         "total": 300,
         "height": 12,
-        "weight": 300,
         "internal_name": "kazoom",
         "catch_rate_raw": 190
     },
@@ -1712,7 +1612,6 @@
         "speed": 80,
         "total": 511,
         "height": 20,
-        "weight": 1100,
         "internal_name": "amphizoom",
         "catch_rate_raw": 75
     },
@@ -1729,7 +1628,6 @@
         "speed": 78,
         "total": 530,
         "height": 7,
-        "weight": 88,
         "internal_name": "clarissie",
         "catch_rate_raw": 30
     },
@@ -1746,7 +1644,6 @@
         "speed": "",
         "total": "",
         "height": "",
-        "weight": "",
         "internal_name": "clarissie",
         "catch_rate_raw": ""
     },
@@ -1763,7 +1660,6 @@
         "speed": 60,
         "total": 530,
         "height": 7,
-        "weight": 88,
         "internal_name": "beryllius",
         "catch_rate_raw": 30
     },
@@ -1780,7 +1676,6 @@
         "speed": "",
         "total": "",
         "height": "",
-        "weight": "",
         "internal_name": "beryllius",
         "catch_rate_raw": ""
     },
@@ -1797,7 +1692,6 @@
         "speed": 90,
         "total": 530,
         "height": 7,
-        "weight": 88,
         "internal_name": "echolyte",
         "catch_rate_raw": 30
     },
@@ -1814,7 +1708,6 @@
         "speed": "",
         "total": "",
         "height": "",
-        "weight": "",
         "internal_name": "echolyte",
         "catch_rate_raw": ""
     },
@@ -1831,7 +1724,6 @@
         "speed": 150,
         "total": 530,
         "height": 7,
-        "weight": 68,
         "internal_name": "velvettia",
         "catch_rate_raw": 30
     },
@@ -1848,7 +1740,6 @@
         "speed": "",
         "total": "",
         "height": "",
-        "weight": "",
         "internal_name": "velvettia",
         "catch_rate_raw": ""
     },
@@ -1865,7 +1756,6 @@
         "speed": 79,
         "total": 370,
         "height": 6,
-        "weight": 48,
         "internal_name": "hattrix",
         "catch_rate_raw": 120
     },
@@ -1882,7 +1772,6 @@
         "speed": "",
         "total": "",
         "height": "",
-        "weight": "",
         "internal_name": "hattrix",
         "catch_rate_raw": ""
     },
@@ -1899,7 +1788,6 @@
         "speed": 99,
         "total": 510,
         "height": 21,
-        "weight": 51,
         "internal_name": "hattertainer",
         "catch_rate_raw": 45
     },
@@ -1916,7 +1804,6 @@
         "speed": "",
         "total": "",
         "height": "",
-        "weight": "",
         "internal_name": "hattertainer",
         "catch_rate_raw": ""
     },
@@ -1925,17 +1812,16 @@
         "name": "Hattertainer Gmax",
         "primary_type": "Fire",
         "secondary_type": "Fairy",
-        "hp": 57,
-        "attack": 136,
-        "defence": 63,
-        "special_attack": 80,
-        "special_defence": 75,
-        "speed": 99,
-        "total": 510,
+        "hp": "",
+        "attack": "",
+        "defence": "",
+        "special_attack": "",
+        "special_defence": "",
+        "speed": "",
+        "total": "",
         "height": 260,
-        "weight": 51,
         "internal_name": "hattertainer",
-        "catch_rate_raw": 45
+        "catch_rate_raw": ""
     },
     {
         "nationalPokedexNumber": 1095,
@@ -1950,7 +1836,6 @@
         "speed": 50,
         "total": 480,
         "height": 11,
-        "weight": 153,
         "internal_name": "tuligant",
         "catch_rate_raw": 75
     },
@@ -1967,7 +1852,6 @@
         "speed": 35,
         "total": 270,
         "height": 5,
-        "weight": 10,
         "internal_name": "papersol",
         "catch_rate_raw": 225
     },
@@ -1984,7 +1868,6 @@
         "speed": "",
         "total": "",
         "height": "",
-        "weight": "",
         "internal_name": "papersol",
         "catch_rate_raw": ""
     },
@@ -1993,17 +1876,16 @@
         "name": "Papersol Light Blue",
         "primary_type": "Grass",
         "secondary_type": "Normal",
-        "hp": 40,
-        "attack": 70,
-        "defence": 35,
-        "special_attack": 55,
-        "special_defence": 35,
-        "speed": 35,
-        "total": 270,
-        "height": 5,
-        "weight": 10,
+        "hp": "",
+        "attack": "",
+        "defence": "",
+        "special_attack": "",
+        "special_defence": "",
+        "speed": "",
+        "total": "",
+        "height": "",
         "internal_name": "papersol",
-        "catch_rate_raw": 225
+        "catch_rate_raw": ""
     },
     {
         "nationalPokedexNumber": 1096,
@@ -2018,7 +1900,6 @@
         "speed": "",
         "total": "",
         "height": "",
-        "weight": "",
         "internal_name": "papersol",
         "catch_rate_raw": ""
     },
@@ -2027,17 +1908,16 @@
         "name": "Papersol Pink",
         "primary_type": "Grass",
         "secondary_type": "Normal",
-        "hp": 40,
-        "attack": 70,
-        "defence": 35,
-        "special_attack": 55,
-        "special_defence": 35,
-        "speed": 35,
-        "total": 270,
-        "height": 5,
-        "weight": 10,
+        "hp": "",
+        "attack": "",
+        "defence": "",
+        "special_attack": "",
+        "special_defence": "",
+        "speed": "",
+        "total": "",
+        "height": "",
         "internal_name": "papersol",
-        "catch_rate_raw": 225
+        "catch_rate_raw": ""
     },
     {
         "nationalPokedexNumber": 1096,
@@ -2052,7 +1932,6 @@
         "speed": "",
         "total": "",
         "height": "",
-        "weight": "",
         "internal_name": "papersol",
         "catch_rate_raw": ""
     },
@@ -2069,7 +1948,6 @@
         "speed": 105,
         "total": 480,
         "height": 10,
-        "weight": 15,
         "internal_name": "umbrelligant",
         "catch_rate_raw": 75
     },
@@ -2086,7 +1964,6 @@
         "speed": "",
         "total": "",
         "height": "",
-        "weight": "",
         "internal_name": "umbrelligant",
         "catch_rate_raw": ""
     },
@@ -2095,17 +1972,16 @@
         "name": "Umbrelligant Light Blue",
         "primary_type": "Grass",
         "secondary_type": "Normal",
-        "hp": 75,
-        "attack": 120,
-        "defence": 60,
-        "special_attack": 60,
-        "special_defence": 60,
-        "speed": 105,
-        "total": 480,
-        "height": 10,
-        "weight": 15,
+        "hp": "",
+        "attack": "",
+        "defence": "",
+        "special_attack": "",
+        "special_defence": "",
+        "speed": "",
+        "total": "",
+        "height": "",
         "internal_name": "umbrelligant",
-        "catch_rate_raw": 75
+        "catch_rate_raw": ""
     },
     {
         "nationalPokedexNumber": 1097,
@@ -2120,7 +1996,6 @@
         "speed": "",
         "total": "",
         "height": "",
-        "weight": "",
         "internal_name": "umbrelligant",
         "catch_rate_raw": ""
     },
@@ -2129,17 +2004,16 @@
         "name": "Umbrelligant Pink",
         "primary_type": "Grass",
         "secondary_type": "Normal",
-        "hp": 75,
-        "attack": 120,
-        "defence": 60,
-        "special_attack": 60,
-        "special_defence": 60,
-        "speed": 105,
-        "total": 480,
-        "height": 10,
-        "weight": 15,
+        "hp": "",
+        "attack": "",
+        "defence": "",
+        "special_attack": "",
+        "special_defence": "",
+        "speed": "",
+        "total": "",
+        "height": "",
         "internal_name": "umbrelligant",
-        "catch_rate_raw": 75
+        "catch_rate_raw": ""
     },
     {
         "nationalPokedexNumber": 1097,
@@ -2154,7 +2028,6 @@
         "speed": "",
         "total": "",
         "height": "",
-        "weight": "",
         "internal_name": "umbrelligant",
         "catch_rate_raw": ""
     },
@@ -2171,7 +2044,6 @@
         "speed": 20,
         "total": 250,
         "height": 7,
-        "weight": 350,
         "internal_name": "slugrit",
         "catch_rate_raw": 190
     },
@@ -2188,7 +2060,6 @@
         "speed": 30,
         "total": 430,
         "height": 8,
-        "weight": 550,
         "internal_name": "dunecargo",
         "catch_rate_raw": 75
     },
@@ -2205,7 +2076,6 @@
         "speed": 71,
         "total": 335,
         "height": 4,
-        "weight": 50,
         "internal_name": "pumpkaboom",
         "catch_rate_raw": 120
     },
@@ -2222,7 +2092,6 @@
         "speed": 76,
         "total": "",
         "height": 3,
-        "weight": 35,
         "internal_name": "pumpkaboom",
         "catch_rate_raw": ""
     },
@@ -2232,16 +2101,15 @@
         "primary_type": "Fire",
         "secondary_type": "Grass",
         "hp": 54,
-        "attack": 66,
-        "defence": 70,
-        "special_attack": 24,
-        "special_defence": 55,
+        "attack": "",
+        "defence": "",
+        "special_attack": "",
+        "special_defence": "",
         "speed": 66,
-        "total": 335,
+        "total": "",
         "height": 5,
-        "weight": 75,
         "internal_name": "pumpkaboom",
-        "catch_rate_raw": 120
+        "catch_rate_raw": ""
     },
     {
         "nationalPokedexNumber": 1103,
@@ -2256,7 +2124,6 @@
         "speed": 61,
         "total": "",
         "height": 8,
-        "weight": 150,
         "internal_name": "pumpkaboom",
         "catch_rate_raw": ""
     },
@@ -2273,7 +2140,6 @@
         "speed": 104,
         "total": 494,
         "height": 9,
-        "weight": 125,
         "internal_name": "gourgrenade",
         "catch_rate_raw": 60
     },
@@ -2290,7 +2156,6 @@
         "speed": 119,
         "total": "",
         "height": 7,
-        "weight": 95,
         "internal_name": "gourgrenade",
         "catch_rate_raw": ""
     },
@@ -2301,15 +2166,14 @@
         "secondary_type": "Grass",
         "hp": 75,
         "attack": 95,
-        "defence": 122,
-        "special_attack": 38,
-        "special_defence": 75,
+        "defence": "",
+        "special_attack": "",
+        "special_defence": "",
         "speed": 89,
-        "total": 494,
+        "total": "",
         "height": 11,
-        "weight": 140,
         "internal_name": "gourgrenade",
-        "catch_rate_raw": 60
+        "catch_rate_raw": ""
     },
     {
         "nationalPokedexNumber": 1104,
@@ -2324,7 +2188,6 @@
         "speed": 74,
         "total": "",
         "height": 17,
-        "weight": 390,
         "internal_name": "gourgrenade",
         "catch_rate_raw": ""
     },
@@ -2341,7 +2204,6 @@
         "speed": 40,
         "total": 340,
         "height": 8,
-        "weight": 952,
         "internal_name": "norstar",
         "catch_rate_raw": 225
     },
@@ -2358,7 +2220,6 @@
         "speed": 85,
         "total": 565,
         "height": 16,
-        "weight": 455,
         "internal_name": "clawviathan",
         "catch_rate_raw": 35
     },
@@ -2375,7 +2236,6 @@
         "speed": 55,
         "total": 255,
         "height": 6,
-        "weight": 105,
         "internal_name": "galecadet",
         "catch_rate_raw": 90
     },
@@ -2392,7 +2252,6 @@
         "speed": 55,
         "total": 525,
         "height": 15,
-        "weight": 9999,
         "internal_name": "zephyrouge",
         "catch_rate_raw": 25
     },
@@ -2409,7 +2268,6 @@
         "speed": 95,
         "total": 525,
         "height": 16,
-        "weight": 620,
         "internal_name": "ceruclone",
         "catch_rate_raw": 25
     },
@@ -2426,7 +2284,6 @@
         "speed": 140,
         "total": 500,
         "height": 3,
-        "weight": 1,
         "internal_name": "breezior",
         "catch_rate_raw": 255
     },
@@ -2443,7 +2300,6 @@
         "speed": 15,
         "total": 320,
         "height": 5,
-        "weight": 700,
         "internal_name": "snowygast",
         "catch_rate_raw": 140
     },
@@ -2460,7 +2316,6 @@
         "speed": 35,
         "total": 480,
         "height": 13,
-        "weight": 2500,
         "internal_name": "palossnow",
         "catch_rate_raw": 60
     },
@@ -2477,7 +2332,6 @@
         "speed": 20,
         "total": 260,
         "height": 2,
-        "weight": 5,
         "internal_name": "seedlin",
         "catch_rate_raw": 255
     },
@@ -2494,7 +2348,6 @@
         "speed": "",
         "total": "",
         "height": "",
-        "weight": "",
         "internal_name": "seedlin",
         "catch_rate_raw": ""
     },
@@ -2511,7 +2364,6 @@
         "speed": 50,
         "total": 480,
         "height": 2,
-        "weight": 5,
         "internal_name": "torchlin",
         "catch_rate_raw": 45
     },
@@ -2528,7 +2380,6 @@
         "speed": 40,
         "total": 480,
         "height": 2,
-        "weight": 5,
         "internal_name": "podlin",
         "catch_rate_raw": 45
     },
@@ -2545,7 +2396,6 @@
         "speed": 100,
         "total": 540,
         "height": 2,
-        "weight": 5,
         "internal_name": "torchflyer",
         "catch_rate_raw": 10
     },
@@ -2562,7 +2412,6 @@
         "speed": 40,
         "total": 540,
         "height": 4,
-        "weight": 1260,
         "internal_name": "pitchertun",
         "catch_rate_raw": 10
     },
@@ -2579,7 +2428,6 @@
         "speed": 50,
         "total": 305,
         "height": 7,
-        "weight": 10,
         "internal_name": "stygipede",
         "catch_rate_raw": 190
     },
@@ -2596,7 +2444,6 @@
         "speed": 90,
         "total": 525,
         "height": 30,
-        "weight": 1200,
         "internal_name": "centisculk",
         "catch_rate_raw": 75
     },
@@ -2613,7 +2460,6 @@
         "speed": 60,
         "total": 395,
         "height": 8,
-        "weight": 365,
         "internal_name": "porytron",
         "catch_rate_raw": 45
     },
@@ -2630,7 +2476,6 @@
         "speed": 90,
         "total": 515,
         "height": 6,
-        "weight": 325,
         "internal_name": "porytron2",
         "catch_rate_raw": 45
     },
@@ -2647,7 +2492,6 @@
         "speed": 130,
         "total": 545,
         "height": 9,
-        "weight": 340,
         "internal_name": "porytronz",
         "catch_rate_raw": 30
     },
@@ -2664,7 +2508,6 @@
         "speed": 28,
         "total": 325,
         "height": 8,
-        "weight": 10,
         "internal_name": "tomledger",
         "catch_rate_raw": 180
     },
@@ -2681,7 +2524,6 @@
         "speed": 35,
         "total": 448,
         "height": 8,
-        "weight": 20,
         "internal_name": "twinledger",
         "catch_rate_raw": 90
     },
@@ -2698,7 +2540,6 @@
         "speed": 90,
         "total": 500,
         "height": 14,
-        "weight": 230,
         "internal_name": "wizledger",
         "catch_rate_raw": 45
     },
@@ -2715,7 +2556,6 @@
         "speed": "",
         "total": "",
         "height": "",
-        "weight": "",
         "internal_name": "wizledger",
         "catch_rate_raw": ""
     },
@@ -2724,17 +2564,16 @@
         "name": "Wizledger Icespell",
         "primary_type": "Ice",
         "secondary_type": "Ghost",
-        "hp": 60,
-        "attack": 30,
+        "hp": "",
+        "attack": "",
         "defence": 140,
         "special_attack": 130,
         "special_defence": 90,
         "speed": 50,
-        "total": 500,
-        "height": 14,
-        "weight": 230,
+        "total": "",
+        "height": "",
         "internal_name": "wizledger",
-        "catch_rate_raw": 45
+        "catch_rate_raw": ""
     },
     {
         "nationalPokedexNumber": 1128,
@@ -2749,7 +2588,6 @@
         "speed": 140,
         "total": "",
         "height": "",
-        "weight": "",
         "internal_name": "wizledger",
         "catch_rate_raw": ""
     },
@@ -2766,7 +2604,6 @@
         "speed": 10,
         "total": 300,
         "height": 3,
-        "weight": 50,
         "internal_name": "gimmibread",
         "catch_rate_raw": 45
     },
@@ -2783,7 +2620,6 @@
         "speed": 80,
         "total": "",
         "height": 1,
-        "weight": 1,
         "internal_name": "gimmibread",
         "catch_rate_raw": ""
     },
@@ -2800,7 +2636,6 @@
         "speed": 144,
         "total": 550,
         "height": 12,
-        "weight": 150,
         "internal_name": "gholdendough",
         "catch_rate_raw": 45
     },
@@ -2817,7 +2652,6 @@
         "speed": 65,
         "total": 525,
         "height": 1,
-        "weight": 52,
         "internal_name": "mikueon",
         "catch_rate_raw": 45
     },
@@ -2834,7 +2668,6 @@
         "speed": 95,
         "total": 525,
         "height": 1,
-        "weight": 56,
         "internal_name": "tetoeon",
         "catch_rate_raw": 45
     },
@@ -2851,7 +2684,6 @@
         "speed": 65,
         "total": 525,
         "height": 1,
-        "weight": 53,
         "internal_name": "nerueon",
         "catch_rate_raw": 45
     },
@@ -2868,7 +2700,6 @@
         "speed": 110,
         "total": 535,
         "height": 11,
-        "weight": 300,
         "internal_name": "spectreonee",
         "catch_rate_raw": 45
     },
@@ -2885,7 +2716,6 @@
         "speed": 70,
         "total": 500,
         "height": 11,
-        "weight": 300,
         "internal_name": "acideon",
         "catch_rate_raw": 45
     },
@@ -2902,7 +2732,6 @@
         "speed": 85,
         "total": 520,
         "height": 11,
-        "weight": 300,
         "internal_name": "champeon",
         "catch_rate_raw": 45
     },
@@ -2919,7 +2748,6 @@
         "speed": 110,
         "total": 545,
         "height": 11,
-        "weight": 300,
         "internal_name": "aereonee",
         "catch_rate_raw": 45
     },
@@ -2936,7 +2764,6 @@
         "speed": 90,
         "total": 545,
         "height": 11,
-        "weight": 300,
         "internal_name": "minereon",
         "catch_rate_raw": 45
     },
@@ -2953,7 +2780,6 @@
         "speed": 110,
         "total": 555,
         "height": 11,
-        "weight": 300,
         "internal_name": "hiveon",
         "catch_rate_raw": 45
     },
@@ -2970,7 +2796,6 @@
         "speed": 110,
         "total": 580,
         "height": 11,
-        "weight": 300,
         "internal_name": "automeon",
         "catch_rate_raw": 45
     },
@@ -2987,7 +2812,6 @@
         "speed": 95,
         "total": 555,
         "height": 11,
-        "weight": 300,
         "internal_name": "wyveon",
         "catch_rate_raw": 45
     },
@@ -3004,7 +2828,6 @@
         "speed": 85,
         "total": 470,
         "height": 11,
-        "weight": 300,
         "internal_name": "dungeon",
         "catch_rate_raw": 45
     },
@@ -3021,7 +2844,6 @@
         "speed": 110,
         "total": 580,
         "height": 11,
-        "weight": 300,
         "internal_name": "eeveeon",
         "catch_rate_raw": 45
     },
@@ -3038,7 +2860,6 @@
         "speed": 92,
         "total": 600,
         "height": 11,
-        "weight": 300,
         "internal_name": "evereon",
         "catch_rate_raw": 45
     },
@@ -3055,7 +2876,6 @@
         "speed": 65,
         "total": 320,
         "height": 6,
-        "weight": 100,
         "internal_name": "nebix",
         "catch_rate_raw": 45
     },
@@ -3072,7 +2892,6 @@
         "speed": 85,
         "total": 460,
         "height": 8,
-        "weight": 195,
         "internal_name": "voryn",
         "catch_rate_raw": 45
     },
@@ -3089,7 +2908,6 @@
         "speed": 105,
         "total": 600,
         "height": 15,
-        "weight": 480,
         "internal_name": "cosvul",
         "catch_rate_raw": 3
     },
@@ -3106,7 +2924,6 @@
         "speed": 40,
         "total": 280,
         "height": 3,
-        "weight": 18,
         "internal_name": "owlyn",
         "catch_rate_raw": 190
     },
@@ -3123,7 +2940,6 @@
         "speed": 100,
         "total": 485,
         "height": 12,
-        "weight": 249,
         "internal_name": "striglow",
         "catch_rate_raw": 45
     },
@@ -3140,7 +2956,6 @@
         "speed": 50,
         "total": 580,
         "height": 17,
-        "weight": 2100,
         "internal_name": "regisculk",
         "catch_rate_raw": 3
     },
@@ -3157,7 +2972,6 @@
         "speed": 85,
         "total": 462,
         "height": 5,
-        "weight": 408,
         "internal_name": "bunger",
         "catch_rate_raw": 43
     }
