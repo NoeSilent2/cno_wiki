@@ -49,8 +49,6 @@
                 if (cell) {
                     const weight = (cell/10).toPrecision(8).replace(/\.?0+$/, '');
                     return gridjs.html(`${weight}kg`)
-                } else if (row.cells[2].includes("Gmax")) {
-                    return gridjs.html('???.?kg')
                 } else {
                     return gridjs.html('')
                 }
