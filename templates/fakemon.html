@@ -38,12 +38,21 @@
             {name:"Spe",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#2c1427; color:#fff; border:1px solid #ccc; padding: 4px'}}}}, 
             {name:"BST",width:"50px"},
             {name:"Height",width:"70px", formatter: (cell, row) => {
-                const height = (cell/10).toPrecision(8).replace(/\.?0+$/, '');
-                return gridjs.html(`${height}m`);
+                if (cell) {
+                    const height = (cell/10).toPrecision(8).replace(/\.?0+$/, '');
+                    return gridjs.html(`${height}m`);
+                } else {
+                    return gridjs.html('')
+                }
             }},
             {name:"Weight",width:"70px", formatter: (cell, row) => {
-                const weight = (cell/10).toPrecision(8).replace(/\.?0+$/, '');
-                return gridjs.html(`${weight}kg`)
+                if (cell) {
+                    const weight = (cell/10).toPrecision(8).replace(/\.?0+$/, '');
+                    return gridjs.html(`${weight}kg`)
+                } else {
+                    return gridjs.html('')
+                }
+                
             }},
             {name:"internal_name",hidden:true},
             {name:"Catch Rate",width:"80px"}],
