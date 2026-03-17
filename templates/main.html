@@ -10,6 +10,9 @@
     .log {padding:10px 0px 0px 0px; margin: 0rem 0rem 0rem 1.6rem;}
     .log li {margin-bottom:0.3rem;margin-right:1rem;}
     .log p {font-weight:bold; margin-bottom:0.4rem;margin-top:1rem;font-size:120%}
+    .speech-bubble {position:relative; background:#000; border:2px solid white; border-radius: 8px; padding: 8px; width:auto; margin:12px}
+    .speech-bubble:before {content:''; position:absolute; right:-24px; top:50%; width:0; height:0; border-style: solid; border-width: 10px 0px 10px 22px; border-top-color:transparent; border-right-color:white; border-bottom-color:transparent; border-left-color:white;}
+    .speech-bubble:after {content:''; position:absolute; right:-24px; top:50%; width:0; height:0; border-style: solid; border-width: 9px 0px 9px 21px; border-top-color:transparent; border-right-color:black; border-bottom-color:transparent; border-left-color:black; margin-top:1px; margin-right:5px;}
 </style>
 {% endblock %}
 
@@ -166,11 +169,16 @@
         </div>
     </div>
 
-    <div style="height: 100%; padding:24px; border-radius: 8px; border:1px solid #333">
-        <h2>Pokemon of the Day</h2>
-        <div style="border:1px solid #333; border-radius: 6px; display: flex; flex-direction:column; align-items: center;">
-            <img src="https://img.pokemondb.net/sprites/home/normal/{{ pokemon.img }}.png" style="width:auto; height:auto;">
-            <a href="/species/{{ pokemon.link }}" style="font-size:160%; margin-bottom:15px;">{{ pokemon.name }}</a>
+    <div style="height: 100%; padding:24px; border-radius: 8px; border:1px solid #333; display:flex; flex-wrap:wrap; flex-direction:column;">
+        <h2>Gary's Corner</h2>
+        <div style="width:50%; display:flex; flex-wrap:wrap; flex-direction:row-reverse; align-items:center; justify-content:flex-end;">
+            <img src="/gary.png" style="width:auto;height:auto;margin:0px;">
+            <p class="speech-bubble">Hi! This is my favorite pokemon today!</p>
+
+            <div style="border:1px solid #333; border-radius: 6px; display: flex; flex-direction:column; align-items: center;">
+                <img src="https://img.pokemondb.net/sprites/home/normal/{{ pokemon.img }}.png" style="width:auto; height:auto;">
+                <a href="/species/{{ pokemon.link }}" style="font-size:160%; margin-bottom:15px;">{{ pokemon.name }}</a>
+            </div>
         </div>
     </div>
 
