@@ -11,33 +11,30 @@ def read_root():
     return render_template("main.html")
 
 
-with open('./data/fakemon.json', 'r', encoding='utf-8') as file:
-    fakemondata = json.load(file)
+with open('./data/fakemon_simple.json', 'r', encoding='utf-8') as file:
+    fakemontable = json.load(file)
 @app.route("/fakemon")
 def get_fakemon():
-    return render_template("fakemon.html", fakemon=fakemondata)
+    return render_template("fakemon.html", fakemon=fakemontable)
 
-with open('./data/species.json', 'r', encoding='utf-8') as file:
-    speciesdata = json.load(file)
+with open('./data/species_simple.json', 'r', encoding='utf-8') as file:
+    speciestable = json.load(file)
 @app.route("/species")
 def get_species():
-    return render_template("species.html", species=speciesdata)
+    return render_template("species.html", species=speciestable)
 
 
-speciesdict = {}
-for i, species in enumerate(speciesdata):
-    speciesdict[species['internal_name']] = i
+with open('./data/species.json', 'r', encoding='utf-8') as file:
+    speciesdict = json.load(file)
 @app.route("/species/<name>")
 def get_species_specific(name):
     name = name.lower()
     if name == "random":
-        species = speciesdata[random.randint(0,len(speciesdata))]
+        species = random.choice(list(speciesdict.keys()))
         if species:
-            rname = species['internal_name']
-            if rname:
-                return redirect(url_for('get_species_specific', name=rname))
+            return redirect(url_for('get_species_specific', name=species))
     elif name in speciesdict:
-        species = speciesdata[speciesdict[name]]
+        species = speciesdict[name]
         return render_template("species_specific.html", species=species)
     else:
         return redirect(url_for('get_species'))
