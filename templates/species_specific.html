@@ -30,8 +30,9 @@
 {% block body %}
 <main style="display: block">
     
+    <div class="infobox" style="width:45%; max-width:500px; gap:20px; display:flex; flex-direction:column;">
     {% for species in species_forms %}
-    <table class="roundy infobox" style="background:#666;width:45%;border:2px solid #fff;padding:2px;max-width:500px;text-align:center;">
+    <table class="roundy" style="background:#666;width:100%;border:2px solid #fff;padding:2px;text-align:center;">
         <tbody>
             <tr>
                 <td colspan="2">
@@ -325,6 +326,7 @@
         </tbody>
     </table>
     {% endfor %}
+    </div>
 
     <h2 style="width: 50%">{{ species_forms[0].name }}</h2>
     <p>Work in progress page for specific data on {{ species_forms[0].name }}.</p>
