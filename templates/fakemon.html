@@ -46,7 +46,7 @@
                 }
             }, attributes: (cell) => { if (cell) { return {'style': 'background:#000; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding:4px'}} else if(cell == "") { return {'style': 'background:#000; color:#fff; border:1px solid #ccc; border-top:0px solid black; border-bottom:0px solid black; padding:4px'}}}},
             {name:"Weight",width:"70px", formatter: (cell, row) => {
-                if (row.cells[2].data.includes("Gmax")) {
+                if (row.cells[1].data.includes("Gmax")) {
                     return gridjs.html('???.?kg')
                 } else if (cell) {
                     const weight = (cell/10).toPrecision(8).replace(/\.?0+$/, '');
