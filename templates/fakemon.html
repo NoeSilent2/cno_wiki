@@ -18,6 +18,38 @@
 <script>
     const fakemon = {{ fakemon | tojson }};
     
+    function mergeIdenticalCells(tableElement) {
+        const rows = tableElement.querySelectorAll('tbody tr');
+
+        rows.forEach(row => {
+            const cells = row.querySelectorAll('td');
+            cells.forEach(cell => {
+                cell.style.borderTop = '';
+                cell.textContent = cell.dataset.originalText || cell.textContent;
+            });
+        });
+
+        if (rows.length > 0) {
+            const columns = rows[0].querySelectorAll('td').length;
+
+            for (let col = 0; col < columns; col++) {
+                for (let row = 1; row < rows.length; row++) {
+                    const currentCell = rows[row].querySelectorAll('td')[col];
+                    const previousCell = rows[row - 1].querySelectorAll('td')[col];
+
+                    if (!currentCell.dataset.originalText) {
+                        currentCell.dataset.originalText = currentCell.textContent;
+                    }
+
+                    if (currentCell.textContent === previousCell.textContent) {
+                        currentCell.textContent = '';
+                        currentCell.style.borderTop = 'none';
+                    }
+                }
+            }
+        }
+    }
+
     new gridjs.Grid({
         columns: [
             {name:"Dex",width:"50px"}, 
@@ -30,13 +62,13 @@
                 }
             }}, 
             {name:"Type2",width:"10px",hidden:true},
-            {name:"HP",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#111a0b; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding: 4px'}} else if(cell == "") {return {'style': 'background:#111a0b; color:#fff; border:1px solid #ccc; border-top:0px solid black; border-bottom:0px solid black; padding: 4px'}}}}, 
-            {name:"Atk",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#221e0e; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding: 4px'}} else if(cell == "") {return {'style': 'background:#221e0e; color:#fff; border:1px solid #ccc; border-top:0px solid black; border-bottom:0px solid black; padding: 4px'}}}}, 
-            {name:"Def",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#251810; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding: 4px'}} else if(cell == "") {return {'style': 'background:#251810; color:#fff; border:1px solid #ccc; border-top:0px solid black; border-bottom:0px solid black; padding: 4px'}}}}, 
-            {name:"SpA",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#0f2125; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding: 4px'}} else if(cell == "") {return {'style': 'background:#0f2125; color:#fff; border:1px solid #ccc; border-top:0px solid black; border-bottom:0px solid black; padding: 4px'}}}}, 
-            {name:"SpD",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#141722; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding: 4px'}} else if(cell == "") {return {'style': 'background:#141722; color:#fff; border:1px solid #ccc; border-top:0px solid black; border-bottom:0px solid black; padding: 4px'}}}}, 
-            {name:"Spe",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#2c1427; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding: 4px'}} else if(cell == "") {return {'style': 'background:#2c1427; color:#fff; border:1px solid #ccc; border-top:0px solid black; border-bottom:0px solid black; padding: 4px'}}}}, 
-            {name:"BST",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#000; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding:4px'}} else if(cell == "") { return {'style': 'background:#000; color:#fff; border:1px solid #ccc; border-top:0px solid black; border-bottom:0px solid black; padding:4px'}}}},
+            {name:"HP",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#111a0b; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding: 4px'}}}}, 
+            {name:"Atk",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#221e0e; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding: 4px'}}}}, 
+            {name:"Def",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#251810; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding: 4px'}}}}, 
+            {name:"SpA",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#0f2125; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding: 4px'}}}}, 
+            {name:"SpD",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#141722; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding: 4px'}}}}, 
+            {name:"Spe",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#2c1427; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding: 4px'}}}}, 
+            {name:"BST",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#000; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding:4px'}}}},
             {name:"Height",width:"70px", formatter: (cell) => {
                 if (cell) {
                     const height = (cell/10).toPrecision(8).replace(/\.?0+$/, '');
@@ -44,7 +76,7 @@
                 } else {
                     return gridjs.html('')
                 }
-            }, attributes: (cell) => { if (cell) { return {'style': 'background:#000; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding:4px'}} else if(cell == "") { return {'style': 'background:#000; color:#fff; border:1px solid #ccc; border-top:0px solid black; border-bottom:0px solid black; padding:4px'}}}},
+            }},
             {name:"Weight",width:"70px", formatter: (cell) => {
                 if (cell == "?") {
                     return gridjs.html('???.?kg')
@@ -54,9 +86,9 @@
                 } else {
                     return gridjs.html('')
                 }
-            }, attributes: (cell) => { if (cell) { return {'style': 'background:#000; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding:4px'}} else if(cell == "") { return {'style': 'background:#000; color:#fff; border:1px solid #ccc; border-top:0px solid black; border-bottom:0px solid black; padding:4px'}}}},
+            }},
             {name:"internal_name",hidden:true},
-            {name:"Catch Rate",width:"80px", attributes: (cell) => { if (cell) { return {'style': 'background:#000; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding:4px'}} else if(cell == "") { return {'style': 'background:#000; color:#fff; border:1px solid #ccc; border-top:0px solid black; border-bottom:0px solid black; padding:4px'}}}}],
+            {name:"Catch Rate",width:"80px"}],
         data: fakemon.map(emp => [
             emp.nationalPokedexNumber,
             emp.name,
@@ -92,6 +124,20 @@
                 border: '1px solid #ccc',
                 padding: "4px"
             }
+        },
+        events: {
+            sort: (() => {
+                let timeout;
+                return function() {
+                    clearTimeout(timeout);
+                    timeout = setTimeout(() => {
+                        const tableElement = document.querySelector('.gridjs-table');
+                        if (tableElement) {
+                            mergeIdenticalCells(tableElement);
+                        }
+                    }, 10);
+                };
+            })()
         }
     }).render(document.getElementById('table'));
 </script>
