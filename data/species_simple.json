@@ -2041,7 +2041,7 @@
     },
     {
         "nationalPokedexNumber": 83,
-        "name": "Farfetch\u2019d",
+        "name": "Farfetch\u2019D",
         "primary_type": "Normal",
         "secondary_type": "Flying",
         "hp": 52,
@@ -2058,7 +2058,7 @@
     },
     {
         "nationalPokedexNumber": 83,
-        "name": "Farfetch\u2019d Galar",
+        "name": "Farfetch\u2019D Galar",
         "primary_type": "Fighting",
         "secondary_type": "Flying",
         "hp": 52,
@@ -17171,7 +17171,7 @@
     },
     {
         "nationalPokedexNumber": 741,
-        "name": "Oricorio Pa'u",
+        "name": "Oricorio Pa'U",
         "primary_type": "Psychic",
         "secondary_type": "Flying",
         "hp": 75,
@@ -18276,7 +18276,7 @@
     },
     {
         "nationalPokedexNumber": 782,
-        "name": "Jangmo-o",
+        "name": "Jangmo-O",
         "primary_type": "Dragon",
         "secondary_type": "",
         "hp": 45,
@@ -18293,7 +18293,7 @@
     },
     {
         "nationalPokedexNumber": 783,
-        "name": "Hakamo-o",
+        "name": "Hakamo-O",
         "primary_type": "Dragon",
         "secondary_type": "Fighting",
         "hp": 55,
@@ -18310,7 +18310,7 @@
     },
     {
         "nationalPokedexNumber": 784,
-        "name": "Kommo-o",
+        "name": "Kommo-O",
         "primary_type": "Dragon",
         "secondary_type": "Fighting",
         "hp": 75,
@@ -20112,7 +20112,7 @@
     },
     {
         "nationalPokedexNumber": 865,
-        "name": "Sirfetch\u2019d",
+        "name": "Sirfetch\u2019D",
         "primary_type": "Fighting",
         "secondary_type": "",
         "hp": 62,
@@ -23648,7 +23648,7 @@
     },
     {
         "nationalPokedexNumber": 1026,
-        "name": "bamzu",
+        "name": "Bamzu",
         "primary_type": "Grass",
         "secondary_type": "",
         "hp": 45,
@@ -23665,7 +23665,7 @@
     },
     {
         "nationalPokedexNumber": 1027,
-        "name": "bambud",
+        "name": "Bambud",
         "primary_type": "Grass",
         "secondary_type": "Steel",
         "hp": 60,
@@ -23682,7 +23682,7 @@
     },
     {
         "nationalPokedexNumber": 1028,
-        "name": "bamnon",
+        "name": "Bamnon",
         "primary_type": "Grass",
         "secondary_type": "Steel",
         "hp": 75,
@@ -23699,7 +23699,7 @@
     },
     {
         "nationalPokedexNumber": 1029,
-        "name": "flarin",
+        "name": "Flarin",
         "primary_type": "Fire",
         "secondary_type": "",
         "hp": 45,
@@ -23767,7 +23767,7 @@
     },
     {
         "nationalPokedexNumber": 1030,
-        "name": "pyrilis",
+        "name": "Pyrilis",
         "primary_type": "Fire",
         "secondary_type": "Fairy",
         "hp": 60,
@@ -23818,7 +23818,7 @@
     },
     {
         "nationalPokedexNumber": 1031,
-        "name": "solafae",
+        "name": "Solafae",
         "primary_type": "Fire",
         "secondary_type": "Fairy",
         "hp": 75,
@@ -23835,7 +23835,7 @@
     },
     {
         "nationalPokedexNumber": 1032,
-        "name": "yaknoi",
+        "name": "Yaknoi",
         "primary_type": "Water",
         "secondary_type": "",
         "hp": 50,
@@ -23852,7 +23852,7 @@
     },
     {
         "nationalPokedexNumber": 1033,
-        "name": "yakru",
+        "name": "Yakru",
         "primary_type": "Water",
         "secondary_type": "Fighting",
         "hp": 65,
@@ -23869,7 +23869,7 @@
     },
     {
         "nationalPokedexNumber": 1034,
-        "name": "yakhan",
+        "name": "Yakhan",
         "primary_type": "Water",
         "secondary_type": "Fighting",
         "hp": 85,
@@ -23886,7 +23886,7 @@
     },
     {
         "nationalPokedexNumber": 1035,
-        "name": "smouse",
+        "name": "Smouse",
         "primary_type": "Normal",
         "secondary_type": "Poison",
         "hp": 40,
@@ -23903,7 +23903,7 @@
     },
     {
         "nationalPokedexNumber": 1036,
-        "name": "cigarat",
+        "name": "Cigarat",
         "primary_type": "Dark",
         "secondary_type": "Poison",
         "hp": 75,
@@ -23920,7 +23920,7 @@
     },
     {
         "nationalPokedexNumber": 1037,
-        "name": "fossie",
+        "name": "Fossie",
         "primary_type": "Electric",
         "secondary_type": "",
         "hp": 30,
@@ -23971,7 +23971,7 @@
     },
     {
         "nationalPokedexNumber": 1038,
-        "name": "amperox",
+        "name": "Amperox",
         "primary_type": "Electric",
         "secondary_type": "Fighting",
         "hp": 55,
@@ -23988,7 +23988,7 @@
     },
     {
         "nationalPokedexNumber": 1039,
-        "name": "snowkie",
+        "name": "Snowkie",
         "primary_type": "Ice",
         "secondary_type": "Flying",
         "hp": 40,
@@ -24005,7 +24005,7 @@
     },
     {
         "nationalPokedexNumber": 1040,
-        "name": "snowgirl",
+        "name": "Snowgirl",
         "primary_type": "Ice",
         "secondary_type": "Flying",
         "hp": 60,
@@ -24022,7 +24022,7 @@
     },
     {
         "nationalPokedexNumber": 1041,
-        "name": "toombie",
+        "name": "Toombie",
         "primary_type": "Ghost",
         "secondary_type": "",
         "hp": 53,
@@ -24039,7 +24039,7 @@
     },
     {
         "nationalPokedexNumber": 1042,
-        "name": "funerun",
+        "name": "Funerun",
         "primary_type": "Ghost",
         "secondary_type": "Rock",
         "hp": 85,
@@ -24056,7 +24056,7 @@
     },
     {
         "nationalPokedexNumber": 1043,
-        "name": "suikani",
+        "name": "Suikani",
         "primary_type": "Grass",
         "secondary_type": "Water",
         "hp": 51,
@@ -24073,7 +24073,7 @@
     },
     {
         "nationalPokedexNumber": 1044,
-        "name": "saprentice",
+        "name": "Saprentice",
         "primary_type": "Grass",
         "secondary_type": "Psychic",
         "hp": 90,
@@ -24090,7 +24090,7 @@
     },
     {
         "nationalPokedexNumber": 1045,
-        "name": "willoch",
+        "name": "Willoch",
         "primary_type": "Grass",
         "secondary_type": "Psychic",
         "hp": 150,
@@ -24107,7 +24107,7 @@
     },
     {
         "nationalPokedexNumber": 1046,
-        "name": "gubble",
+        "name": "Gubble",
         "primary_type": "Ground",
         "secondary_type": "Fire",
         "hp": 40,
@@ -24124,7 +24124,7 @@
     },
     {
         "nationalPokedexNumber": 1047,
-        "name": "tarblin",
+        "name": "Tarblin",
         "primary_type": "Ground",
         "secondary_type": "Fire",
         "hp": 85,
@@ -24226,7 +24226,7 @@
     },
     {
         "nationalPokedexNumber": 1048,
-        "name": "gyweld",
+        "name": "Gyweld",
         "primary_type": "Normal",
         "secondary_type": "Steel",
         "hp": 100,
@@ -24243,7 +24243,7 @@
     },
     {
         "nationalPokedexNumber": 1049,
-        "name": "fubber",
+        "name": "Fubber",
         "primary_type": "Water",
         "secondary_type": "",
         "hp": 55,
@@ -24311,7 +24311,7 @@
     },
     {
         "nationalPokedexNumber": 1050,
-        "name": "puffoon",
+        "name": "Puffoon",
         "primary_type": "Water",
         "secondary_type": "Flying",
         "hp": 95,
@@ -24328,7 +24328,7 @@
     },
     {
         "nationalPokedexNumber": 1051,
-        "name": "lymming",
+        "name": "Lymming",
         "primary_type": "Rock",
         "secondary_type": "Grass",
         "hp": 35,
@@ -24362,7 +24362,7 @@
     },
     {
         "nationalPokedexNumber": 1052,
-        "name": "karstory",
+        "name": "Karstory",
         "primary_type": "Rock",
         "secondary_type": "Grass",
         "hp": 75,
@@ -24379,7 +24379,7 @@
     },
     {
         "nationalPokedexNumber": 1053,
-        "name": "karoshicore",
+        "name": "Karoshicore",
         "primary_type": "Ghost",
         "secondary_type": "Psychic",
         "hp": 90,
@@ -24396,7 +24396,7 @@
     },
     {
         "nationalPokedexNumber": 1054,
-        "name": "masticat",
+        "name": "Masticat",
         "primary_type": "Dark",
         "secondary_type": "Ghost",
         "hp": 45,
@@ -24413,7 +24413,7 @@
     },
     {
         "nationalPokedexNumber": 1055,
-        "name": "chewshire",
+        "name": "Chewshire",
         "primary_type": "Dark",
         "secondary_type": "Ghost",
         "hp": 75,
@@ -24430,7 +24430,7 @@
     },
     {
         "nationalPokedexNumber": 1056,
-        "name": "ascrolyte",
+        "name": "Ascrolyte",
         "primary_type": "Ground",
         "secondary_type": "",
         "hp": 65,
@@ -24447,7 +24447,7 @@
     },
     {
         "nationalPokedexNumber": 1057,
-        "name": "flapestry",
+        "name": "Flapestry",
         "primary_type": "Ground",
         "secondary_type": "Flying",
         "hp": 60,
@@ -24515,7 +24515,7 @@
     },
     {
         "nationalPokedexNumber": 1058,
-        "name": "kamikiku",
+        "name": "Kamikiku",
         "primary_type": "Fairy",
         "secondary_type": "Ghost",
         "hp": 45,
@@ -24532,7 +24532,7 @@
     },
     {
         "nationalPokedexNumber": 1059,
-        "name": "poseiclops",
+        "name": "Poseiclops",
         "primary_type": "Fighting",
         "secondary_type": "Water",
         "hp": 95,
@@ -24549,7 +24549,7 @@
     },
     {
         "nationalPokedexNumber": 1060,
-        "name": "alpioca",
+        "name": "Alpioca",
         "primary_type": "Normal",
         "secondary_type": "Water",
         "hp": 120,
@@ -24566,7 +24566,7 @@
     },
     {
         "nationalPokedexNumber": 1061,
-        "name": "anemini",
+        "name": "Anemini",
         "primary_type": "Poison",
         "secondary_type": "Electric",
         "hp": 45,
@@ -24583,7 +24583,7 @@
     },
     {
         "nationalPokedexNumber": 1062,
-        "name": "nurumone",
+        "name": "Nurumone",
         "primary_type": "Poison",
         "secondary_type": "Electric",
         "hp": 95,
@@ -24600,7 +24600,7 @@
     },
     {
         "nationalPokedexNumber": 1063,
-        "name": "pikapod",
+        "name": "Pikapod",
         "primary_type": "Water",
         "secondary_type": "Electric",
         "hp": 90,
@@ -24617,7 +24617,7 @@
     },
     {
         "nationalPokedexNumber": 1063,
-        "name": "pikapod normal",
+        "name": "Pikapod Normal",
         "primary_type": "Water",
         "secondary_type": "Electric",
         "hp": 90,
@@ -24634,7 +24634,7 @@
     },
     {
         "nationalPokedexNumber": 1063,
-        "name": "pikapod wild",
+        "name": "Pikapod Wild",
         "primary_type": "Water",
         "secondary_type": "Electric",
         "hp": 90,
@@ -24651,7 +24651,7 @@
     },
     {
         "nationalPokedexNumber": 1064,
-        "name": "jodoki",
+        "name": "Jodoki",
         "primary_type": "Fire",
         "secondary_type": "Psychic",
         "hp": 40,
@@ -24668,7 +24668,7 @@
     },
     {
         "nationalPokedexNumber": 1065,
-        "name": "umeltaka",
+        "name": "Umeltaka",
         "primary_type": "Fire",
         "secondary_type": "Psychic",
         "hp": 60,
@@ -24685,7 +24685,7 @@
     },
     {
         "nationalPokedexNumber": 1066,
-        "name": "cephalange",
+        "name": "Cephalange",
         "primary_type": "Dark",
         "secondary_type": "Water",
         "hp": 50,
@@ -24702,7 +24702,7 @@
     },
     {
         "nationalPokedexNumber": 1067,
-        "name": "magnipulo",
+        "name": "Magnipulo",
         "primary_type": "Dark",
         "secondary_type": "Water",
         "hp": 95,
@@ -24719,7 +24719,7 @@
     },
     {
         "nationalPokedexNumber": 1068,
-        "name": "protobi",
+        "name": "Protobi",
         "primary_type": "Rock",
         "secondary_type": "Fighting",
         "hp": 30,
@@ -24736,7 +24736,7 @@
     },
     {
         "nationalPokedexNumber": 1068,
-        "name": "typecast",
+        "name": "Typecast",
         "primary_type": "Normal",
         "secondary_type": "Normal",
         "hp": 80,
@@ -24753,7 +24753,7 @@
     },
     {
         "nationalPokedexNumber": 1068,
-        "name": "typecast Fire",
+        "name": "Typecast Fire",
         "primary_type": "Fire",
         "secondary_type": "Fire",
         "hp": 80,
@@ -24770,7 +24770,7 @@
     },
     {
         "nationalPokedexNumber": 1068,
-        "name": "typecast Water",
+        "name": "Typecast Water",
         "primary_type": "Water",
         "secondary_type": "Water",
         "hp": 80,
@@ -24787,7 +24787,7 @@
     },
     {
         "nationalPokedexNumber": 1068,
-        "name": "typecast Grass",
+        "name": "Typecast Grass",
         "primary_type": "Grass",
         "secondary_type": "Grass",
         "hp": 80,
@@ -24804,7 +24804,7 @@
     },
     {
         "nationalPokedexNumber": 1068,
-        "name": "typecast Electric",
+        "name": "Typecast Electric",
         "primary_type": "Electric",
         "secondary_type": "Electric",
         "hp": 80,
@@ -24821,7 +24821,7 @@
     },
     {
         "nationalPokedexNumber": 1068,
-        "name": "typecast Psychic",
+        "name": "Typecast Psychic",
         "primary_type": "Psychic",
         "secondary_type": "Psychic",
         "hp": 80,
@@ -24838,7 +24838,7 @@
     },
     {
         "nationalPokedexNumber": 1068,
-        "name": "typecast Ice",
+        "name": "Typecast Ice",
         "primary_type": "Ice",
         "secondary_type": "Ice",
         "hp": 80,
@@ -24855,7 +24855,7 @@
     },
     {
         "nationalPokedexNumber": 1068,
-        "name": "typecast Dragon",
+        "name": "Typecast Dragon",
         "primary_type": "Dragon",
         "secondary_type": "Dragon",
         "hp": 80,
@@ -24872,7 +24872,7 @@
     },
     {
         "nationalPokedexNumber": 1068,
-        "name": "typecast Dark",
+        "name": "Typecast Dark",
         "primary_type": "Dark",
         "secondary_type": "Dark",
         "hp": 80,
@@ -24889,7 +24889,7 @@
     },
     {
         "nationalPokedexNumber": 1068,
-        "name": "typecast Fairy",
+        "name": "Typecast Fairy",
         "primary_type": "Fairy",
         "secondary_type": "Fairy",
         "hp": 80,
@@ -24906,7 +24906,7 @@
     },
     {
         "nationalPokedexNumber": 1068,
-        "name": "typecast Fighting",
+        "name": "Typecast Fighting",
         "primary_type": "Fighting",
         "secondary_type": "Fighting",
         "hp": 80,
@@ -24923,7 +24923,7 @@
     },
     {
         "nationalPokedexNumber": 1068,
-        "name": "typecast Flying",
+        "name": "Typecast Flying",
         "primary_type": "Flying",
         "secondary_type": "Flying",
         "hp": 80,
@@ -24940,7 +24940,7 @@
     },
     {
         "nationalPokedexNumber": 1068,
-        "name": "typecast Poison",
+        "name": "Typecast Poison",
         "primary_type": "Poison",
         "secondary_type": "Poison",
         "hp": 80,
@@ -24957,7 +24957,7 @@
     },
     {
         "nationalPokedexNumber": 1068,
-        "name": "typecast Ground",
+        "name": "Typecast Ground",
         "primary_type": "Ground",
         "secondary_type": "Ground",
         "hp": 80,
@@ -24974,7 +24974,7 @@
     },
     {
         "nationalPokedexNumber": 1068,
-        "name": "typecast Rock",
+        "name": "Typecast Rock",
         "primary_type": "Rock",
         "secondary_type": "Rock",
         "hp": 80,
@@ -24991,7 +24991,7 @@
     },
     {
         "nationalPokedexNumber": 1068,
-        "name": "typecast Bug",
+        "name": "Typecast Bug",
         "primary_type": "Bug",
         "secondary_type": "Bug",
         "hp": 80,
@@ -25008,7 +25008,7 @@
     },
     {
         "nationalPokedexNumber": 1068,
-        "name": "typecast Ghost",
+        "name": "Typecast Ghost",
         "primary_type": "Ghost",
         "secondary_type": "Ghost",
         "hp": 80,
@@ -25025,7 +25025,7 @@
     },
     {
         "nationalPokedexNumber": 1068,
-        "name": "typecast Steel",
+        "name": "Typecast Steel",
         "primary_type": "Steel",
         "secondary_type": "Steel",
         "hp": 80,
@@ -25042,7 +25042,7 @@
     },
     {
         "nationalPokedexNumber": 1069,
-        "name": "protoffin",
+        "name": "Protoffin",
         "primary_type": "Rock",
         "secondary_type": "Fighting",
         "hp": 65,
@@ -25059,7 +25059,7 @@
     },
     {
         "nationalPokedexNumber": 1070,
-        "name": "upsigenia",
+        "name": "Upsigenia",
         "primary_type": "Rock",
         "secondary_type": "Psychic",
         "hp": 30,
@@ -25076,7 +25076,7 @@
     },
     {
         "nationalPokedexNumber": 1071,
-        "name": "hallucerebra",
+        "name": "Hallucerebra",
         "primary_type": "Rock",
         "secondary_type": "Psychic",
         "hp": 70,
@@ -25093,7 +25093,7 @@
     },
     {
         "nationalPokedexNumber": 1072,
-        "name": "croppup",
+        "name": "Croppup",
         "primary_type": "Grass",
         "secondary_type": "",
         "hp": 40,
@@ -25110,7 +25110,7 @@
     },
     {
         "nationalPokedexNumber": 1073,
-        "name": "lunage",
+        "name": "Lunage",
         "primary_type": "Grass",
         "secondary_type": "Fairy",
         "hp": 60,
@@ -25127,7 +25127,7 @@
     },
     {
         "nationalPokedexNumber": 1074,
-        "name": "maractaya",
+        "name": "Maractaya",
         "primary_type": "Dragon",
         "secondary_type": "Grass",
         "hp": 95,
@@ -25144,7 +25144,7 @@
     },
     {
         "nationalPokedexNumber": 1075,
-        "name": "hydron",
+        "name": "Hydron",
         "primary_type": "Water",
         "secondary_type": "",
         "hp": 100,
@@ -25161,7 +25161,7 @@
     },
     {
         "nationalPokedexNumber": 1076,
-        "name": "hanyabi",
+        "name": "Hanyabi",
         "primary_type": "Fire",
         "secondary_type": "Dark",
         "hp": 94,
@@ -25178,7 +25178,7 @@
     },
     {
         "nationalPokedexNumber": 1077,
-        "name": "flintlet",
+        "name": "Flintlet",
         "primary_type": "Rock",
         "secondary_type": "Dark",
         "hp": 70,
@@ -25195,7 +25195,7 @@
     },
     {
         "nationalPokedexNumber": 1078,
-        "name": "cragahuitl",
+        "name": "Cragahuitl",
         "primary_type": "Rock",
         "secondary_type": "Dark",
         "hp": 83,
@@ -25212,7 +25212,7 @@
     },
     {
         "nationalPokedexNumber": 1079,
-        "name": "validys",
+        "name": "Validys",
         "primary_type": "Ghost",
         "secondary_type": "",
         "hp": 40,
@@ -25229,7 +25229,7 @@
     },
     {
         "nationalPokedexNumber": 1080,
-        "name": "vaniterror",
+        "name": "Vaniterror",
         "primary_type": "Ghost",
         "secondary_type": "Dark",
         "hp": 90,
@@ -25246,7 +25246,7 @@
     },
     {
         "nationalPokedexNumber": 1080,
-        "name": "vaniterror Mega",
+        "name": "Vaniterror Mega",
         "primary_type": "Ghost",
         "secondary_type": "Dark",
         "hp": 115,
@@ -25263,7 +25263,7 @@
     },
     {
         "nationalPokedexNumber": 1081,
-        "name": "grantump",
+        "name": "Grantump",
         "primary_type": "Grass",
         "secondary_type": "Fairy",
         "hp": 60,
@@ -25280,7 +25280,7 @@
     },
     {
         "nationalPokedexNumber": 1082,
-        "name": "wystenent",
+        "name": "Wystenent",
         "primary_type": "Grass",
         "secondary_type": "Fairy",
         "hp": 95,
@@ -25297,7 +25297,7 @@
     },
     {
         "nationalPokedexNumber": 1083,
-        "name": "sinisnow",
+        "name": "Sinisnow",
         "primary_type": "Ice",
         "secondary_type": "Ghost",
         "hp": 40,
@@ -25314,7 +25314,7 @@
     },
     {
         "nationalPokedexNumber": 1084,
-        "name": "frostygeist",
+        "name": "Frostygeist",
         "primary_type": "Ice",
         "secondary_type": "Ghost",
         "hp": 71,
@@ -25331,7 +25331,7 @@
     },
     {
         "nationalPokedexNumber": 1085,
-        "name": "kazoom",
+        "name": "Kazoom",
         "primary_type": "Steel",
         "secondary_type": "Water",
         "hp": 50,
@@ -25348,7 +25348,7 @@
     },
     {
         "nationalPokedexNumber": 1086,
-        "name": "amphizoom",
+        "name": "Amphizoom",
         "primary_type": "Steel",
         "secondary_type": "Water",
         "hp": 80,
@@ -25365,7 +25365,7 @@
     },
     {
         "nationalPokedexNumber": 1087,
-        "name": "clarissie",
+        "name": "Clarissie",
         "primary_type": "Rock",
         "secondary_type": "Psychic",
         "hp": 60,
@@ -25382,7 +25382,7 @@
     },
     {
         "nationalPokedexNumber": 1087,
-        "name": "clarissie Amethyst-Crystal",
+        "name": "Clarissie Amethyst-Crystal",
         "primary_type": "Rock",
         "secondary_type": "Psychic",
         "hp": 60,
@@ -25399,7 +25399,7 @@
     },
     {
         "nationalPokedexNumber": 1088,
-        "name": "beryllius",
+        "name": "Beryllius",
         "primary_type": "Rock",
         "secondary_type": "Grass",
         "hp": 68,
@@ -25416,7 +25416,7 @@
     },
     {
         "nationalPokedexNumber": 1088,
-        "name": "beryllius Emerald-Crystal",
+        "name": "Beryllius Emerald-Crystal",
         "primary_type": "Rock",
         "secondary_type": "Grass",
         "hp": 68,
@@ -25433,7 +25433,7 @@
     },
     {
         "nationalPokedexNumber": 1089,
-        "name": "echolyte",
+        "name": "Echolyte",
         "primary_type": "Rock",
         "secondary_type": "Dark",
         "hp": 60,
@@ -25450,7 +25450,7 @@
     },
     {
         "nationalPokedexNumber": 1089,
-        "name": "echolyte Echo-Shard-Crystal",
+        "name": "Echolyte Echo-Shard-Crystal",
         "primary_type": "Rock",
         "secondary_type": "Dark",
         "hp": 60,
@@ -25467,7 +25467,7 @@
     },
     {
         "nationalPokedexNumber": 1090,
-        "name": "velvettia",
+        "name": "Velvettia",
         "primary_type": "Rock",
         "secondary_type": "Fire",
         "hp": 60,
@@ -25484,7 +25484,7 @@
     },
     {
         "nationalPokedexNumber": 1090,
-        "name": "velvettia Quartz-Crystal",
+        "name": "Velvettia Quartz-Crystal",
         "primary_type": "Rock",
         "secondary_type": "Fire",
         "hp": 60,
@@ -25501,7 +25501,7 @@
     },
     {
         "nationalPokedexNumber": 1091,
-        "name": "hattrix",
+        "name": "Hattrix",
         "primary_type": "Fire",
         "secondary_type": "Fairy",
         "hp": 57,
@@ -25518,7 +25518,7 @@
     },
     {
         "nationalPokedexNumber": 1091,
-        "name": "hattrix Midnight",
+        "name": "Hattrix Midnight",
         "primary_type": "Fire",
         "secondary_type": "Fairy",
         "hp": 57,
@@ -25535,7 +25535,7 @@
     },
     {
         "nationalPokedexNumber": 1092,
-        "name": "hattertainer",
+        "name": "Hattertainer",
         "primary_type": "Fire",
         "secondary_type": "Fairy",
         "hp": 57,
@@ -25552,7 +25552,7 @@
     },
     {
         "nationalPokedexNumber": 1092,
-        "name": "hattertainer Midnight",
+        "name": "Hattertainer Midnight",
         "primary_type": "Fire",
         "secondary_type": "Fairy",
         "hp": 57,
@@ -25569,7 +25569,7 @@
     },
     {
         "nationalPokedexNumber": 1092,
-        "name": "hattertainer Gmax",
+        "name": "Hattertainer Gmax",
         "primary_type": "Fire",
         "secondary_type": "Fairy",
         "hp": 57,
@@ -25586,7 +25586,7 @@
     },
     {
         "nationalPokedexNumber": 1095,
-        "name": "tuligant",
+        "name": "Tuligant",
         "primary_type": "Grass",
         "secondary_type": "Ghost",
         "hp": 70,
@@ -25603,7 +25603,7 @@
     },
     {
         "nationalPokedexNumber": 1096,
-        "name": "papersol",
+        "name": "Papersol",
         "primary_type": "Grass",
         "secondary_type": "Normal",
         "hp": 40,
@@ -25620,7 +25620,7 @@
     },
     {
         "nationalPokedexNumber": 1096,
-        "name": "papersol Yellow",
+        "name": "Papersol Yellow",
         "primary_type": "Grass",
         "secondary_type": "Normal",
         "hp": 40,
@@ -25637,7 +25637,7 @@
     },
     {
         "nationalPokedexNumber": 1096,
-        "name": "papersol Light_Blue",
+        "name": "Papersol Light_Blue",
         "primary_type": "Grass",
         "secondary_type": "Normal",
         "hp": 40,
@@ -25654,7 +25654,7 @@
     },
     {
         "nationalPokedexNumber": 1096,
-        "name": "papersol Blue",
+        "name": "Papersol Blue",
         "primary_type": "Grass",
         "secondary_type": "Normal",
         "hp": 40,
@@ -25671,7 +25671,7 @@
     },
     {
         "nationalPokedexNumber": 1096,
-        "name": "papersol Pink",
+        "name": "Papersol Pink",
         "primary_type": "Grass",
         "secondary_type": "Normal",
         "hp": 40,
@@ -25688,7 +25688,7 @@
     },
     {
         "nationalPokedexNumber": 1096,
-        "name": "papersol Green",
+        "name": "Papersol Green",
         "primary_type": "Grass",
         "secondary_type": "Normal",
         "hp": 40,
@@ -25705,7 +25705,7 @@
     },
     {
         "nationalPokedexNumber": 1097,
-        "name": "umbrelligant",
+        "name": "Umbrelligant",
         "primary_type": "Grass",
         "secondary_type": "Normal",
         "hp": 75,
@@ -25722,7 +25722,7 @@
     },
     {
         "nationalPokedexNumber": 1097,
-        "name": "umbrelligant Yellow",
+        "name": "Umbrelligant Yellow",
         "primary_type": "Grass",
         "secondary_type": "Normal",
         "hp": 75,
@@ -25739,7 +25739,7 @@
     },
     {
         "nationalPokedexNumber": 1097,
-        "name": "umbrelligant Light_Blue",
+        "name": "Umbrelligant Light_Blue",
         "primary_type": "Grass",
         "secondary_type": "Normal",
         "hp": 75,
@@ -25756,7 +25756,7 @@
     },
     {
         "nationalPokedexNumber": 1097,
-        "name": "umbrelligant Blue",
+        "name": "Umbrelligant Blue",
         "primary_type": "Grass",
         "secondary_type": "Normal",
         "hp": 75,
@@ -25773,7 +25773,7 @@
     },
     {
         "nationalPokedexNumber": 1097,
-        "name": "umbrelligant Pink",
+        "name": "Umbrelligant Pink",
         "primary_type": "Grass",
         "secondary_type": "Normal",
         "hp": 75,
@@ -25790,7 +25790,7 @@
     },
     {
         "nationalPokedexNumber": 1097,
-        "name": "umbrelligant Green",
+        "name": "Umbrelligant Green",
         "primary_type": "Grass",
         "secondary_type": "Normal",
         "hp": 75,
@@ -25807,7 +25807,7 @@
     },
     {
         "nationalPokedexNumber": 1101,
-        "name": "slugrit",
+        "name": "Slugrit",
         "primary_type": "Ground",
         "secondary_type": "",
         "hp": 40,
@@ -25824,7 +25824,7 @@
     },
     {
         "nationalPokedexNumber": 1102,
-        "name": "dunecargo",
+        "name": "Dunecargo",
         "primary_type": "Ground",
         "secondary_type": "",
         "hp": 60,
@@ -25841,7 +25841,7 @@
     },
     {
         "nationalPokedexNumber": 1103,
-        "name": "pumpkaboom",
+        "name": "Pumpkaboom",
         "primary_type": "Fire",
         "secondary_type": "Grass",
         "hp": 49,
@@ -25858,7 +25858,7 @@
     },
     {
         "nationalPokedexNumber": 1103,
-        "name": "pumpkaboom Small",
+        "name": "Pumpkaboom Small",
         "primary_type": "Fire",
         "secondary_type": "Grass",
         "hp": 44,
@@ -25875,7 +25875,7 @@
     },
     {
         "nationalPokedexNumber": 1103,
-        "name": "pumpkaboom Large",
+        "name": "Pumpkaboom Large",
         "primary_type": "Fire",
         "secondary_type": "Grass",
         "hp": 54,
@@ -25892,7 +25892,7 @@
     },
     {
         "nationalPokedexNumber": 1103,
-        "name": "pumpkaboom Super",
+        "name": "Pumpkaboom Super",
         "primary_type": "Fire",
         "secondary_type": "Grass",
         "hp": 59,
@@ -25909,7 +25909,7 @@
     },
     {
         "nationalPokedexNumber": 1104,
-        "name": "gourgrenade",
+        "name": "Gourgrenade",
         "primary_type": "Fire",
         "secondary_type": "Grass",
         "hp": 65,
@@ -25926,7 +25926,7 @@
     },
     {
         "nationalPokedexNumber": 1104,
-        "name": "gourgrenade Small",
+        "name": "Gourgrenade Small",
         "primary_type": "Fire",
         "secondary_type": "Grass",
         "hp": 55,
@@ -25943,7 +25943,7 @@
     },
     {
         "nationalPokedexNumber": 1104,
-        "name": "gourgrenade Large",
+        "name": "Gourgrenade Large",
         "primary_type": "Fire",
         "secondary_type": "Grass",
         "hp": 75,
@@ -25960,7 +25960,7 @@
     },
     {
         "nationalPokedexNumber": 1104,
-        "name": "gourgrenade Super",
+        "name": "Gourgrenade Super",
         "primary_type": "Fire",
         "secondary_type": "Grass",
         "hp": 85,
@@ -25977,7 +25977,7 @@
     },
     {
         "nationalPokedexNumber": 1105,
-        "name": "norstar",
+        "name": "Norstar",
         "primary_type": "Steel",
         "secondary_type": "Psychic",
         "hp": 40,
@@ -25994,7 +25994,7 @@
     },
     {
         "nationalPokedexNumber": 1107,
-        "name": "clawviathan",
+        "name": "Clawviathan",
         "primary_type": "Water",
         "secondary_type": "Dragon",
         "hp": 91,
@@ -26011,7 +26011,7 @@
     },
     {
         "nationalPokedexNumber": 1110,
-        "name": "galecadet",
+        "name": "Galecadet",
         "primary_type": "Flying",
         "secondary_type": "",
         "hp": 40,
@@ -26028,7 +26028,7 @@
     },
     {
         "nationalPokedexNumber": 1111,
-        "name": "zephyrouge",
+        "name": "Zephyrouge",
         "primary_type": "Flying",
         "secondary_type": "Steel",
         "hp": 85,
@@ -26045,7 +26045,7 @@
     },
     {
         "nationalPokedexNumber": 1112,
-        "name": "ceruclone",
+        "name": "Ceruclone",
         "primary_type": "Flying",
         "secondary_type": "Electric",
         "hp": 75,
@@ -26062,7 +26062,7 @@
     },
     {
         "nationalPokedexNumber": 1113,
-        "name": "breezior",
+        "name": "Breezior",
         "primary_type": "Flying",
         "secondary_type": "",
         "hp": 60,
@@ -26079,7 +26079,7 @@
     },
     {
         "nationalPokedexNumber": 1114,
-        "name": "snowygast",
+        "name": "Snowygast",
         "primary_type": "Ghost",
         "secondary_type": "Ice",
         "hp": 75,
@@ -26096,7 +26096,7 @@
     },
     {
         "nationalPokedexNumber": 1115,
-        "name": "palossnow",
+        "name": "Palossnow",
         "primary_type": "Ghost",
         "secondary_type": "Ice",
         "hp": 95,
@@ -26113,7 +26113,7 @@
     },
     {
         "nationalPokedexNumber": 1116,
-        "name": "seedlin",
+        "name": "Seedlin",
         "primary_type": "Grass",
         "secondary_type": "Ground",
         "hp": 80,
@@ -26130,7 +26130,7 @@
     },
     {
         "nationalPokedexNumber": 1116,
-        "name": "seedlin Pitcher-Plant",
+        "name": "Seedlin Pitcher-Plant",
         "primary_type": "Grass",
         "secondary_type": "Ground",
         "hp": 80,
@@ -26147,7 +26147,7 @@
     },
     {
         "nationalPokedexNumber": 1117,
-        "name": "torchlin",
+        "name": "Torchlin",
         "primary_type": "Grass",
         "secondary_type": "Fire",
         "hp": 110,
@@ -26164,7 +26164,7 @@
     },
     {
         "nationalPokedexNumber": 1118,
-        "name": "podlin",
+        "name": "Podlin",
         "primary_type": "Grass",
         "secondary_type": "Ground",
         "hp": 110,
@@ -26181,7 +26181,7 @@
     },
     {
         "nationalPokedexNumber": 1119,
-        "name": "torchflyer",
+        "name": "Torchflyer",
         "primary_type": "Grass",
         "secondary_type": "Fire",
         "hp": 110,
@@ -26198,7 +26198,7 @@
     },
     {
         "nationalPokedexNumber": 1120,
-        "name": "pitchertun",
+        "name": "Pitchertun",
         "primary_type": "Grass",
         "secondary_type": "Ground",
         "hp": 120,
@@ -26215,7 +26215,7 @@
     },
     {
         "nationalPokedexNumber": 1121,
-        "name": "stygipede",
+        "name": "Stygipede",
         "primary_type": "Dark",
         "secondary_type": "Bug",
         "hp": 50,
@@ -26232,7 +26232,7 @@
     },
     {
         "nationalPokedexNumber": 1122,
-        "name": "centisculk",
+        "name": "Centisculk",
         "primary_type": "Dark",
         "secondary_type": "Bug",
         "hp": 100,
@@ -26249,7 +26249,7 @@
     },
     {
         "nationalPokedexNumber": 1123,
-        "name": "porytron",
+        "name": "Porytron",
         "primary_type": "Electric",
         "secondary_type": "",
         "hp": 65,
@@ -26266,7 +26266,7 @@
     },
     {
         "nationalPokedexNumber": 1124,
-        "name": "porytron2",
+        "name": "Porytron2",
         "primary_type": "Electric",
         "secondary_type": "",
         "hp": 85,
@@ -26283,7 +26283,7 @@
     },
     {
         "nationalPokedexNumber": 1125,
-        "name": "porytronz",
+        "name": "Porytronz",
         "primary_type": "Electric",
         "secondary_type": "",
         "hp": 65,
@@ -26300,7 +26300,7 @@
     },
     {
         "nationalPokedexNumber": 1126,
-        "name": "tomledger",
+        "name": "Tomledger",
         "primary_type": "Psychic",
         "secondary_type": "Ghost",
         "hp": 45,
@@ -26317,7 +26317,7 @@
     },
     {
         "nationalPokedexNumber": 1127,
-        "name": "twinledger",
+        "name": "Twinledger",
         "primary_type": "Psychic",
         "secondary_type": "Ghost",
         "hp": 59,
@@ -26334,7 +26334,7 @@
     },
     {
         "nationalPokedexNumber": 1128,
-        "name": "wizledger",
+        "name": "Wizledger",
         "primary_type": "Fire",
         "secondary_type": "Ghost",
         "hp": 60,
@@ -26351,7 +26351,7 @@
     },
     {
         "nationalPokedexNumber": 1128,
-        "name": "wizledger Firespell",
+        "name": "Wizledger Firespell",
         "primary_type": "Fire",
         "secondary_type": "Ghost",
         "hp": 60,
@@ -26368,7 +26368,7 @@
     },
     {
         "nationalPokedexNumber": 1128,
-        "name": "wizledger Icespell",
+        "name": "Wizledger Icespell",
         "primary_type": "Ice",
         "secondary_type": "Ghost",
         "hp": 60,
@@ -26385,7 +26385,7 @@
     },
     {
         "nationalPokedexNumber": 1128,
-        "name": "wizledger Lightningspell",
+        "name": "Wizledger Lightningspell",
         "primary_type": "Electric",
         "secondary_type": "Ghost",
         "hp": 60,
@@ -26402,7 +26402,7 @@
     },
     {
         "nationalPokedexNumber": 1129,
-        "name": "gimmibread",
+        "name": "Gimmibread",
         "primary_type": "Ghost",
         "secondary_type": "Fairy",
         "hp": 45,
@@ -26419,7 +26419,7 @@
     },
     {
         "nationalPokedexNumber": 1129,
-        "name": "gimmibread Roaming",
+        "name": "Gimmibread Roaming",
         "primary_type": "Ghost",
         "secondary_type": "Fairy",
         "hp": 45,
@@ -26436,7 +26436,7 @@
     },
     {
         "nationalPokedexNumber": 1130,
-        "name": "gholdendough",
+        "name": "Gholdendough",
         "primary_type": "Ghost",
         "secondary_type": "Fairy",
         "hp": 87,
@@ -26453,7 +26453,7 @@
     },
     {
         "nationalPokedexNumber": 1131,
-        "name": "mikueon",
+        "name": "Mikueon",
         "primary_type": "Normal",
         "secondary_type": "",
         "hp": 95,
@@ -26470,7 +26470,7 @@
     },
     {
         "nationalPokedexNumber": 1132,
-        "name": "tetoeon",
+        "name": "Tetoeon",
         "primary_type": "Normal",
         "secondary_type": "",
         "hp": 60,
@@ -26487,7 +26487,7 @@
     },
     {
         "nationalPokedexNumber": 1133,
-        "name": "nerueon",
+        "name": "Nerueon",
         "primary_type": "Normal",
         "secondary_type": "",
         "hp": 95,
@@ -26504,7 +26504,7 @@
     },
     {
         "nationalPokedexNumber": 1134,
-        "name": "spectreonee",
+        "name": "Spectreonee",
         "primary_type": "Ghost",
         "secondary_type": "",
         "hp": 75,
@@ -26521,7 +26521,7 @@
     },
     {
         "nationalPokedexNumber": 1135,
-        "name": "acideon",
+        "name": "Acideon",
         "primary_type": "Poison",
         "secondary_type": "",
         "hp": 95,
@@ -26538,7 +26538,7 @@
     },
     {
         "nationalPokedexNumber": 1136,
-        "name": "champeon",
+        "name": "Champeon",
         "primary_type": "Fighting",
         "secondary_type": "",
         "hp": 85,
@@ -26555,7 +26555,7 @@
     },
     {
         "nationalPokedexNumber": 1137,
-        "name": "aereonee",
+        "name": "Aereonee",
         "primary_type": "Flying",
         "secondary_type": "",
         "hp": 75,
@@ -26572,7 +26572,7 @@
     },
     {
         "nationalPokedexNumber": 1138,
-        "name": "minereon",
+        "name": "Minereon",
         "primary_type": "Rock",
         "secondary_type": "",
         "hp": 75,
@@ -26589,7 +26589,7 @@
     },
     {
         "nationalPokedexNumber": 1139,
-        "name": "hiveon",
+        "name": "Hiveon",
         "primary_type": "Bug",
         "secondary_type": "",
         "hp": 75,
@@ -26606,7 +26606,7 @@
     },
     {
         "nationalPokedexNumber": 1140,
-        "name": "automeon",
+        "name": "Automeon",
         "primary_type": "Steel",
         "secondary_type": "",
         "hp": 85,
@@ -26623,7 +26623,7 @@
     },
     {
         "nationalPokedexNumber": 1141,
-        "name": "wyveon",
+        "name": "Wyveon",
         "primary_type": "Dragon",
         "secondary_type": "",
         "hp": 85,
@@ -26640,7 +26640,7 @@
     },
     {
         "nationalPokedexNumber": 1142,
-        "name": "dungeon",
+        "name": "Dungeon",
         "primary_type": "Ground",
         "secondary_type": "",
         "hp": 70,
@@ -26657,7 +26657,7 @@
     },
     {
         "nationalPokedexNumber": 1143,
-        "name": "eeveeon",
+        "name": "Eeveeon",
         "primary_type": "Normal",
         "secondary_type": "",
         "hp": 85,
@@ -26674,7 +26674,7 @@
     },
     {
         "nationalPokedexNumber": 1144,
-        "name": "evereon",
+        "name": "Evereon",
         "primary_type": "Normal",
         "secondary_type": "",
         "hp": 98,
@@ -26691,7 +26691,7 @@
     },
     {
         "nationalPokedexNumber": 1145,
-        "name": "nebix",
+        "name": "Nebix",
         "primary_type": "Fairy",
         "secondary_type": "Psychic",
         "hp": 45,
@@ -26708,7 +26708,7 @@
     },
     {
         "nationalPokedexNumber": 1146,
-        "name": "voryn",
+        "name": "Voryn",
         "primary_type": "Fairy",
         "secondary_type": "Psychic",
         "hp": 65,
@@ -26725,7 +26725,7 @@
     },
     {
         "nationalPokedexNumber": 1147,
-        "name": "cosvul",
+        "name": "Cosvul",
         "primary_type": "Fairy",
         "secondary_type": "Psychic",
         "hp": 85,
@@ -26742,7 +26742,7 @@
     },
     {
         "nationalPokedexNumber": 1148,
-        "name": "owlyn",
+        "name": "Owlyn",
         "primary_type": "Flying",
         "secondary_type": "Psychic",
         "hp": 50,
@@ -26759,7 +26759,7 @@
     },
     {
         "nationalPokedexNumber": 1149,
-        "name": "striglow",
+        "name": "Striglow",
         "primary_type": "Flying",
         "secondary_type": "Psychic",
         "hp": 85,
@@ -26776,7 +26776,7 @@
     },
     {
         "nationalPokedexNumber": 1150,
-        "name": "regisculk",
+        "name": "Regisculk",
         "primary_type": "Dark",
         "secondary_type": "",
         "hp": 150,
@@ -26793,7 +26793,7 @@
     },
     {
         "nationalPokedexNumber": 1169,
-        "name": "bunger",
+        "name": "Bunger",
         "primary_type": "Bug",
         "secondary_type": "Fighting",
         "hp": 70,
