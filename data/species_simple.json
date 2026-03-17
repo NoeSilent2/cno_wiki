@@ -80,7 +80,7 @@
         "speed": "",
         "total": 525,
         "height": 240,
-        "weight": 1000,
+        "weight": "?",
         "internal_name": "venusaur",
         "catch_rate_raw": ""
     },
@@ -182,7 +182,7 @@
         "speed": "",
         "total": 534,
         "height": 280,
-        "weight": 905,
+        "weight": "?",
         "internal_name": "charizard",
         "catch_rate_raw": ""
     },
@@ -267,7 +267,7 @@
         "speed": "",
         "total": 530,
         "height": 250,
-        "weight": 855,
+        "weight": "?",
         "internal_name": "blastoise",
         "catch_rate_raw": ""
     },
@@ -335,7 +335,7 @@
         "speed": "",
         "total": "",
         "height": 170,
-        "weight": "",
+        "weight": "?",
         "internal_name": "butterfree",
         "catch_rate_raw": ""
     },
@@ -658,7 +658,7 @@
         "speed": "",
         "total": "",
         "height": 210,
-        "weight": "",
+        "weight": "?",
         "internal_name": "pikachu",
         "catch_rate_raw": ""
     },
@@ -675,7 +675,7 @@
         "speed": "",
         "total": "",
         "height": 4,
-        "weight": "",
+        "weight": 60,
         "internal_name": "pikachu",
         "catch_rate_raw": ""
     },
@@ -1304,7 +1304,7 @@
         "speed": 90,
         "total": "",
         "height": 330,
-        "weight": 42,
+        "weight": "?",
         "internal_name": "meowth",
         "catch_rate_raw": ""
     },
@@ -1661,7 +1661,7 @@
         "speed": "",
         "total": "",
         "height": 250,
-        "weight": "",
+        "weight": "?",
         "internal_name": "machamp",
         "catch_rate_raw": ""
     },
@@ -2324,7 +2324,7 @@
         "speed": 110,
         "total": 500,
         "height": 200,
-        "weight": "",
+        "weight": "?",
         "internal_name": "gengar",
         "catch_rate_raw": ""
     },
@@ -2426,7 +2426,7 @@
         "speed": "",
         "total": "",
         "height": 190,
-        "weight": "",
+        "weight": "?",
         "internal_name": "kingler",
         "catch_rate_raw": ""
     },
@@ -3242,7 +3242,7 @@
         "speed": "",
         "total": "",
         "height": 240,
-        "weight": "",
+        "weight": "?",
         "internal_name": "lapras",
         "catch_rate_raw": ""
     },
@@ -3293,7 +3293,7 @@
         "speed": "",
         "total": "",
         "height": 180,
-        "weight": "",
+        "weight": "?",
         "internal_name": "eevee",
         "catch_rate_raw": ""
     },
@@ -3497,7 +3497,7 @@
         "speed": "",
         "total": "",
         "height": 350,
-        "weight": "",
+        "weight": "?",
         "internal_name": "snorlax",
         "catch_rate_raw": ""
     },
@@ -12949,7 +12949,7 @@
         "speed": "",
         "total": "",
         "height": 210,
-        "weight": "",
+        "weight": "?",
         "internal_name": "garbodor",
         "catch_rate_raw": ""
     },
@@ -18831,7 +18831,7 @@
         "speed": "",
         "total": "",
         "height": 250,
-        "weight": "",
+        "weight": "?",
         "internal_name": "melmetal",
         "catch_rate_raw": ""
     },
@@ -18899,7 +18899,7 @@
         "speed": "",
         "total": "",
         "height": 280,
-        "weight": "",
+        "weight": "?",
         "internal_name": "rillaboom",
         "catch_rate_raw": ""
     },
@@ -18967,7 +18967,7 @@
         "speed": "",
         "total": "",
         "height": 270,
-        "weight": "",
+        "weight": "?",
         "internal_name": "cinderace",
         "catch_rate_raw": ""
     },
@@ -19035,7 +19035,7 @@
         "speed": "",
         "total": "",
         "height": 400,
-        "weight": "",
+        "weight": "?",
         "internal_name": "inteleon",
         "catch_rate_raw": ""
     },
@@ -19137,7 +19137,7 @@
         "speed": "",
         "total": "",
         "height": 140,
-        "weight": "",
+        "weight": "?",
         "internal_name": "corviknight",
         "catch_rate_raw": ""
     },
@@ -19205,7 +19205,7 @@
         "speed": "",
         "total": "",
         "height": 140,
-        "weight": "",
+        "weight": "?",
         "internal_name": "orbeetle",
         "catch_rate_raw": ""
     },
@@ -19358,7 +19358,7 @@
         "speed": "",
         "total": "",
         "height": 240,
-        "weight": "",
+        "weight": "?",
         "internal_name": "drednaw",
         "catch_rate_raw": ""
     },
@@ -19460,7 +19460,7 @@
         "speed": "",
         "total": "",
         "height": 420,
-        "weight": "",
+        "weight": "?",
         "internal_name": "coalossal",
         "catch_rate_raw": ""
     },
@@ -19511,7 +19511,7 @@
         "speed": "",
         "total": "",
         "height": 240,
-        "weight": "",
+        "weight": "?",
         "internal_name": "flapple",
         "catch_rate_raw": ""
     },
@@ -19545,7 +19545,7 @@
         "speed": "",
         "total": "",
         "height": 240,
-        "weight": "",
+        "weight": "?",
         "internal_name": "appletun",
         "catch_rate_raw": ""
     },
@@ -19596,7 +19596,7 @@
         "speed": "",
         "total": "",
         "height": 220,
-        "weight": "",
+        "weight": "?",
         "internal_name": "sandaconda",
         "catch_rate_raw": ""
     },
@@ -19749,7 +19749,7 @@
         "speed": "",
         "total": "",
         "height": 240,
-        "weight": "",
+        "weight": "?",
         "internal_name": "toxtricity",
         "catch_rate_raw": ""
     },
@@ -19766,7 +19766,7 @@
         "speed": "",
         "total": "",
         "height": "",
-        "weight": "",
+        "weight": "?",
         "internal_name": "toxtricity",
         "catch_rate_raw": ""
     },
@@ -19817,7 +19817,7 @@
         "speed": "",
         "total": "",
         "height": 750,
-        "weight": "",
+        "weight": "?",
         "internal_name": "centiskorch",
         "catch_rate_raw": ""
     },
@@ -19987,7 +19987,7 @@
         "speed": "",
         "total": "",
         "height": 260,
-        "weight": "",
+        "weight": "?",
         "internal_name": "hatterene",
         "catch_rate_raw": ""
     },
@@ -20055,7 +20055,7 @@
         "speed": "",
         "total": "",
         "height": 320,
-        "weight": "",
+        "weight": "?",
         "internal_name": "grimmsnarl",
         "catch_rate_raw": ""
     },
@@ -20344,7 +20344,7 @@
         "speed": "",
         "total": "",
         "height": 300,
-        "weight": "",
+        "weight": "?",
         "internal_name": "alcremie",
         "catch_rate_raw": ""
     },
@@ -20582,7 +20582,7 @@
         "speed": "",
         "total": "",
         "height": 230,
-        "weight": "",
+        "weight": "?",
         "internal_name": "copperajah",
         "catch_rate_raw": ""
     },
@@ -20684,7 +20684,7 @@
         "speed": "",
         "total": "",
         "height": 430,
-        "weight": "",
+        "weight": "?",
         "internal_name": "duraludon",
         "catch_rate_raw": ""
     },
@@ -20905,7 +20905,7 @@
         "speed": "",
         "total": "",
         "height": 290,
-        "weight": "",
+        "weight": "?",
         "internal_name": "urshifu",
         "catch_rate_raw": ""
     },
@@ -20922,7 +20922,7 @@
         "speed": "",
         "total": "",
         "height": 260,
-        "weight": "",
+        "weight": "?",
         "internal_name": "urshifu",
         "catch_rate_raw": ""
     },
@@ -25580,7 +25580,7 @@
         "speed": "",
         "total": "",
         "height": 260,
-        "weight": "",
+        "weight": "?",
         "internal_name": "hattertainer",
         "catch_rate_raw": ""
     },
