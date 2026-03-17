@@ -30,12 +30,12 @@
                 }
             }}, 
             {name:"Type2",width:"10px",hidden:true},
-            {name:"HP",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#111a0b; color:#fff; border:1px solid #ccc; padding: 4px'}}}}, 
-            {name:"Atk",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#221e0e; color:#fff; border:1px solid #ccc; padding: 4px'}}}}, 
-            {name:"Def",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#251810; color:#fff; border:1px solid #ccc; padding: 4px'}}}}, 
-            {name:"SpA",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#0f2125; color:#fff; border:1px solid #ccc; padding: 4px'}}}}, 
-            {name:"SpD",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#141722; color:#fff; border:1px solid #ccc; padding: 4px'}}}}, 
-            {name:"Spe",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#2c1427; color:#fff; border:1px solid #ccc; padding: 4px'}}}}, 
+            {name:"HP",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#111a0b; color:#fff; border:1px solid #ccc; padding: 4px'}} else if(cell == "") {return {'style': 'background:#111a0b; color:#fff; border:1px solid #ccc; border-top:0px solid black padding: 4px'}}}}, 
+            {name:"Atk",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#221e0e; color:#fff; border:1px solid #ccc; padding: 4px'}} else if(cell == "") {return {'style': 'background:#221e0e; color:#fff; border:1px solid #ccc; border-top:0px solid black padding: 4px'}}}}, 
+            {name:"Def",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#251810; color:#fff; border:1px solid #ccc; padding: 4px'}} else if(cell == "") {return {'style': 'background:#251810; color:#fff; border:1px solid #ccc; border-top:0px solid black padding: 4px'}}}}, 
+            {name:"SpA",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#0f2125; color:#fff; border:1px solid #ccc; padding: 4px'}} else if(cell == "") {return {'style': 'background:#0f2125; color:#fff; border:1px solid #ccc; border-top:0px solid black padding: 4px'}}}}, 
+            {name:"SpD",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#141722; color:#fff; border:1px solid #ccc; padding: 4px'}} else if(cell == "") {return {'style': 'background:#141722; color:#fff; border:1px solid #ccc; border-top:0px solid black padding: 4px'}}}}, 
+            {name:"Spe",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#2c1427; color:#fff; border:1px solid #ccc; padding: 4px'}} else if(cell == "") {return {'style': 'background:#2c1427; color:#fff; border:1px solid #ccc; border-top:0px solid black padding: 4px'}}}}, 
             {name:"BST",width:"50px"},
             {name:"Height",width:"70px", formatter: (cell, row) => {
                 if (cell) {
@@ -52,7 +52,6 @@
                 } else {
                     return gridjs.html('')
                 }
-                
             }},
             {name:"internal_name",hidden:true},
             {name:"Catch Rate",width:"80px"}],
