@@ -338,19 +338,6 @@
     const shinyToggle = document.querySelector('input[type="checkbox"]')
     let modelLoaded = false;
 
-    ```
-    shinyToggle.addEventListener('change', () => {
-        if (modelLoaded) {
-            return
-        }
-        if (shinyToggle.checked) {
-            modelViewerObject.poster ='https://img.pokemondb.net/sprites/home/shiny/{{ species.alt_internal_name }}.png'
-        } else {
-            modelViewerObject.poster ='https://img.pokemondb.net/sprites/home/normal/{{ species.alt_internal_name }}.png'
-        }
-    })
-    ```
-
     modelViewerObject.addEventListener("load", () => {
         modelLoaded = true
 
