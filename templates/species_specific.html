@@ -413,7 +413,11 @@
                                                                             {% for requirement in evolution.requirements %}
                                                                                 <div style="border:1px dotted #333" class="roundy">
                                                                                     {% for key, value in requirement.items() %}
-                                                                                        <p style="margin:2px">{{ key }}: {{ value }}</p>
+                                                                                        {% if requirement['variant'] and requirement['variant'] == "party_member" and key == "target" %}
+                                                                                            <p style="margin:2px;">{{ key }}: </p><a href="/species/{{ value }}">{{ value.title() }}</a>
+                                                                                        {% else %}
+                                                                                            <p style="margin:2px">{{ key }}: {{ value }}</p>
+                                                                                        {% endif %}
                                                                                     {% endfor %}
                                                                                 </div>
                                                                             {% endfor %}
