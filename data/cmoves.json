@@ -418,6 +418,83 @@
         "flags": "Protect, Mirror, Metronome, Bullet, Wind"
     },
     {
+        "num": 201,
+        "name": "Dust Scrape",
+        "type": "Ground",
+        "category": "Physical",
+        "pp": 10,
+        "basePower": 70,
+        "accuracy": 100,
+        "target": "Normal",
+        "flags": "Contact, Protect, Mirror, Metronome"
+    },
+    {
+        "num": 348,
+        "name": "Chopping Block",
+        "type": "Dragon",
+        "category": "Physical",
+        "pp": 15,
+        "basePower": 100,
+        "accuracy": 90,
+        "target": "Normal",
+        "flags": "Contact, Protect, Mirror, Metronome, Slicing"
+    },
+    {
+        "num": 348,
+        "name": "Steel Blade",
+        "type": "Steel",
+        "category": "Physical",
+        "pp": 15,
+        "basePower": 90,
+        "accuracy": 100,
+        "target": "Normal",
+        "flags": "Contact, Protect, Mirror, Metronome, Slicing"
+    },
+    {
+        "num": 369,
+        "name": "Drake Glide",
+        "type": "Flying",
+        "category": "Physical",
+        "pp": 20,
+        "basePower": 70,
+        "accuracy": 100,
+        "target": "Normal",
+        "flags": "Contact, Protect, Mirror, Metronome"
+    },
+    {
+        "num": 401,
+        "name": "Boulder Bash",
+        "type": "Rock",
+        "category": "Physical",
+        "pp": 10,
+        "basePower": 90,
+        "accuracy": 100,
+        "target": "Normal",
+        "flags": "Contact, Protect, Mirror, Metronome"
+    },
+    {
+        "num": 489,
+        "name": "Clear Coat",
+        "type": "Steel",
+        "category": "Status",
+        "pp": 20,
+        "basePower": 0,
+        "accuracy": 999,
+        "target": "Self",
+        "flags": "Snatch, Metronome"
+    },
+    {
+        "num": 542,
+        "name": "Droopy Haze",
+        "type": "Dragon",
+        "category": "Special",
+        "pp": 10,
+        "basePower": 100,
+        "accuracy": 80,
+        "target": "Any",
+        "flags": "Protect, Mirror, Distance, Metronome"
+    },
+    {
         "num": 614,
         "name": "Rupture",
         "type": "Ground",
@@ -427,6 +504,28 @@
         "accuracy": 100,
         "target": "Normal",
         "flags": "Protect, Mirror, Nonsky"
+    },
+    {
+        "num": 818,
+        "name": "Wicked Barrage",
+        "type": "Dark",
+        "category": "Special",
+        "pp": 5,
+        "basePower": 25,
+        "accuracy": 100,
+        "target": "Normal",
+        "flags": "Protect, Mirror"
+    },
+    {
+        "num": 857,
+        "name": "Sky Strike",
+        "type": "Flying",
+        "category": "Physical",
+        "pp": 15,
+        "basePower": 60,
+        "accuracy": 100,
+        "target": "Normal",
+        "flags": "Contact, Protect, Mirror, Priority+1"
     },
     {
         "num": 1000.0,
@@ -482,6 +581,61 @@
         "accuracy": 100,
         "target": "Normal",
         "flags": "Recharge, Protect, Mirror, Metronome"
+    },
+    {
+        "num": 7001,
+        "name": "Swift Sting",
+        "type": "Bug",
+        "category": "Physical",
+        "pp": 30,
+        "basePower": 40,
+        "accuracy": 100,
+        "target": "Normal",
+        "flags": "Contact, Protect, Mirror, Metronome, Priority+1"
+    },
+    {
+        "num": 7002,
+        "name": "Sneak Attack",
+        "type": "Dark",
+        "category": "Physical",
+        "pp": 30,
+        "basePower": 40,
+        "accuracy": 100,
+        "target": "Normal",
+        "flags": "Contact, Protect, Mirror, Metronome, Priority+1"
+    },
+    {
+        "num": 7003,
+        "name": "Dragon Dash",
+        "type": "Dragon",
+        "category": "Physical",
+        "pp": 30,
+        "basePower": 40,
+        "accuracy": 100,
+        "target": "Normal",
+        "flags": "Contact, Protect, Mirror, Metronome, Priority+1"
+    },
+    {
+        "num": 7004,
+        "name": "Volt Jolt",
+        "type": "Electric",
+        "category": "Physical",
+        "pp": 30,
+        "basePower": 40,
+        "accuracy": 100,
+        "target": "Normal",
+        "flags": "Contact, Protect, Mirror, Metronome, Priority+1"
+    },
+    {
+        "num": 7005,
+        "name": "Dazzle Dash",
+        "type": "Fairy",
+        "category": "Physical",
+        "pp": 30,
+        "basePower": 40,
+        "accuracy": 100,
+        "target": "Normal",
+        "flags": "Contact, Protect, Mirror, Metronome, Priority+1"
     },
     {
         "num": 10001,
