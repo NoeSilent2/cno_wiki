@@ -16,10 +16,14 @@ def get_daily_object():
     random.seed(int(hashlib.md5(f"{today.year}{today.month}{today.day}".encode()).hexdigest()[:8], 16))
     species_id = random.choice(list(speciesdict.keys()))
     rspecies = random.choice(speciesdict[species_id])
+    isShiny = 'normal'
+    if random.randint(1, 50) == 1:
+        isShiny = 'shiny'
     return {
         'name': rspecies.get('name', 'ERROR'),
         'img': rspecies.get('alt_internal_name', 'unown-qm'),
-        'link': species_id
+        'link': species_id,
+        'shiny': isShiny
     }
 
 
