@@ -379,7 +379,7 @@
                                     <b>Evolutions</b>
                                     <table class="roundy" width="100%" style="padding-top:3px; height:60px">
                                         <tbody>
-                                            <tr style="display:flex; flex-direction:column;">
+                                            <tr style="display:flex; flex-direction:column; gap:4px;">
                                                 {% for evolution in species.evolutions %}
                                                     <td style="border:1px solid #333; width:100%">
                                                         <table style="background:#000; width:100%" class="roundy">
@@ -399,8 +399,8 @@
                                                                     </td>
                                                                     <td>
                                                                         Requirements
-                                                                        <div style="border:1px solid #333; min-height:15px; padding:8px; gap:4px; display:grid;" class="roundy">
-                                                                            <div style="border:1px dotted #333" class="roundy">
+                                                                        <div style="border:1px solid #333; background:#111; min-height:15px; padding:8px; gap:4px; display:grid;" class="roundy">
+                                                                            <div style="border:1px dotted #333; background:#000;" class="roundy">
                                                                                 <p>{{ evolution.variant.replace('_', ' ').title() }}</p>
                                                                                 {% if evolution.requiredContext %}
                                                                                     {% if evolution.requiredContext_pokemon %}
@@ -411,10 +411,10 @@
                                                                                 {% endif %}
                                                                             </div>
                                                                             {% for requirement in evolution.requirements %}
-                                                                                <div style="border:1px dotted #333" class="roundy">
+                                                                                <div style="border:1px dotted #333; background:#000;" class="roundy">
                                                                                     {% for key, value in requirement.items() %}
                                                                                         {% if requirement['variant'] and requirement['variant'] == "party_member" and key == "target" %}
-                                                                                            <p style="margin:2px;">{{ key }}: </p><a href="/species/{{ value }}">{{ value.title() }}</a>
+                                                                                            <p style="margin:2px; display:inline;">{{ key }}: </p><a href="/species/{{ value }}">{{ value.title() }}</a>
                                                                                         {% else %}
                                                                                             <p style="margin:2px">{{ key }}: {{ value }}</p>
                                                                                         {% endif %}
