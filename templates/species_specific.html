@@ -391,7 +391,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td>Learnable Moves <div style="border:1px solid #333; min-height:10px;">
-                                                                        {% for move in evolution.learnableMoves %}
+                                                                        {% for move in evolution.learnableMoves.items() %}
                                                                             <p style="margin:2px">{{ move }}</p>
                                                                         {% endfor %}
                                                                     </div></td>
