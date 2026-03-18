@@ -328,7 +328,7 @@
                     </table>
                 </td>
             </tr>
-             <tr>
+            <tr>
                 <td colspan="2">
                     <table style="width:100%">
                         <tbody>
@@ -369,6 +369,56 @@
                     </table>
                 </td>
             </tr>
+            {% if species.evolutions.length > 0 %}
+            <tr>
+                <td colspan="2">
+                    <table style="width:100%">
+                        <tbody>
+                            <tr>
+                                <td class="roundy" colspan="1" style="background:#333; padding:2px">
+                                    <b>Catch Rate</b>
+                                    <table class="roundy" width="100%" style="padding-top:3px; height:60px">
+                                        <tbody>
+                                            <tr style="display:flex; flex-direction:column;">
+                                                {% for evolution in species.evolutions %}
+                                                    <td style="border:1px solid #333; width:100%">
+                                                        <table style="background:#000; width:100%">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td style="border:1px solid #333"><big>ID: {{ evolution.id }}</big></td>
+                                                                    <td style="border:1px solid #333">Variant: {{ evolution.variant.replace('_', ' ').title() }}</td>
+                                                                    <td style="border:1px solid #333">Result: <a href="/species/{{ evolution.result }}">{{ evolution.result.title() }}</a></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Learnable Moves <div style="border:1px solid #333; min-height:10px;">
+                                                                        {% for move in evolution.learnableMoves %}
+                                                                            <p style="margin:2px">{{ move }}</p>
+                                                                        {% endfor %}
+                                                                    </div></td>
+                                                                    <td colspan="2">Requirements<div style="border:1px solid #333; min-height:10px; padding:8px">
+                                                                        {% for requirement in evolution.requirements %}
+                                                                            <div style="border:1px dotted #333">
+                                                                                {% for key, value in requirement %}
+                                                                                    <p style="margin:2px">{{ key }}: {{ value }}</p>
+                                                                                {% endfor %}
+                                                                            </div>
+                                                                        {% endfor %}
+                                                                    </div></td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                {% endfor %}
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            {% endif %}
         </tbody>
     </table>
     {% endfor %}
