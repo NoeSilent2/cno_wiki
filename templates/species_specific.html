@@ -402,6 +402,13 @@
                                                                         <div style="border:1px solid #333; min-height:15px; padding:8px; gap:4px; display:grid;" class="roundy">
                                                                             <div style="border:1px dotted #333" class="roundy">
                                                                                 <p>{{ evolution.variant.replace('_', ' ').title() }}</p>
+                                                                                {% if evolution.requiredContext %}
+                                                                                    {% if evolution.requiredContext_pokemon %}
+                                                                                        <a href="/species/{{ evolution.requiredContext_pokemon }}">{{ evolution.requiredContext }}</a>
+                                                                                    {% else %}
+                                                                                        <p>{{ evolution.requiredContext }}</p>
+                                                                                    {% endif %}
+                                                                                {% endif %}
                                                                             </div>
                                                                             {% for requirement in evolution.requirements %}
                                                                                 <div style="border:1px dotted #333" class="roundy">
