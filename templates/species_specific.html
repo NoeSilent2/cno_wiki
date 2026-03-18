@@ -382,11 +382,11 @@
                                             <tr style="display:flex; flex-direction:column;">
                                                 {% for evolution in species.evolutions %}
                                                     <td style="border:1px solid #333; width:100%">
-                                                        <table style="background:#000; width:100%">
+                                                        <table style="background:#000; width:100%" class="roundy">
                                                             <tbody>
                                                                 <tr>
-                                                                    <td style="border:1px solid #333" class="roundy">ID: <p style="font-weight: bold">{{ evolution.id }}</p></td>
-                                                                    <td style="border:1px solid #333" class="roundy">Variant: <p style="font-weight: bold">{{ evolution.variant.replace('_', ' ').title() }}</p></td>
+                                                                    <td style="border:1px solid #333" class="roundy"><p style="font-size:small">{{ evolution.id }}</p></td>
+                                                                    <td style="border:1px solid #333" class="roundy"><p>{{ evolution.variant.replace('_', ' ').title() }}</p></td>
                                                                     <td style="border:1px solid #333" class="roundy">Result: <a href="/species/{{ evolution.result }}">{{ evolution.result.title() }}</a></td>
                                                                 </tr>
                                                                 <tr>
