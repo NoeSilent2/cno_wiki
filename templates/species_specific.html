@@ -381,11 +381,11 @@
                                         <tbody>
                                             <tr style="display:flex; flex-direction:column; gap:4px;">
                                                 {% for evolution in species.evolutions %}
-                                                    <td style="border:1px solid #333; width:100%">
-                                                        <table style="background:#000; width:100%" class="roundy">
+                                                    <td style="width:100%">
+                                                        <table style="background:#000; width:100%; padding:4px;" class="roundy">
                                                             <tbody>
                                                                 <tr>
-                                                                    <td style="border:1px solid #333" class="roundy"><p style="font-size:small">{{ evolution.id }}</p></td>
+                                                                    <td style="border:1px solid #333" class="roundy"><p style="font-size:small; font-family: 'Courier New', 'Lucida Console', monospace;">{{ evolution.id }}</p></td>
                                                                     <td style="border:1px solid #333" class="roundy">Result: <a href="/species/{{ evolution.result_link or evolution.result }}">{{ evolution.result.title() }}</a></td>
                                                                 </tr>
                                                                 <tr>
