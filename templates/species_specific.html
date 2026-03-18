@@ -386,7 +386,7 @@
                                                             <tbody>
                                                                 <tr>
                                                                     <td style="border:1px solid #333" class="roundy"><p style="font-size:small">{{ evolution.id }}</p></td>
-                                                                    <td style="border:1px solid #333" class="roundy">Result: <a href="/species/{{ evolution.result }}">{{ evolution.result.title() }}</a></td>
+                                                                    <td style="border:1px solid #333" class="roundy">Result: <a href="/species/{{ evolution.result_link or evolution.result }}">{{ evolution.result.title() }}</a></td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td style="display:flex; flex-direction:column; flex-wrap:nowrap;">
