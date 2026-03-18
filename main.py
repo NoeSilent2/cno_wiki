@@ -13,7 +13,7 @@ with open('./data/species.json', 'r', encoding='utf-8') as file:
 
 def get_daily_object():
     today = date.today()
-    random.seed(int(hashlib.md5(f"{today.year}-{today.month}-{today.day}".encode()).hexdigest()[:8], 16))
+    random.seed(int(hashlib.md5(f"{today.year}{today.month}{today.day}".encode()).hexdigest()[:8], 16))
     species_id = random.choice(list(speciesdict.keys()))
     rspecies = random.choice(speciesdict[species_id])
     return {
