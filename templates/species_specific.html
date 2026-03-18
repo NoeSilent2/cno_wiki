@@ -386,21 +386,23 @@
                                                             <tbody>
                                                                 <tr>
                                                                     <td style="border:1px solid #333" class="roundy"><p style="font-size:small">{{ evolution.id }}</p></td>
-                                                                    <td style="border:1px solid #333" class="roundy"><p>{{ evolution.variant.replace('_', ' ').title() }}</p></td>
                                                                     <td style="border:1px solid #333" class="roundy">Result: <a href="/species/{{ evolution.result }}">{{ evolution.result.title() }}</a></td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td style="display:flex; flex-direction:column; flex-wrap:nowrap;">
                                                                         Learnable Moves
-                                                                        <div style="border:1px solid #333; min-height:10px;" class="roundy">
+                                                                        <div style="border:1px solid #333; min-height:15px;" class="roundy">
                                                                             {% for move in evolution.learnableMoves %}
                                                                                 <p style="margin:2px">{{ move }}</p>
                                                                             {% endfor %}
                                                                         </div>
                                                                     </td>
-                                                                    <td colspan="2">
+                                                                    <td>
                                                                         Requirements
-                                                                        <div style="border:1px solid #333; min-height:10px; padding:8px" class="roundy">
+                                                                        <div style="border:1px solid #333; min-height:15px; padding:8px; gap:4px; display:grid;" class="roundy">
+                                                                            <div style="border:1px dotted #333" class="roundy">
+                                                                                <p>{{ evolution.variant.replace('_', ' ').title() }}</p>
+                                                                            </div>
                                                                             {% for requirement in evolution.requirements %}
                                                                                 <div style="border:1px dotted #333" class="roundy">
                                                                                     {% for key, value in requirement.items() %}
