@@ -449,7 +449,7 @@
 
 <script type="module">
     document.querySelectorAll("button#evolutionCollapse").forEach(butt => {
-        const collapseRow = butt.querySelector('tr#evolutionRow')
+        const collapseRow = butt.nextElementSibling.querySelector('tr#evolutionRow')
 
         butt.addEventListener('click', () => {
             if (collapseRow.style.height == "auto") {
