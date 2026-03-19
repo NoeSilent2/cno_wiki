@@ -1,6 +1,6 @@
 {% extends 'header.html' %}
 
-{% block title %}Fakemon - C&O Wiki{% endblock %}
+{% block title %}Fakeforms - C&O Wiki{% endblock %}
 
 {% block extra_head %}
 <link rel="stylesheet" href="{{ url_for('static', filename='css/typecolors.css') }}">
@@ -8,15 +8,15 @@
 
 {% block body %}
 <main>
-    <h2>Fakemon</h2>
-    <p>All of the fakemon species data will be listed here.</p>
-    <p>Only a select few have models, as I haven't found a way to automate the full process yet.</p>
+    <h2>Fakeforms</h2>
+    <p>Every fakemon which is a form of an existing pokemon will have their data listed here.</p>
+    <p>All of these will link to the original Pokemons page. Their data will be lower down.</p>
     <p style="margin-top: 20px; color: #666; font-size: 14px; margin-bottom: 10px">Click on any column header to sort the table.</p>
     <div id="table"></div>
 </main>
 <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
 <script>
-    const fakemon = {{ fakemon | tojson }};
+    const fakeforms = {{ fakeforms | tojson }};
 
     new gridjs.Grid({
         columns: [
@@ -57,7 +57,7 @@
             }},
             {name:"internal_name",hidden:true},
             {name:"Catch Rate",width:"80px"}],
-        data: fakemon.map(emp => [
+        data: fakeforms.map(emp => [
             emp.national_pokedex_number,
             emp.name,
             emp.primary_type,

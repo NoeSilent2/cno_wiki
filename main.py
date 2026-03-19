@@ -41,6 +41,12 @@ with open('./data/fakemon_simple.json', 'r', encoding='utf-8') as file:
 def get_fakemon():
     return render_template("fakemon.html", fakemon=fakemontable)
 
+with open('./data/forms_simple.json', 'r', encoding='utf-8') as file:
+    fakeformstable = json.load(file)
+@app.route("/fakeforms")
+def get_fakeforms():
+    return render_template("fakeforms.html", fakeforms=fakeformstable)
+
 with open('./data/species_simple.json', 'r', encoding='utf-8') as file:
     speciestable = json.load(file)
 @app.route("/species")
