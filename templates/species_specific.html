@@ -375,62 +375,64 @@
                     <table style="width:100%">
                         <tbody>
                             <tr>
-                                <td class="roundy" colspan="1" style="background:#333; padding:2px">
-                                    <b>Evolutions</b>
-                                    <table class="roundy" width="100%" style="padding-top:3px; height:60px">
-                                        <tbody>
-                                            <tr style="display:flex; flex-direction:column; gap:4px;">
-                                                {% for evolution in species.evolutions %}
-                                                    <td style="width:100%">
-                                                        <table style="background:#000; width:100%; padding:4px;" class="roundy">
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td style="border:1px solid #333" class="roundy"><p style="font-size:small; font-family: 'Courier New', 'Lucida Console', monospace; position:relative; top:2px;">{{ evolution.id }}</p></td>
-                                                                    <td style="border:1px solid #333" class="roundy">Result: <a href="/species/{{ evolution.result_link or evolution.result }}">{{ evolution.result.title() }}</a></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td style="display:flex; flex-direction:column; flex-wrap:nowrap;">
-                                                                        Learnable Moves
-                                                                        <div style="border:1px solid #333; min-height:15px;" class="roundy">
-                                                                            {% for move in evolution.learnableMoves %}
-                                                                                <p style="margin:2px">{{ move }}</p>
-                                                                            {% endfor %}
-                                                                        </div>
-                                                                    </td>
-                                                                    <td>
-                                                                        Requirements
-                                                                        <div style="border:1px solid #333; background:#111; min-height:15px; padding:8px; gap:4px; display:grid;" class="roundy">
-                                                                            <div style="border:1px dotted #333; background:#000;" class="roundy">
-                                                                                <p>{{ evolution.variant.replace('_', ' ').title() }}</p>
-                                                                                {% if evolution.requiredContext %}
-                                                                                    {% if evolution.requiredContext_pokemon %}
-                                                                                        <a href="/species/{{ evolution.requiredContext_pokemon }}">{{ evolution.requiredContext }}</a>
-                                                                                    {% else %}
-                                                                                        <p>{{ evolution.requiredContext }}</p>
-                                                                                    {% endif %}
-                                                                                {% endif %}
+                                <td colspan="1" style="display:grid">
+                                    <button id="evolutionCollapse" class="roundy" style="background:#333; padding:2px; border:0; color:white; font-size:100%; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;">
+                                        <b style="font-weight:700;">Evolutions</b>
+                                        <table class="roundy" width="100%" style="padding-top:3px; height:auto;">
+                                            <tbody>
+                                                <tr id="evolutionRow" style="display:flex; flex-direction:column; gap:4px; overflow:hidden; height:0;">
+                                                    {% for evolution in species.evolutions %}
+                                                        <td style="width:100%">
+                                                            <table style="background:#000; width:100%; padding:4px;" class="roundy">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td style="border:1px solid #333" class="roundy"><p style="font-size:small; font-family: 'Courier New', 'Lucida Console', monospace; position:relative; top:2px;">{{ evolution.id }}</p></td>
+                                                                        <td style="border:1px solid #333" class="roundy">Result: <a href="/species/{{ evolution.result_link or evolution.result }}">{{ evolution.result.title() }}</a></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td style="display:flex; flex-direction:column; flex-wrap:nowrap;">
+                                                                            Learnable Moves
+                                                                            <div style="border:1px solid #333; min-height:15px;" class="roundy">
+                                                                                {% for move in evolution.learnableMoves %}
+                                                                                    <p style="margin:2px">{{ move }}</p>
+                                                                                {% endfor %}
                                                                             </div>
-                                                                            {% for requirement in evolution.requirements %}
+                                                                        </td>
+                                                                        <td>
+                                                                            Requirements
+                                                                            <div style="border:1px solid #333; background:#111; min-height:15px; padding:8px; gap:4px; display:grid;" class="roundy">
                                                                                 <div style="border:1px dotted #333; background:#000;" class="roundy">
-                                                                                    {% for key, value in requirement.items() %}
-                                                                                        {% if requirement['variant'] and requirement['variant'] == "party_member" and key == "target" %}
-                                                                                            <p style="margin:2px; display:inline;">{{ key }}: </p><a href="/species/{{ value }}">{{ value.title() }}</a>
+                                                                                    <p>{{ evolution.variant.replace('_', ' ').title() }}</p>
+                                                                                    {% if evolution.requiredContext %}
+                                                                                        {% if evolution.requiredContext_pokemon %}
+                                                                                            <a href="/species/{{ evolution.requiredContext_pokemon }}">{{ evolution.requiredContext }}</a>
                                                                                         {% else %}
-                                                                                            <p style="margin:2px">{{ key }}: {{ value }}</p>
+                                                                                            <p>{{ evolution.requiredContext }}</p>
                                                                                         {% endif %}
-                                                                                    {% endfor %}
+                                                                                    {% endif %}
                                                                                 </div>
-                                                                            {% endfor %}
-                                                                        </div>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </td>
-                                                {% endfor %}
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                                                                {% for requirement in evolution.requirements %}
+                                                                                    <div style="border:1px dotted #333; background:#000;" class="roundy">
+                                                                                        {% for key, value in requirement.items() %}
+                                                                                            {% if requirement['variant'] and requirement['variant'] == "party_member" and key == "target" %}
+                                                                                                <p style="margin:2px; display:inline;">{{ key }}: </p><a href="/species/{{ value }}">{{ value.title() }}</a>
+                                                                                            {% else %}
+                                                                                                <p style="margin:2px">{{ key }}: {{ value }}</p>
+                                                                                            {% endif %}
+                                                                                        {% endfor %}
+                                                                                    </div>
+                                                                                {% endfor %}
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    {% endfor %}
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </button>
                                 </td>
                             </tr>
                         </tbody>
@@ -451,6 +453,18 @@
 </main>
 
 <script type="module">
+    document.querySelectorAll("button#evolutionCollapse").forEach(butt => {
+        const collapseRow = butt.querySelector('tr#evolutionRow')
+
+        butt.addEventListener('click', () => {
+            if (collapseRow.style.height == "auto") {
+                collapseRow.style.height = 0
+            } else {
+                collapseRow.style.height = "auto"
+            }
+        })
+    })
+
     document.querySelectorAll("model-viewer#pokemon").forEach(modelViewerObject => {
         const shinyToggle = modelViewerObject.querySelector('input[type="checkbox"]');
         let modelLoaded = false;
