@@ -507,6 +507,7 @@
         const shinyToggle = modelViewerObject.querySelector('input[type="checkbox"]');
         let modelLoaded = false;
 
+        {% if not species.is_fake %}
         shinyToggle.addEventListener('change', () => {
             if (modelLoaded) {
                 return
@@ -518,6 +519,7 @@
                 modelViewerObject.poster =`https://img.pokemondb.net/sprites/home/normal/${imagename}.png`
             }
         });
+        {% endif %}
 
         modelViewerObject.addEventListener("load", () => {
             modelLoaded = true
