@@ -24,11 +24,6 @@
     input:checked + .toggle {
         background-color: #fff
     }
-    .collapseHead {cursor:pointer; background:#444; padding:2px; padding-top:4px; border:0; font-size:100%; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;}
-    .collapseHead:after {content:'\002B'; color:white; float:right; margin-left:5px; }
-    .active, .collapseHead:hover {background:#333;}
-    .active:after {content:'\2212'}
-    .collapseBody {overflow:hidden; height:0;}
 </style>
 {% endblock %}
 
@@ -381,11 +376,11 @@
                         <tbody>
                             <tr>
                                 <td colspan="1" style="display:grid">
-                                    <button class="collapseHead" class="roundy" style="background:#333; padding:2px; padding-top:4px; cursor:pointer; border:0; color:white; font-size:100%; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;">
+                                    <button id="evolutionCollapse" class="roundy" style="background:#333; padding:2px; padding-top:4px; cursor:pointer; border:0; color:white; font-size:100%; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;">
                                         <b style="font-weight:700;">Evolutions</b>
                                         <table class="roundy" width="100%" style="padding-top:3px; height:auto;">
                                             <tbody>
-                                                <tr class="collapseBody" style="display:flex; flex-direction:column; gap:4px; overflow:hidden; height:0;">
+                                                <tr id="evolutionRow" style="display:flex; flex-direction:column; gap:4px; overflow:hidden; height:0;">
                                                     {% for evolution in species.evolutions %}
                                                         <td style="width:100%">
                                                             <table style="background:#000; width:100%; padding:4px;" class="roundy">
@@ -458,16 +453,14 @@
 </main>
 
 <script type="module">
-    document.querySelectorAll("button.collapseHead").forEach(butt => {
-        const collapseRow = butt.querySelector('tr.collapseBody')
+    document.querySelectorAll("button#evolutionCollapse").forEach(butt => {
+        const collapseRow = butt.querySelector('tr#evolutionRow')
 
         butt.addEventListener('click', () => {
             if (collapseRow.style.height == "auto") {
-                collapseHead.classList.remove("active");
-                collapseRow.style.height = 0;
+                collapseRow.style.height = 0
             } else {
-                collapseHead.classList.add("active");
-                collapseRow.style.height = "auto";
+                collapseRow.style.height = "auto"
             }
         })
     })
