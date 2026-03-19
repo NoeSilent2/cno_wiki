@@ -53,6 +53,7 @@ def get_species():
 def get_species_specific(name):
     name = name.lower()
     if name == "random":
+        random.seed()
         species = random.choice(list(speciesdict.keys()))
         if species:
             return redirect(url_for('get_species_specific', name=species))
