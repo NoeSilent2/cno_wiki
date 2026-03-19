@@ -453,10 +453,10 @@
                                                         <tbody>
                                                             <tr style="border:1px solid #333" class="roundy">
                                                                 <td>
-                                                                    <p>{{ species.drop_amount }}</p>
+                                                                    <p>Drops {{ species.drop_amount }}x</p>
                                                                 </td>
                                                             </tr>
-                                                            <tr style="border:1px solid #333" class="roundy">
+                                                            <tr style="border:1px solid #333; display:flex; flex-direction:column;" class="roundy">
                                                                 {% for drop in species.drops %}
                                                                     <td>
                                                                         <p style="position:relative; top:2px;">{{ drop }}</p>
