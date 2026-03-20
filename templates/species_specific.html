@@ -489,12 +489,12 @@
                                         <tbody>
                                             <tr id="collapseRow" style="display:flex; flex-direction:column; gap:4px; overflow:hidden; height:0;">
                                                 <td style="width:100%">
-                                                    <table style="background:#000; width:100%; padding:4px; font-family: 'Courier New', 'Lucida Console', monospace;" class="roundy">
+                                                    <table style="background:#000; width:100%; padding:4px; font-weight:300" class="roundy">
                                                         <tbody>
                                                             {% for move in species.level_moves %}
                                                                 <tr>
                                                                     <td>{{ move.level }}</td>
-                                                                    <td{% if move.type == species.primary_type or move.type == species.secondary_type %} style="font-weight:bold"{% endif %}>{{ move.name }}</td>
+                                                                    <td{% if move.category != "Status" and (move.type == species.primary_type or move.type == species.secondary_type) %} style="font-weight:bold"{% endif %}>{{ move.name }}</td>
                                                                     <td><img style="vertical-align:middle" src="/types/{{ move.type }}Small.png"></td>
                                                                     <td><img style="vertical-align:middle" src="/categories/{{ move.category }}.png"></td>
                                                                     <td>{{ move.power or '-' }}</td>
@@ -507,7 +507,7 @@
                                                             {% for move in species.tm_moves %}
                                                                 <tr>
                                                                     <td>TM</td>
-                                                                    <td{% if move.type == species.primary_type or move.type == species.secondary_type %} style="font-weight:bold"{% endif %}>{{ move.name }}</td>
+                                                                    <td{% if move.category != "Status" and (move.type == species.primary_type or move.type == species.secondary_type) %} style="font-weight:bold"{% endif %}>{{ move.name }}</td>
                                                                     <td><img style="vertical-align:middle" src="/types/{{ move.type }}Small.png"></td>
                                                                     <td><img style="vertical-align:middle" src="/categories/{{ move.category }}.png"></td>
                                                                     <td>{{ move.power or '-' }}</td>
@@ -520,7 +520,7 @@
                                                             {% for move in species.egg_moves %}
                                                                 <tr>
                                                                     <td>Egg</td>
-                                                                    <td{% if move.type == species.primary_type or move.type == species.secondary_type %} style="font-weight:bold"{% endif %}>{{ move.name }}</td>
+                                                                    <td{% if move.category != "Status" and (move.type == species.primary_type or move.type == species.secondary_type) %} style="font-weight:bold"{% endif %}>{{ move.name }}</td>
                                                                     <td><img style="vertical-align:middle" src="/types/{{ move.type }}Small.png"></td>
                                                                     <td><img style="vertical-align:middle" src="/categories/{{ move.category }}.png"></td>
                                                                     <td>{{ move.power or '-' }}</td>
