@@ -492,7 +492,7 @@
                                                     <table style="background:#000; width:100%; padding:4px; font-family: 'Courier New', 'Lucida Console', monospace;" class="roundy">
                                                         <tbody>
                                                             {% for move in species.level_moves %}
-                                                                <tr style="border:1px solid #333;" class="roundy">
+                                                                <tr>
                                                                     <td>{{ move.level }}</td>
                                                                     <td>{{ move.name }}</td>
                                                                     <td><img style="vertical-align:middle" src="/types/{{ move.type }}Small.png"></td>
@@ -502,7 +502,7 @@
                                                                 </tr>
                                                             {% endfor %}
                                                             {% for move in species.tm_moves %}
-                                                                <tr style="border:1px solid #333; display:flex; flex-direction:column;" class="roundy">
+                                                                <tr>
                                                                     <td>TM</td>
                                                                     <td>{{ move.name }}</td>
                                                                     <td><img style="vertical-align:middle" src="/types/{{ move.type }}Small.png"></td>
@@ -512,7 +512,7 @@
                                                                 </tr>
                                                             {% endfor %}
                                                             {% for move in species.egg_moves %}
-                                                                <tr style="border:1px solid #333; display:flex; flex-direction:column;" class="roundy">
+                                                                <tr>
                                                                     <td>Egg</td>
                                                                     <td>{{ move.name }}</td>
                                                                     <td><img style="vertical-align:middle" src="/types/{{ move.type }}Small.png"></td>
