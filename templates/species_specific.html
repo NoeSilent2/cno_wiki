@@ -497,7 +497,7 @@
                                                                     <td>{{ move.name }}</td>
                                                                     <td><img style="vertical-align:middle" src="/types/{{ move.type }}Small.png"></td>
                                                                     <td><img style="vertical-align:middle" src="/categories/{{ move.category }}.png"></td>
-                                                                    <td>{{ move.power }}</td>
+                                                                    <td>{{ move.power or '-' }}</td>
                                                                     <td>{{ move.pp }}</td>
                                                                 </tr>
                                                             {% endfor %}
@@ -507,7 +507,7 @@
                                                                     <td>{{ move.name }}</td>
                                                                     <td><img style="vertical-align:middle" src="/types/{{ move.type }}Small.png"></td>
                                                                     <td><img style="vertical-align:middle" src="/categories/{{ move.category }}.png"></td>
-                                                                    <td>{{ move.power }}</td>
+                                                                    <td>{{ move.power or '-' }}</td>
                                                                     <td>{{ move.pp }}</td>
                                                                 </tr>
                                                             {% endfor %}
@@ -517,7 +517,7 @@
                                                                     <td>{{ move.name }}</td>
                                                                     <td><img style="vertical-align:middle" src="/types/{{ move.type }}Small.png"></td>
                                                                     <td><img style="vertical-align:middle" src="/categories/{{ move.category }}.png"></td>
-                                                                    <td>{{ move.power }}</td>
+                                                                    <td>{{ move.power or '-' }}</td>
                                                                     <td>{{ move.pp }}</td>
                                                                 </tr>
                                                             {% endfor %}
