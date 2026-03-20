@@ -476,6 +476,69 @@
                 </td>
             </tr>
             {% endif %}
+            <tr>
+                <td colspan="2">
+                    <table style="width:100%">
+                        <tbody>
+                            <tr>
+                                <td colspan="1" class="roundy" style="display:grid; background:#333;">
+                                    <button id="collapseHead" class="roundy" style="background:transparent; padding:2px; padding-top:4px; cursor:pointer; border:0; color:white; font-size:100%; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;">
+                                        <b style="font-weight:700;">Learnset</b>
+                                    </button>
+                                    <table class="roundy" width="100%" style="padding-top:3px; height:auto;">
+                                        <tbody>
+                                            <tr id="collapseRow" style="display:flex; flex-direction:column; gap:4px; overflow:hidden; height:0;">
+                                                <td style="width:100%">
+                                                    <table style="background:#000; width:100%; padding:4px; font-family: 'Courier New', 'Lucida Console', monospace;" class="roundy">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <p>Level Moves</p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr style="border:1px solid #333; display:flex; flex-direction:column;" class="roundy">
+                                                                {% for move in species.level_moves %}
+                                                                    <td>
+                                                                        <p style="position:relative; top:2px;">{{ move }}</p>
+                                                                    </td>
+                                                                {% endfor %}
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <p>TM Moves</p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr style="border:1px solid #333; display:flex; flex-direction:column;" class="roundy">
+                                                                {% for move in species.tm_moves %}
+                                                                    <td>
+                                                                        <p style="position:relative; top:2px;">{{ move }}</p>
+                                                                    </td>
+                                                                {% endfor %}
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <p>Egg Moves</p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr style="border:1px solid #333; display:flex; flex-direction:column;" class="roundy">
+                                                                {% for move in species.egg_moves %}
+                                                                    <td>
+                                                                        <p style="position:relative; top:2px;">{{ move }}</p>
+                                                                    </td>
+                                                                {% endfor %}
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
         </tbody>
     </table>
     {% endfor %}
@@ -484,7 +547,7 @@
     <h2 style="width: 50%">{{ species_forms[0].name }}</h2>
     <p>Work in progress page for specific data on {{ species_forms[0].name }}.</p>
     <p>Not everything is on display yet.</p>
-    <p style="margin-top:32px">Some information may be incorrect.</p>
+    <p style="margin-top:24px">Some information may be incorrect.</p>
     <p>If you find any information to be incorrect, please tell NoeSilent.</p>
 
 
