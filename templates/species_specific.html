@@ -491,11 +491,6 @@
                                                 <td style="width:100%">
                                                     <table style="background:#000; width:100%; padding:4px; font-family: 'Courier New', 'Lucida Console', monospace;" class="roundy">
                                                         <tbody>
-                                                            <tr>
-                                                                <td>
-                                                                    <p>Level Moves</p>
-                                                                </td>
-                                                            </tr>
                                                             {% for move in species.level_moves %}
                                                                 <tr style="border:1px solid #333;" class="roundy">
                                                                     <td>{{ move.level }}</td>
@@ -506,30 +501,26 @@
                                                                     <td>{{ move.pp }}</td>
                                                                 </tr>
                                                             {% endfor %}
-                                                            <tr>
-                                                                <td>
-                                                                    <p>TM Moves</p>
-                                                                </td>
-                                                            </tr>
-                                                            <tr style="border:1px solid #333; display:flex; flex-direction:column;" class="roundy">
-                                                                {% for move in species.tm_moves %}
-                                                                    <td>
-                                                                        <p style="position:relative; top:2px;">{{ move.name }}</p>
-                                                                    </td>
-                                                                {% endfor %}
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <p>Egg Moves</p>
-                                                                </td>
-                                                            </tr>
-                                                            <tr style="border:1px solid #333; display:flex; flex-direction:column;" class="roundy">
-                                                                {% for move in species.egg_moves %}
-                                                                    <td>
-                                                                        <p style="position:relative; top:2px;">{{ move.name }}</p>
-                                                                    </td>
-                                                                {% endfor %}
-                                                            </tr>
+                                                            {% for move in species.tm_moves %}
+                                                                <tr style="border:1px solid #333; display:flex; flex-direction:column;" class="roundy">
+                                                                    <td>TM</td>
+                                                                    <td>{{ move.name }}</td>
+                                                                    <td><img style="vertical-align:middle" src="/types/{{ move.type }}Small.png"></td>
+                                                                    <td><img style="vertical-align:middle" src="/categories/{{ move.category }}.png"></td>
+                                                                    <td>{{ move.power }}</td>
+                                                                    <td>{{ move.pp }}</td>
+                                                                </tr>
+                                                            {% endfor %}
+                                                            {% for move in species.egg_moves %}
+                                                                <tr style="border:1px solid #333; display:flex; flex-direction:column;" class="roundy">
+                                                                    <td>Egg</td>
+                                                                    <td>{{ move.name }}</td>
+                                                                    <td><img style="vertical-align:middle" src="/types/{{ move.type }}Small.png"></td>
+                                                                    <td><img style="vertical-align:middle" src="/categories/{{ move.category }}.png"></td>
+                                                                    <td>{{ move.power }}</td>
+                                                                    <td>{{ move.pp }}</td>
+                                                                </tr>
+                                                            {% endfor %}
                                                         </tbody>
                                                     </table>
                                                 </td>
