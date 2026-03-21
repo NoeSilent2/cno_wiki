@@ -2,6 +2,10 @@
 
 {% block title %}Moves - C&O Wiki{% endblock %}
 
+{% block extra_head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/simpletable.css') }}">
+{% endblock %}
+
 {% block body %}
 <main>
     <h2>Moves</h2>
