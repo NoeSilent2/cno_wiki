@@ -33,16 +33,13 @@ def get_daily_object():
 
 
 moves_dict = {}
-moves_data = {}
-with open('./data/moves.json', 'r', encoding='utf-8') as file:
-    moves_data = json.load(file)
 with open('./data/moves_dict.json', 'r', encoding='utf-8') as file:
     moves_dict = json.load(file)
 moves_version = "1.0.1"
 
 @app.route("/moves")
 def get_moves():
-    return render_template("moves.html", moves=moves_data)
+    return render_template("moves.html")
 
 with open('./data/cmoves.json', 'r', encoding='utf-8') as file:
     cmovesdata = json.load(file)
