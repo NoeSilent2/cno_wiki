@@ -52,7 +52,7 @@ async function enhanceLearnset() {
                 <td>${move.power || '-'}</td>
                 <td>${move.pp || '-'}</td>
             `;
-        } else if (moveId == null) {
+        } else if (moveId) {
             row.innerHTML = `<td colspan="6" style="color:red">Unknown move: ${moveId}</td>`;
         }
     });
