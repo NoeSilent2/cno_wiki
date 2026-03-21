@@ -11,59 +11,88 @@
 </main>
 <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
 <script>
-    const moves = {{ moves | tojson }};
-    
-    new gridjs.Grid({
-        columns: [
-        {name:"Name",width:"160px"},
-        {name:"",width:"30px",formatter: (cell, row) => gridjs.html(`<div style="height:100%; width:100%;"><img style="height:24px; width:24px; display:block; margin:auto; image-rendering:pixelated" src="/types/${cell}.png" title="${cell}" alt="${cell}"></div>`)},
-        {name:"",width:"30px",formatter: (cell, row) => gridjs.html(`<div style="height:100%; width:100%;"><img style="height:24px; width:36px; display:block; margin:auto; image-rendering:pixelated" src="/categories/${cell}.png" title="${cell}" alt="${cell}"></div>`)},
-        {name:"PP"},
-        {name:"Power",formatter: (cell, row) => {
-            if(cell == 0) {
-                return gridjs.html(`-`)
-            } else {
-                return gridjs.html(`${cell}`)
-            }
-        }},
-        {name:"Accuracy",formatter: (cell, row) => {
-            if(cell == 999) {
-                return gridjs.html(`-`)
-            } else {
-                return gridjs.html(`${cell}%`)
-            }
-        }},
-        {name:"Target"},
-        {name:"Flags"}],
-        data: moves.map(emp => [
-            emp.name,
-            emp.type,
-            emp.category,
-            emp.pp,
-            emp.basePower,
-            emp.accuracy,
-            emp.target,
-            emp.flags
-        ]),
-        sort: true,
-        style: {
-            table: {
-                border: '3px solid #fff',
-                width: 'auto'
-            },
-            th: {
-                'background-color': '#333',
-                color: '#fff',
-                'border-bottom': '3px solid #fff',
-                padding: "4px"
-            },
-            td: {
-                'background-color': '#000',
-                color: '#fff',
-                border: '1px solid #ccc',
-                padding: "4px"
+    async function get_moves() {
+        const storedVersion = localStorage.getItem('moves_version');
+        const vresponse = await fetch('/api/moves/version');
+        const realVersion = await vresponse.json();
+
+        if (storedVersion == realVersion.version) {
+            const storedCache = localStorage.getItem('moves_cache');
+            if (storedCache) {
+                return JSON.parse(storedCache);
             }
         }
-    }).render(document.getElementById('table'));
+        
+        const response = await fetch('/api/moves');
+        const data = await response.json();
+
+        localStorage.setItem('moves_version', realVersion.version)
+        localStorage.setItem('moves_cache', JSON.stringify(data.data))
+
+        console.log("Fetching fresh move data to cache.")
+
+        return data.data
+    }
+
+    async function make_table() {
+        const moves = await get_moves();
+        
+        new gridjs.Grid({
+            columns: [
+            {name:"Name",width:"160px"},
+            {name:"",width:"30px",formatter: (cell, row) => gridjs.html(`<div style="height:100%; width:100%;"><img style="height:24px; width:24px; display:block; margin:auto; image-rendering:pixelated" src="/types/${cell}.png" title="${cell}" alt="${cell}"></div>`)},
+            {name:"",width:"30px",formatter: (cell, row) => gridjs.html(`<div style="height:100%; width:100%;"><img style="height:24px; width:36px; display:block; margin:auto; image-rendering:pixelated" src="/categories/${cell}.png" title="${cell}" alt="${cell}"></div>`)},
+            {name:"PP"},
+            {name:"Power",formatter: (cell, row) => {
+                if(cell == 0) {
+                    return gridjs.html(`-`)
+                } else {
+                    return gridjs.html(`${cell}`)
+                }
+            }},
+            {name:"Accuracy",formatter: (cell, row) => {
+                if(cell == 999) {
+                    return gridjs.html(`-`)
+                } else {
+                    return gridjs.html(`${cell}%`)
+                }
+            }},
+            {name:"Target"},
+            {name:"Flags"}],
+            data: moves.map(emp => [
+                emp.name,
+                emp.type,
+                emp.category,
+                emp.pp,
+                emp.basePower,
+                emp.accuracy,
+                emp.target,
+                emp.flags
+            ]),
+            sort: true,
+            style: {
+                table: {
+                    border: '3px solid #fff',
+                    width: 'auto'
+                },
+                th: {
+                    'background-color': '#333',
+                    color: '#fff',
+                    'border-bottom': '3px solid #fff',
+                    padding: "4px"
+                },
+                td: {
+                    'background-color': '#000',
+                    color: '#fff',
+                    border: '1px solid #ccc',
+                    padding: "4px"
+                }
+            }
+        }).render(document.getElementById('table'));
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        make_table();
+    });
 </script>
 {% endblock %}
