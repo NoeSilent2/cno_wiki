@@ -26,6 +26,7 @@ daily_object = {}
 daily_object_day = None
 
 def get_daily_object():
+    global daily_object_day
     today = date.today()
     if daily_object_day and today == daily_object_day:
         return daily_object
