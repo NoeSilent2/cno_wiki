@@ -59,7 +59,7 @@
             }},
             {name:"Target"},
             {name:"Flags"}],
-            data: Object.values(moves).map(emp => [
+            data: Object.values(moves).sort((a, b) => a.num - b.num).map(emp => [
                 emp.name,
                 emp.type,
                 emp.category,
