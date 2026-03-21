@@ -22,21 +22,27 @@ with open('./data/moves_dict.json', 'r', encoding='utf-8') as file:
 moves_version = "1.0.3"
 
 
+daily_object = {}
+daily_object_day = ''
 
 def get_daily_object():
     today = date.today()
+    if today == daily_object_day:
+        return daily_object
     random.seed(int(hashlib.md5(f"{today.year}{today.month}{today.day}".encode()).hexdigest()[:8], 16))
     species_id = random.choice(list(speciesdict.keys()))
     rspecies = random.choice(speciesdict[species_id])
     isShiny = 'normal'
     if random.randint(1, 50) == 1:
         isShiny = 'shiny'
-    return {
+    daily_object_day = today
+    daily_object = {
         'name': rspecies.get('name', 'ERROR'),
         'img': rspecies.get('alt_internal_name', 'unown-qm'),
         'link': species_id,
         'shiny': isShiny
     }
+    return daily_object
 
 
 
@@ -60,12 +66,16 @@ def api_moves():
 def api_moves_version():
     return {'version': moves_version}
 
+@app.route("/api/gary")
+def api_gary():
+    data = get_daily_object()
+    return {'data': data}
 
 
 
 @app.route("/")
 def read_root():
-    return render_template("main.html", pokemon=get_daily_object())
+    return render_template("main.html")
 
 
 with open('./data/fakemon_simple.json', 'r', encoding='utf-8') as file:
