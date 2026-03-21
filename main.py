@@ -16,6 +16,13 @@ def favicon():
 with open('./data/species.json', 'r', encoding='utf-8') as file:
     speciesdict = json.load(file)
 
+moves_dict = {}
+with open('./data/moves_dict.json', 'r', encoding='utf-8') as file:
+    moves_dict = json.load(file)
+moves_version = "1.0.1"
+
+
+
 def get_daily_object():
     today = date.today()
     random.seed(int(hashlib.md5(f"{today.year}{today.month}{today.day}".encode()).hexdigest()[:8], 16))
@@ -32,20 +39,14 @@ def get_daily_object():
     }
 
 
-moves_dict = {}
-with open('./data/moves_dict.json', 'r', encoding='utf-8') as file:
-    moves_dict = json.load(file)
-moves_version = "1.0.1"
 
 @app.route("/moves")
 def get_moves():
     return render_template("moves.html")
-
-with open('./data/cmoves.json', 'r', encoding='utf-8') as file:
-    cmovesdata = json.load(file)
 @app.route("/cmoves")
 def get_cmoves():
-    return render_template("cmoves.html", moves=cmovesdata)
+    return render_template("cmoves.html")
+
 
 
 @app.route("/api/moves")
@@ -55,6 +56,7 @@ def api_moves():
 @app.route("/api/moves/version")
 def api_moves_version():
     return {'version': moves_version}
+
 
 
 
