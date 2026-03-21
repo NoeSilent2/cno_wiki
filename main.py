@@ -23,11 +23,11 @@ moves_version = "1.0.3"
 
 
 daily_object = {}
-daily_object_day = ''
+daily_object_day = None
 
 def get_daily_object():
     today = date.today()
-    if today == daily_object_day:
+    if daily_object_day and today == daily_object_day:
         return daily_object
     random.seed(int(hashlib.md5(f"{today.year}{today.month}{today.day}".encode()).hexdigest()[:8], 16))
     species_id = random.choice(list(speciesdict.keys()))
