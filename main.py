@@ -27,10 +27,13 @@ def get_daily_object():
     }
 
 
+moves_dict = {}
 moves_data = {}
 with open('./data/moves.json', 'r', encoding='utf-8') as file:
     moves_data = json.load(file)
-moves_version = "1.0.0"
+with open('./data/moves_dict.json', 'r', encoding='utf-8') as file:
+    moves_dict = json.load(file)
+moves_version = "1.0.1"
 
 @app.route("/moves")
 def get_moves():
@@ -45,7 +48,7 @@ def get_cmoves():
 
 @app.route("/api/moves")
 def api_moves():
-    return {'data': moves_data}
+    return {'data': moves_dict}
 
 @app.route("/api/moves/version")
 def api_moves_version():
