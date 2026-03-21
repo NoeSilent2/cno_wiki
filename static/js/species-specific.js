@@ -23,37 +23,35 @@ async function get_moves() {
 }
 
 async function enhanceLearnset() {
-    // Find the tbody by ID
-    const tbody = document.getElementById('learnset-tbody');
+    const learnsets = document.querySelectorAll('tbody#learnset-tbody');
     if (!tbody) return;
-    
-    // Get all rows within the tbody
-    const rows = tbody.querySelectorAll('tr');
-    if (rows.length === 0) return;
-    
-    // Ensure moves cache is loaded
+
     let moves = await get_moves();
     
-    // Process each row
-    rows.forEach(row => {
-        const moveId = row.getAttribute('move');
-        const move = moves[moveId];
+    learnsets.forEach(tbody => {
+        const rows = tbody.querySelectorAll('tr');
+        if (rows.length === 0) return;
+        
+        rows.forEach(row => {
+            const moveId = row.getAttribute('move');
+            const move = moves[moveId];
 
-        const src = row.getAttribute('src');
+            const src = row.getAttribute('src');
 
-        if (move) {
-            row.innerHTML = `
-                <td>${src || '?'}</td>
-                <td>${move.name || moveId || '???'}</td>
-                <td><img style="vertical-align:middle" src='/types/${move.type || 'Normal'}Small.png'></td>
-                <td><img style="vertical-align:middle" src='/categories/${move.category || 'Status'}.png'></td>
-                <td>${move.power || '-'}</td>
-                <td>${move.pp || '-'}</td>
-            `;
-        } else if (moveId) {
-            row.innerHTML = `<td colspan="6" style="color:red">Unknown move: ${moveId}</td>`;
-        }
-    });
+            if (move) {
+                row.innerHTML = `
+                    <td>${src || '?'}</td>
+                    <td>${move.name || moveId || '???'}</td>
+                    <td><img style="vertical-align:middle" src='/types/${move.type || 'Normal'}Small.png'></td>
+                    <td><img style="vertical-align:middle" src='/categories/${move.category || 'Status'}.png'></td>
+                    <td>${move.power || '-'}</td>
+                    <td>${move.pp || '-'}</td>
+                `;
+            } else if (moveId) {
+                row.innerHTML = `<td colspan="6" style="color:red">Unknown move: ${moveId}</td>`;
+            }
+        });
+    })
 }
 
 // Run when page loads
