@@ -46,6 +46,9 @@ def get_moves():
 @app.route("/cmoves")
 def get_cmoves():
     return render_template("cmoves.html")
+@app.route("/dmoves")
+def get_dmoves():
+    return render_template("dmoves.html")
 
 
 
