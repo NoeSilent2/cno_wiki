@@ -2,10 +2,18 @@ import json
 import random
 import hashlib
 from datetime import date
-from flask import Flask, render_template, redirect, url_for, jsonify
+from flask import Flask, render_template, redirect, url_for, send_from_directory
 
 
 app = Flask(__name__)
+
+
+@app.route('/favicon.ico')
+def favicon():
+    response = send_from_directory('static', 'favicon.ico')
+    # Cache for 1 year (31536000 seconds)
+    response.headers['Cache-Control'] = 'public, max-age=31536000, immutable'
+    return response
 
 
 with open('./data/species.json', 'r', encoding='utf-8') as file:
