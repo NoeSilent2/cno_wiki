@@ -14,7 +14,7 @@ async function get_moves() {
     const response = await fetch('/api/moves');
     const data = await response.json();
 
-    localStorage.setItem('moves_version', realVersion)
+    localStorage.setItem('moves_version', realVersion.version)
     localStorage.setItem('moves_cache', JSON.stringify(data.data))
 
     return data.data
