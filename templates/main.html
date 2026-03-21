@@ -220,6 +220,8 @@
         const response = await fetch('/api/gary');
         const data = await response.json();
 
+        console.log(data);
+
         localStorage.setItem('gary_daily', JSON.stringify({'date':date, 'data':data.data}));
 
         console.log("Fetching gary data to cache.");
@@ -230,7 +232,7 @@
     async function give_gary_data() {
         const data = await get_daily();
 
-        console.log(data)
+        console.log(data);
 
         const entry = document.querySelector('div#gary-pokemon');
         entry.innerHTML = `
