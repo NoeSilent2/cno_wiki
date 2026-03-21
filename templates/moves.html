@@ -59,7 +59,16 @@
             }},
             {name:"Target"},
             {name:"Flags"}],
-            data: moves,
+            data: Object.values(moves).map(emp => [
+                emp.name,
+                emp.type,
+                emp.category,
+                emp.pp,
+                emp.basePower,
+                emp.accuracy,
+                emp.target,
+                emp.flags
+            ]),
             sort: true,
             style: {
                 table: {
