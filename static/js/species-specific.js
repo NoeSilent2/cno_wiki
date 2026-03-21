@@ -44,7 +44,7 @@ async function enhanceLearnset() {
                     <td>${move.name || moveId || '???'}</td>
                     <td><img style="vertical-align:middle" src='/types/${move.type || 'Normal'}Small.png'></td>
                     <td><img style="vertical-align:middle" src='/categories/${move.category || 'Status'}.png'></td>
-                    <td>${move.power || '-'}</td>
+                    <td>${move.basePower || '-'}</td>
                     <td>${move.pp || '-'}</td>
                 `;
             } else if (moveId) {
