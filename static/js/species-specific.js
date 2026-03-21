@@ -17,6 +17,8 @@ async function get_moves() {
     localStorage.setItem('moves_version', realVersion.version)
     localStorage.setItem('moves_cache', JSON.stringify(data.data))
 
+    console.log("Fetching fresh move data to cache.")
+
     return data.data
 }
 
@@ -31,7 +33,6 @@ async function enhanceLearnset() {
     
     // Ensure moves cache is loaded
     let moves = await get_moves();
-    console.log(moves);
     
     // Process each row
     rows.forEach(row => {
@@ -51,7 +52,7 @@ async function enhanceLearnset() {
                 <td>${move.power || '-'}</td>
                 <td>${move.pp || '-'}</td>
             `;
-        } else {
+        } else if (moveId == null) {
             row.innerHTML = `<td colspan="6" style="color:red">Unknown move: ${moveId}</td>`;
         }
     });
