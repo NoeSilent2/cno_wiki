@@ -10,7 +10,10 @@ app = Flask(__name__)
 
 @app.route('/favicon.ico')
 def favicon():
-    return send_from_directory('static', 'favicon.ico', max_age=31536000)
+    response = send_from_directory('static', 'favicon.ico')
+    # Cache for 1 year (31536000 seconds)
+    response.headers['Cache-Control'] = 'public, max-age=31536000, immutable'
+    return response
 
 
 with open('./data/species.json', 'r', encoding='utf-8') as file:
