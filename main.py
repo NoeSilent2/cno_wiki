@@ -2,7 +2,7 @@ import json
 import random
 import hashlib
 from datetime import date
-from flask import Flask, render_template, redirect, url_for
+from flask import Flask, render_template, redirect, url_for, jsonify
 
 
 app = Flask(__name__)
@@ -27,6 +27,29 @@ def get_daily_object():
     }
 
 
+moves_data = {}
+with open('./data/moves.json', 'r', encoding='utf-8') as file:
+    moves_data = json.load(file)
+moves_version = "1.0.0"
+
+@app.route("/moves")
+def get_moves():
+    return render_template("moves.html", moves=moves_data)
+
+with open('./data/cmoves.json', 'r', encoding='utf-8') as file:
+    cmovesdata = json.load(file)
+@app.route("/cmoves")
+def get_cmoves():
+    return render_template("cmoves.html", moves=cmovesdata)
+
+
+@app.route("/api/moves")
+def api_moves():
+    return {'data': moves_data}
+
+@app.route("/api/moves/version")
+def api_moves_version():
+    return {'version': moves_version}
 
 
 
@@ -69,20 +92,6 @@ def get_species_specific(name):
     else:
         return redirect(url_for('get_species'))
 
-
-
-
-with open('./data/cmoves.json', 'r', encoding='utf-8') as file:
-    cmovesdata = json.load(file)
-@app.route("/cmoves")
-def get_cmoves():
-    return render_template("cmoves.html", moves=cmovesdata)
-
-with open('./data/moves.json', 'r', encoding='utf-8') as file:
-    movesdata = json.load(file)
-@app.route("/moves")
-def get_moves():
-    return render_template("moves.html", moves=movesdata)
 
 
 

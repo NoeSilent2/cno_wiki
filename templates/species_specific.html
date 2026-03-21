@@ -5,6 +5,7 @@
 {% block extra_head %}
 <link rel="stylesheet" href="{{ url_for('static', filename='css/typecolors.css') }}">
 <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.1.0/model-viewer.min.js"></script>
+<script src="/static/js/species-specific.js"></script>
 <style>
     table.pokemon {line-height: 1.5em; text-align: center; font-size: 100%; white-space: nowrap;}
     th.text {background-color: #000;}
@@ -490,41 +491,23 @@
                                             <tr id="collapseRow" style="display:flex; flex-direction:column; gap:4px; overflow:hidden; height:0;">
                                                 <td style="width:100%">
                                                     <table style="background:#000; width:100%; padding:4px; font-weight:300" class="roundy">
-                                                        <tbody>
+                                                        <tbody id="learnset-tbody">
                                                             {% for move in species.level_moves %}
-                                                                <tr>
-                                                                    <td>{{ move.level }}</td>
-                                                                    <td{% if move.category != "Status" and (move.type == species.primary_type or move.type == species.secondary_type) %} style="font-weight:bold"{% endif %}>{{ move.name }}</td>
-                                                                    <td><img style="vertical-align:middle" src="/types/{{ move.type }}Small.png"></td>
-                                                                    <td><img style="vertical-align:middle" src="/categories/{{ move.category }}.png"></td>
-                                                                    <td>{{ move.power or '-' }}</td>
-                                                                    <td>{{ move.pp }}</td>
+                                                                <tr move="{{ move.move }}" src="{{ move.level }}">
                                                                 </tr>
                                                             {% endfor %}
                                                             <tr>
                                                                 <td colspan="6" style="border:1px solid #333; height:0; padding:0;"></td>
                                                             </tr>
                                                             {% for move in species.tm_moves %}
-                                                                <tr>
-                                                                    <td>TM</td>
-                                                                    <td{% if move.category != "Status" and (move.type == species.primary_type or move.type == species.secondary_type) %} style="font-weight:bold"{% endif %}>{{ move.name }}</td>
-                                                                    <td><img style="vertical-align:middle" src="/types/{{ move.type }}Small.png"></td>
-                                                                    <td><img style="vertical-align:middle" src="/categories/{{ move.category }}.png"></td>
-                                                                    <td>{{ move.power or '-' }}</td>
-                                                                    <td>{{ move.pp }}</td>
+                                                                <tr move="{{ move }}" src="TM">
                                                                 </tr>
                                                             {% endfor %}
                                                             <tr>
                                                                 <td colspan="6" style="border:1px solid #333; height:0; padding:0;"></td>
                                                             </tr>
                                                             {% for move in species.egg_moves %}
-                                                                <tr>
-                                                                    <td>Egg</td>
-                                                                    <td{% if move.category != "Status" and (move.type == species.primary_type or move.type == species.secondary_type) %} style="font-weight:bold"{% endif %}>{{ move.name }}</td>
-                                                                    <td><img style="vertical-align:middle" src="/types/{{ move.type }}Small.png"></td>
-                                                                    <td><img style="vertical-align:middle" src="/categories/{{ move.category }}.png"></td>
-                                                                    <td>{{ move.power or '-' }}</td>
-                                                                    <td>{{ move.pp }}</td>
+                                                                <tr move="{{ move }}" src="Egg">
                                                                 </tr>
                                                             {% endfor %}
                                                         </tbody>
