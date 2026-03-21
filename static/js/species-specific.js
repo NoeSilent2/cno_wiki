@@ -30,7 +30,7 @@ async function enhanceLearnset() {
     if (rows.length === 0) return;
     
     // Ensure moves cache is loaded
-    let moves = get_moves();
+    let moves = await get_moves();
     console.log(moves);
     
     // Process each row
