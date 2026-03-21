@@ -44,6 +44,8 @@
         all_moves = Object.values(all_moves).sort((a, b) => a.num - b.num);
         let moves = [];
         for (let i = 0; i < all_moves.length; i++) {
+            console.log(i)
+            console.log(all_moves[i])
             if (all_moves[i] && all_moves[i].is_fake) {
                 moves.push(all_moves[i]);
             }
