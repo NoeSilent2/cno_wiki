@@ -230,6 +230,8 @@
     async function give_gary_data() {
         const data = await get_daily();
 
+        console.log(data)
+
         const entry = document.querySelector('div#gary-pokemon');
         entry.innerHTML = `
             <img src="https://img.pokemondb.net/sprites/home/${data.shiny || 'normal'}/${data.img || 'unown-em'}.png" style="width:auto; height:auto;">
