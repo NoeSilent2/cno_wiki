@@ -8133,7 +8133,7 @@
         "flags": "Protect, Mirror, Allyanim, Metronome"
     },
     "paleowave": {
-        "num": 0,
+        "num": 1001,
         "name": "Paleo Wave",
         "type": "Rock",
         "category": "Special",
@@ -9629,7 +9629,7 @@
         "flags": "Contact, Protect, Mirror, Metronome, Priority+1"
     },
     "shadowstrike": {
-        "num": 0,
+        "num": 1001,
         "name": "Shadow Strike",
         "type": "Ghost",
         "category": "Physical",
