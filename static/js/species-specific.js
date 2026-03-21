@@ -38,8 +38,6 @@ async function enhanceLearnset() {
     rows.forEach(row => {
         const moveId = row.getAttribute('move');
         const move = moves[moveId];
-        
-        row.innerHTML = '';
 
         const src = row.getAttribute('src');
 
