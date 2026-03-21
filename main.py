@@ -8,14 +8,6 @@ from flask import Flask, render_template, redirect, url_for, send_from_directory
 app = Flask(__name__)
 
 
-@app.route('/favicon.ico')
-def favicon():
-    response = send_from_directory('static', 'favicon.ico')
-    # Cache for 1 year (31536000 seconds)
-    response.headers['Cache-Control'] = 'public, max-age=31536000, immutable'
-    return response
-
-
 with open('./data/species.json', 'r', encoding='utf-8') as file:
     speciesdict = json.load(file)
 
@@ -61,6 +53,21 @@ def api_moves():
 @app.route("/api/moves/version")
 def api_moves_version():
     return {'version': moves_version}
+
+@app.route('/api/icon')
+def api_icon():
+    response = send_from_directory('static', 'favicon.ico')
+    # Caches for 1 month
+    response.headers['Cache-Control'] = 'public, max-age=2629800, immutable'
+    return response
+
+@app.route('/api/<path:filename>')
+def api_static(filename):
+    response = send_from_directory('static', filename)
+    # Cache CSS, JS, images for 1 week
+    if filename.endswith(('.css', '.js', '.png', '.jpg', '.svg', '.ico')):
+        response.headers['Cache-Control'] = 'public, max-age=604800, immutable'
+    return response
 
 
 

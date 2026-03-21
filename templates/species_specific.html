@@ -3,9 +3,9 @@
 {% block title %}{{ species_forms[0].name }} - C&O Wiki{% endblock %}
 
 {% block extra_head %}
-<link rel="stylesheet" href="{{ url_for('static', filename='css/typecolors.css') }}">
+<link rel="stylesheet" href="/api/css/typecolors.css">
 <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.1.0/model-viewer.min.js"></script>
-<script src="{{ url_for('static', filename='js/species-specific.js') }}"></script>
+<script src="/api/js/species-specific.js"></script>
 <style>
     table.pokemon {line-height: 1.5em; text-align: center; font-size: 100%; white-space: nowrap;}
     th.text {background-color: #000;}
