@@ -24,7 +24,7 @@ async function get_moves() {
 
 async function enhanceLearnset() {
     const learnsets = document.querySelectorAll('tbody#learnset-tbody');
-    if (!tbody) return;
+    if (!learnsets) return;
 
     let moves = await get_moves();
     
