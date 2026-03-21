@@ -1,9 +1,8 @@
-import os
 import json
 import random
 import hashlib
-from datetime import datetime, date, timedelta
-from flask import Flask, render_template, redirect, url_for, send_from_directory, make_response
+from datetime import date
+from flask import Flask, render_template, redirect, url_for, send_from_directory
 
 
 app = Flask(__name__)
@@ -23,50 +22,21 @@ with open('./data/moves_dict.json', 'r', encoding='utf-8') as file:
 moves_version = "1.0.3"
 
 
-gary_daily = '/tmp/gary_daily.json'
 
 def get_daily_object():
-    now = datetime.now(datetime.timezone.utc).date().isoformat
-
-    if os.path.exists(gary_daily):
-        try:
-            with open(gary_daily, 'r') as file:
-                data = json.load(file)
-            
-            if data.get('date') == now:
-                return data['data']
-        except (json.JSONDecodeError, KeyError, IOError):
-            pass
-    
+    today = date.today()
+    random.seed(int(hashlib.md5(f"{today.year}{today.month}{today.day}".encode()).hexdigest()[:8], 16))
     species_id = random.choice(list(speciesdict.keys()))
-    new_data = random.choice(speciesdict[species_id])
-
+    rspecies = random.choice(speciesdict[species_id])
     isShiny = 'normal'
     if random.randint(1, 50) == 1:
         isShiny = 'shiny'
-
-    save_data = {}
-    save_data['name'] = new_data.get('name', 'ERROR')
-    save_data['img'] = new_data.get('alt_internal_name', 'unown-qm')
-    save_data['link'] = species_id
-    save_data['shiny'] = isShiny
-
-    try:
-        with open(gary_daily, 'w') as file:
-            json.dump({
-                'date': now,
-                'object': save_data
-            }, file)
-    except IOError:
-        pass
-    
-    return save_data
-
-def daily_cache_duration():
-    now = datetime.now(datetime.timezone.utc)
-    tomorrow = datetime(now.year, now.month, now.day) + timedelta(days=1)
-    seconds_until_midnight = (tomorrow - now).total_seconds()
-    return int(seconds_until_midnight)
+    return {
+        'name': rspecies.get('name', 'ERROR'),
+        'img': rspecies.get('alt_internal_name', 'unown-qm'),
+        'link': species_id,
+        'shiny': isShiny
+    }
 
 
 
@@ -90,31 +60,12 @@ def api_moves():
 def api_moves_version():
     return {'version': moves_version}
 
-@app.route("/api/gary")
-def api_gary():
-    daily_object = get_daily_object()
-    cache_duration = daily_cache_duration()
-
-    response = make_response({
-        'object': daily_object,
-        'date': datetime.now(datetime.timezone.utc).date().isoformat(),
-        'expiration': cache_duration
-    })
-    
-    response.headers['Cache-Control'] = f'public, max-age={cache_duration}'
-    return response
-
-
 
 
 
 @app.route("/")
 def read_root():
-    time = daily_cache_duration()
-    response = render_template("main.html", pokemon=get_daily_object())
-    return response, 200, {
-        'Cache-Control': f'public, s-maxage={time}, must-revalidate'
-    }
+    return render_template("main.html", pokemon=get_daily_object())
 
 
 with open('./data/fakemon_simple.json', 'r', encoding='utf-8') as file:
