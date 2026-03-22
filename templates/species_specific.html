@@ -365,7 +365,7 @@
                     </table>
                 </td>
             </tr>
-            {% if species.evolutions[0] %}
+            {% if species.evolutions[0] or species.pre_evolution[0] %}
             <tr>
                 <td colspan="2">
                     <table style="width:100%">
@@ -378,6 +378,11 @@
                                     <table class="evolutions roundy" width="100%" style="padding-top:3px; height:auto;">
                                         <tbody>
                                             <tr id="collapseRow" style="display:flex; flex-direction:column; gap:4px; overflow:hidden; height:0;">
+                                                {% for prevolution in species.pre_evolution %}
+                                                    <td style="width:100%; background:#000; padding:4px;" class="roundy">
+                                                        <a href="/species/{{ prevolution }}">{{ prevolution.title() }}</a>
+                                                    </td>
+                                                {% endfor %}
                                                 {% for evolution in species.evolutions %}
                                                     <td style="width:100%">
                                                         <table style="background:#000; width:100%; padding:4px;" class="roundy">
