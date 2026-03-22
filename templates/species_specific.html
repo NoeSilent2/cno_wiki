@@ -31,7 +31,7 @@
 {% block body %}
 <main style="display: block">
     
-    {% for species in species_forms %}
+    {% for species in species_forms|reverse %}
     <table class="roundy infobox" style="background:#666;width:auto;border:2px solid #fff;padding:2px;text-align:center; margin:6px; max-width:360px">
         <tbody>
             <tr>
