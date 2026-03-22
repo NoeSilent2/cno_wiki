@@ -380,7 +380,7 @@
                                             <tr id="collapseRow" style="display:flex; flex-direction:column; gap:4px; overflow:hidden; height:0;">
                                                 {% for prevolution in species.pre_evolution %}
                                                     <td style="width:100%; background:#000; padding:4px;" class="roundy">
-                                                        <a href="/species/{{ prevolution }}">{{ prevolution.title() }}</a>
+                                                        Pre-Evo: <a href="/species/{{ prevolution }}">{{ prevolution.title() }}</a>
                                                     </td>
                                                 {% endfor %}
                                                 {% for evolution in species.evolutions %}
