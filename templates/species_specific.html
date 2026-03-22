@@ -31,9 +31,8 @@
 {% block body %}
 <main style="display: block">
     
-    <div class="infobox" style="width:45%; max-width:500px; gap:20px; display:flex; flex-direction:column;">
     {% for species in species_forms %}
-    <table class="roundy" style="background:#666;width:100%;border:2px solid #fff;padding:2px;text-align:center;">
+    <table class="roundy infobox" style="background:#666;width:auto;border:2px solid #fff;padding:2px;text-align:center; margin:6px; max-width:360px">
         <tbody>
             <tr>
                 <td colspan="2">
@@ -96,7 +95,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="roundy" colspan="1" style="background:#333; padding:2px; width:50%">
+                <td class="roundy" colspan="1" style="background:#333; padding:2px; width:auto">
                     <b>Type</b>
                     <table class="roundy" width="100%" style="background:#000; padding-top:3px; height:60px">
                         <tbody>
@@ -131,7 +130,7 @@
                         </tbody>
                     </table>
                 </td>
-                <td class="roundy" colspan="1" style="background:#333; padding:2px; width:50%">
+                <td class="roundy" colspan="1" style="background:#333; padding:2px; width:auto">
                     <b>Abilities</b>
                     <table class="roundy" width="100%" style="background:#000; padding-top:3px; height:60px">
                         <tbody>
