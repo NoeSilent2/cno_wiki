@@ -25,6 +25,7 @@
     input:checked + .toggle {
         background-color: #fff
     }
+    .evolutions > * {overflow-wrap:break-word;}
 </style>
 {% endblock %}
 
@@ -374,7 +375,7 @@
                                     <button id="collapseHead" class="roundy" style="background:transparent; padding:2px; padding-top:4px; cursor:pointer; border:0; color:white; font-size:100%; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;">
                                         <b style="font-weight:700;">Evolutions</b>
                                     </button>
-                                    <table class="roundy" width="100%" style="padding-top:3px; height:auto;">
+                                    <table class="evolutions roundy" width="100%" style="padding-top:3px; height:auto;">
                                         <tbody>
                                             <tr id="collapseRow" style="display:flex; flex-direction:column; gap:4px; overflow:hidden; height:0;">
                                                 {% for evolution in species.evolutions %}
@@ -408,12 +409,12 @@
                                                                                 {% endif %}
                                                                             </div>
                                                                             {% for requirement in evolution.requirements %}
-                                                                                <div style="border:1px dotted #333; background:#000;" class="roundy">
+                                                                                <div style="border:1px dotted #333; background:#000; max-width:180px;" class="roundy">
                                                                                     {% for key, value in requirement.items() %}
                                                                                         {% if requirement['variant'] and requirement['variant'] == "party_member" and key == "target" %}
                                                                                             <p style="margin:2px; display:inline;">{{ key }}: </p><a href="/species/{{ value }}">{{ value.title() }}</a>
                                                                                         {% else %}
-                                                                                            <p style="margin:2px">{{ key }}: {{ value }}</p>
+                                                                                            <p style="margin:2px;">{{ key }}: {{ value }}</p>
                                                                                         {% endif %}
                                                                                     {% endfor %}
                                                                                 </div>
