@@ -51,7 +51,7 @@
                                                         </big>
                                                     </big>
                                                     <br>
-                                                    <p>{{ species.category }} Pokemon</p>
+                                                    <p>{{ species.category }} {% if species.is_fake %}Fakemon{% else %}Pokemon{% endif %}</p>
                                                 </td>
                                             </tr>
                                         </tbody>
