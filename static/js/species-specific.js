@@ -72,16 +72,16 @@ async function enhance_page() {
         if (shinyToggle.attributes.isfake.value) {
             imagefake = 'fake';
         };
-        modelViewerObject.poster =`/api/pokepics/normal/${imagefake}/${imagename}`
+        modelViewerObject.poster =`/api/pokepics/normal/${imagefake}/${imagename}.png`
         shinyToggle.addEventListener('change', () => {
             if (modelLoaded) {
                 return
             }
             const imagename = shinyToggle.attributes.imagename.value;
             if (shinyToggle.checked) {
-                modelViewerObject.poster =`/api/pokepics/shiny/${imagefake}/${imagename}`
+                modelViewerObject.poster =`/api/pokepics/shiny/${imagefake}/${imagename}.png`
             } else {
-                modelViewerObject.poster =`/api/pokepics/normal/${imagefake}/${imagename}`
+                modelViewerObject.poster =`/api/pokepics/normal/${imagefake}/${imagename}.png`
             }
         });
 
