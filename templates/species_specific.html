@@ -378,9 +378,9 @@
                                     <table class="evolutions roundy" width="100%" style="padding-top:3px; height:auto;">
                                         <tbody>
                                             <tr id="collapseRow" style="display:flex; flex-direction:column; gap:4px; overflow:hidden; height:0;">
-                                                {% for prevolution in species.pre_evolution %}
+                                                {% for link, name in species.pre_evolution %}
                                                     <td style="width:100%; background:#000; padding:4px;" class="roundy">
-                                                        Pre-Evo: <a href="/species/{{ prevolution }}">{{ prevolution.title() }}</a>
+                                                        Pre-Evo: <a href="/species/{{ link }}">{{ name }}</a>
                                                     </td>
                                                 {% endfor %}
                                                 {% for evolution in species.evolutions %}
