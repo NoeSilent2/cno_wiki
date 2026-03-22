@@ -71,9 +71,9 @@
                                         <tbody>
                                             <tr>
                                                 <td colspan="4" style="display:flex; justify-content:center;">
-                                                    <model-viewer id="pokemon" alt="{{ species.name }}" camera-controls touch-action="pan-y" camera-orbit="-215deg 77deg 6px" camera-target="auto">
+                                                    <model-viewer id="pokemon" alt="{{ species.name }}" {% if not species.is_fake %} poster="https://img.pokemondb.net/sprites/home/normal/{{ species.alt_internal_name }}.png" {% endif %} camera-controls touch-action="pan-y" camera-orbit="-215deg 77deg 6px" camera-target="auto">
                                                         <label class="switch" id="shinyToggle" style="float:right;">
-                                                            <input type="checkbox" imagename="{{ species.alt_internal_name }}" isfake="{{ species.is_fake or false }}">
+                                                            <input type="checkbox" imagename="{{ species.alt_internal_name }}">
                                                             <span class="toggle">✨</span>
                                                         </label>
                                                         <div style="float:left; margin:4px; gap:1px; display:flex;">

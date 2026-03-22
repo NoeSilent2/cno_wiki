@@ -67,21 +67,15 @@ async function enhance_page() {
         const shinyToggle = modelViewerObject.querySelector('input[type="checkbox"]');
         let modelLoaded = false;
 
-        const imagename = shinyToggle.attributes.imagename.value;
-        let imagefake = 'normal';
-        if (shinyToggle.attributes.isfake.value) {
-            imagefake = 'fake';
-        };
-        modelViewerObject.poster =`/api/pokepics/normal/${imagefake}/${imagename}.png`
         shinyToggle.addEventListener('change', () => {
             if (modelLoaded) {
                 return
             }
             const imagename = shinyToggle.attributes.imagename.value;
             if (shinyToggle.checked) {
-                modelViewerObject.poster =`/api/pokepics/shiny/${imagefake}/${imagename}.png`
+                modelViewerObject.poster =`https://img.pokemondb.net/sprites/home/shiny/${imagename}.png`
             } else {
-                modelViewerObject.poster =`/api/pokepics/normal/${imagefake}/${imagename}.png`
+                modelViewerObject.poster =`https://img.pokemondb.net/sprites/home/normal/${imagename}.png`
             }
         });
 
