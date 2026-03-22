@@ -75,6 +75,24 @@ def api_gary():
 
 
 
+with open('./data/species_picture.json', 'r', encoding='utf-8') as file:
+    pokepics = json.load(file)
+
+@app.route("/api/pokepic/<shiny>/<fake>/<id>")
+def api_pokepic(shiny, fake, id):
+    if fake == 'fake':
+        picture = pokepics[id]
+        if picture:
+            if shiny == 'shiny':
+                return picture['shiny']
+            else:
+                return picture['normal']
+    else:
+        return f'https://img.pokemondb.net/sprites/home/{shiny}/{id}.png'
+    return ''
+
+
+
 @app.route("/")
 def read_root():
     return render_template("main.html")
