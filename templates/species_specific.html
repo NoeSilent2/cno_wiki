@@ -365,7 +365,7 @@
                     </table>
                 </td>
             </tr>
-            {% if species.evolutions[0] or species.pre_evolution[0] %}
+            {% if species.evolutions[0] or species.pre_evolution.length() > 0 %}
             <tr>
                 <td colspan="2">
                     <table style="width:100%">
@@ -378,7 +378,7 @@
                                     <table class="evolutions roundy" width="100%" style="padding-top:3px; height:auto;">
                                         <tbody>
                                             <tr id="collapseRow" style="display:flex; flex-direction:column; gap:4px; overflow:hidden; height:0;">
-                                                {% for link, name in species.pre_evolution %}
+                                                {% for link, name in species.pre_evolution.items() %}
                                                     <td style="width:100%; background:#000; padding:4px;" class="roundy">
                                                         Pre-Evo: <a href="/species/{{ link }}">{{ name }}</a>
                                                     </td>
