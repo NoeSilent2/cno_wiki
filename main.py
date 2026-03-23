@@ -92,6 +92,12 @@ with open('./data/forms_simple.json', 'r', encoding='utf-8') as file:
 def get_fakeforms():
     return render_template("fakeforms.html", fakeforms=fakeformstable)
 
+with open('./data/fossils_simple.json', 'r', encoding='utf-8') as file:
+    fossiltable = json.load(file)
+@app.route("/fossilmons")
+def get_fossils():
+    return render_template("fossilmons.html", fossils=fossiltable)
+
 with open('./data/species_simple.json', 'r', encoding='utf-8') as file:
     speciestable = json.load(file)
 @app.route("/species")
