@@ -566,7 +566,7 @@
                                                                             Conditions
                                                                             <div style="border:1px solid #333; background:#111; min-height:15px; padding:8px; gap:4px; display:grid;" class="roundy">
                                                                                 {% for key, value in spawn.condition.items() %}
-                                                                                    <div style="border:1px dotted #333; background:#000; max-width:180px;" class="roundy">
+                                                                                    <div style="border:1px dotted #333; background:#000;" class="roundy">
                                                                                         {% if value is iterable and value is not string and value is not mapping %}
                                                                                             <p style="margin:2px; display:inline;">{{ key }}:</p>
                                                                                             {% for entry in value %}
