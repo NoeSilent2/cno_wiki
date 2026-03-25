@@ -548,7 +548,7 @@
                                                     </td>
                                                 {% endif %}
                                                 {% for spawn in species.spawns %}
-                                                    {% if spawn.pokemon == species.internal_name or spawn.pokemon.replace(' ','-') == species.alt_internal_name %}
+                                                    {% if spawn.pokemon == species.internal_name %}
                                                         <td style="width:100%">
                                                             <table style="background:#000; width:100%; padding:4px;" class="roundy">
                                                                 <tbody>
