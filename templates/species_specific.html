@@ -548,42 +548,40 @@
                                                     </td>
                                                 {% endif %}
                                                 {% for spawn in species.spawns %}
-                                                    {% if spawn.pokemon == species.internal_name %}
-                                                        <td style="width:100%">
-                                                            <table style="background:#000; width:100%; padding:4px;" class="roundy">
-                                                                <tbody>
-                                                                    <tr>
-                                                                        <td style="border:1px solid #333" class="roundy"><p style="font-size:small; font-family: 'Courier New', 'Lucida Console', monospace; position:relative; top:2px;">{{ spawn.id }}</p></td>
-                                                                        <td colspan="2" style="border:1px solid #333" class="roundy">{{ spawn.bucket.title() }}</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td style="border:1px solid #333" class="roundy">Chance: {{ spawn.weight }}</td>
-                                                                        <td style="border:1px solid #333" class="roundy">Level: {{ spawn.level }}</td>
-                                                                        <td style="border:1px solid #333" class="roundy">{{ spawn.context.title() }}</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td colspan="3">
-                                                                            Conditions
-                                                                            <div style="border:1px solid #333; background:#111; min-height:15px; padding:8px; gap:4px; display:grid;" class="roundy">
-                                                                                {% for key, value in spawn.condition.items() %}
-                                                                                    <div style="border:1px dotted #333; background:#000; max-width:180px;" class="roundy">
-                                                                                        {% if value is iterable and value is not string and value is not mapping %}
-                                                                                            <p style="margin:2px; display:inline;">{{ key }}:</p>
-                                                                                            {% for entry in value %}
-                                                                                                <p style="margin:2px;">{{ value }}</p>
-                                                                                            {% endfor %}
-                                                                                        {% else %}
-                                                                                            <p style="margin:2px; display:inline;">{{ key }}: {{ value }}</p>
-                                                                                        {% endif %}
-                                                                                    </div>
-                                                                                {% endfor %}
-                                                                            </div>
-                                                                        </td>
-                                                                    </tr>
-                                                                </tbody>
-                                                            </table>
-                                                        </td>
-                                                    {% endif %}
+                                                    <td style="width:100%">
+                                                        <table style="background:#000; width:100%; padding:4px;" class="roundy">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td style="border:1px solid #333" class="roundy"><p style="font-size:small; font-family: 'Courier New', 'Lucida Console', monospace; position:relative; top:2px;">{{ spawn.id }}</p></td>
+                                                                    <td colspan="2" style="border:1px solid #333" class="roundy">{{ spawn.bucket.title() }}</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="border:1px solid #333" class="roundy">Chance: {{ spawn.weight }}</td>
+                                                                    <td style="border:1px solid #333" class="roundy">Level: {{ spawn.level }}</td>
+                                                                    <td style="border:1px solid #333" class="roundy">{{ spawn.context.title() }}</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td colspan="3">
+                                                                        Conditions
+                                                                        <div style="border:1px solid #333; background:#111; min-height:15px; padding:8px; gap:4px; display:grid;" class="roundy">
+                                                                            {% for key, value in spawn.condition.items() %}
+                                                                                <div style="border:1px dotted #333; background:#000; max-width:180px;" class="roundy">
+                                                                                    {% if value is iterable and value is not string and value is not mapping %}
+                                                                                        <p style="margin:2px; display:inline;">{{ key }}:</p>
+                                                                                        {% for entry in value %}
+                                                                                            <p style="margin:2px;">{{ value }}</p>
+                                                                                        {% endfor %}
+                                                                                    {% else %}
+                                                                                        <p style="margin:2px; display:inline;">{{ key }}: {{ value }}</p>
+                                                                                    {% endif %}
+                                                                                </div>
+                                                                            {% endfor %}
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
                                                 {% endfor %}
                                             </tr>
                                         </tbody>
