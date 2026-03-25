@@ -582,9 +582,9 @@
                                                                             {% for key, value in spawn.condition.items() %}
                                                                                 <div style="border:1px dotted #333; background:#000;" class="roundy">
                                                                                     {% if value is iterable and value is not string and value is not mapping %}
-                                                                                        <p style="margin:2px; display:inline;">{{ key }}:</p>
+                                                                                        <p style="margin:2px; display:inline;">{{ key.title() }}:</p>
                                                                                         {% for entry in value %}
-                                                                                            <p style="margin:2px;">{{ entry }}</p>
+                                                                                            <p style="margin:2px;">{{ entry.replace(':',' - ').replace('_',' ').title() }}</p>
                                                                                         {% endfor %}
                                                                                     {% else %}
                                                                                         <p style="margin:2px; display:inline;">{{ key }}: {{ value }}</p>
