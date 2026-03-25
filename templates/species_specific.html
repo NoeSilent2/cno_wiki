@@ -375,7 +375,7 @@
                                     <button id="collapseHead" class="roundy" style="background:transparent; padding:2px; padding-top:4px; cursor:pointer; border:0; color:white; font-size:100%; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;">
                                         <b style="font-weight:700;">Evolutions</b>
                                     </button>
-                                    <table class="evolutions roundy" width="100%" style="padding-top:3px; height:auto;" cellspacing="0px">
+                                    <table class="evolutions roundy" width="100%" style="padding-top:3px; height:auto;">
                                         <tbody>
                                             <tr id="collapseRow" style="display:flex; flex-direction:column; gap:4px; overflow:hidden; height:0;">
                                                 {% if species.fossils %}
@@ -502,7 +502,7 @@
                                         <tbody>
                                             <tr id="collapseRow" style="display:flex; flex-direction:column; gap:4px; overflow:hidden; height:0;">
                                                 <td style="width:100%">
-                                                    <table style="background:#000; width:100%; padding:4px; font-weight:300" class="roundy">
+                                                    <table style="background:#000; width:100%; padding:4px; font-weight:300" class="roundy" cellspacing="0px">
                                                         <tbody id="learnset-tbody">
                                                             {% for move in species.level_moves %}
                                                                 <tr move="{{ move.move }}" src="{{ move.level }}">
