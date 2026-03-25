@@ -1,4 +1,4 @@
-// Get moves from cache, if not cache, make one
+
 async function get_moves() {
     const storedVersion = localStorage.getItem('moves_version');
     const vresponse = await fetch('/api/moves/version');
@@ -22,7 +22,7 @@ async function get_moves() {
     return data.data
 }
 
-async function enhance_page() {
+async function process_page() {
     let moves = await get_moves();
 
     const learnsets = document.querySelectorAll('tbody#learnset-tbody');
@@ -103,7 +103,7 @@ async function enhance_page() {
     });
 }
 
-// Run when page loads
+
 document.addEventListener('DOMContentLoaded', () => {
-    enhance_page();
+    process_page();
 });
