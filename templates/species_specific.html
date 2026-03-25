@@ -564,10 +564,10 @@
                                                                     <tr>
                                                                         <td colspan="3">
                                                                             Presets
-                                                                            <div style="border:1px solid #333; background:#111; min-height:15px; padding:8px; gap:4px; display:grid;" class="roundy">
+                                                                            <div style="border:1px solid #333; background:#111; min-height:15px; padding:2px; gap:4px; display:grid;" class="roundy">
                                                                                 {% for value in spawn.presets %}
                                                                                     <div style="border:1px dotted #333; background:#000;" class="roundy">
-                                                                                        <p style="margin:2px; display:inline;">{{ value.title() }}</p>
+                                                                                        <p style="margin:2px; display:inline;">{{ value.title().replace('_',' ') }}</p>
                                                                                     </div>
                                                                                 {% endfor %}
                                                                             </div>
