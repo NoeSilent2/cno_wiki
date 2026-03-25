@@ -556,9 +556,9 @@
                                                                     <td colspan="2" style="border:1px solid #333" class="roundy">{{ spawn.bucket.title() }}</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td style="border:1px solid #333" class="roundy">Chance: {{ spawn.weight }}</td>
-                                                                    <td style="border:1px solid #333" class="roundy">Level: {{ spawn.level }}</td>
-                                                                    <td style="border:1px solid #333" class="roundy">{{ spawn.context.title() }}</td>
+                                                                    {% if spawn.weight %}<td style="border:1px solid #333" class="roundy">Chance: {{ spawn.weight }}</td>{% endif %}
+                                                                    {% if spawn.level %}<td style="border:1px solid #333" class="roundy">Level: {{ spawn.level }}</td>{% endif %}
+                                                                    {% if spawn.context %}<td style="border:1px solid #333" class="roundy">{{ spawn.context.title() }}</td>{% endif %}
                                                                 </tr>
                                                                 {% if spawn.presets %}
                                                                     <tr>
@@ -574,6 +574,7 @@
                                                                         </td>
                                                                     </tr>
                                                                 {% endif %}
+                                                                {% if spawn.conditions %}
                                                                 <tr>
                                                                     <td colspan="3">
                                                                         Conditions
@@ -593,6 +594,7 @@
                                                                         </div>
                                                                     </td>
                                                                 </tr>
+                                                                {% endif %}
                                                             </tbody>
                                                         </table>
                                                     </td>
