@@ -46,7 +46,7 @@ async function process_page() {
                     <td>${move.pp || '-'}</td>
                 `;
             } else if (moveId) {
-                row.innerHTML = `<td colspan="6" style="color:red">Unknown move: ${moveId}</td>`;
+                row.innerHTML = `<td style="color:red">Unknown move: ${moveId}</td>`;
             }
         });
     });

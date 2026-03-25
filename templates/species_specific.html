@@ -26,6 +26,7 @@
         background-color: #fff
     }
     .evolutions > * {overflow-wrap:break-word;}
+    .move-entry {display:inline-flex}
 </style>
 {% endblock %}
 
@@ -505,21 +506,21 @@
                                                     <table style="background:#000; width:100%; padding:4px; font-weight:300" class="roundy">
                                                         <tbody id="learnset-tbody">
                                                             {% for move in species.level_moves %}
-                                                                <tr move="{{ move.move }}" src="{{ move.level }}">
+                                                                <tr move="{{ move.move }}" src="{{ move.level }}" class="move-entry">
                                                                 </tr>
                                                             {% endfor %}
                                                             <tr>
-                                                                <td colspan="6" style="border:1px solid #333; height:0; padding:0;"></td>
+                                                                <td style="border:1px solid #333; height:0; padding:0;"></td>
                                                             </tr>
                                                             {% for move in species.tm_moves %}
-                                                                <tr move="{{ move }}" src="TM">
+                                                                <tr move="{{ move }}" src="TM" class="move-entry">
                                                                 </tr>
                                                             {% endfor %}
                                                             <tr>
-                                                                <td colspan="6" style="border:1px solid #333; height:0; padding:0;"></td>
+                                                                <td style="border:1px solid #333; height:0; padding:0;"></td>
                                                             </tr>
                                                             {% for move in species.egg_moves %}
-                                                                <tr move="{{ move }}" src="Egg">
+                                                                <tr move="{{ move }}" src="Egg" class="move-entry">
                                                                 </tr>
                                                             {% endfor %}
                                                         </tbody>
