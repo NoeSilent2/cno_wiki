@@ -30,12 +30,13 @@ async function process_page() {
         const rows = tbody.querySelectorAll('tr');
         if (rows.length === 0) return;
         
+        let highlight = false
         rows.forEach(row => {
             const moveId = row.getAttribute('move');
             const move = moves[moveId];
 
             const src = row.getAttribute('src');
-
+            
             if (move) {
                 row.innerHTML = `
                     <td>${src || '?'}</td>
@@ -47,6 +48,15 @@ async function process_page() {
                 `;
             } else if (moveId) {
                 row.innerHTML = `<td colspan="6" style="color:red">Unknown move: ${moveId}</td>`;
+            }
+            if (move || moveId) {
+                if (highlight) {
+                    highlight = false;
+                    row.style.backgroundColor = "#111";
+                } else {
+                    highlight = true;
+                    row.style.backgroundColor = "#000";
+                }
             }
         });
     });
