@@ -570,7 +570,7 @@
                                                                                         {% if value is iterable and value is not string and value is not mapping %}
                                                                                             <p style="margin:2px; display:inline;">{{ key }}:</p>
                                                                                             {% for entry in value %}
-                                                                                                <p style="margin:2px;">{{ value }}</p>
+                                                                                                <p style="margin:2px;">{{ entry }}</p>
                                                                                             {% endfor %}
                                                                                         {% else %}
                                                                                             <p style="margin:2px; display:inline;">{{ key }}: {{ value }}</p>
