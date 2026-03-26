@@ -542,9 +542,14 @@
                                             <tr id="collapseRow" style="display:flex; flex-direction:column; gap:4px; overflow:hidden; height:0;">
                                                 {% if species.fossils %}
                                                     <td style="width:100%; background:#000; padding:4px;" class="roundy">
-                                                        {% for fossil in species.fossils %}
-                                                            <a>{{ fossil }}</a>
-                                                        {% endfor %}
+                                                        Fossils
+                                                        <div style="border:1px solid #333; background:#111; padding:2px; display:grid;" class="roundy">
+                                                            <div style="border:1px dotted #333; background:#000;" class="roundy">
+                                                                {% for fossil in species.fossils %}
+                                                                    <a style="margin:2px;">{{ fossil }}</a>
+                                                                {% endfor %}
+                                                            </div>
+                                                        </div>
                                                     </td>
                                                 {% endif %}
                                                 {% for spawn in species.spawns %}
