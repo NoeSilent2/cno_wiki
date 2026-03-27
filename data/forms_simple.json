@@ -374,6 +374,23 @@
         "catch_rate_raw": 45
     },
     {
+        "national_pokedex_number": 351,
+        "name": "Castform Sandy",
+        "primary_type": "Rock",
+        "secondary_type": "",
+        "hp": 80,
+        "attack": 80,
+        "defence": 80,
+        "special_attack": 80,
+        "special_defence": 80,
+        "speed": 80,
+        "total": 480,
+        "height": 3,
+        "weight": 8,
+        "internal_name": "castform",
+        "catch_rate_raw": 45
+    },
+    {
         "national_pokedex_number": 407,
         "name": "Roserade Wither-Rose",
         "primary_type": "Dark",
@@ -659,23 +676,6 @@
         "total": 480,
         "height": 11,
         "weight": 163,
-        "internal_name": "lilligant",
-        "catch_rate_raw": 75
-    },
-    {
-        "national_pokedex_number": 549,
-        "name": "Lilligant Hisui",
-        "primary_type": "Grass",
-        "secondary_type": "Fighting",
-        "hp": 70,
-        "attack": 105,
-        "defence": 75,
-        "special_attack": 50,
-        "special_defence": 75,
-        "speed": 105,
-        "total": 480,
-        "height": 12,
-        "weight": 192,
         "internal_name": "lilligant",
         "catch_rate_raw": 75
     },
