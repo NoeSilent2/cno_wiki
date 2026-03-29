@@ -78,9 +78,6 @@ def db_species_specific(name):
     
     
 
-with open('./data/species.json', 'r', encoding='utf-8') as file:
-    speciesdict = json.load(file)
-
 moves_dict = {}
 with open('./data/moves_dict.json', 'r', encoding='utf-8') as file:
     moves_dict = json.load(file)
