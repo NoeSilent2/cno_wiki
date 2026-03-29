@@ -21,6 +21,8 @@
 <script>
     const species = {% block tabledata %}{% endblock %};
     
+    console.log(species)
+
     new gridjs.Grid({
         columns: [
             {name:"Dex",width:"50px"}, 
