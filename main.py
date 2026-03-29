@@ -1,17 +1,53 @@
 import json
 import random
 import hashlib
+import sqlite3
 from datetime import date
-from flask import Flask, render_template, redirect, url_for, send_from_directory
+from flask import Flask, g, render_template, redirect, url_for
 
 
 app = Flask(__name__)
+DATABASE = "wiki.db"
 
+def get_db():
+    if "db" not in g:
+        g.db = sqlite3.connect(DATABASE)
+        g.db.row_factory = sqlite3.Row
+    return g.db
 
-@app.route('/favicon.ico')
-def favicon():
-    return send_from_directory('static', 'favicon.ico', max_age=31536000)
+@app.teardown_appcontext
+def close_db(exception):
+    db = g.pop("db", None)
+    if db is not None:
+        db.close()
 
+@app.route("/db/species/<name>")
+def db_species_specific(name):
+    db = get_db()
+    query = "SELECT * FROM species WHERE LOWER(internal_name) = LOWER(?)"
+    rows = db.execute(query, (name,)).fetchall()
+
+    if not rows:
+        query = "SELECT * FROM species WHERE national_pokedex_number = ?"
+        return redirect(url_for("get_species"))
+
+    results = []
+    for row in rows:
+        base = dict(row)
+        extra_data = {}
+        if base.get("extra"):
+            try:
+                extra_data = json.loads(base["extra"])
+            except json.JSONDecodeError:
+                extra_data = {}
+        
+        base.pop("extra", None)
+
+        results.append({**base, **extra_data})
+
+    return render_template("species_specific.html", species_forms=rows)
+    
+    
 
 with open('./data/species.json', 'r', encoding='utf-8') as file:
     speciesdict = json.load(file)
