@@ -42,10 +42,10 @@ def db_species_specific(name):
                 extra_data = {}
         
         base.pop("extra", None)
-
+        
         results.append({**base, **extra_data})
 
-    return render_template("species_specific.html", species_forms=rows)
+    return render_template("species_specific_db.html", species_forms=rows)
     
     
 
