@@ -21,8 +21,21 @@ def close_db(exception):
     if db is not None:
         db.close()
 
-@app.route("/db/species/<name>")
-def db_species_specific(name):
+def get_random_species_db():
+    db = get_db()
+
+    row = db.execute("SELECT internal_name FROM species ORDER BY RANDOM() LIMIT 1").fetchone()
+
+    if not row:
+        return "unown"
+    
+    name = row['internal_name']
+    
+    return name
+
+def get_species_db(name):
+    if name == "random":
+        name = get_random_species_db()
     db = get_db()
     query = "SELECT * FROM species WHERE LOWER(internal_name) = LOWER(?)"
     rows = db.execute(query, (name,)).fetchall()
@@ -31,7 +44,7 @@ def db_species_specific(name):
         query = "SELECT * FROM species WHERE national_pokedex_number = ?"
         rows = db.execute(query, (name,)).fetchall()
         if not rows:
-            return redirect(url_for("get_species"))
+            return None
 
     results = []
     for row in rows:
@@ -46,6 +59,14 @@ def db_species_specific(name):
         base.pop("extra", None)
 
         results.append({**base, **extra_data})
+    
+    return results
+
+@app.route("/db/species/<name>")
+def db_species_specific(name):
+    results = get_species_db(name)
+    if not results:
+        return redirect(url_for("get_species"))
 
     return render_template("species_specific_db.html", species_forms=results)
     
