@@ -60,19 +60,19 @@
         data: species.map(emp => [
             emp.national_pokedex_number,
             emp.name,
-            emp.primary_type,
-            emp.secondary_type,
-            emp.hp,
-            emp.attack,
-            emp.defence,
-            emp.special_attack,
-            emp.special_defence,
-            emp.speed,
+            emp.types.primary,
+            emp.types.secondary,
+            emp.stats.hp,
+            emp.stats.attack,
+            emp.stats.defence,
+            emp.stats.special_attack,
+            emp.stats.special_defence,
+            emp.stats.speed,
             emp.total,
             emp.height,
             emp.weight,
             emp.internal_name,
-            emp.catch_rate_raw
+            emp.catch_rate.number
         ]),
         sort: true,
         style: {

@@ -147,6 +147,16 @@ def api_gary():
 def read_root():
     return render_template("main.html")
 
+table_keys = [
+    "national_pokedex_number",
+    "name",
+    "types",
+    "stats",
+    "height",
+    "weight",
+    "internal_name",
+    "catch_rate"
+]
 
 with open('./data/fakemon_simple.json', 'r', encoding='utf-8') as file:
     fakemontable = json.load(file)
@@ -166,11 +176,26 @@ with open('./data/fossils_simple.json', 'r', encoding='utf-8') as file:
 def get_fossils():
     return render_template("fossilmons.html", fossils=fossiltable)
 
-with open('./data/species_simple.json', 'r', encoding='utf-8') as file:
-    speciestable = json.load(file)
 @app.route("/species")
 def get_species():
-    return render_template("species.html", species=speciestable)
+    db = get_db()
+    rows = db.execute("SELECT * FROM species ORDER BY national_pokedex_number COLLATE NOCASE").fetchall()
+
+    result = []
+    for row in rows:
+        base = dict(row)
+        extra_data = {}
+        if base.get("extra"):
+            try:
+                extra_data = json.loads(base["extra"])
+            except json.JSONDecodeError:
+                extra_data = {}
+        base.pop("extra", None)
+        merged = {**base, **extra_data}
+        filtered = {k: merged[k] for k in table_keys if k in merged}
+        result.append(merged)
+
+    return render_template("species.html", species=result)
 
 
 
