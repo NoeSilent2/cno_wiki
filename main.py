@@ -162,16 +162,7 @@ pokemon_type = {
     "Fossil" : 1
 }
 
-def get_pokemon_with(key,value,keys):
-    db = get_db()
-    query = "SELECT * FROM species"
-    if key and value:
-        query += f" WHERE {key} = {value}"
-    elif value:
-        query += f" WHERE name LIKE %{value}%"
-    query += " ORDER BY national_pokedex_number COLLATE NOCASE"
-    rows = db.execute(query).fetchall()
-
+def filter_rows(rows,keys):
     result = []
     for row in rows:
         base = dict(row)
@@ -187,6 +178,16 @@ def get_pokemon_with(key,value,keys):
         result.append(filtered)
     
     return result
+
+def get_pokemon_with(key,value,keys):
+    db = get_db()
+    query = "SELECT * FROM species"
+    if key and value:
+        query += f" WHERE {key} = {value}"
+    query += " ORDER BY national_pokedex_number COLLATE NOCASE"
+    rows = db.execute(query).fetchall()
+
+    return filter_rows(rows,keys)
 
 
 @app.route("/fakemon")
@@ -218,7 +219,13 @@ def search_species():
     if not query:
         return render_template("search_results.html", results=[], query="")
     
-    results = get_pokemon_with(None, query, ["national_pokedex_number","name","types","internal_name"])
+    db = get_db()
+    rows = db.execute(
+        "SELECT * FROM species WHERE name LIKE ? COLLATE NOCASE",
+        (f"%{query}%",)
+    ).fetchall()
+
+    results = filter_rows(rows,["national_pokedex_number","name","types","internal_name"])
     
     return render_template("search_results.html", results=results, query=query)
 
