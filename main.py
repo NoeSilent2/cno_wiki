@@ -3,7 +3,7 @@ import random
 import hashlib
 import sqlite3
 from datetime import date
-from flask import Flask, g, render_template, redirect, url_for, send_from_directory
+from flask import Flask, g, request, render_template, redirect, url_for, send_from_directory
 
 
 app = Flask(__name__)
@@ -167,6 +167,8 @@ def get_pokemon_with(key,value,keys):
     query = "SELECT * FROM species"
     if key and value:
         query += f" WHERE {key} = {value}"
+    elif value:
+        query += f" WHERE name LIKE {value}"
     query += " ORDER BY national_pokedex_number COLLATE NOCASE"
     rows = db.execute(query).fetchall()
 
@@ -209,6 +211,16 @@ def get_species():
     return render_template("sp_all.html", species=result)
 
 
+@app.route("/search")
+def search_species():
+    query = request.args.get("q", "").strip()
+
+    if not query:
+        return render_template("search_results.html", results=[], query="")
+    
+    results = get_pokemon_with(None, query, ["national_pokedex_number","name","types","internal_name"])
+    
+    return render_template("search_results.html", results=results, query=query)
 
 
 @app.route("/staff")
