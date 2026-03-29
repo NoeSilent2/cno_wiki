@@ -77,11 +77,11 @@
                                                             <span class="toggle">✨</span>
                                                         </label>
                                                         <div style="float:left; margin:4px; gap:1px; display:flex;">
-                                                            {% if species.primary_type %}
-                                                                <img src="/types/{{ species.primary_type }}.png" title="{{ species.primary_type }}" alt="{{ species.primary_type }}">
+                                                            {% if species.types.primary %}
+                                                                <img src="/types/{{ species.types.primary }}.png" title="{{ species.types.primary }}" alt="{{ species.types.primary }}">
                                                             {% endif %}
-                                                            {% if species.secondary_type %}
-                                                                <img src="/types/{{ species.secondary_type }}.png" title="{{ species.secondary_type }}" alt="{{ species.secondary_type }}">
+                                                            {% if species.types.secondary %} 
+                                                                <img src="/types/{{ species.types.secondary }}.png" title="{{ species.types.secondary }}" alt="{{ species.types.secondary }}">
                                                             {% endif %}
                                                         </div>
                                                     </model-viewer>
@@ -105,20 +105,20 @@
                                     <table style="margin:auto; background:none;">
                                         <tbody>
                                             <tr>
-                                                {% if species.primary_type %}
-                                                <td width="90px" height="25px" class="typebox {{ species.primary_type }}">
+                                                {% if species.types.primary %}
+                                                <td width="90px" height="25px" class="typebox {{ species.types.primary }}">
                                                     <a>
                                                         <span>
-                                                            <p style="font-size:17px">{{ species.primary_type }}</p>
+                                                            <p style="font-size:17px">{{ species.types.primary }}</p>
                                                         </span>
                                                     </a>
                                                 </td>
                                                 {% endif %}
-                                                {% if species.secondary_type %}
-                                                <td width="90px" height="25px" class="typebox {{ species.secondary_type }}">
+                                                {% if species.types.secondary %}
+                                                <td width="90px" height="25px" class="typebox {{ species.types.secondary }}">
                                                     <a>
                                                         <span>
-                                                            <p style="font-size:17px">{{ species.secondary_type }}</p>
+                                                            <p style="font-size:17px">{{ species.types.secondary }}</p>
                                                         </span>
                                                     </a>
                                                 </td>
@@ -137,15 +137,15 @@
                         <tbody>
                             <tr>
                                 <td width="50%">
-                                    <a>{{ species.ability_primary }}</a>
-                                    {% if species.ability_secondary %}
+                                    <a>{{ species.abilities.primary }}</a>
+                                    {% if species.abilities.secondary %}
                                     or
-                                    <a>{{ species.ability_secondary }}</a>
+                                    <a>{{ species.abilities.secondary }}</a>
                                     {% endif %}
                                 </td>
-                                {% if species.ability_hidden %}
+                                {% if species.abilities.hidden %}
                                 <td width="50%">
-                                    <a>{{ species.ability_hidden }}</a>
+                                    <a>{{ species.abilities.hidden }}</a>
                                     <br>
                                     <small>Hidden Ability</small>
                                 </td>
@@ -181,79 +181,79 @@
                             <tr style="background: #111a0b; text-align:center">
                                 <th class="roundy stat">
                                     <div>HP:</div>
-                                    <div>{{ species.hp }}</div>
+                                    <div>{{ species.stats.hp }}</div>
                                 </th>
                                 <td class="roundy statbar">
-                                    <div class="roundy health" style="width: calc(100% * {{ species.hp }} / 255)"></div>
+                                    <div class="roundy health" style="width: calc(100% * {{ species.stats.hp }} / 255)"></div>
                                 </td>
-                                <td><small>{{ species.stat_projections['50'].hp }}</small></td>
-                                <td><small>{{ species.stat_projections['100'].hp }}</small></td>
+                                <td><small>{{ species.stats.projections['50'].hp }}</small></td>
+                                <td><small>{{ species.stats.projections['100'].hp }}</small></td>
                             </tr>
 
                             <tr style="background: #221e0e; text-align:center">
                                 <th class="roundy stat">
                                     <div>Attack:</div>
-                                    <div>{{ species.attack }}</div>
+                                    <div>{{ species.stats.attack }}</div>
                                 </th>
                                 <td class="roundy statbar">
-                                    <div class="roundy attack" style="width: calc(100% * {{ species.attack }} / 255)"></div>
+                                    <div class="roundy attack" style="width: calc(100% * {{ species.stats.attack }} / 255)"></div>
                                 </td>
-                                <td><small>{{ species.stat_projections['50'].attack }}</small></td>
-                                <td><small>{{ species.stat_projections['100'].attack }}</small></td>
+                                <td><small>{{ species.stats.projections['50'].attack }}</small></td>
+                                <td><small>{{ species.stats.projections['100'].attack }}</small></td>
                             </tr>
 
                             <tr style="background: #251810; text-align:center">
                                 <th class="roundy stat">
                                     <div>Defense:</div>
-                                    <div>{{ species.defence }}</div>
+                                    <div>{{ species.stats.defence }}</div>
                                 </th>
                                 <td class="roundy statbar">
-                                    <div class="roundy defence" style="width: calc(100% * {{ species.defence }} / 255)"></div>
+                                    <div class="roundy defence" style="width: calc(100% * {{ species.stats.defence }} / 255)"></div>
                                 </td>
-                                <td><small>{{ species.stat_projections['50'].defence }}</small></td>
-                                <td><small>{{ species.stat_projections['100'].defence }}</small></td>
+                                <td><small>{{ species.stats.projections['50'].defence }}</small></td>
+                                <td><small>{{ species.stats.projections['100'].defence }}</small></td>
                             </tr>
 
                             <tr style="background: #0f2125; text-align:center">
                                 <th class="roundy stat">
                                     <div>Sp. Atk:</div>
-                                    <div>{{ species.special_attack }}</div>
+                                    <div>{{ species.stats.special_attack }}</div>
                                 </th>
                                 <td class="roundy statbar">
-                                    <div class="roundy special_attack" style="width: calc(100% * {{ species.special_attack }} / 255)"></div>
+                                    <div class="roundy special_attack" style="width: calc(100% * {{ species.stats.special_attack }} / 255)"></div>
                                 </td>
-                                <td><small>{{ species.stat_projections['50'].special_attack }}</small></td>
-                                <td><small>{{ species.stat_projections['100'].special_attack }}</small></td>
+                                <td><small>{{ species.stats.projections['50'].special_attack }}</small></td>
+                                <td><small>{{ species.stats.projections['100'].special_attack }}</small></td>
                             </tr>
                 
                             <tr style="background: #141722; text-align:center">
                                 <th class="roundy stat">
                                     <div>Sp. Def:</div>
-                                    <div>{{ species.special_defence }}</div>
+                                    <div>{{ species.stats.special_defence }}</div>
                                 </th>
                                 <td class="roundy statbar">
-                                    <div class="roundy special_defence" style="width: calc(100% * {{ species.special_defence }} / 255)"></div>
+                                    <div class="roundy special_defence" style="width: calc(100% * {{ species.stats.special_defence }} / 255)"></div>
                                 </td>
-                                <td><small>{{ species.stat_projections['50'].special_defence }}</small></td>
-                                <td><small>{{ species.stat_projections['100'].special_defence }}</small></td>
+                                <td><small>{{ species.stats.projections['50'].special_defence }}</small></td>
+                                <td><small>{{ species.stats.projections['100'].special_defence }}</small></td>
                             </tr>
                 
                             <tr style="background: #2c1427; text-align:center">
                                 <th class="roundy stat">
                                     <div>Speed:</div>
-                                    <div>{{ species.speed }}</div>
+                                    <div>{{ species.stats.speed }}</div>
                                 </th>
                                 <td class="roundy statbar">
-                                    <div class="roundy speed" style="width: calc(100% * {{ species.speed }} / 255)"></div>
+                                    <div class="roundy speed" style="width: calc(100% * {{ species.stats.speed }} / 255)"></div>
                                 </td>
-                                <td><small>{{ species.stat_projections['50'].speed }}</small></td>
-                                <td><small>{{ species.stat_projections['100'].speed }}</small></td>
+                                <td><small>{{ species.stats.projections['50'].speed }}</small></td>
+                                <td><small>{{ species.stats.projections['100'].speed }}</small></td>
                             </tr>
                 
                             <tr>
                                 <th class="roundy stat" style="width: 6.5em; background-color: #000">
                                     <div>Total:</div>
-                                    <div>{{ species.total }}</div>
+                                    <div>{{ species.stats.total }}</div>
                                 </th>
                                 <th colspan="3" class="text"></th>
                             </tr>
@@ -334,7 +334,7 @@
                                     <table class="roundy" width="100%" style="background:#000; padding-top:3px; height:60px">
                                         <tbody>
                                             <tr>
-                                                <td>{{ species.catch_rate }}</td>
+                                                <td>{{ species.catch_rate.string }}</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -344,7 +344,7 @@
                                     <table class="roundy" width="100%" style="background:#000; padding-top:3px; height:60px">
                                         <tbody>
                                             <tr>
-                                                <td>{{ species.egg_groups }}</td>
+                                                <td>{{ species.egg_groups|join(', ')|title }}</td>
                                             </tr>
                                         </tbody>
                                     </table>

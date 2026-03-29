@@ -62,13 +62,13 @@ def get_species_db(name):
     
     return results
 
-@app.route("/db/species/<name>")
+@app.route("/species/<name>")
 def db_species_specific(name):
     results = get_species_db(name)
     if not results:
         return redirect(url_for("get_species"))
 
-    return render_template("species_specific_db.html", species_forms=results)
+    return render_template("species_specific.html", species_forms=results)
     
     
 
@@ -91,16 +91,18 @@ def get_daily_object():
     if daily_object_day and today == daily_object_day:
         return daily_object
     random.seed(int(hashlib.md5(f"{today.year}{today.month}{today.day}".encode()).hexdigest()[:8], 16))
-    species_id = random.choice(list(speciesdict.keys()))
-    rspecies = random.choice(speciesdict[species_id])
+    db = get_db()
+    count = db.execute("SELECT COUNT(*) FROM species").fetchone()[0]
+    offset = random.randint(0, count - 1)
+    species = db.execute("SELECT internal_name FROM species LIMIT 1 OFFSET ?",(offset,)).fetchone()
     isShiny = 'normal'
     if random.randint(1, 50) == 1:
         isShiny = 'shiny'
     daily_object_day = today
     daily_object = {
-        'name': rspecies.get('name', 'ERROR'),
-        'img': rspecies.get('alt_internal_name', 'unown-qm'),
-        'link': species_id,
+        'name': species['name'],
+        'img': species['alt_internal_name'],
+        'link': species['internal_name'],
         'shiny': isShiny
     }
     return daily_object
@@ -162,22 +164,6 @@ with open('./data/species_simple.json', 'r', encoding='utf-8') as file:
 @app.route("/species")
 def get_species():
     return render_template("species.html", species=speciestable)
-
-
-
-@app.route("/species/<name>")
-def get_species_specific(name):
-    name = name.lower()
-    if name == "random":
-        random.seed()
-        species = random.choice(list(speciesdict.keys()))
-        if species:
-            return redirect(url_for('get_species_specific', name=species))
-    elif name in speciesdict:
-        species = speciesdict[name]
-        return render_template("species_specific.html", species_forms=species)
-    else:
-        return redirect(url_for('get_species'))
 
 
 
