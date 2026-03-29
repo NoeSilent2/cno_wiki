@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>{% block title %}C&O Wiki{% endblock %}</title>
         <style>
             * { margin: 0; box-sizing: border-box; }
@@ -37,7 +38,7 @@
                 <a href="/" class="logo">C&O Wiki</a>
                 <form method="get" action="{{ url_for('search_species') }}">
                     <input type="text" name="q" placeholder="Enter species name...">
-                    <button style="background:#333;" type="submit">Search</button>
+                    <button style="background:#333;" type="submit"><i class="fa fa-search"></i></button>
                 </form>
                 <div class="nav-links">
                     <div class="dropdown">
