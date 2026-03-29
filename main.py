@@ -162,7 +162,7 @@ pokemon_type = {
     "Fossil" : 1
 }
 
-def get_pokemon_with(key,value):
+def get_pokemon_with(key,value,keys):
     db = get_db()
     query = "SELECT * FROM species"
     if key and value:
@@ -181,7 +181,7 @@ def get_pokemon_with(key,value):
                 extra_data = {}
         base.pop("extra", None)
         merged = {**base, **extra_data}
-        filtered = {k: merged[k] for k in table_keys if k in merged}
+        filtered = {k: merged[k] for k in keys if k in merged}
         result.append(filtered)
     
     return result
@@ -189,22 +189,22 @@ def get_pokemon_with(key,value):
 
 @app.route("/fakemon")
 def get_fakemon():
-    result = get_pokemon_with("is_fake", 1)
+    result = get_pokemon_with("is_fake", 1, table_keys)
     return render_template("sp_fake.html", fakemon=result)
 
 @app.route("/fakeforms")
 def get_fakeforms():
-    result = get_pokemon_with("is_fake_form", 1)
+    result = get_pokemon_with("is_fake_form", 1, table_keys)
     return render_template("sp_forms.html", fakeforms=result)
 
 @app.route("/fossilmons")
 def get_fossils():
-    result = get_pokemon_with("legendary", pokemon_type["Fossil"])
+    result = get_pokemon_with("legendary", pokemon_type["Fossil"], table_keys+["fossils"])
     return render_template("sp_fossils.html", fossils=result)
 
 @app.route("/species")
 def get_species():
-    result = get_pokemon_with(None, None)
+    result = get_pokemon_with(None, None, table_keys)
 
     return render_template("sp_all.html", species=result)
 
