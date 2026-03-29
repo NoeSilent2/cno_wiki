@@ -168,9 +168,9 @@ def get_pokemon_with(key,value,keys):
     if key and value:
         query += f" WHERE {key} = {value}"
     elif value:
-        query += f" WHERE name LIKE ?"
+        query += f" WHERE name LIKE %{value}%"
     query += " ORDER BY national_pokedex_number COLLATE NOCASE"
-    rows = db.execute(query,(value,)).fetchall()
+    rows = db.execute(query).fetchall()
 
     result = []
     for row in rows:
