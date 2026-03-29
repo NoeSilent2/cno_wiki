@@ -154,29 +154,21 @@ table_keys = [
     "internal_name",
     "catch_rate"
 ]
+pokemon_type = {
+    "Legendary" : 5,
+    "Mythical" : 4,
+    "PsuedoLegendary" : 3,
+    "UltraBeast" : 2,
+    "Fossil" : 1
+}
 
-with open('./data/fakemon_simple.json', 'r', encoding='utf-8') as file:
-    fakemontable = json.load(file)
-@app.route("/fakemon")
-def get_fakemon():
-    return render_template("fakemon.html", fakemon=fakemontable)
-
-with open('./data/forms_simple.json', 'r', encoding='utf-8') as file:
-    fakeformstable = json.load(file)
-@app.route("/fakeforms")
-def get_fakeforms():
-    return render_template("fakeforms.html", fakeforms=fakeformstable)
-
-with open('./data/fossils_simple.json', 'r', encoding='utf-8') as file:
-    fossiltable = json.load(file)
-@app.route("/fossilmons")
-def get_fossils():
-    return render_template("fossilmons.html", fossils=fossiltable)
-
-@app.route("/species")
-def get_species():
+def get_pokemon_with(key,value):
     db = get_db()
-    rows = db.execute("SELECT * FROM species ORDER BY national_pokedex_number COLLATE NOCASE").fetchall()
+    query = "SELECT * FROM species"
+    if key and value:
+        query += f" WHERE {key} = {value}"
+    query += " ORDER BY national_pokedex_number COLLATE NOCASE"
+    rows = db.execute(query).fetchall()
 
     result = []
     for row in rows:
@@ -190,9 +182,31 @@ def get_species():
         base.pop("extra", None)
         merged = {**base, **extra_data}
         filtered = {k: merged[k] for k in table_keys if k in merged}
-        result.append(merged)
+        result.append(filtered)
+    
+    return result
 
-    return render_template("species.html", species=result)
+
+@app.route("/fakemon")
+def get_fakemon():
+    result = get_pokemon_with("is_fake", 1)
+    return render_template("sp_fake.html", fakemon=result)
+
+@app.route("/fakeforms")
+def get_fakeforms():
+    result = get_pokemon_with("is_fake_form", 1)
+    return render_template("sp_forms.html", fakeforms=result)
+
+@app.route("/fossilmons")
+def get_fossils():
+    result = get_pokemon_with("legendary", pokemon_type["Fossil"])
+    return render_template("sp_fossils.html", fossils=result)
+
+@app.route("/species")
+def get_species():
+    result = get_pokemon_with(None, None)
+
+    return render_template("sp_all.html", species=result)
 
 
 

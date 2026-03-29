@@ -1,26 +1,30 @@
 {% extends 'header.html' %}
 
-{% block title %}Fossilmons - C&O Wiki{% endblock %}
+
+{% block title %}{{ super() }}{% endblock %}
 
 {% block extra_head %}
 <link rel="stylesheet" href="{{ url_for('static', filename='css/simpletable.css') }}">
 {% endblock %}
 
 {% block body %}
+{% block main %}
 <main>
-    <h2>Fossilmons</h2>
-    <p>Every pokemon which can be grown in a resurrection machine will have their data listed here.</p>
+    <h2>Species</h2>
+    <p>All of the normal and fakemon species data will be listed here.</p>
+    <p>Fakemon models are temporarily hidden to increase performance. Normal pokemon have Pokemon Home images.</p>
     <p style="margin-top: 20px; color: #666; font-size: 14px; margin-bottom: 10px">Click on any column header to sort the table.</p>
     <div id="table"></div>
 </main>
+{% endblock %}
 <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
 <script>
-    const fossils = {{ fossils | tojson }};
-
+    const species = {% block tabledata %}{% endblock %};
+    
     new gridjs.Grid({
         columns: [
             {name:"Dex",width:"50px"}, 
-            {name:"Name",width:"110px", formatter: (cell, row) => gridjs.html(`<a href='/species/${row.cells[13].data}'>${cell}</a>`)}, 
+            {name:"Name",width:"145px", formatter: (cell, row) => gridjs.html(`<a href='/species/${row.cells[13].data}'>${cell}</a>`)}, 
             {name:"Type",width:"82px", formatter: (cell, row) => {
                 if (row.cells[3].data) {
                     return gridjs.html(`<div style="display:flex"><div style="height:36px; padding:0px 1px 0px 0px"><img src="/types/${cell}.png" title="${cell}" alt="${cell}"></div><div style="height:36px;"><img src="/types/${row.cells[3].data}.png" title="${row.cells[3].data}" alt="${row.cells[3].data}"></div></div>`)
@@ -36,7 +40,7 @@
             {name:"SpD",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#141722; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding: 4px'}}}}, 
             {name:"Spe",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#2c1427; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding: 4px'}}}}, 
             {name:"BST",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#000; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding:4px'}}}},
-            {name:"Height",width:"70px", formatter: (cell) => {
+            {name:"Height",width:"70px", formatter: (cell, row) => {
                 if (cell) {
                     const height = (cell/10).toPrecision(8).replace(/\.?0+$/, '');
                     return gridjs.html(`${height}m`);
@@ -55,25 +59,23 @@
                 }
             }},
             {name:"internal_name",hidden:true},
-            {name:"Fossil A"},
-            {name:"Fossil B"}],
-        data: fossils.map(emp => [
+            {name:"Catch Rate",width:"80px"}],
+        data: species.map(emp => [
             emp.national_pokedex_number,
             emp.name,
-            emp.primary_type,
-            emp.secondary_type,
-            emp.hp,
-            emp.attack,
-            emp.defence,
-            emp.special_attack,
-            emp.special_defence,
-            emp.speed,
-            emp.total,
+            emp.types.primary,
+            emp.types.secondary,
+            emp.stats.hp,
+            emp.stats.attack,
+            emp.stats.defence,
+            emp.stats.special_attack,
+            emp.stats.special_defence,
+            emp.stats.speed,
+            emp.stats.total,
             emp.height,
             emp.weight,
             emp.internal_name,
-            emp.fossil_a,
-            emp.fossil_b
+            emp.catch_rate.number
         ]),
         sort: true,
         style: {

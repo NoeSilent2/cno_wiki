@@ -1,0 +1,16 @@
+{% extends 'species_table.html' %}
+
+
+{% block title %}Species - {{ super() }}{% endblock %}
+
+{% block main %}
+<main>
+    <h2>Fakeforms</h2>
+    <p>Every fakemon which is a form of an existing pokemon will have their data listed here.</p>
+    <p>All of these will link to the original Pokemons page, which will have the forms data on it.</p>
+    <p style="margin-top: 20px; color: #666; font-size: 14px; margin-bottom: 10px">Click on any column header to sort the table.</p>
+    <div id="table"></div>
+</main>
+{% endblock %}
+
+{% block tabledata %}{{ fakeforms | tojson }}{% endblock %}

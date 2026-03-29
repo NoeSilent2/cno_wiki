@@ -1,0 +1,17 @@
+{% extends 'species_table.html' %}
+
+
+{% block title %}Species - {{ super() }}{% endblock %}
+
+{% block main %}
+<main>
+    <h2>Fakemon</h2>
+    <p>All of the fakemon species data will be listed here.</p>
+    <p>Fakemon models are temporarily hidden to increase performance.</p>
+    <p>This list does not include Fai's Mythical Monstrosities, as it is not open source.</p>
+    <p style="margin-top: 20px; color: #666; font-size: 14px; margin-bottom: 10px">Click on any column header to sort the table.</p>
+    <div id="table"></div>
+</main>
+{% endblock %}
+
+{% block tabledata %}{{ fakemon | tojson }}{% endblock %}

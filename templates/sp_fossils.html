@@ -1,0 +1,15 @@
+{% extends 'species_table.html' %}
+
+
+{% block title %}Species - {{ super() }}{% endblock %}
+
+{% block main %}
+<main>
+    <h2>Fossilmons</h2>
+    <p>Every pokemon which can be grown in a resurrection machine will have their data listed here.</p>
+    <p style="margin-top: 20px; color: #666; font-size: 14px; margin-bottom: 10px">Click on any column header to sort the table.</p>
+    <div id="table"></div>
+</main>
+{% endblock %}
+
+{% block tabledata %}{{ fossils | tojson }}{% endblock %}
