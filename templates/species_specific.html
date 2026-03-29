@@ -558,7 +558,7 @@
                                                             <tbody>
                                                                 <tr>
                                                                     <td style="border:1px solid #333" class="roundy"><p style="font-size:small; font-family: 'Courier New', 'Lucida Console', monospace; position:relative; top:2px;">{{ spawn.id }}</p></td>
-                                                                    <td colspan="2" style="border:1px solid #333" class="roundy">{{ spawn.bucket.title() }}</td>
+                                                                    {% if spawn.bucket %}<td colspan="2" style="border:1px solid #333" class="roundy">{{ spawn.bucket.title() }}</td>{% endif %}
                                                                 </tr>
                                                                 <tr>
                                                                     {% if spawn.weight %}<td style="border:1px solid #333" class="roundy">Chance: {{ spawn.weight }}</td>{% endif %}
