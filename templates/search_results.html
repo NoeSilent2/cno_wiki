@@ -8,7 +8,7 @@
 <main>
     <h2>Search Results for "{{ query }}"</h2>
     <form method="get" action="{{ url_for('search_species') }}">
-        <input type="text" name="q" placehold="Enter species name..." value="{{ query }}">
+        <input type="text" name="q" placeholder="Enter species name..." value="{{ query }}">
         <button type="submit">Search</button>
     </form>
     <p>All of the normal and fakemon species data will be listed here.</p>

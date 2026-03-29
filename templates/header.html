@@ -8,11 +8,11 @@
             * { margin: 0; box-sizing: border-box; }
             body {font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;; background-color: #000000; color: #ffffff; line-height: 1.6; min-height: 100vh; display: flex; flex-direction: column;}
             header { border-bottom: 1px solid #333333; padding: 0; }
-            nav {max-width: 1200px; margin: 0 auto; display: flex; align-items: center; padding: 1rem 2rem; gap: 2rem;}
+            nav {max-width: 1200px; margin: 0 auto; display: flex; align-items: center; padding: 1rem 0.5rem; gap: 2rem;}
             a { color: #fff; text-decoration: none; font-weight: bold; }
             a:hover { text-decoration: underline #fff; }
-            .logo { font-size: 1.25rem; font-weight: 600; color: #ffffff; text-decoration: none; }
-            .nav-links { display: flex; gap: 1.5rem; margin-left: auto;}
+            .logo { font-size: 1.25rem; font-weight: 600; color: #ffffff; text-decoration: none; margin:0px 10px;}
+            .nav-links { display: flex; margin-left: auto;}
             .nav-links a { text-decoration: none; color: #888888; padding: 0.5rem 1rem; border-radius: 6px; transition: all 0.2s ease; font-size: 0.875rem; font-weight: 500; }
             .nav-links a:hover { color: #ffffff; background-color: #111111; }
             .dropdown {overflow: hidden;}
@@ -27,6 +27,7 @@
             h2 { font-size: 2rem; font-weight: normal; display: block; border-bottom: 1px solid #333333; margin-bottom: 1rem; }
             .roundy {border-radius:10px;}
             .infobox {box-sizing:border-box;float:right;width:400px;max-width:50%;}
+            form * {background:#111; color:white; border-radius:6px; padding:2px;}
         </style>
         {% block extra_head %}{% endblock %}
     </head>
@@ -34,6 +35,10 @@
         <header>
             <nav>
                 <a href="/" class="logo">C&O Wiki</a>
+                <form method="get" action="{{ url_for('search_species') }}">
+                    <input type="text" name="q" placeholder="Enter species name...">
+                    <button style="background:#333;" type="submit">Search</button>
+                </form>
                 <div class="nav-links">
                     <div class="dropdown">
                         <button class="dropbtn">
