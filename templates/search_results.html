@@ -1,8 +1,9 @@
 {% extends 'species_table.html' %}
 
 
-{% block title %}Species - {{ super() }}{% endblock %}
+{% block title %}Search Results - {{ super() }}{% endblock %}
 
+{% block body %}
 {% block main %}
 <main>
     <h2>Search Results for "{{ query }}"</h2>
@@ -15,5 +16,49 @@
     <div id="table"></div>
 </main>
 {% endblock %}
-
-{% block tabledata %}{{ results | tojson }}{% endblock %}
+<script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
+<script>
+    const species = {{ results | tojson }};
+    
+    new gridjs.Grid({
+        columns: [
+            {name:"Dex",width:"50px"}, 
+            {name:"Name",width:"145px", formatter: (cell, row) => gridjs.html(`<a href='/species/${row.cells[4].data}'>${cell}</a>`)}, 
+            {name:"Type",width:"82px", formatter: (cell, row) => {
+                if (row.cells[3].data) {
+                    return gridjs.html(`<div style="display:flex"><div style="height:36px; padding:0px 1px 0px 0px"><img src="/types/${cell}.png" title="${cell}" alt="${cell}"></div><div style="height:36px;"><img src="/types/${row.cells[3].data}.png" title="${row.cells[3].data}" alt="${row.cells[3].data}"></div></div>`)
+                } else {
+                    return gridjs.html(`<div style="height:36px"><img src="/types/${cell}.png" title="${cell}" alt="${cell}"></div>`)
+                }
+            }}, 
+            {name:"Type2",width:"10px",hidden:true},
+            {name:"internal_name",hidden:true}],
+        data: species.map(emp => [
+            emp.national_pokedex_number,
+            emp.name,
+            emp.types.primary,
+            emp.types.secondary,
+            emp.internal_name,
+        ]),
+        sort: true,
+        style: {
+            table: {
+                border: '3px solid #fff',
+                width: 'auto'
+            },
+            th: {
+                'background-color': '#333',
+                color: '#fff',
+                'border-bottom': '3px solid #fff',
+                padding: "4px"
+            },
+            td: {
+                'background-color': '#000',
+                color: '#fff',
+                border: '1px solid #ccc',
+                padding: "4px"
+            }
+        }
+    }).render(document.getElementById('table'));
+</script>
+{% endblock %}
