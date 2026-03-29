@@ -218,13 +218,11 @@ def search_species():
 
     if not query:
         return render_template("search_results.html", results=[], query="")
-    
-    pattern = "%".join(query)
 
     db = get_db()
     rows = db.execute(
         "SELECT * FROM species WHERE name LIKE ? COLLATE NOCASE",
-        (f"%{pattern}%",)
+        (f"%{query}%",)
     ).fetchall()
 
     results = filter_rows(rows,["national_pokedex_number","name","types","internal_name"])
