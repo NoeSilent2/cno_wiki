@@ -101,7 +101,7 @@ def get_daily_object():
     count = db.execute("SELECT COUNT(DISTINCT alt_internal_name) FROM species").fetchone()[0]
     offset = random.randint(0, count - 1)
     species_id = db.execute("SELECT DISTINCT alt_internal_name FROM species LIMIT 1 OFFSET ?",(offset,)).fetchone()
-    species = db.execute("SELECT name, internal_name, alt_internal_name FROM species WHERE alt_internal_name = ? LIMIT 1",(species_id,)).fetchone()
+    species = db.execute("SELECT name, internal_name, alt_internal_name FROM species WHERE alt_internal_name = ? LIMIT 1",(species_id["alt_internal_name"],)).fetchone()
     isShiny = 'normal'
     if random.randint(1, 50) == 1:
         isShiny = 'shiny'
