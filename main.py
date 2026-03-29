@@ -7,7 +7,7 @@ from flask import Flask, g, render_template, redirect, url_for
 
 
 app = Flask(__name__)
-DATABASE = "wiki.db"
+DATABASE = "data/wiki.db"
 
 def get_db():
     if "db" not in g:
@@ -42,7 +42,7 @@ def db_species_specific(name):
                 extra_data = {}
         
         base.pop("extra", None)
-        
+
         results.append({**base, **extra_data})
 
     return render_template("species_specific_db.html", species_forms=rows)
