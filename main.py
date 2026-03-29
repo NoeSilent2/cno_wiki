@@ -3,11 +3,17 @@ import random
 import hashlib
 import sqlite3
 from datetime import date
-from flask import Flask, g, render_template, redirect, url_for
+from flask import Flask, g, render_template, redirect, url_for, send_from_directory
 
 
 app = Flask(__name__)
 DATABASE = "data/wiki.db"
+
+@app.route('/favicon.ico')
+def favicon():
+    return send_from_directory('static', 'favicon.ico', max_age=31536000)
+
+
 
 def get_db():
     if "db" not in g:
@@ -92,17 +98,17 @@ def get_daily_object():
         return daily_object
     random.seed(int(hashlib.md5(f"{today.year}{today.month}{today.day}".encode()).hexdigest()[:8], 16))
     db = get_db()
-    count = db.execute("SELECT COUNT(*) FROM species").fetchone()[0]
+    count = db.execute("SELECT COUNT(DISTINCT name) FROM species").fetchone()[0]
     offset = random.randint(0, count - 1)
-    species = db.execute("SELECT internal_name FROM species LIMIT 1 OFFSET ?",(offset,)).fetchone()
+    species = db.execute("SELECT DISTINCT internal_name FROM species LIMIT 1 OFFSET ?",(offset,)).fetchone()
     isShiny = 'normal'
     if random.randint(1, 50) == 1:
         isShiny = 'shiny'
     daily_object_day = today
     daily_object = {
-        'name': species['name'],
-        'img': species['alt_internal_name'],
-        'link': species['internal_name'],
+        'name': species["name"],
+        'img': species["alt_internal_name"],
+        'link': species["internal_name"],
         'shiny': isShiny
     }
     return daily_object
