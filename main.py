@@ -29,7 +29,9 @@ def db_species_specific(name):
 
     if not rows:
         query = "SELECT * FROM species WHERE national_pokedex_number = ?"
-        return redirect(url_for("get_species"))
+        rows = db.execute(query, (name,)).fetchall()
+        if not rows:
+            return redirect(url_for("get_species"))
 
     results = []
     for row in rows:
@@ -45,7 +47,7 @@ def db_species_specific(name):
 
         results.append({**base, **extra_data})
 
-    return render_template("species_specific_db.html", species_forms=rows)
+    return render_template("species_specific_db.html", species_forms=results)
     
     
 
