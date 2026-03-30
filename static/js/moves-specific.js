@@ -72,8 +72,13 @@ async function process_page() {
                             </tr>
                         </tbody>
                     </table>
+                </div>
+                <div style="width=75%">
+                    <h3>Target</h3>
                     <p>${move.target || '-'}</p>
+                    <h3>Flags</h3>
                     <p>${move.flags || '-'}</p>
+                    <h3>Description</h3>
                     <p>${desc}</p>
                 </div>
             `;
