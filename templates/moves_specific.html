@@ -9,13 +9,12 @@
 {% block body %}
 <main style="flex: 0;">
 
-    <h1 style="border-bottom:1px solid #333">{{ moves[0].name }}</h1>
+    <h1 style="border-bottom:1px solid #333; text-align:center;">{{ moves[0].name }} <span style="color:#bbb">(move)</span></h1>
 
     {% for move in moves %}
-        <div id="move-entry" move="{{ move.id }}">
+        <div id="move-entry" move="{{ move.id }}" desc="{{ move.desc }}" style="display:flex; flex-wrap:wrap; justify-content:flex-start;">
             <div id="basic-info">
             </div>
-            <p>{{ move.desc }}</p>
         </div>
     {% endfor %}
 

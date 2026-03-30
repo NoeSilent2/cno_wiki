@@ -38,18 +38,44 @@ async function process_page() {
         const moveId = entry.getAttribute('move');
         const move = moves[moveId];
 
+        const desc = entry.getAttribute('desc');
+
         const binfo = entry.querySelector('div#basic-info');
         
         if (move) {
             binfo.innerHTML = `
-                <p>${move.name || moveId || '???'}</p>
-                <p><img style="vertical-align:middle" src='/types/${move.type || 'Normal'}Small.png'></p>
-                <p><img style="vertical-align:middle" src='/categories/${move.category || 'Status'}.png'></p>
-                <p>${move.basePower || '-'}</p>
-                <p>${move.pp || '-'}</p>
-                <p>${move.accuracy || '-'}</p>
-                <p>${move.target || '-'}</p>
-                <p>${move.flags || '-'}</p>
+                <div style="width:25%">
+                    <h2>Move data</h2>
+                    <table style="width:100%">
+                        <tbody>
+                            <tr><th>Type</th>
+                                <td>
+                                    <img style="vertical-align:middle" src='/types/${move.type || 'Normal'}Small.png'>
+                                </td>
+                            </tr>
+                            <tr><th>Category</th>
+                                <td>
+                                    <img style="vertical-align:middle" src='/categories/${move.category || 'Status'}.png'>
+                                </td>
+                            </tr>
+                            <tr><th>Power</th>
+                                <td>${move.basePower || '-'}</td>
+                            </tr>
+                            <tr><th>Accuracy</th>
+                                <td>${move.accuracy || '-'}</td>
+                            </tr>
+                            <tr><th>PP</th>
+                                <td>${move.pp || '-'}</td>
+                            </tr>
+                            <tr><th>PP</th>
+                                <td>${move.pp || '-'}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>${move.target || '-'}</p>
+                    <p>${move.flags || '-'}</p>
+                    <p>${desc}</p>
+                </div>
             `;
         } else if (moveId) {
             binfo.innerHTML = `<p style="color:red">Unknown move: ${moveId}</p>`;
