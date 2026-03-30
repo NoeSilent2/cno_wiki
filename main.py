@@ -105,7 +105,7 @@ def get_moves_with(key,value,keys):
     if key and value:
         query += f" WHERE {key} = {value}"
     query += " ORDER BY num COLLATE NOCASE"
-    rows = db.execute(query).fetchall
+    rows = db.execute(query).fetchall()
 
     return process_rows(rows,keys)
 
