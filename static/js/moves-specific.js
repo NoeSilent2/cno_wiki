@@ -78,7 +78,7 @@ async function process_page() {
                         </tbody>
                     </table>
                 </div>
-                <div style="width=75%">
+                <div style="width=75%; display:flex; flex-direction:column;">
                     <h2>Description</h2>
                     <p>${desc}</p>
                     <h2>Advanced data</h2>
