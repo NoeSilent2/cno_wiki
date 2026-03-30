@@ -38,7 +38,7 @@ async function process_page() {
         const moveId = entry.getAttribute('move');
         const move = moves[moveId];
         
-        let is_fake = `<i style="background:transparent" class="fa fa-x"></i>`
+        let is_fake = `<i style="background:transparent" class="fa fa-xmark"></i>`
         if (move['is_fake']) {
             is_fake = `<i style="background:transparent" class="fa fa-check"></i>`
         }
@@ -49,7 +49,7 @@ async function process_page() {
         
         if (move) {
             binfo.innerHTML = `
-                <div style="width:25%">
+                <div style="width:25%; min-width:142px;">
                     <h2>Basic data</h2>
                     <table style="width:100%">
                         <tbody>
@@ -73,7 +73,7 @@ async function process_page() {
                                 <td>${move.pp || '-'}</td>
                             </tr>
                             <tr><th>Fake?</th>
-                                <td>${is_fake || '<i style="background:transparent" class="fa fa-x"></i>'}</td>
+                                <td>${is_fake || '<i style="background:transparent" class="fa fa-xmark"></i>'}</td>
                             </tr>
                         </tbody>
                     </table>
@@ -82,10 +82,8 @@ async function process_page() {
                     <h2>Description</h2>
                     <p>${desc}</p>
                     <h2>Advanced data</h2>
-                    <h3>Target</h3>
-                    <p>${move.target || '-'}</p>
-                    <h3>Flags</h3>
-                    <p>${move.flags || '-'}</p>
+                    <h3>Target: <p>${move.target || '-'}</p></h3>
+                    <h3>Flags: <p>${move.flags || '-'}</p></h3>
                 </div>
             `;
         } else if (moveId) {
