@@ -14,12 +14,20 @@ async function get_moves() {
     const response = await fetch('/api/moves');
     const data = await response.json();
 
+    let dict = {};
+    data.data.forEach(entry => {
+        id = entry['id'];
+        if (id) {
+            dict[id] = entry
+        }
+    })
+
     localStorage.setItem('moves_version', realVersion.version)
-    localStorage.setItem('moves_cache', JSON.stringify(data.data))
+    localStorage.setItem('moves_cache', JSON.stringify(dict))
 
     console.log("Fetching fresh move data to cache.")
 
-    return data.data
+    return dict
 }
 
 async function process_page() {

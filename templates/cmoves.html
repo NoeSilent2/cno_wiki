@@ -30,12 +30,20 @@
         const response = await fetch('/api/moves');
         const data = await response.json();
 
+        let dict = {};
+        data.data.forEach(entry => {
+            id = entry['id'];
+            if (id) {
+                dict[id] = entry
+            }
+        })
+
         localStorage.setItem('moves_version', realVersion.version)
-        localStorage.setItem('moves_cache', JSON.stringify(data.data))
+        localStorage.setItem('moves_cache', JSON.stringify(dict))
 
         console.log("Fetching fresh move data to cache.")
 
-        return data.data
+        return dict
     }
 
     async function make_table() {
@@ -51,7 +59,8 @@
         
         new gridjs.Grid({
             columns: [
-            {name:"Name",width:"160px"},
+            {name:"Name",width:"160px", formatter: (cell, row) => gridjs.html(`<a href='/moves/${row.cells[1].data}'>${cell}</a>`)},
+            {name:"",hidden:true},
             {name:"",width:"30px",formatter: (cell, row) => gridjs.html(`<div style="height:100%; width:100%;"><img style="height:24px; width:24px; display:block; margin:auto; image-rendering:pixelated" src="/types/${cell}.png" title="${cell}" alt="${cell}"></div>`)},
             {name:"",width:"30px",formatter: (cell, row) => gridjs.html(`<div style="height:100%; width:100%;"><img style="height:24px; width:36px; display:block; margin:auto; image-rendering:pixelated" src="/categories/${cell}.png" title="${cell}" alt="${cell}"></div>`)},
             {name:"PP"},
@@ -73,6 +82,7 @@
             {name:"Flags"}],
             data: moves.map(emp => [
                 emp.name,
+                emp.id,
                 emp.type,
                 emp.category,
                 emp.pp,

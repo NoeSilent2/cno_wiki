@@ -27,6 +27,24 @@ def close_db(exception):
     if db is not None:
         db.close()
 
+def process_rows(rows,keys):
+    result = []
+    for row in rows:
+        base = dict(row)
+        extra_data = {}
+        if base.get("extra"):
+            try:
+                extra_data = json.loads(base["extra"])
+            except json.JSONDecodeError:
+                extra_data = {}
+        base.pop("extra", None)
+        merged = {**base, **extra_data}
+        if keys:
+            merged = {k: merged[k] for k in keys if k in merged}
+        result.append(merged)
+    
+    return result
+
 def get_random_species_db():
     db = get_db()
 
@@ -52,21 +70,45 @@ def get_species_db(name):
         if not rows:
             return None
 
-    results = []
-    for row in rows:
-        base = dict(row)
-        extra_data = {}
-        if base.get("extra"):
-            try:
-                extra_data = json.loads(base["extra"])
-            except json.JSONDecodeError:
-                extra_data = {}
-        
-        base.pop("extra", None)
+    results = process_rows(rows, None)
 
-        results.append({**base, **extra_data})
-    
     return results
+
+def get_pokemon_with(key,value,keys):
+    db = get_db()
+    query = "SELECT * FROM species"
+    if key and value:
+        query += f" WHERE {key} = {value}"
+    query += " ORDER BY national_pokedex_number COLLATE NOCASE"
+    rows = db.execute(query).fetchall()
+
+    return process_rows(rows,keys)
+
+def get_moves_db(name):
+    db = get_db()
+    query = "SELECT * FROM moves WHERE id = LOWER(?)"
+    rows = db.execute(query, (name,)).fetchall()
+
+    if not rows:
+        query = "SELECT * FROM moves WHERE LOWER(name) = LOWER(?)"
+        rows = db.execute(query, (name,)).fetchall()
+        if not rows:
+            return None
+    
+    results = process_rows(rows, ['id','desc'])
+
+    return results
+
+def get_moves_with(key,value,keys):
+    db = get_db()
+    query = "SELECT * FROM moves"
+    if key and value:
+        query += f" WHERE {key} = {value}"
+    query += " ORDER BY num COLLATE NOCASE"
+    rows = db.execute(query).fetchall
+
+    return process_rows(rows,keys)
+
 
 @app.route("/species/<name>")
 def db_species_specific(name):
@@ -75,13 +117,15 @@ def db_species_specific(name):
         return redirect(url_for("get_species"))
 
     return render_template("species_specific.html", species_forms=results)
-    
-    
 
-moves_dict = {}
-with open('./data/moves_dict.json', 'r', encoding='utf-8') as file:
-    moves_dict = json.load(file)
-moves_version = "1.0.3"
+@app.route("/moves/<name>")
+def db_moves_specific(name):
+    results = get_moves_db(name)
+    if not results:
+        return redirect(url_for("get_moves"))
+    
+    return render_template("moves_specific.html", moves=results)
+    
 
 
 daily_object = {}
@@ -124,10 +168,35 @@ def get_dmoves():
     return render_template("dmoves.html")
 
 
+table_keys = {"species":[
+    "national_pokedex_number",
+    "name",
+    "types",
+    "stats",
+    "height",
+    "weight",
+    "internal_name",
+    "catch_rate"
+],"moves":[
+    "id",
+    "num",
+    "name",
+    "type",
+    "category",
+    "pp",
+    "basePower",
+    "accuracy",
+    "target",
+    "flags",
+    "is_fake"
+]}
+
+moves_version = "1.0.4"
 
 @app.route("/api/moves")
 def api_moves():
-    return {'data': moves_dict}
+    result = get_moves_with(None, None, table_keys['moves'])
+    return {'data': result}
 
 @app.route("/api/moves/version")
 def api_moves_version():
@@ -144,16 +213,6 @@ def api_gary():
 def read_root():
     return render_template("main.html")
 
-table_keys = [
-    "national_pokedex_number",
-    "name",
-    "types",
-    "stats",
-    "height",
-    "weight",
-    "internal_name",
-    "catch_rate"
-]
 pokemon_type = {
     "Legendary" : 5,
     "Mythical" : 4,
@@ -162,52 +221,24 @@ pokemon_type = {
     "Fossil" : 1
 }
 
-def filter_rows(rows,keys):
-    result = []
-    for row in rows:
-        base = dict(row)
-        extra_data = {}
-        if base.get("extra"):
-            try:
-                extra_data = json.loads(base["extra"])
-            except json.JSONDecodeError:
-                extra_data = {}
-        base.pop("extra", None)
-        merged = {**base, **extra_data}
-        filtered = {k: merged[k] for k in keys if k in merged}
-        result.append(filtered)
-    
-    return result
-
-def get_pokemon_with(key,value,keys):
-    db = get_db()
-    query = "SELECT * FROM species"
-    if key and value:
-        query += f" WHERE {key} = {value}"
-    query += " ORDER BY national_pokedex_number COLLATE NOCASE"
-    rows = db.execute(query).fetchall()
-
-    return filter_rows(rows,keys)
-
-
 @app.route("/fakemon")
 def get_fakemon():
-    result = get_pokemon_with("is_fake", 1, table_keys)
+    result = get_pokemon_with("is_fake", 1, table_keys['species'])
     return render_template("sp_fake.html", fakemon=result)
 
 @app.route("/fakeforms")
 def get_fakeforms():
-    result = get_pokemon_with("is_fake_form", 1, table_keys)
+    result = get_pokemon_with("is_fake_form", 1, table_keys['species'])
     return render_template("sp_forms.html", fakeforms=result)
 
 @app.route("/fossilmons")
 def get_fossils():
-    result = get_pokemon_with("legendary", pokemon_type["Fossil"], table_keys+["fossils"])
+    result = get_pokemon_with("legendary", pokemon_type["Fossil"], table_keys['species'] +["fossils"])
     return render_template("sp_fossils.html", fossils=result)
 
 @app.route("/species")
 def get_species():
-    result = get_pokemon_with(None, None, table_keys)
+    result = get_pokemon_with(None, None, table_keys['species'])
 
     return render_template("sp_all.html", species=result)
 
@@ -225,7 +256,7 @@ def search_species():
         (f"%{query}%",)
     ).fetchall()
 
-    results = filter_rows(rows,["national_pokedex_number","name","types","internal_name"])
+    results = process_rows(rows,["national_pokedex_number","name","types","internal_name"])
     
     return render_template("search_results.html", results=results, query=query)
 
