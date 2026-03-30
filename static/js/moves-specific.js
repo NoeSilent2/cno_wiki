@@ -82,8 +82,8 @@ async function process_page() {
                     <h2>Description</h2>
                     <p>${desc}</p>
                     <h2>Advanced data</h2>
-                    <h3>Target: <p>${move.target || '-'}</p></h3>
-                    <h3>Flags: <p>${move.flags || '-'}</p></h3>
+                    <h3 style="display:inline-flex; gap:10px; align-items:center;">Target: <p style="font-weight:400; font-size:16px;">${move.target || '-'}</p></h3>
+                    <h3 style="display:inline-flex; gap:10px; align-items:center;">Flags: <p style="font-weight:400; font-size:16px;">${move.flags || '-'}</p></h3>
                 </div>
             `;
         } else if (moveId) {
