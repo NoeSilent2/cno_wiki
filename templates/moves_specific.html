@@ -1,6 +1,6 @@
 {% extends 'header.html' %}
 
-{% block title %}Move - {{ super() }}{% endblock %}
+{% block title %}{{ moves[0].name }} - {{ super() }}{% endblock %}
 
 {% block extra_head %}
     <script src="{{ url_for('static', filename='js/moves-specific.js') }}"></script>
@@ -9,7 +9,7 @@
 {% block body %}
 <main style="flex: 0;">
 
-    <h1 style="border-bottom:1px solid #333">Specific Move</h1>
+    <h1 style="border-bottom:1px solid #333">{{ moves[0].name }}</h1>
 
     {% for move in moves %}
         <div id="move-entry" move="{{ move.id }}">

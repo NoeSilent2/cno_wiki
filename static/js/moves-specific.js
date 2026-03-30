@@ -35,7 +35,7 @@ async function process_page() {
 
     const move_entry = document.querySelectorAll('div#move-entry');
     move_entry.forEach(entry => {
-        const moveId = move_entry.getAttribute('move');
+        const moveId = entry.getAttribute('move');
         const move = moves[moveId];
 
         const binfo = entry.querySelector('div#basic-info');

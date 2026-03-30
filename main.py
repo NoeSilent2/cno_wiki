@@ -95,7 +95,7 @@ def get_moves_db(name):
         if not rows:
             return None
     
-    results = process_rows(rows, ['id','desc'])
+    results = process_rows(rows, ['id','desc','name'])
 
     return results
 
