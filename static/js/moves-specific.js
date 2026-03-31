@@ -44,6 +44,14 @@ async function process_page() {
         }
 
         const desc = entry.getAttribute('desc');
+        let accuracy = move['accuracy']
+        if (accuracy == 999) {
+            accuracy = '-'
+        }
+        let power = move['basePower']
+        if (power == 0) {
+            power = '-'
+        }
 
         const binfo = entry.querySelector('div#basic-info');
         
@@ -64,10 +72,10 @@ async function process_page() {
                                 </td>
                             </tr>
                             <tr><th>Power</th>
-                                <td>${move.basePower || '-'}</td>
+                                <td>${power || '-'}</td>
                             </tr>
                             <tr><th>Accuracy</th>
-                                <td>${move.accuracy || '-'}</td>
+                                <td>${accuracy || '-'}</td>
                             </tr>
                             <tr><th>PP</th>
                                 <td>${move.pp || '-'}</td>
