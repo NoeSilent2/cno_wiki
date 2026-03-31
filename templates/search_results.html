@@ -7,7 +7,7 @@
 {% block main %}
 <main>
     <h2>Search Results for "{{ query }}"</h2>
-    <form method="get" action="{{ url_for('search_species') }}">
+    <form method="get" action="{{ url_for('search_database') }}">
         <input type="text" name="q" placeholder="Enter species name..." value="{{ query }}">
         <button type="submit">Search</button>
     </form>
