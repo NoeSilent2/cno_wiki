@@ -12,13 +12,16 @@
         <button type="submit">Search</button>
     </form>
     <p style="margin-top: 20px; color: #666; font-size: 14px; margin-bottom: 10px">Click on any column header to sort the table.</p>
-    <div id="table"></div>
+    <div id="species"></div>
+    <div id="moves"></div>
 </main>
 {% endblock %}
 <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
 <script>
-    const species = {{ results | tojson }};
+    const all_results = {{ results | tojson }};
     
+    const species = all_results['species']
+
     new gridjs.Grid({
         columns: [
             {name:"Dex",width:"50px"}, 
@@ -58,6 +61,41 @@
                 padding: "4px"
             }
         }
-    }).render(document.getElementById('table'));
+    }).render(document.getElementById('species'));
+
+    const moves = all_results['moves']
+
+    new gridjs.Grid({
+        columns: [
+        {name:"Name",width:"160px", formatter: (cell, row) => gridjs.html(`<a href='/moves/${row.cells[1].data}'>${cell}</a>`)},
+        {name:"",hidden:true},
+        {name:"",width:"30px",formatter: (cell, row) => gridjs.html(`<div style="height:100%; width:100%;"><img style="height:24px; width:24px; display:block; margin:auto; image-rendering:pixelated" src="/types/${cell}.png" title="${cell}" alt="${cell}"></div>`)},
+        {name:"",width:"30px",formatter: (cell, row) => gridjs.html(`<div style="height:100%; width:100%;"><img style="height:24px; width:36px; display:block; margin:auto; image-rendering:pixelated" src="/categories/${cell}.png" title="${cell}" alt="${cell}"></div>`)}],
+        data: moves.map(emp => [
+            emp.name,
+            emp.id,
+            emp.type,
+            emp.category
+        ]),
+        sort: true,
+        style: {
+            table: {
+                border: '3px solid #fff',
+                width: 'auto'
+            },
+            th: {
+                'background-color': '#333',
+                color: '#fff',
+                'border-bottom': '3px solid #fff',
+                padding: "4px"
+            },
+            td: {
+                'background-color': '#000',
+                color: '#fff',
+                border: '1px solid #ccc',
+                padding: "4px"
+            }
+        }
+    }).render(document.getElementById('moves'));
 </script>
 {% endblock %}

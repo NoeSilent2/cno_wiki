@@ -72,13 +72,13 @@ async function process_page() {
                             <tr><th>PP</th>
                                 <td>${move.pp || '-'}</td>
                             </tr>
-                            <tr><th>Fake?</th>
+                            <tr><th>Fake</th>
                                 <td>${is_fake || '<i style="background:transparent" class="fa fa-xmark"></i>'}</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
-                <div style="width=75%; display:flex; flex-direction:column;">
+                <div style="width:70%; display:flex; flex-direction:column;">
                     <h2>Description</h2>
                     <p>${desc}</p>
                     <h2>Advanced data</h2>

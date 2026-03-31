@@ -244,7 +244,7 @@ def get_species():
 
 
 @app.route("/search")
-def search_species():
+def search_database():
     query = request.args.get("q", "").strip()
 
     if not query:
@@ -252,12 +252,27 @@ def search_species():
 
     db = get_db()
     rows = db.execute(
-        "SELECT * FROM species WHERE name LIKE ? COLLATE NOCASE",
+        "SELECT * FROM species WHERE name MATCH ? COLLATE NOCASE LIMIT 15",
         (f"%{query}%",)
     ).fetchall()
 
-    results = process_rows(rows,["national_pokedex_number","name","types","internal_name"])
+    if not rows:
+        species_results = []
+    else:
+        species_results = process_rows(rows,["national_pokedex_number","name","types","internal_name"])
     
+    rows = db.execute(
+        "SELECT * FROM moves WHERE name MATCH ? COLLATE NOCASE LIMIT 15",
+        (f"%{query}%",)
+    ).fetchall()
+
+    if not rows:
+        moves_results = []
+    else:
+        moves_results = process_rows(rows,["name","id","type","category"])
+
+    results = {'species':species_results,'moves':moves_results}
+
     return render_template("search_results.html", results=results, query=query)
 
 
