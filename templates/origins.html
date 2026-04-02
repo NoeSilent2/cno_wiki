@@ -5,14 +5,17 @@
 {% block extra_head %}
 <style>
     .holder {display:flex; flex-direction:column; gap:1.5rem; padding:1.5rem 0.5rem;}
-    .entry {border:2px solid white; border-radius:20px; min-width:220px; display:flex; flex-direction:row; padding:2rem; gap:5px; flex:1;}
-    .entry img {border-radius: 50%; width:120px; height:120px; object-fit:cover; }
-    .basic {width:20%; gap:10px;}
+    .entry {border:2px solid white; border-radius:20px; min-width:220px; display:flex; flex-direction:row; padding:1rem; gap:30px; flex:1;}
+    .basic {width:30%; gap:20px; display:flex; flex-direction:column; border:1px solid #aaa; border-radius:20px; padding:20px;}
+    .basic a {text-align:center; font-size:200%;}
+    .basic p {text-decoration:none; text-align:center; margin-top:10px;}
+    .complexity {display:flex; justify-content:center;}
+    .complexity i {background:transparent;}
     .prc {margin:10px}
     .prc li div h2 {font-size:1.3rem; margin-bottom:0.2rem;}
-    .positive {color:#4e4}
-    .negative {color:#e44}
-    .neutral {color:#bbb}
+    .positive {color:#6d6}
+    .negative {color:#d66}
+    .neutral {color:#ccc}
 </style>
 {% endblock %}
 
@@ -24,24 +27,24 @@
     <div class="holder">
         <div class="entry">
             <div class="basic">
-                <a style="text-align:center; font-size:200%;">Human</a>
-                <div>
-                    <i style="background:transparent" class="fa-regular fa-circle"></i>
-                    <i style="background:transparent" class="fa-regular fa-circle"></i>
-                    <i style="background:transparent" class="fa-regular fa-circle"></i>
+                <a>Human</a>
+                <div class="complexity">
+                    <i class="fa-regular fa-circle"></i>
+                    <i class="fa-regular fa-circle"></i>
+                    <i class="fa-regular fa-circle"></i>
                 </div>
-                <p style="text-decoration:none;">A human's fate is more open than most - venture forth with no benefits or drawbacks.</p>
+                <p>A human's fate is more open than most - venture forth with no benefits or drawbacks.</p>
             </div>
         </div>
         <div class="entry">
             <div class="basic">
-                <a style="text-align:center; font-size:200%;">Avian</a>
-                <div>
-                    <i style="background:transparent" class="fa-solid fa-circle"></i>
-                    <i style="background:transparent" class="fa-regular fa-circle"></i>
-                    <i style="background:transparent" class="fa-regular fa-circle"></i>
+                <a>Avian</a>
+                <div class="complexity">
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-regular fa-circle"></i>
+                    <i class="fa-regular fa-circle"></i>
                 </div>
-                <p style="text-decoration:none;">The Avian race has lost their ability to fly a long time ago. Now these peaceful creatures can be seen gliding from one place to another.</p>
+                <p>The Avian race has lost their ability to fly a long time ago. Now these peaceful creatures can be seen gliding from one place to another.</p>
             </div>
             <div class="prc">
                 <li class="positive"><div>
@@ -72,13 +75,13 @@
         </div>
         <div class="entry">
             <div class="basic">
-                <a style="text-align:center; font-size:200%;">Arachne</a>
-                <div>
-                    <i style="background:transparent" class="fa-solid fa-circle"></i>
-                    <i style="background:transparent" class="fa-regular fa-circle"></i>
-                    <i style="background:transparent" class="fa-regular fa-circle"></i>
+                <a>Arachne</a>
+                <div class="complexity">
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-regular fa-circle"></i>
+                    <i class="fa-regular fa-circle"></i>
                 </div>
-                <p style="text-decoration:none;">A race of spider-like humanoids, arachne are known for their ability to climb walls and how extremely venomous they are. Arachne are often feared and live in isolation and trap their prey in webs before consuming them whole.</p>
+                <p>A race of spider-like humanoids, arachne are known for their ability to climb walls and how extremely venomous they are. Arachne are often feared and live in isolation and trap their prey in webs before consuming them whole.</p>
             </div>
             <div class="prc">
                 <li class="positive"><div>
@@ -86,7 +89,7 @@
                     <p>Anything you hit is inflicted with poison for 6 seconds.</p>
                 </div></li>
                 <li class="positive"><div>
-                    <h2>Web Shot <i style="background:transparent" class="fa-solid fa-burst"></i></h2>
+                    <h2>Web Shot <i class="fa-solid fa-burst"></i></h2>
                     <p>Shoot forward a ball that explodes into a temporary web on impact to stop your foes from moving while they are trapped in it.</p>
                 </div></li>
                 <li class="positive"><div>
@@ -109,17 +112,17 @@
         </div>
         <div class="entry">
             <div class="basic">
-                <a style="text-align:center; font-size:200%;">Fae</a>
-                <div>
-                    <i style="background:transparent" class="fa-solid fa-circle"></i>
-                    <i style="background:transparent" class="fa-regular fa-circle"></i>
-                    <i style="background:transparent" class="fa-regular fa-circle"></i>
+                <a>Fae</a>
+                <div class="complexity">
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-regular fa-circle"></i>
+                    <i class="fa-regular fa-circle"></i>
                 </div>
-                <p style="text-decoration:none;">A race of mystical beings with magical abilities and a connection to the natural world, the fae are known for their mystical trickery and their ability to teleport. Fae are often elusive and can be difficult to track, but weak if you can finally catch them.</p>
+                <p>A race of mystical beings with magical abilities and a connection to the natural world, the fae are known for their mystical trickery and their ability to teleport. Fae are often elusive and can be difficult to track, but weak if you can finally catch them.</p>
             </div>
             <div class="prc">
                 <li class="positive"><div>
-                    <h2>Warp <i style="background:transparent" class="fa-solid fa-burst"></i></h2>
+                    <h2>Warp <i class="fa-solid fa-burst"></i></h2>
                     <p>You can teleport forward 20 blocks in the direction you are looking. This power has multiple charges which regenerate over time.</p>
                 </div></li>
                 <li class="negative"><div>
@@ -142,17 +145,17 @@
         </div>
         <div class="entry">
             <div class="basic">
-                <a style="text-align:center; font-size:200%;">High Elf</a>
-                <div>
-                    <i style="background:transparent" class="fa-solid fa-circle"></i>
-                    <i style="background:transparent" class="fa-regular fa-circle"></i>
-                    <i style="background:transparent" class="fa-regular fa-circle"></i>
+                <a>High Elf</a>
+                <div class="complexity">
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-regular fa-circle"></i>
+                    <i class="fa-regular fa-circle"></i>
                 </div>
-                <p style="text-decoration:none;">A nobel and magestic race that has a natural affinity for magic, high elves are known for their magical abilities and their connection to the arcane. High elves are often seen as elegant and refined, and are said to have a natural talent for magic. However, high elves are also known for their fragility and their weakness to physical damage, so they must rely on their magical abilities to protect themselves in combat.</p>
+                <p>A nobel and magestic race that has a natural affinity for magic, high elves are known for their magical abilities and their connection to the arcane. High elves are often seen as elegant and refined, and are said to have a natural talent for magic. However, high elves are also known for their fragility and their weakness to physical damage, so they must rely on their magical abilities to protect themselves in combat.</p>
             </div>
             <div class="prc">
                 <li class="positive"><div>
-                    <h2>Draw Essence <i style="background:transparent" class="fa-solid fa-burst"></i></h2>
+                    <h2>Draw Essence <i class="fa-solid fa-burst"></i></h2>
                     <p>By holding different items, high elves can channel the object's energy to unleash various magics.</p>
                     <li>Glacial Step</li>
                     <li>Void Warp: Press [C] while holding an ender pearl to rip through the fabric of reality and teleport yourself directly where you're looking, up to 50 blocks away.</li>
@@ -180,13 +183,13 @@
         </div>
         <div class="entry">
             <div class="basic">
-                <a style="text-align:center; font-size:200%;">Tabaxi</a>
-                <div>
-                    <i style="background:transparent" class="fa-solid fa-circle"></i>
-                    <i style="background:transparent" class="fa-regular fa-circle"></i>
-                    <i style="background:transparent" class="fa-regular fa-circle"></i>
+                <a>Tabaxi</a>
+                <div class="complexity">
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-regular fa-circle"></i>
+                    <i class="fa-regular fa-circle"></i>
                 </div>
-                <p style="text-decoration:none;">A race of feline humanoids, tabaxi are known for their agility and cunning. Tabaxi are often seen as curious and playful, and are said to have a natural talent for climbing and jumping. However, tabaxi are also known for their love of shiny objects and their tendency to get distracted by them, so they must be careful not to lose focus.</p>
+                <p>A race of feline humanoids, tabaxi are known for their agility and cunning. Tabaxi are often seen as curious and playful, and are said to have a natural talent for climbing and jumping. However, tabaxi are also known for their love of shiny objects and their tendency to get distracted by them, so they must be careful not to lose focus.</p>
             </div>
             <div class="prc">
                 <li class="negative"><div>
@@ -222,20 +225,20 @@
                     <p>Creepers are scared of you and will only explode if you attack them first.</p>
                 </div></li>
                 <li class="neutral"><div>
-                    <h2>Meow <i style="background:transparent" class="fa-solid fa-burst"></i></h2>
+                    <h2>Meow <i class="fa-solid fa-burst"></i></h2>
                     <p>Self explanatory.</p>
                 </div></li>
             </div>
         </div>
         <div class="entry">
             <div class="basic">
-                <a style="text-align:center; font-size:200%;">Dragonborn</a>
-                <div>
-                    <i style="background:transparent" class="fa-solid fa-circle"></i>
-                    <i style="background:transparent" class="fa-solid fa-circle"></i>
-                    <i style="background:transparent" class="fa-regular fa-circle"></i>
+                <a>Dragonborn</a>
+                <div class="complexity">
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-regular fa-circle"></i>
                 </div>
-                <p style="text-decoration:none;">A race of human and dragon descendant, dragonborn combine aspects of both species. Dragonborn are the closest thing left to the ancient flaming dragons, having the ability to fly and shot fire from their mouths. However, due to not having all the resistances of the ancient dragons, your flames get put out by water.</p>
+                <p>A race of human and dragon descendant, dragonborn combine aspects of both species. Dragonborn are the closest thing left to the ancient flaming dragons, having the ability to fly and shot fire from their mouths. However, due to not having all the resistances of the ancient dragons, your flames get put out by water.</p>
             </div>
             <div class="prc">
                 <li class="neutral"><div>
@@ -243,7 +246,7 @@
                     <p>You are bigger than most, at 2.5 blocks tall.</p>
                 </div></li>
                 <li class="positive"><div>
-                    <h2>Draconic Breath <i style="background:transparent" class="fa-solid fa-burst"></i></h2>
+                    <h2>Draconic Breath <i class="fa-solid fa-burst"></i></h2>
                     <p>You are able to fire a small non-explosive fireball from your mouth which does damage and lights what it hits on fire.</p>
                 </div></li>
             </div>
