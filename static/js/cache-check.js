@@ -15,7 +15,7 @@ export async function get_moves() {
 
     let dict = {};
     data.data.forEach(entry => {
-        id = entry['id'];
+        const id = entry['id'];
         if (id) {
             dict[id] = entry
         }
