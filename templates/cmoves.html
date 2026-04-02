@@ -16,7 +16,7 @@
 <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
 <script type="module" src="{{ url_for('static', filename='js/cache-check.js') }}"></script>
 <script type="module">
-    import { get_moves } from `{{ url_for('static', filename='js/cache-check.js' )}}`;
+    import { get_moves } from '/static/js/cache-check.js';
 
     async function make_table() {
         let all_moves = await get_moves();

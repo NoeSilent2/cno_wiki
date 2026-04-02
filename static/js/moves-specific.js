@@ -1,4 +1,4 @@
-import { get_moves } from `{{ url_for('static', filename='js/cache-check.js' )}}`;
+import { get_moves } from '/static/js/cache-check.js';
 
 
 async function process_page() {
