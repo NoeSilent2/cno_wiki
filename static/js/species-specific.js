@@ -40,17 +40,6 @@ async function process_page() {
         });
     });
 
-    const abilities = await get_abilities();
-
-    const abilitytexts = document.querySelectorAll('a#ability');
-    abilitytexts.forEach(a => {
-        const abilityid = a.getAttribute('ability');
-        const ability = abilities[abilityid]
-        if (ability) {
-            a.innerHTML = `${ability['name']}<p class="ability-description">${ability['desc']}</p>`
-        }
-    })
-
     document.querySelectorAll("button#collapseHead").forEach(butt => {
         const collapseRow = butt.nextElementSibling.querySelector('tr#collapseRow')
 
@@ -101,6 +90,17 @@ async function process_page() {
             }
         });
     });
+
+    const abilities = await get_abilities();
+
+    const abilitytexts = document.querySelectorAll('a#ability');
+    abilitytexts.forEach(a => {
+        const abilityid = a.getAttribute('ability');
+        const ability = abilities[abilityid]
+        if (ability) {
+            a.innerHTML = `${ability['name']}<p class="ability-description">${ability['desc']}</p>`
+        }
+    })
 }
 
 

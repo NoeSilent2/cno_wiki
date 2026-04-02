@@ -21,10 +21,10 @@ export async function get_moves() {
         }
     })
 
-    localStorage.setItem('moves_version', realVersion.version)
-    localStorage.setItem('moves_cache', JSON.stringify(dict))
+    localStorage.setItem('moves_version', realVersion.version);
+    localStorage.setItem('moves_cache', JSON.stringify(dict));
 
-    console.log("Fetching fresh move data to cache.")
+    console.log("Fetching fresh move data to cache.");
 
     return dict
 }
@@ -44,10 +44,10 @@ export async function get_abilities() {
     const response = await fetch('/api/abilities');
     const data = await response.json();
 
-    localStorage.setItem('abilities_version', realVersion.version)
-    localStorage.setItem('abilities_cache', data.data)
+    localStorage.setItem('abilities_version', realVersion.version);
+    localStorage.setItem('abilities_cache', JSON.stringify(data.data));
 
-    console.log("Fetching fresh ability data to cache.")
+    console.log("Fetching fresh ability data to cache.");
 
     return data.data
 }
