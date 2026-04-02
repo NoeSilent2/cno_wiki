@@ -16,7 +16,7 @@
     .positive {color:#6d6}
     .negative {color:#d66}
     .neutral {color:#ccc}
-    .hover-content {display:none;}
+    .hover-content {display:none; position:absolute; background:#111; border:3px solid #333; border-radius:15px; padding:8px; color:white; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight:200; font-size:1rem;}
     .hover-menu:hover .hover-content {display:block;}
 </style>
 {% endblock %}
@@ -158,11 +158,30 @@
             <div class="prc">
                 <li class="positive"><div>
                     <h2>Draw Essence <i class="fa-solid fa-burst"></i> <i class="fa-solid fa-circle-info hover-menu"><div class="hover-content">
-                        <p>Glacial Step</p>
-                        <p>Void Warp: Press [C] while holding an ender pearl to rip through the fabric of reality and teleport yourself directly where you're looking, up to 50 blocks away.</p>
-                        <p>Instant Cure: Right click a villager with a golden apple to directly channel its healing energy without needing to weaken them.</p>
-                        <p>Blazenbreath: Press [C] while holding coal in either hand to shoot forth a weak cone of flame. Hold blaze powder instead fo shoot forth a moderate cone of flame. Scales with Fire Spell Power.</p>
-                        <p>Ebonbreath: Press [C] while holding bottled dragon's breath in either hand to shoot forth a cone of strong magical flame. Scales with Fire and Arcane Spell Power.</p>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>Glacial Step</th>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th>Void Warp</th>
+                                    <td>Press [C] while holding an ender pearl to rip through the fabric of reality and teleport yourself directly where you're looking, up to 50 blocks away.</td>
+                                </tr>
+                                <tr>
+                                    <th>Instant Cure</th>
+                                    <td>Right click a villager with a golden apple to directly channel its healing energy without needing to weaken them.</td>
+                                </tr>
+                                <tr>
+                                    <th>Blazenbreath</th>
+                                    <td>Press [C] while holding coal in either hand to shoot forth a weak cone of flame. Hold blaze powder instead fo shoot forth a moderate cone of flame. Scales with Fire Spell Power.</td>
+                                </tr>
+                                <tr>
+                                    <th>Ebonbreath</th>
+                                    <td>Press [C] while holding bottled dragon's breath in either hand to shoot forth a cone of strong magical flame. Scales with Fire and Arcane Spell Power.</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div></i></h2>
                     <p>By holding different items, high elves can channel the object's energy to unleash various magics.</p>
                 </div></li>
