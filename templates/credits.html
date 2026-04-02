@@ -1,0 +1,111 @@
+{% extends 'header.html' %}
+
+{% block title %}Staff - {{ super() }}{% endblock %}
+
+{% block extra_head %}
+<style>
+    .holder {display:flex; flex-wrap: nowrap; justify-content:center; flex-direction:column; gap:1.5rem; padding:1.5rem 0.5rem;}
+    .entry {border:2px solid white; border-radius:20px; min-width:220px; display:flex; align-items:center; justify-content:center; flex-direction:column; padding:0.5rem; gap:5px; flex:1;}
+    .entry a {text-align:center; font-size:200%;}
+    .entry p {text-decoration:none;}
+</style>
+{% endblock %}
+
+{% block body %}
+<main style="flex: 0;">
+
+    <h1 style="border-bottom:1px solid #333">Credits</h1>
+
+    <div class="holder">
+        <div class="entry">
+            <a href="https://modrinth.com/datapack/ggt-pack">GG&T (Goombia)</a>
+            <p>Fakemon</p>
+        </div>
+        <div class="entry">
+            <a href="https://modrinth.com/datapack/lasers-fakemon-pack">Laser's Fakemon Pack</a>
+            <p>Fakemon</p>
+        </div>
+        <div class="entry">
+            <a href="https://discord.com/channels/1341485938181931098/1483502822501781658">Community Commissioned Megas</a>
+            <p>Fakemon</p>
+            <p style="font-size:80%; color:#aaa">Thanks to ScarlettFrost, KizuatoGlitch, and Pizzapie</p>
+        </div>
+        <div class="entry">
+            <a href="https://modrinth.com/datapack/cobblemon-northala-region">Northala Region</a>
+            <p>Fakemon</p>
+        </div>
+        <div class="entry">
+            <a href="https://modrinth.com/datapack/cobblemon-frontiers-datapack">Cobblemon Frontiers</a>
+            <p>Fakemon</p>
+        </div>
+        <div class="entry">
+            <a href="https://modrinth.com/datapack/extra-eeveelutions">Extra Eeveelutions</a>
+            <p>Fakemon</p>
+        </div>
+        <div class="entry">
+            <a href="https://modrinth.com/datapack/triple-bakalutions">Triple Bakalutions</a>
+            <p>Fakemon</p>
+        </div>
+        <div class="entry">
+            <a href="https://modrinth.com/datapack/altered-pokemon">Altered Pokemon</a> + <a href="https://modrinth.com/datapack/altered-additions">Altered Additions</a>
+            <p>Fakemon</p>
+        </div>
+        <div class="entry">
+            <a href="https://modrinth.com/datapack/lasers-fakemon-pack">Laser's Additions</a>
+            <p>Learnsets</p>
+        </div>
+    </div>
+
+    <div class="holder">
+        <div class="entry">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/cobblemon">Cobblemon</a>
+            <p>Mod</p>
+        </div>
+        <div class="entry">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/origins">Origins</a>
+            <p>Mod</p>
+        </div>
+        <div class="entry">
+            <a href="https://www.curseforge.com/members/daedelus_dev/projects">RPG Series</a>
+            <p>Series</p>
+        </div>
+        <div class="entry">
+            <a href="https://modrinth.com/mod/cobblemon-mega-showdown">Mega Showdown</a>
+            <p>Mod</p>
+        </div>
+        <div class="entry">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/farmers-delight-refabricated">Farmer's Delight Refabricated</a>
+            <p>Mod</p>
+        </div>
+        <div class="entry">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/natures-spirit">Nature's Spirit</a>
+            <p>Mod</p>
+        </div>
+        <div class="entry">
+            <a href="https://www.curseforge.com/members/xaero96/projects">Xaero's Maps + OPAC</a>
+            <p>Series</p>
+        </div>
+        <div class="entry">
+            <a href="https://www.curseforge.com/members/yungnickyoung/projects">YUNG's Structures</a>
+            <p>Series</p>
+        </div>
+        <div class="entry">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/waystones">Waystones</a>
+            <p>Mod</p>
+        </div>
+        <div class="entry">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/trinkets">Trinkets</a>
+            <p>Mod</p>
+        </div>
+        <div class="entry">
+            <a href="https://www.curseforge.com/minecraft/mc-mods/simply-swords">Simply Swords</a>
+            <p>Mod</p>
+        </div>
+        <div class="entry">
+            <a href="https://www.curseforge.com/members/sketch_macaw/projects">Macaw's Decor</a>
+            <p>Series</p>
+        </div>
+    </div>
+
+</main>
+{% endblock %}
