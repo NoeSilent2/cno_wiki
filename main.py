@@ -279,3 +279,7 @@ def search_database():
 @app.route("/staff")
 def get_staff():
     return render_template("staff.html")
+
+@app.route("/origins")
+def get_origins():
+    return render_template("origins.html")
