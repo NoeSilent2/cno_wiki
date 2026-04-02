@@ -7,11 +7,12 @@
     .holder {display:flex; flex-direction:column; gap:1.5rem; padding:1.5rem 0.5rem;}
     .entry {border:2px solid white; border-radius:20px; min-width:220px; display:flex; flex-direction:row; padding:2rem; gap:5px; flex:1;}
     .entry img {border-radius: 50%; width:120px; height:120px; object-fit:cover; }
+    .basic {width:20%; gap:10px;}
     .prc {margin:10px}
     .prc li div h2 {font-size:1.3rem; margin-bottom:0.2rem;}
-    .positive {color:#2f2}
-    .negative {color:#f22}
-    .neutral {color:#ccc}
+    .positive {color:#4e4}
+    .negative {color:#e44}
+    .neutral {color:#bbb}
 </style>
 {% endblock %}
 
@@ -22,16 +23,18 @@
 
     <div class="holder">
         <div class="entry">
-            <a style="text-align:center; font-size:200%;">Human</a>
-            <div>
-                <i style="background:transparent" class="fa-regular fa-circle"></i>
-                <i style="background:transparent" class="fa-regular fa-circle"></i>
-                <i style="background:transparent" class="fa-regular fa-circle"></i>
+            <div class="basic">
+                <a style="text-align:center; font-size:200%;">Human</a>
+                <div>
+                    <i style="background:transparent" class="fa-regular fa-circle"></i>
+                    <i style="background:transparent" class="fa-regular fa-circle"></i>
+                    <i style="background:transparent" class="fa-regular fa-circle"></i>
+                </div>
+                <p style="text-decoration:none;">A human's fate is more open than most - venture forth with no benefits or drawbacks.</p>
             </div>
-            <p style="text-decoration:none;">A human's fate is more open than most - venture forth with no benefits or drawbacks.</p>
         </div>
         <div class="entry">
-            <div>
+            <div class="basic">
                 <a style="text-align:center; font-size:200%;">Avian</a>
                 <div>
                     <i style="background:transparent" class="fa-solid fa-circle"></i>
@@ -68,7 +71,7 @@
             </div>
         </div>
         <div class="entry">
-            <div>
+            <div class="basic">
                 <a style="text-align:center; font-size:200%;">Arachne</a>
                 <div>
                     <i style="background:transparent" class="fa-solid fa-circle"></i>
@@ -105,7 +108,7 @@
             </div>
         </div>
         <div class="entry">
-            <div>
+            <div class="basic">
                 <a style="text-align:center; font-size:200%;">Fae</a>
                 <div>
                     <i style="background:transparent" class="fa-solid fa-circle"></i>
@@ -138,7 +141,7 @@
             </div>
         </div>
         <div class="entry">
-            <div>
+            <div class="basic">
                 <a style="text-align:center; font-size:200%;">High Elf</a>
                 <div>
                     <i style="background:transparent" class="fa-solid fa-circle"></i>
@@ -176,7 +179,7 @@
             </div>
         </div>
         <div class="entry">
-            <div>
+            <div class="basic">
                 <a style="text-align:center; font-size:200%;">Tabaxi</a>
                 <div>
                     <i style="background:transparent" class="fa-solid fa-circle"></i>
@@ -225,7 +228,7 @@
             </div>
         </div>
         <div class="entry">
-            <div>
+            <div class="basic">
                 <a style="text-align:center; font-size:200%;">Dragonborn</a>
                 <div>
                     <i style="background:transparent" class="fa-solid fa-circle"></i>
