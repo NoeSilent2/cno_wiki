@@ -45,7 +45,7 @@ export async function get_abilities() {
     const data = await response.json();
 
     localStorage.setItem('abilities_version', realVersion.version)
-    localStorage.setItem('abilities_cache', JSON.stringify(dict))
+    localStorage.setItem('abilities_cache', data)
 
     console.log("Fetching fresh ability data to cache.")
 
