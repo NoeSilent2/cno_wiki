@@ -283,3 +283,7 @@ def get_staff():
 @app.route("/origins")
 def get_origins():
     return render_template("origins.html")
+
+@app.route("/credits")
+def get_credits():
+    return render_template("credits.html")
