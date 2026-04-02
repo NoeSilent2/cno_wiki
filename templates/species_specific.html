@@ -1,6 +1,6 @@
 {% extends 'header.html' %}
 
-{% block title %}{{ species_forms[0].name }} - C&O Wiki{% endblock %}
+{% block title %}{{ species_forms[0].name }} - {{ super() }}{% endblock %}
 
 {% block extra_head %}
 <link rel="stylesheet" href="{{ url_for('static', filename='css/typecolors.css') }}">

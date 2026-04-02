@@ -1,6 +1,6 @@
 {% extends 'header.html' %}
 
-{% block title %}New Moves - C&O Wiki{% endblock %}
+{% block title %}New Moves - {{ super() }}{% endblock %}
 
 {% block extra_head %}
 <link rel="stylesheet" href="{{ url_for('static', filename='css/simpletable.css') }}">
