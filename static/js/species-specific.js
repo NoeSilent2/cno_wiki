@@ -1,4 +1,4 @@
-import { get_moves, get_abilities } from `/static/js/cache-check.js`;
+import { get_moves, get_abilities } from '/static/js/cache-check.js';
 
 
 async function process_page() {
