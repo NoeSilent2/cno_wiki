@@ -92,6 +92,7 @@ async function process_page() {
     });
 
     const abilities = await get_abilities();
+    console.log(abilities)
 
     const abilitytexts = document.querySelectorAll('a#ability');
     abilitytexts.forEach(a => {
