@@ -140,15 +140,15 @@
                         <tbody>
                             <tr>
                                 <td width="50%">
-                                    <a id="ability" ability="{{ species.abilities.primary }}">{{ species.abilities.primary }}</a>
+                                    <a class="ability" ability="{{ species.abilities.primary }}">{{ species.abilities.primary }}</a>
                                     {% if species.abilities.secondary %}
                                     or
-                                    <a id="ability" ability="{{ species.abilities.secondary }}">{{ species.abilities.secondary }}</a>
+                                    <a class="ability" ability="{{ species.abilities.secondary }}">{{ species.abilities.secondary }}</a>
                                     {% endif %}
                                 </td>
                                 {% if species.abilities.hidden %}
                                 <td width="50%">
-                                    <a id="ability" ability="{{ species.abilities.hidden }}">{{ species.abilities.hidden }}</a>
+                                    <a class="ability" ability="{{ species.abilities.hidden }}">{{ species.abilities.hidden }}</a>
                                     <br>
                                     <small>Hidden Ability</small>
                                 </td>
