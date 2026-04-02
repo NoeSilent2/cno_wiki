@@ -26,6 +26,8 @@
         background-color: #fff
     }
     .evolutions > * {overflow-wrap:break-word;}
+    .ability-description {display:none; position:absolute; background:#111; border:3px solid #333; border-radius:15px; padding:8px;}
+    .ability:hover .ability-description {display:block;}
 </style>
 {% endblock %}
 
@@ -137,15 +139,15 @@
                         <tbody>
                             <tr>
                                 <td width="50%">
-                                    <a>{{ species.abilities.primary }}</a>
+                                    <a class="ability" ability="{{ species.abilities.primary }}">{{ species.abilities.primary }}</a>
                                     {% if species.abilities.secondary %}
                                     or
-                                    <a>{{ species.abilities.secondary }}</a>
+                                    <a class="ability" ability="{{ species.abilities.secondary }}">{{ species.abilities.secondary }}</a>
                                     {% endif %}
                                 </td>
                                 {% if species.abilities.hidden %}
                                 <td width="50%">
-                                    <a>{{ species.abilities.hidden }}</a>
+                                    <a class="ability" ability="{{ species.abilities.hidden }}">{{ species.abilities.hidden }}</a>
                                     <br>
                                     <small>Hidden Ability</small>
                                 </td>

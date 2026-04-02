@@ -109,6 +109,17 @@ def get_moves_with(key,value,keys):
 
     return process_rows(rows,keys)
 
+def get_abilities_db():
+    db = get_db()
+    rows = db.execute("SELECT * FROM abilities").fetchall()
+    result = {}
+    for row in rows:
+        base = dict(row)
+        id = base.get('id')
+        if id:
+            base.pop('id', None)
+            result[id] = base
+    return result
 
 @app.route("/species/<name>")
 def db_species_specific(name):
@@ -192,6 +203,7 @@ table_keys = {"species":[
 ]}
 
 moves_version = "1.0.4"
+abilities_version = "1.0.0"
 
 @app.route("/api/moves")
 def api_moves():
@@ -201,6 +213,15 @@ def api_moves():
 @app.route("/api/moves/version")
 def api_moves_version():
     return {'version': moves_version}
+
+@app.route("/api/abilities")
+def api_abilities():
+    result = get_abilities_db()
+    return {'data': result}
+
+@app.route("/api/abilities/version")
+def api_abilities_version():
+    return {'version': abilities_version}
 
 @app.route("/api/gary")
 def api_gary():

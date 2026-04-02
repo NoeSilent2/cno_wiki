@@ -1,34 +1,5 @@
+import { get_moves } from `{{ url_for('static', filename='js/cache-check.js' )}}`;
 
-async function get_moves() {
-    const storedVersion = localStorage.getItem('moves_version');
-    const vresponse = await fetch('/api/moves/version');
-    const realVersion = await vresponse.json();
-
-    if (storedVersion == realVersion.version) {
-        const storedCache = localStorage.getItem('moves_cache');
-        if (storedCache) {
-            return JSON.parse(storedCache);
-        }
-    }
-    
-    const response = await fetch('/api/moves');
-    const data = await response.json();
-
-    let dict = {};
-    data.data.forEach(entry => {
-        id = entry['id'];
-        if (id) {
-            dict[id] = entry
-        }
-    })
-
-    localStorage.setItem('moves_version', realVersion.version)
-    localStorage.setItem('moves_cache', JSON.stringify(dict))
-
-    console.log("Fetching fresh move data to cache.")
-
-    return dict
-}
 
 async function process_page() {
     let moves = await get_moves();

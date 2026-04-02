@@ -1,34 +1,5 @@
+import { get_moves, get_abilities } from `{{ url_for('static', filename='js/cache-check.js' )}}`;
 
-async function get_moves() {
-    const storedVersion = localStorage.getItem('moves_version');
-    const vresponse = await fetch('/api/moves/version');
-    const realVersion = await vresponse.json();
-
-    if (storedVersion == realVersion.version) {
-        const storedCache = localStorage.getItem('moves_cache');
-        if (storedCache) {
-            return JSON.parse(storedCache);
-        }
-    }
-    
-    const response = await fetch('/api/moves');
-    const data = await response.json();
-
-    let dict = {};
-    data.data.forEach(entry => {
-        id = entry['id'];
-        if (id) {
-            dict[id] = entry
-        }
-    })
-
-    localStorage.setItem('moves_version', realVersion.version)
-    localStorage.setItem('moves_cache', JSON.stringify(dict))
-
-    console.log("Fetching fresh move data to cache.")
-
-    return dict
-}
 
 async function process_page() {
     let moves = await get_moves();
@@ -68,6 +39,17 @@ async function process_page() {
             }
         });
     });
+
+    const abilities = await get_abilities();
+
+    const abilitytexts = document.querySelectorAll('a#ability');
+    abilitytexts.forEach(a => {
+        const abilityid = a.getAttribute('ability');
+        const ability = abilities[abilityid]
+        if (ability) {
+            a.innerHTML = `${ability['name']}<p class="ability-description">${ability['desc']}</p>`
+        }
+    })
 
     document.querySelectorAll("button#collapseHead").forEach(butt => {
         const collapseRow = butt.nextElementSibling.querySelector('tr#collapseRow')
