@@ -19,7 +19,7 @@ async function process_page() {
             if (move) {
                 row.innerHTML = `
                     <td>${src || '?'}</td>
-                    <td><a href=${moveId}>${move.name || moveId || '???'}</a></td>
+                    <td><a href="/moves/${moveId}" style="font-weight:normal;">${move.name || moveId || '???'}</a></td>
                     <td><img style="vertical-align:middle" src='/types/${move.type || 'Normal'}Small.png'></td>
                     <td><img style="vertical-align:middle" src='/categories/${move.category || 'Status'}.png'></td>
                     <td>${move.basePower || '-'}</td>
