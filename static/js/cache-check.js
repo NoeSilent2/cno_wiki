@@ -49,5 +49,5 @@ export async function get_abilities() {
 
     console.log("Fetching fresh ability data to cache.")
 
-    return dict
+    return data.data
 }
