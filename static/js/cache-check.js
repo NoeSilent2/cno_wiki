@@ -1,21 +1,16 @@
 let versions = {}
 async function get_versions() {
     if (Object.keys(versions).length != 0) {
-        console.log(versions)
         return versions
     }
     const title = document.querySelector('header#versions');
     let moves_version = title.getAttribute('vmoves');
-    let abilities_version = title.getAttribute('vabilities');
-    console.log(moves_version);
-    console.log(abilities_version);
     if (moves_version && abilities_version) {
         versions = {'moves': moves_version, 'abilities': abilities_version};
         return versions
     }
     const vresponse = await fetch ('/api/moves/version');
     const realVersion = await vresponse.json();
-    console.log(realVersion)
     if (!moves_version) {
         moves_version = realVersion.moves
     }

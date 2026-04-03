@@ -2,10 +2,6 @@
 
 {% block title %}{{ moves[0].name }} - {{ super() }}{% endblock %}
 
-{% block extra_head %}
-    <script type="module" src="{{ url_for('static', filename='js/moves-specific.js') }}"></script>
-{% endblock %}
-
 {% block body %}
 <main style="flex: 0;">
 
