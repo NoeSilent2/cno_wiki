@@ -5,6 +5,7 @@ async function get_versions() {
     }
     const title = document.querySelector('header#versions');
     let moves_version = title.getAttribute('vmoves');
+    let abilities_version = title.getAttribute('vabilities');
     if (moves_version && abilities_version) {
         versions = {'moves': moves_version, 'abilities': abilities_version};
         return versions
