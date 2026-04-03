@@ -1,6 +1,6 @@
 let versions = {}
 async function get_versions() {
-    if (versions) {
+    if (Object.keys(versions).length != 0) {
         console.log(versions)
         return versions
     }
