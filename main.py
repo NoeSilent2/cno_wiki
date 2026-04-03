@@ -203,7 +203,7 @@ table_keys = {"species":[
 ]}
 
 moves_version = "1.0.4"
-abilities_version = "1.0.0"
+abilities_version = "1.0.1"
 
 @app.route("/api/moves")
 def api_moves():
