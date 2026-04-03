@@ -1,6 +1,7 @@
 let versions = {}
 async function get_versions() {
     if (versions) {
+        console.log(versions)
         return versions
     }
     const title = document.querySelector('header#versions');
