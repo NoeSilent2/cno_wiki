@@ -205,23 +205,19 @@ table_keys = {"species":[
 moves_version = "1.0.4"
 abilities_version = "1.0.1"
 
+@app.route("/api/versions")
+def api_moves_version():
+    return {'moves': moves_version, 'abilities': abilities_version}
+
 @app.route("/api/moves")
 def api_moves():
     result = get_moves_with(None, None, table_keys['moves'])
     return {'data': result}
 
-@app.route("/api/moves/version")
-def api_moves_version():
-    return {'version': moves_version}
-
 @app.route("/api/abilities")
 def api_abilities():
     result = get_abilities_db()
     return {'data': result}
-
-@app.route("/api/abilities/version")
-def api_abilities_version():
-    return {'version': abilities_version}
 
 @app.route("/api/gary")
 def api_gary():
