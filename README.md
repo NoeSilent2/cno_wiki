@@ -6,6 +6,8 @@ There's a long to-do list, which I doubt I can complete alone.
 
 You can find the website [here](https://cno-wiki.vercel.app/).
 
+You can find the datascraper tool [here](https://github.com/NoeSilent2/CNO-Data-Scraper).
+
 ## Contributing
 
 If you would like to contribute, you'll need to:
