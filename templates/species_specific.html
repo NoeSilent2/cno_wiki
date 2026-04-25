@@ -415,7 +415,7 @@
                                                                         Learnable Moves
                                                                         <div style="border:1px solid #333; min-height:15px;" class="roundy">
                                                                             {% for move in evolution.learnableMoves %}
-                                                                                <p style="margin:2px">{{ move }}</p>
+                                                                                <a style="margin:2px" id="linkedmove" lmove="{{ move }}" href="/moves/{{ move }}">{{ move }}</a>
                                                                             {% endfor %}
                                                                         </div>
                                                                     </td>
@@ -712,6 +712,18 @@
                 }
             });
         });
+        
+        const linkedmoves = document.querySelectorAll('a#linkedmove');
+        linkedmoves.forEach(link => {
+            const moveId = link.getAttribute('lmove');
+            const move = moves[moveId];
+
+            if (move) {
+                link.innerHTML = `
+                    ${move.name || moveId || '???'}
+                `;
+            }
+        })
 
         document.querySelectorAll("button#collapseHead").forEach(butt => {
             const collapseRow = butt.nextElementSibling.querySelector('tr#collapseRow')
