@@ -202,8 +202,8 @@ table_keys = {"species":[
     "is_fake"
 ]}
 
-moves_version = "1.0.4"
-abilities_version = "1.0.1"
+moves_version = "1.0.5"
+abilities_version = "1.0.2"
 
 @app.route("/api/versions")
 def api_moves_version():
