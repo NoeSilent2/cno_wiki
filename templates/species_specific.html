@@ -292,7 +292,7 @@
                                         <tbody>
                                             <tr>
                                                 <td>
-                                                    {% if species.male_ratio and species.male_ratio != -1 %}
+                                                    {% if species.male_ratio is defined and species.male_ratio != -1 %}
                                                         {% if species.male_ratio == 1 %}
                                                             <div style="height:30px; border:2px solid #fff; border-radius:15px; background:#00f"></div>
                                                         {% elif species.male_ratio == 0 %}
