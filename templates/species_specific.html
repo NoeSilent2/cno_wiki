@@ -769,10 +769,12 @@
                 for (const animName of modelViewerObject.availableAnimations) {
                     if (animName.toLowerCase().includes('idle') && !animName.toLowerCase().includes('ride')) {
                         modelViewerObject.animationName = animName;
-                        modelViewerObject.play();
-                        break
+                        if (animName.includes('ground')) {
+                            break
+                        }
                     }
                 }
+                modelViewerObject.play();
             });
         });
 
