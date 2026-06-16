@@ -737,8 +737,8 @@
         })
 
         document.querySelectorAll("model-viewer#pokemon").forEach(modelViewerObject => {
-            const shinyLabel = modelViewerObject.querySelector('label#switch');
-            const shinyToggle = shinyLabel.querySelector('input[type="checkbox"]');
+            const shinyLabel = modelViewerObject.querySelector('label');
+            const shinyToggle = shinyLabel.querySelector('input');
             let modelLoaded = false;
 
             shinyToggle.addEventListener('change', () => {
