@@ -800,17 +800,17 @@
                     const variantSpan = document.createElement("span");
                     variantSpan.setAttribute("class", "toggle");
                     variantSpan.innerText = "🎨";
-                    variantSpan.style.color = "#ff0000";
+                    variantSpan.style.backgroundColor = "#ff0000";
                     variantLabel.insertAdjacentElement("beforeend",variantSpan);
 
-                    variantButton.addEventListener('input', () => {
+                    variantButton.addEventListener('click', () => {
                         variant += 1;
                         if (!variantNames.includes("default".concat(variant.toString())) && !variantNames.includes("shiny".concat(variant.toString()))) {
                             variant = 1;
                         }
                         console.log("changing variant to ".concat(variant.toString()))
                         updateVariant();
-                        variantSpan.style.color = colors[variant];
+                        variantSpan.style.backgroundColor = colors[variant];
                     })
                 }
                 
