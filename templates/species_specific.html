@@ -763,16 +763,16 @@
                 let shiny = false;
                 
                 function getValid() {
-                    const shinypref = shiny ? "shiny" : "default";
                     let list = [];
-                    if (shiny) { list.concat(["shiny".concat(variant.toString()),"shiny1","shiny"]) }
-                    list.concat(["default".concat(variant.toString()),"default1","default"]);
+                    if (shiny) { list = list.concat(["shiny".concat(variant.toString()),"shiny1","shiny"]) }
+                    list = list.concat(["default".concat(variant.toString()),"default1","default"]);
                     for (const item of list) {
                         if (variantNames.includes(item)) {
                             console.log("returning variant ".concat(item));
                             return item
                         }
                     }
+                    console.log("failed to find a valid variant")
                 }
 
                 function updateVariant() {
@@ -808,6 +808,7 @@
                         if (!variantNames.includes("default".concat(variant.toString())) && !variantNames.includes("shiny".concat(variant.toString()))) {
                             variant = 1;
                         }
+                        console.log("changing variant to ".concat(variant.toString()))
                         updateVariant();
                         variantSpan.style.color = colors[variant];
                     })
