@@ -754,9 +754,11 @@
             });
 
             modelViewerObject.addEventListener("load", () => {
+                console.log("model loaded");
                 modelLoaded = true;
 
                 const variantNames = modelViewerObject.availableVariants;
+                console.log(variantNames);
                 let variant = 1;
                 let shiny = false;
                 
@@ -767,18 +769,21 @@
                     list.concat(["default".concat(variant.toString()),"default1","default"]);
                     for (const item of list) {
                         if (variantNames.includes(item)) {
+                            console.log("returning variant ".concat(item));
                             return item
                         }
                     }
                 }
 
                 function updateVariant() {
+                    console.log("updating variant");
                     modelViewerObject.variantName = getValid()
                 }
 
                 updateVariant();
                 
                 if (variantNames.includes('default1') || variantNames.includes('shiny1')) {
+                    console.log("making color variant button");
                     let colors = new Array();
                     colors[1] = "#ff0000";
                     colors[2] = "#ffff00";
@@ -811,6 +816,7 @@
 
                 shinyToggle.addEventListener('change', () => {
                     shiny = shinyToggle.checked;
+                    console.log(shiny);
                     updateVariant();
                 })
 
