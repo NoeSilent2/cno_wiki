@@ -19,9 +19,10 @@
     model-viewer {height: 300px; width: 100%;}
     .typebox {font-size: 85%; line-height:12px; border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; -khtml-border-radius: 2px; -icab-border-radius: 2px; -o-border-radius: 2px;}
     .switch {position: relative; width: 32px; height: 32px; margin: 4px; text-align:center; float:right;}
-    .switch .toggle {position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #000; transition: .4s; border: 2px solid #fff; border-radius: 6px;}
+    .switch .toggle {position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #000; color: #fff; transition: .4s; border: 2px solid #fff; border-radius: 6px; width: 2rem; line-height: 1.8; text-shadow: 0px 0px 2px #000;}
     input:checked + .toggle {
-        background-color: #fff
+        background-color: #fff;
+        color: #fc0
     }
     .evolutions > * {overflow-wrap:break-word;}
     .ability-description {display:none; position:absolute; background:#111; border:3px solid #333; border-radius:15px; padding:8px;}
@@ -92,7 +93,7 @@
                                                     <model-viewer id="pokemon" alt="{{ species.name }}" src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/main/models/{{ species.alt_internal_name }}.glb" {% if not species.is_fake %} poster="https://img.pokemondb.net/sprites/home/normal/{{ species.alt_internal_name }}.png" {% endif %} camera-controls touch-action="pan-y" camera-orbit="-215deg 77deg 6px" camera-target="auto">
                                                         <label class="switch" id="shinyToggle">
                                                             <input type="checkbox" imagename="{{ species.alt_internal_name }}">
-                                                            <span class="toggle">✨</span>
+                                                            <span class="toggle fa-solid fa-star"></span>
                                                         </label>
                                                         <div style="float:left; margin:4px; gap:1px; display:flex;">
                                                             {% if species.types.primary %}
@@ -798,8 +799,8 @@
                     variantButton.setAttribute("type", "button");
                     variantLabel.insertAdjacentElement("beforeend",variantButton);
                     const variantSpan = document.createElement("span");
-                    variantSpan.setAttribute("class", "toggle");
-                    variantSpan.innerText = "🎨";
+                    variantSpan.setAttribute("class", "toggle fa-solid fa-palette");
+                    //variantSpan.innerText = "🎨";
                     variantSpan.style.backgroundColor = "#ff0000";
                     variantLabel.insertAdjacentElement("beforeend",variantSpan);
 
