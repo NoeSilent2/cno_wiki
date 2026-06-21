@@ -340,6 +340,7 @@
     async function give_gary_data() {
         const data = await get_daily();
 
+        if (data.shiny == "shiny") {console.log("Shiny!!!")}
         const entry = document.querySelector('div#gary-pokemon');
         const modelViewerObject = entry.querySelector('model-viewer');
         const pokemonLabel = entry.querySelector('a');
@@ -351,6 +352,16 @@
             } else {
                 modelViewerObject.variantName = `${data.shiny}1`;
             }
+
+            for (const animName of modelViewerObject.availableAnimations) {
+                if (animName.toLowerCase().includes('idle') && !animName.toLowerCase().includes('ride')) {
+                    modelViewerObject.animationName = animName;
+                    if (animName.includes('ground')) {
+                        break
+                    }
+                }
+            }
+            modelViewerObject.play();
         })
 
         if (data.is_fake) {
