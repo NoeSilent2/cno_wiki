@@ -106,7 +106,8 @@
         <div style="height:auto; overflow-y: auto; max-height:400px">
             <ul class="log">
                 <p>June 21</p>
-                <li>Teach Gary what a 3D model is. He's a slow learner</li>
+                <li>Teaching Gary what UTC is and why he should use it</li>
+                <li>Teaching Gary what a 3D model is. He's a slow learner</li>
                 <p>June 19</p>
                 <li>Removed duplicate Lilligant Hisui and Trevenant Pale forms</li>
                 <li>Cut the legs off of Thundurus</li>
@@ -316,7 +317,7 @@
 </div>
 <script>
     async function get_daily() {
-        const date = (new Date()).getDate();
+        const date = (new Date()).getUTCDate();
         const storedVersion = JSON.parse(localStorage.getItem('gary_daily'));
 
         if (storedVersion) {

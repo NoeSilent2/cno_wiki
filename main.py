@@ -2,7 +2,7 @@ import json
 import random
 import hashlib
 import sqlite3
-from datetime import date
+from datetime import datetime, timezone
 from flask import Flask, g, request, render_template, redirect, url_for, send_from_directory
 
 
@@ -145,7 +145,7 @@ daily_object_day = None
 def get_daily_object():
     global daily_object
     global daily_object_day
-    today = date.today()
+    today = datetime.now(timezone.utc)
     if daily_object_day and today == daily_object_day:
         return daily_object
     random.seed(int(hashlib.md5(f"{today.year}{today.month}{today.day}".encode()).hexdigest()[:8], 16))
