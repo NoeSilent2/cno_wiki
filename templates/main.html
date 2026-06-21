@@ -104,6 +104,8 @@
         <h1 style="font-size:2rem; border-bottom: 1px solid #333;">Changelog</h1>
         <div style="height:auto; overflow-y: auto; max-height:400px">
             <ul class="log">
+                <p>June 21</p>
+                <li>Teach Gary what a 3D model is. He's a slow learner</li>
                 <p>June 19</p>
                 <li>Removed duplicate Lilligant Hisui and Trevenant Pale forms</li>
                 <li>Cut the legs off of Thundurus</li>
@@ -302,6 +304,10 @@
             </div>
 
             <div id="gary-pokemon" style="border:1px solid #333; border-radius: 6px; display: flex; flex-direction:column; align-items: center;">
+                <model-viewer src="" poster="https://img.pokemondb.net/sprites/home/normal/unown-qm.png" camera-controls touch-action="pan-y" camera-orbit="-215deg 77deg 6px" camera-target="auto">
+
+                </model-viewer>
+                <a href="" style="font-size:160%; margin:10px; margin-top:0px;">Loading...</a>
             </div>
         </div>
     </div>
@@ -314,7 +320,9 @@
 
         if (storedVersion) {
             if (date == storedVersion.date) {
-                return storedVersion.data
+                if (typeof storedVersion.data['is_fake'] == "boolean") {
+                    return storedVersion.data
+                }
             }
         }
         
@@ -332,10 +340,26 @@
         const data = await get_daily();
 
         const entry = document.querySelector('div#gary-pokemon');
-        entry.innerHTML = `
-            <img src="https://img.pokemondb.net/sprites/home/${data.shiny || 'normal'}/${data.img || 'unown-em'}.png" style="width:auto; height:auto;">
-            <a href="/species/${data.link || random}" style="font-size:160%; margin:10px; margin-top:0px;">${data.name || 'error'}</a>
-        `;
+        const modelViewerObject = entry.querySelector('model-viewer');
+        const pokemonLabel = entry.querySelector('a');
+
+        modelViewerObject.addEventListener("load", () => {
+            const variantNames = modelViewerObject.availableVariants;
+            if (variantNames.includes(data.shiny)) {
+                modelViewerObject.variantName = data.shiny;
+            } else {
+                modelViewerObject.variantName = `${data.shiny}1`;
+            }
+        })
+
+        if (data.is_fake) {
+            modelViewerObject.setAttribute("src", `https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/main/models/${data.alt_internal_name}.glb`);
+        } else {
+            modelViewerObject.setAttribute("poster", `https://img.pokemondb.net/sprites/home/normal/${data.alt_internal_name}.png`);
+        }
+
+        pokemonLabel.setAttribute("href", `/species/${data.internal_name || "random"}`);
+        pokemonLabel.innerHTML = `${data.name || "Error"}`;
     }
 
     document.addEventListener('DOMContentLoaded', () => {

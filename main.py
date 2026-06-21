@@ -153,16 +153,20 @@ def get_daily_object():
     count = db.execute("SELECT COUNT(DISTINCT alt_internal_name) FROM species").fetchone()[0]
     offset = random.randint(0, count - 1)
     species_id = db.execute("SELECT DISTINCT alt_internal_name FROM species LIMIT 1 OFFSET ?",(offset,)).fetchone()
-    species = db.execute("SELECT name, internal_name, alt_internal_name FROM species WHERE alt_internal_name = ? LIMIT 1",(species_id["alt_internal_name"],)).fetchone()
-    isShiny = 'normal'
+    species = db.execute("SELECT name, internal_name, alt_internal_name, is_fake, is_fake_form FROM species WHERE alt_internal_name = ? LIMIT 1",(species_id["alt_internal_name"],)).fetchone()
+    isShiny = 'default'
     if random.randint(1, 50) == 1:
         isShiny = 'shiny'
+    isFake = False
+    if species["is_fake"] == 1 or species["is_fake_form"] == 1:
+        isFake = True
     daily_object_day = today
     daily_object = {
         'name': species["name"],
-        'img': species["alt_internal_name"],
-        'link': species["internal_name"],
-        'shiny': isShiny
+        'alt_internal_name': species["alt_internal_name"],
+        'internal_name': species["internal_name"],
+        'shiny': isShiny,
+        'is_fake': isFake
     }
     return daily_object
 

@@ -769,7 +769,6 @@
                     list = list.concat(["default".concat(variant.toString()),"default1","default"]);
                     for (const item of list) {
                         if (variantNames.includes(item)) {
-                            console.log("returning variant ".concat(item));
                             return item
                         }
                     }
@@ -809,7 +808,6 @@
                         if (!variantNames.includes("default".concat(variant.toString())) && !variantNames.includes("shiny".concat(variant.toString()))) {
                             variant = 1;
                         }
-                        console.log("changing variant to ".concat(variant.toString()))
                         updateVariant();
                         variantSpan.style.backgroundColor = colors[variant];
                     })
@@ -818,7 +816,6 @@
 
                 shinyToggle.addEventListener('change', () => {
                     shiny = shinyToggle.checked;
-                    console.log(shiny);
                     updateVariant();
                 })
 
