@@ -5,10 +5,11 @@
 {% block extra_head %}
 <style>
     .holder {display:flex; flex-wrap: wrap; justify-content:center; gap:1.5rem; padding:1.5rem 0.5rem;}
-    .entry {border:2px solid white; border-radius:20px; min-width:220px; display:flex; align-items:center; justify-content:center; flex-direction:column; padding:0.5rem; gap:5px; flex:1;}
+    .entry {border:2px solid white; border-radius:20px; min-width:220px; display:flex; align-items:center; justify-content:flex-start; flex-direction:column; padding:0.5rem; gap:5px; flex:1;}
     .entry img {width:64px; height:64px; object-fit:cover; image-rendering:pixelated;}
-    .entry p {text-decoration:none;}
+    .entry p {text-align:center;}
     .entry .name {text-align:center; font-size:200%; font-weight:bold;}
+    .entry .trait {font-style:italic; color:#aaa;}
 </style>
 {% endblock %}
 
@@ -27,18 +28,238 @@
             <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/absorb_bulb.png">
             <p class="name">Absorb Bulb</p>
             <p>Boosts the holder's Sp. Atk when hit by a Water-type move</p>
-            <p>Consumed after use</p>
+            <p class="trait">Consumed after use</p>
         </div>
         <div class="entry">
             <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/air_balloon.png">
             <p class="name">Air Balloon</p>
             <p>Makes the holder ungrounded</p>
-            <p>Destroyed on hit</p>
+            <p class="trait">Destroyed on hit</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/amulet_coin.png">
+            <p class="name">Amulet Coin</p>
+            <p></p>
         </div>
         <div class="entry">
             <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/assault_vest.png">
-            <p class="name">Assault vest</p>
+            <p class="name">Assault Vest</p>
             <p>Raises the holder's Sp. Def but prevents the use of status moves</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/big_root.png">
+            <p class="name">Big Root</p>
+            <p></p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/binding_band.png">
+            <p class="name">Binding Band</p>
+            <p>Increases damage dealt by the binding status</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/black_belt.png">
+            <p class="name">Black Belt</p>
+            <p>Boosts the power of the holder's Fighting-type moves</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/black_glasses.png">
+            <p class="name">Black Glasses</p>
+            <p>Boosts the power of the holder's Dark-type moves</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/black_sludge.png">
+            <p class="name">Black Sludge</p>
+            <p>If the holder is a Poison-type, its HP is gradually restored throughout a battle. It damages any other type</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/blunder_policy.png">
+            <p class="name">Blunder Policy</p>
+            <p>Boosts the holder's Speed when an attack is missed</p>
+            <p class="trait">Consumed after use</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/bright_powder.png">
+            <p class="name">Bright Powder</p>
+            <p></p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/cell_battery.png">
+            <p class="name">Cell Battery</p>
+            <p>Boosts the holder's Attack when hit by an Electric-type move</p>
+            <p class="trait">Consumed after use</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/charcoal_stick.png">
+            <p class="name">Charcoal Stick</p>
+            <p>Boosts the power of the holder's Fire-type moves</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/choice_band.png">
+            <p class="name">Choice Band</p>
+            <p>Boosts the holder's Attack, but locks it into only using one move</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/choice_scarf.png">
+            <p class="name">Choice Scarf</p>
+            <p>Boosts the holder's Speed, but locks it into only using one move</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/choice_specs.png">
+            <p class="name">Choice Specs</p>
+            <p>Boosts the holder's Sp. Atk, but locks it into only using one move</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/cleanse_tag.png">
+            <p class="name">Cleanse Tag</p>
+            <p>Has no effect</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/clear_amulet.png">
+            <p class="name">Clear Amulet</p>
+            <p></p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/covert_cloak.png">
+            <p class="name">Covert Cloak</p>
+            <p>Protects the holder from additional effects when hit by a damaging move</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/damp_rock.png">
+            <p class="name">Damp Rock</p>
+            <p></p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/destiny_knot.png">
+            <p class="name">Destiny Knot</p>
+            <p></p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/dragon_fang.png">
+            <p class="name">Dragon Fang</p>
+            <p>Boosts the power of the holder's Dragon-type moves</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/eject_button.png">
+            <p class="name">Eject Button</p>
+            <p>Switches the holder out when hit by a damaging move</p>
+            <p class="trait">Consumed after use</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/eject_pack.png">
+            <p class="name">Eject Pack</p>
+            <p>Switches out the holder if any stats are lowered</p>
+            <p class="trait">Consumed after use</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/electric_seed.png">
+            <p class="name">Electric Seed</p>
+            <p>Boosts the holder's Defense in Electric terrain</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/everstone.png">
+            <p class="name">Everstone</p>
+            <p>Prevents the holder from evolving</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/eviolite.png">
+            <p class="name">Eviolite</p>
+            <p>Boosts the holder's Defense and Sp. Def if it is not fully evolved</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/exp_share.png">
+            <p class="name">Exp. Share</p>
+            <p>Allows the holder to receive a share of experience from battles without participating</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/expert_belt.png">
+            <p class="name">Expert Belt</p>
+            <p>Boosts the damage of super-effective moves</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/fairy_feather.png">
+            <p class="name">Fairy Feather</p>
+            <p>Boosts the power of the holder's Fairy-type moves</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/flame_orb.png">
+            <p class="name">Flame Orb</p>
+            <p></p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/float_stone.png">
+            <p class="name">Float Stone</p>
+            <p>The holder's weight is halved</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/focus_band.png">
+            <p class="name">Focus Band</p>
+            <p>Provides a chance for the holder to survive a potential KO attack, leaving it with 1 HP</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/focus_sash.png">
+            <p class="name">Focus Sash</p>
+            <p>Prevents the holder from fainting in a single hit</p>
+            <p class="trait">Consumed after use</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/grassy_seed.png">
+            <p class="name">Grassy Seed</p>
+            <p>Boosts the holder's Defense in Grassy terrain</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/grip_claw.png">
+            <p class="name">Grip Claw</p>
+            <p></p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/hard_stone.png">
+            <p class="name">Hard Stone</p>
+            <p>Boosts the power of the holder's Rock-type moves</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/heat_rock.png">
+            <p class="name">Heat Rock</p>
+            <p></p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/heavy_duty_boots.png">
+            <p class="name">Heavy-Duty Boots</p>
+            <p>Prevents the effects of traps set on the battlefield</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/icy_rock.png">
+            <p class="name">Icy Rock</p>
+            <p></p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/iron_ball.png">
+            <p class="name">Iron Ball</p>
+            <p>Grounds the holder, and halves their speed</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/lagging_tail.png">
+            <p class="name">Lagging Tail</p>
+            <p></p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/leftovers.png">
+            <p class="name">Leftovers</p>
+            <p>Gradually restores the holder's HP throughout a battle</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/life_orb.png">
+            <p class="name">Life Orb</p>
+            <p></p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/light_ball.png">
+            <p class="name">Light Ball</p>
+            <p>Boosts Pikachu's Attack and Sp. Atk</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/light_clay.png">
+            <p class="name">Light Clay</p>
+            <p>Protective moves like Light Screen and Reflect will be effective longer</p>
         </div>
     </div>
 
