@@ -10,7 +10,7 @@
     .entry-description {display:none; position:absolute; background:#111; border:3px solid #333; border-radius:15px; padding:8px;}
     .entry:hover .entry-description {display:block;}
     .switch {position: relative; width: 64px; height: 64px; margin: 4px; text-align:center; float:right;}
-    .switch .toggle {position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #000; color: #fff; transition: .4s; border: 2px solid #fff; border-radius: 6px; width: 2rem; line-height: 1.8;}
+    .switch .toggle {position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #151515; color: #fff; transition: .4s; border-radius: 16px; width: 64px; height: 64px; font-size: 40px; line-height: 64px;}
     input:checked + .toggle {
         background-color: #fff;
         color: #000
@@ -21,12 +21,11 @@
 {% block body %}
 <main style="flex: 0;">
 
-    <h1 style="border-bottom:1px solid #333">Held Items</h1>
     <div style="border-bottom:1px solid #333; display:flex; justify-content:space-between; align-items:center;">
         <h1 style="margin:0px;">Held Items</h1>
         <label class="switch" id="gridToggle">
             <input type="checkbox">
-            <span class="toggle fa-solid fa-table-cells-large"></span>
+            <span class="toggle fa-solid fa-list"></span>
         </label>
     </div>
 
