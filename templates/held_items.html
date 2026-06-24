@@ -9,6 +9,7 @@
     .entry img {width:96px; height:96px; image-rendering:pixelated;}
     .entry-description {display:none; position:absolute; background:#111; border:3px solid #333; border-radius:15px; padding:8px;}
     .entry:hover .entry-description {display:block;}
+    .trait {font-style:italic; color:#888;}
     .switch {position: relative; width: 64px; height: 64px; margin: 4px; text-align:center; float:right;}
     .switch .toggle {position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #151515; color: #fff; transition: .4s; border-radius: 16px; width: 64px; height: 64px; font-size: 40px; line-height: 64px;}
     input:checked + .toggle {
@@ -19,6 +20,7 @@
     .list .entry-description {display:block; position:static; background:transparent; border:0px; border-radius:0px; padding:0px;}
     .list .entry {width:auto; height:auto; display:flex; aspect-ratio:auto; padding:8px 12px; gap:12px;}
     .list .entry img {width:48px; height:48px;}
+    .list .entry .trait {display:inline; margin-left:8px;}
 </style>
 {% endblock %}
 
@@ -165,6 +167,12 @@
                 newDesc.appendChild(newName);
                 if (value["desc"]) {
                     newDesc.append(value["desc"])
+                }
+                if (value["trait"]) {
+                    const newTrait = document.createElement('p');
+                    newTrait.classList.add('trait');
+                    newTrait.innerHTML = traits[value["trait"]]
+                    newDesc.appendChild(newTrait)
                 }
                 newEntry.appendChild(newDesc);
                 holder.appendChild(newEntry);
