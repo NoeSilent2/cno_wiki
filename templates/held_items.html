@@ -144,7 +144,9 @@
                 if (name == null) {
                     name = key.replace("_"," ").replace(/\b\w/g, s => s.toUpperCase());
                 }
-                newDesc.appendChild(document.createElement('h3').innerHTML(name));
+                const newName = document.createElement('h3')
+                newName.innerHTML = name
+                newDesc.appendChild(newName);
                 if (value["desc"]) {
                     newDesc.append(value["desc"])
                 }
