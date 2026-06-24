@@ -134,12 +134,13 @@
         holder = document.querySelector("#holder")
         if (holder) {
             for (const [key, value] of Object.entries(items)) {
-            const newEntry = document.createElement('div');
-            newEntry.classList.add('entry');
-            const newImg = document.createElement('img');
-            newImg.src = `https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/${key}.png`
-            newEntry.appendChild(newImg)
-            holder.appendChild(newEntry)
+                const newEntry = document.createElement('div');
+                newEntry.classList.add('entry');
+                const newImg = document.createElement('img');
+                newImg.src = `https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/${key}.png`
+                newEntry.appendChild(newImg)
+                holder.appendChild(newEntry)
+            }
         }
     });
 </script>
