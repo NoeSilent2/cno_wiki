@@ -4,12 +4,9 @@
 
 {% block extra_head %}
 <style>
-    .holder {display:flex; flex-wrap: wrap; justify-content:center; gap:1.5rem; padding:1.5rem 0.5rem;}
-    .entry {border:2px solid white; border-radius:20px; min-width:220px; display:flex; align-items:center; justify-content:flex-start; flex-direction:column; padding:0.5rem; gap:5px; flex:1;}
-    .entry img {width:64px; height:64px; object-fit:cover; image-rendering:pixelated;}
-    .entry p {text-align:center;}
-    .entry .name {text-align:center; font-size:200%; font-weight:bold;}
-    .entry .trait {font-style:italic; color:#aaa;}
+    .holder {display:flex; flex-wrap: wrap; justify-content:center; gap:1rem; padding:1.5rem 0.5rem;}
+    .entry {border-radius:20px; align-items:center; padding:8px; aspect-ratio:1; background-image:linear-gradient(-30deg, #050505, #151515); width:112px; height:112px;}
+    .entry img {width:96px; height:96px; image-rendering:pixelated;}
     .entry-description {display:none; position:absolute; background:#111; border:3px solid #333; border-radius:15px; padding:8px;}
     .entry:hover .entry-description {display:block;}
 </style>
@@ -147,7 +144,7 @@
                 if (name == null) {
                     name = key.replace("_"," ").replace(/\b\w/g, s => s.toUpperCase());
                 }
-                newDesc.append(name);
+                newDesc.appendChild(document.createElement('h3').innerHTML(name));
                 if (value["desc"]) {
                     newDesc.append(value["desc"])
                 }
