@@ -15,6 +15,9 @@
         background-color: #fff;
         color: #000
     }
+    .list .entry-description {display:block; position:static; background:transparent; border:0px; border-radius:0px; padding:0px;}
+    .list .holder {flex-wrap:nowrap; flex-direction:column;}
+    .list .entry {width:auto; height:auto; display:flex; aspect-ratio:auto; padding:8px 12px; gap:12px;}
 </style>
 {% endblock %}
 
@@ -23,7 +26,7 @@
 
     <div style="border-bottom:1px solid #333; display:flex; justify-content:space-between; align-items:center;">
         <h1 style="margin:0px;">Held Items</h1>
-        <label class="switch" id="gridToggle">
+        <label class="switch" id="listToggle">
             <input type="checkbox">
             <span class="toggle fa-solid fa-list"></span>
         </label>
@@ -165,6 +168,10 @@
                 newEntry.appendChild(newDesc);
                 holder.appendChild(newEntry);
             }
+            const listToggle = document.querySelector("#listToggle");
+            listToggle.addEventListener('change', () => {
+                holder.classList.toggle("list")
+            })
         }
     });
 </script>
