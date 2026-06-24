@@ -6,7 +6,7 @@
 <style>
     .holder {display:flex; flex-wrap: wrap; justify-content:center; gap:0.5rem; padding:1.5rem 0.5rem;}
     .entry {border-radius:20px; align-items:center; padding:8px; aspect-ratio:1; background-image:linear-gradient(-30deg, #0c0c0c, #222); width:112px; height:112px;}
-    .entry img {width:96px; height:96px; image-rendering:pixelated; filter:drop-shadow(2px 3px 2px #131313)}
+    .entry img {width:96px; height:96px; image-rendering:pixelated;}
     .entry-description {display:none; position:absolute; background:#111; border:3px solid #333; border-radius:15px; padding:8px;}
     .entry:hover .entry-description {display:block;}
     .trait {font-style:italic; color:#888;}
@@ -19,7 +19,7 @@
     .list {flex-wrap:nowrap; flex-direction:column;}
     .list .entry-description {display:block; position:static; background:transparent; border:0px; border-radius:0px; padding:0px;}
     .list .entry {width:auto; height:auto; display:flex; aspect-ratio:auto; padding:6px 12px; gap:12px;}
-    .list .entry img {width:48px; height:48px;}
+    .list .entry img {width:48px; height:48px; filter:drop-shadow(2px 3px 2px #131313)}
     .list .entry .trait {display:inline; margin-left:8px;}
 </style>
 {% endblock %}
