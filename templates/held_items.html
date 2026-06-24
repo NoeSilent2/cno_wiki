@@ -10,6 +10,8 @@
     .entry p {text-align:center;}
     .entry .name {text-align:center; font-size:200%; font-weight:bold;}
     .entry .trait {font-style:italic; color:#aaa;}
+    .entry-description {display:none; position:absolute; background:#111; border:3px solid #333; border-radius:15px; padding:8px;}
+    .entry:hover .entry-description {display:block;}
 </style>
 {% endblock %}
 
@@ -123,7 +125,7 @@
         "weakness_policy": {"desc":"Boosts the holder's Attack and Sp. Atk when hit by a super-effective move","trait":1},
         "white_herb": {"desc":"Restores any lowered stat in battle","trait":1},
         "wide_lens": {"desc":"Boosts the holder's Accuracy"},
-        "wide_glasses": {"desc":"Boosts the power of special moves"},
+        "wise_glasses": {"desc":"Boosts the power of special moves"},
         "zoom_lens": {"desc":"Boosts the holder's Accuracy"}
     }
     const traits = {
@@ -139,6 +141,17 @@
                 const newImg = document.createElement('img');
                 newImg.src = `https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/${key}.png`;
                 newEntry.appendChild(newImg);
+                const newDesc = document.createElement('div');
+                newDesc.classList.add('entry-description');
+                let name = value["name"];
+                if (name == nil) {
+                    name = key.replace("_"," ").replace(/\b\w/g, s => s.toUpperCase());
+                }
+                newDesc.append(name);
+                if (value["desc"]) {
+                    newDesc.append(value["desc"])
+                }
+                newEntry.appendChild(newDesc);
                 holder.appendChild(newEntry);
             }
         }
