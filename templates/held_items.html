@@ -4,21 +4,21 @@
 
 {% block extra_head %}
 <style>
-    .holder {display:flex; flex-wrap: wrap; justify-content:center; gap:1rem; padding:1.5rem 0.5rem;}
-    .entry {border-radius:20px; align-items:center; padding:8px; aspect-ratio:1; background-image:linear-gradient(-30deg, #050505, #151515); width:112px; height:112px;}
-    .entry img {width:96px; height:96px; image-rendering:pixelated;}
+    .holder {display:flex; flex-wrap: wrap; justify-content:center; gap:0.5rem; padding:1.5rem 0.5rem;}
+    .entry {border-radius:20px; align-items:center; padding:8px; aspect-ratio:1; background-image:linear-gradient(-30deg, #0c0c0c, #222); width:112px; height:112px;}
+    .entry img {width:96px; height:96px; image-rendering:pixelated; filter:drop-shadow(2px 3px 2px #131313)}
     .entry-description {display:none; position:absolute; background:#111; border:3px solid #333; border-radius:15px; padding:8px;}
     .entry:hover .entry-description {display:block;}
     .trait {font-style:italic; color:#888;}
     .switch {position: relative; width: 64px; height: 64px; margin: 4px; text-align:center; float:right;}
-    .switch .toggle {position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #151515; color: #fff; transition: .4s; border-radius: 16px; width: 64px; height: 64px; font-size: 40px; line-height: 64px;}
+    .switch .toggle {position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #151515; color: #eee; transition: .4s; border-radius: 16px; width: 64px; height: 64px; font-size: 40px; line-height: 64px;}
     input:checked + .toggle {
-        background-color: #fff;
+        background-color: #eee;
         color: #000
     }
     .list {flex-wrap:nowrap; flex-direction:column;}
     .list .entry-description {display:block; position:static; background:transparent; border:0px; border-radius:0px; padding:0px;}
-    .list .entry {width:auto; height:auto; display:flex; aspect-ratio:auto; padding:8px 12px; gap:12px;}
+    .list .entry {width:auto; height:auto; display:flex; aspect-ratio:auto; padding:6px 12px; gap:12px;}
     .list .entry img {width:48px; height:48px;}
     .list .entry .trait {display:inline; margin-left:8px;}
 </style>
@@ -49,13 +49,10 @@
         "assault_vest": {"desc":"Raises the holder's Sp. Def but prevents the use of status moves"},
         "big_root": {"desc":"Boosts the amount of HP the holder recovers from HP-stealing moves"},
         "binding_band": {"desc":"Increases damage dealt by the binding status"},
-        "black_belt": {"desc":"Boosts the power of the holder's Fighting-type moves"},
-        "black_glasses": {"desc":"Boosts the power of the holder's Dark-type moves"},
         "black_sludge": {"desc":"If the holder is a Poison-type, its HP is gradually restored throughout a battle. It damages any other type"},
         "blunder_policy": {"desc":"Boosts the holder's Speed when an attack is missed","trait":1},
         "bright_powder": {"desc":"Reduces the accuracy of enemy Pokémon's moves by 10%"},
         "cell_battery": {"desc":"Boosts the holder's Attack when hit by an Electric-type move","trait":1},
-        "charcoal_stick": {"desc":"Boosts the power of the holder's Fire-type moves"},
         "choice_band": {"desc":"Boosts the holder's Attack, but locks it into only using one move"},
         "choice_scarf": {"desc":"Boosts the holder's Speed, but locks it into only using one move"},
         "choice_specs": {"desc":"Boosts the holder's Sp. Atk, but locks it into only using one move"},
@@ -63,8 +60,9 @@
         "clear_amulet": {},
         "covert_cloak": {"desc":"Protects the holder from additional effects when hit by a damaging move"},
         "damp_rock": {"desc":"Extends the duration of Rain"},
+        "deep_sea_scale": {"desc":"Boosts Clamperl's Sp. Def stat"},
+        "deep_sea_tooth": {"desc":"Boosts Clamperl's Sp. Atk stat"},
         "destiny_knot": {"desc":"If the holder becomes infatuated, the Pokémon that the holder is in love with becomes infatuated as well"},
-        "dragon_fang": {"desc":"Boosts the power of the holder's Dragon-type moves"},
         "eject_button": {"desc":"Switches the holder out when hit by a damaging move","trait":1},
         "eject_pack": {"desc":"Switches out the holder if any stats are lowered","trait":1},
         "electric_seed": {"desc":"Boosts the holder's Defense in Electric terrain"},
@@ -72,18 +70,17 @@
         "eviolite": {"desc":"Boosts the holder's Defense and Sp. Def if it is not fully evolved"},
         "exp_share": {"name":"Exp. Share","desc":"Allows the holder to receive a share of experience from battles without participating"},
         "expert_belt": {"desc":"Boosts the damage of super-effective moves"},
-        "fairy_feather": {"desc":"Boosts the power of the holder's Fairy-type moves"},
         "flame_orb": {"desc":"Burns the holder"},
         "float_stone": {"desc":"The holder's weight is halved"},
         "focus_band": {"desc":"Provides a chance for the holder to survive a potential KO attack, leaving it with 1 HP"},
         "focus_sash": {"desc":"Prevents the holder from fainting in a single hit","trait":1},
         "grassy_seed": {"desc":"Boosts the holder's Defense in Grassy terrain"},
         "grip_claw": {},
-        "hard_stone": {"desc":"Boosts the power of the holder's Rock-type moves"},
         "heat_rock": {"desc":"Extends the duration of Harsh Sunlight"},
         "heavy_duty_boots": {"name":"Heavy-Duty Boots","desc":"Prevents the effects of traps set on the battlefield"},
         "icy_rock": {"desc":"Extends the duration of Snow or Hail"},
         "iron_ball": {"desc":"Grounds the holder, and halves their speed"},
+        "kings_rock": {"name":"King's Rock","desc":"When the holder successfully inflicts damage, the target may also flinch"},
         "lagging_tail": {},
         "leftovers": {"desc":"Gradually restores the holder's HP throughout a battle"},
         "life_orb": {"desc":"Boosts the power of the holder's moves, but causes recoil damage"},
@@ -92,17 +89,12 @@
         "loaded_dice": {"desc":"Multi-strike moves always hit at least four times"},
         "lucky_egg": {"desc":"Increases the amount of experience earned by the holder in battle"},
         "luminous_moss": {},
-        "magnet": {"desc":"Boosts the power of the holder's Electric-type moves"},
         "mental_herb": {"desc":"Cures the holder of infatuation and other mental effects","trait":1},
         "metal_powder": {"desc":"Raises an untransformed Ditto's Defense and Sp. Def by 50%"},
         "metronome": {"desc":"Boosts the power of moves used consecutively"},
-        "miracle_seed": {"desc":"Boosts the power of the holder's Grass-type moves"},
         "mirror_herb": {"desc":"Allows the holder to mirror an opponent's stat increases to boost its own stats","trait":1},
         "misty_seed": {"desc":"Boosts the holder's Sp. Def in Misty terrain"},
         "muscle_band": {"desc":"Boosts the power of the holder's Physical moves"},
-        "mystic_water": {"desc":"Boosts the power of the holder's Water-type moves"},
-        "never_melt_ice": {"name":"Never-Melt Ice","desc":"Boosts the power of the holder's Ice-type moves"},
-        "poison_barb": {"desc":"Boosts the power of the holder's Poison-type moves"},
         "power_anklet": {"desc":"Grants 8 Speed EVs when gaining experience in battle"},
         "power_band": {"desc":"Grants 8 Sp. Def EVs when gaining experience in battle"},
         "power_belt": {"desc":"Grants 8 Defense EVs when gaining experience in battle"},
@@ -115,33 +107,47 @@
         "punching_glove": {"desc":"Boosts the power of the holder's punching moves and prevents them from triggering contact with the target"},
         "quick_claw": {"desc":"Occasionally allows the holder to strike first"},
         "quick_powder": {"desc":"Doubles an untransformed Ditto's Speed"},
+        "razor_claw": {"desc":"Boosts the critical-hit ratio of the holder's moves"},
+        "razor_fang": {"desc":"When the holder successfully inflicts damage, the target may also flinch"},
         "red_card": {"desc":"Pokémon that damage the holder are forced to switch out","trait":1},
         "ring_target": {"desc":"The holder's type immunities are removed"},
         "rocky_helmet": {"desc":"Causes a Pokémon that makes direct contact with the holder to take damage"},
         "room_service": {"desc":"Lowers the holder's Speed when Trick Room is in effect","trait":1},
         "safety_goggles": {"desc":"Grants the holder immunity to powder and spore moves and damage from weather"},
         "scope_lens": {"desc":"Boosts the holder's critical hit ratio"},
-        "sharp_beak": {"desc":"Boosts the power of the holder's Flying-type moves"},
         "shed_shell": {"desc":"Allows the holder to switch out in any situation"},
         "shell_bell": {"desc":"Heals the holder for a fraction of damage dealt every turn"},
-        "silk_scarf": {"desc":"Boosts the power of the holder's Normal-type moves"},
-        "silver_powder": {"desc":"Boosts the power of the holder's Bug-type moves"},
         "smoke_ball": {"desc":"Has no effect"},
         "smooth_rock": {"desc":"Extends the duration of Sandstorm"},
-        "soft_sand": {"desc":"Boosts the power of the holder's Ground-type moves"},
         "soothe_bell": {"desc":"Boosts the holder's friendship gains"},
-        "spell_tag": {"desc":"Boosts the power of the holder's Ghost-type moves"},
         "sticky_barb": {"desc":"Damage the holder each turn, and transfers holders when hit"},
         "terrain_extender": {"desc":"Lengthens the duration of moves and Abilities that alter the terrain of the battlefield"},
         "throat_spray": {"desc":"Raises the holder's Sp. Atk when using a sound-based move","trait":1},
         "toxic_orb": {"desc":"Poisons the holder"},
-        "twisted_spoon": {"desc":"Boosts the power of the holder's Psychic-type moves"},
         "utility_umbrella": {"desc":"The holder is unaffected by Rain or Harsh Sunlight"},
         "weakness_policy": {"desc":"Boosts the holder's Attack and Sp. Atk when hit by a super-effective move","trait":1},
         "white_herb": {"desc":"Restores any lowered stat in battle","trait":1},
         "wide_lens": {"desc":"Boosts the holder's Accuracy"},
         "wise_glasses": {"desc":"Boosts the power of special moves"},
-        "zoom_lens": {"desc":"Boosts the holder's Accuracy"}
+        "zoom_lens": {"desc":"Boosts the holder's Accuracy"},
+        "silk_scarf": {"desc":"Boosts the power of the holder's Normal-type moves"},
+        "charcoal_stick": {"desc":"Boosts the power of the holder's Fire-type moves"},
+        "mystic_water": {"desc":"Boosts the power of the holder's Water-type moves"},
+        "miracle_seed": {"desc":"Boosts the power of the holder's Grass-type moves"},
+        "magnet": {"desc":"Boosts the power of the holder's Electric-type moves"},
+        "never_melt_ice": {"name":"Never-Melt Ice","desc":"Boosts the power of the holder's Ice-type moves"},
+        "black_belt": {"desc":"Boosts the power of the holder's Fighting-type moves"},
+        "poison_barb": {"desc":"Boosts the power of the holder's Poison-type moves"},
+        "soft_sand": {"desc":"Boosts the power of the holder's Ground-type moves"},
+        "sharp_beak": {"desc":"Boosts the power of the holder's Flying-type moves"},
+        "twisted_spoon": {"desc":"Boosts the power of the holder's Psychic-type moves"},
+        "silver_powder": {"desc":"Boosts the power of the holder's Bug-type moves"},
+        "hard_stone": {"desc":"Boosts the power of the holder's Rock-type moves"},
+        "spell_tag": {"desc":"Boosts the power of the holder's Ghost-type moves"},
+        "dragon_fang": {"desc":"Boosts the power of the holder's Dragon-type moves"},
+        "black_glasses": {"desc":"Boosts the power of the holder's Dark-type moves"},
+        "metal_coat": {"desc":"Boosts the power of the holder's Steel-type moves"},
+        "fairy_feather": {"desc":"Boosts the power of the holder's Fairy-type moves"}
     }
     const traits = {
         1: "Consumed after use",
