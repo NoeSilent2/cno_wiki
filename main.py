@@ -297,6 +297,10 @@ def search_database():
     return render_template("search_results.html", results=results, query=query)
 
 
+@app.route("/items")
+def get_held_items():
+    return render_template("held_items.html")
+
 @app.route("/staff")
 def get_staff():
     return render_template("staff.html")

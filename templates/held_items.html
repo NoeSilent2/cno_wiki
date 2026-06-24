@@ -1,0 +1,46 @@
+{% extends 'header.html' %}
+
+{% block title %}Held Items - {{ super() }}{% endblock %}
+
+{% block extra_head %}
+<style>
+    .holder {display:flex; flex-wrap: wrap; justify-content:center; gap:1.5rem; padding:1.5rem 0.5rem;}
+    .entry {border:2px solid white; border-radius:20px; min-width:220px; display:flex; align-items:center; justify-content:center; flex-direction:column; padding:0.5rem; gap:5px; flex:1;}
+    .entry img {width:64px; height:64px; object-fit:cover; image-rendering:pixelated;}
+    .entry p {text-decoration:none;}
+    .entry .name {text-align:center; font-size:200%; font-weight:bold;}
+</style>
+{% endblock %}
+
+{% block body %}
+<main style="flex: 0;">
+
+    <h1 style="border-bottom:1px solid #333">Held Items</h1>
+
+    <div class="holder">
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/ability_shield.png">
+            <p class="name">Ability Shield</p>
+            <p>Prevents the holder's ability from being changed or suppressed</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/absorb_bulb.png">
+            <p class="name">Absorb Bulb</p>
+            <p>Boosts the holder's Sp. Atk when hit by a Water-type move</p>
+            <p>Consumed after use</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/air_balloon.png">
+            <p class="name">Air Balloon</p>
+            <p>Makes the holder ungrounded</p>
+            <p>Destroyed on hit</p>
+        </div>
+        <div class="entry">
+            <img src="https://raw.githubusercontent.com/NoeSilent2/CNO-Assets/refs/heads/main/held_items/assault_vest.png">
+            <p class="name">Assault vest</p>
+            <p>Raises the holder's Sp. Def but prevents the use of status moves</p>
+        </div>
+    </div>
+
+</main>
+{% endblock %}
