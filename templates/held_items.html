@@ -144,7 +144,7 @@
                 const newDesc = document.createElement('div');
                 newDesc.classList.add('entry-description');
                 let name = value["name"];
-                if (name == nil) {
+                if (name == null) {
                     name = key.replace("_"," ").replace(/\b\w/g, s => s.toUpperCase());
                 }
                 newDesc.append(name);
