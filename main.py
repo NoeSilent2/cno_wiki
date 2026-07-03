@@ -273,7 +273,7 @@ def search_database():
 
     db = get_db()
     rows = db.execute(
-        "SELECT * FROM species WHERE name LIKE ? COLLATE NOCASE LIMIT 15",
+        "SELECT * FROM species WHERE name LIKE ? COLLATE NOCASE LIMIT 30",
         (f"%{query}%",)
     ).fetchall()
 
@@ -283,7 +283,7 @@ def search_database():
         species_results = process_rows(rows,["national_pokedex_number","name","types","internal_name"])
     
     rows = db.execute(
-        "SELECT * FROM moves WHERE name LIKE ? COLLATE NOCASE LIMIT 15",
+        "SELECT * FROM moves WHERE name LIKE ? COLLATE NOCASE LIMIT 30",
         (f"%{query}%",)
     ).fetchall()
 
