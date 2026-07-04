@@ -11,6 +11,40 @@
         <div id="move-entry" move="{{ move.id }}" desc="{{ move.desc }}" style="display:flex; flex-wrap:wrap; justify-content:flex-start;">
             <div id="basic-info" style="width:100%; display:flex; justify-content:space-between; flex-wrap:wrap;">
             </div>
+            {% if move.learnedby %}
+                {% if move.learnedby.lvl %}
+                    <div>
+                        <h2>Level-Up</h2>
+                        {% for table in move.learnedby.lvl %}
+                            <p>{{ str(table[1]) }} - {{ table[0] }}</p>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+                {% if move.learnedby.tm %}
+                    <div>
+                        <h2>TM</h2>
+                        {% for pname in move.learnedby.tm %}
+                            <p>{{ pname }}</p>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+                {% if move.learnedby.egg %}
+                    <div>
+                        <h2>Egg</h2>
+                        {% for pname in move.learnedby.egg %}
+                            <p>{{ pname }}</p>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+                {% if move.learnedby.evo %}
+                    <div>
+                        <h2>Evolution</h2>
+                        {% for pname in move.learnedby.evo %}
+                            <p>{{ pname }}</p>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            {% endif %}
         </div>
     {% endfor %}
 
