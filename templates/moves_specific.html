@@ -6,6 +6,8 @@
 <style>
     table.pokemon {line-height: 1.5em; text-align: center; font-size: 100%; white-space: nowrap;}
     .learnlist {margin-right:2rem}
+    .learnlist a {display:block; font-weight:normal}
+    .learnlist div a {font-weight:normal;}
 </style>
 {% endblock %}
 
@@ -23,10 +25,10 @@
                     <div class="learnlist">
                         <h2>Level-Up</h2>
                         {% for table in move.learnedby.lvl %}
-                            <span>
+                            <div>
                                 <b>{{ table[1]|string }}</b>
                                 <a href="{{ table[0] }}"> - {{ table[0] }}</a>
-                            </span>
+                            </div>
                         {% endfor %}
                     </div>
                 {% endif %}
