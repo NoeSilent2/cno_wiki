@@ -7,7 +7,7 @@
     table.pokemon {line-height: 1.5em; text-align: center; font-size: 100%; white-space: nowrap;}
     .learnlist {margin-right:2rem}
     .learnlist a {display:block; font-weight:normal}
-    .learnlist div a {font-weight:normal;}
+    .learnlist div a {display:inline; font-weight:normal;}
 </style>
 {% endblock %}
 
@@ -27,7 +27,7 @@
                         {% for table in move.learnedby.lvl %}
                             <div>
                                 <b>{{ table[1]|string }}</b>
-                                <a href="{{ table[0] }}"> - {{ table[0] }}</a>
+                                <a href="/species/{{ table[0] }}"> - {{ table[0]|title }}</a>
                             </div>
                         {% endfor %}
                     </div>
@@ -36,7 +36,7 @@
                     <div class="learnlist">
                         <h2>TM</h2>
                         {% for pname in move.learnedby.tm %}
-                            <a href="{{ pname }}">{{ pname }}</a>
+                            <a href="/species/{{ pname }}">{{ pname|title }}</a>
                         {% endfor %}
                     </div>
                 {% endif %}
@@ -44,7 +44,7 @@
                     <div class="learnlist">
                         <h2>Egg</h2>
                         {% for pname in move.learnedby.egg %}
-                            <a href="{{ pname }}">{{ pname }}</a>
+                            <a href="/species/{{ pname|title }}">{{ pname|title }}</a>
                         {% endfor %}
                     </div>
                 {% endif %}
@@ -52,7 +52,7 @@
                     <div class="learnlist">
                         <h2>Evolution</h2>
                         {% for pname in move.learnedby.evo %}
-                            <a href="{{ pname }}">{{ pname }}</a>
+                            <a href="/species/{{ pname }}">{{ pname|title }}</a>
                         {% endfor %}
                     </div>
                 {% endif %}
