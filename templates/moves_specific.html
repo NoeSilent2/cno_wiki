@@ -2,6 +2,13 @@
 
 {% block title %}{{ moves[0].name }} - {{ super() }}{% endblock %}
 
+{% block extra_head %}
+<style>
+    table.pokemon {line-height: 1.5em; text-align: center; font-size: 100%; white-space: nowrap;}
+    .learnlist {margin-right:2rem}
+</style>
+{% endblock %}
+
 {% block body %}
 <main style="flex: 0;">
 
@@ -13,7 +20,7 @@
             </div>
             {% if move.learnedby %}
                 {% if move.learnedby.lvl %}
-                    <div>
+                    <div class="learnlist">
                         <h2>Level-Up</h2>
                         {% for table in move.learnedby.lvl %}
                             <p>{{ table[1]|string }} - {{ table[0] }}</p>
@@ -21,7 +28,7 @@
                     </div>
                 {% endif %}
                 {% if move.learnedby.tm %}
-                    <div>
+                    <div class="learnlist">
                         <h2>TM</h2>
                         {% for pname in move.learnedby.tm %}
                             <p>{{ pname }}</p>
@@ -29,7 +36,7 @@
                     </div>
                 {% endif %}
                 {% if move.learnedby.egg %}
-                    <div>
+                    <div class="learnlist">
                         <h2>Egg</h2>
                         {% for pname in move.learnedby.egg %}
                             <p>{{ pname }}</p>
@@ -37,7 +44,7 @@
                     </div>
                 {% endif %}
                 {% if move.learnedby.evo %}
-                    <div>
+                    <div class="learnlist">
                         <h2>Evolution</h2>
                         {% for pname in move.learnedby.evo %}
                             <p>{{ pname }}</p>
