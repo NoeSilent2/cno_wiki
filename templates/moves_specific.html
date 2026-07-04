@@ -44,7 +44,7 @@
                     <div class="learnlist">
                         <h2>Egg</h2>
                         {% for pname in move.learnedby.egg %}
-                            <a href="/species/{{ pname|title }}">{{ pname|title }}</a>
+                            <a href="/species/{{ pname }}">{{ pname|title }}</a>
                         {% endfor %}
                     </div>
                 {% endif %}
