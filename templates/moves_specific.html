@@ -16,7 +16,7 @@
                     <div>
                         <h2>Level-Up</h2>
                         {% for table in move.learnedby.lvl %}
-                            <p>{{ table[1]|str }} - {{ table[0] }}</p>
+                            <p>{{ table[1]|string }} - {{ table[0] }}</p>
                         {% endfor %}
                     </div>
                 {% endif %}
