@@ -23,7 +23,10 @@
                     <div class="learnlist">
                         <h2>Level-Up</h2>
                         {% for table in move.learnedby.lvl %}
-                            <p>{{ table[1]|string }} - {{ table[0] }}</p>
+                            <span>
+                                <b>{{ table[1]|string }}</b>
+                                <a href="{{ table[0] }}"> - {{ table[0] }}</a>
+                            </span>
                         {% endfor %}
                     </div>
                 {% endif %}
@@ -31,7 +34,7 @@
                     <div class="learnlist">
                         <h2>TM</h2>
                         {% for pname in move.learnedby.tm %}
-                            <p>{{ pname }}</p>
+                            <a href="{{ pname }}">{{ pname }}</a>
                         {% endfor %}
                     </div>
                 {% endif %}
@@ -39,7 +42,7 @@
                     <div class="learnlist">
                         <h2>Egg</h2>
                         {% for pname in move.learnedby.egg %}
-                            <p>{{ pname }}</p>
+                            <a href="{{ pname }}">{{ pname }}</a>
                         {% endfor %}
                     </div>
                 {% endif %}
@@ -47,7 +50,7 @@
                     <div class="learnlist">
                         <h2>Evolution</h2>
                         {% for pname in move.learnedby.evo %}
-                            <p>{{ pname }}</p>
+                            <a href="{{ pname }}">{{ pname }}</a>
                         {% endfor %}
                     </div>
                 {% endif %}

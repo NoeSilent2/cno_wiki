@@ -68,7 +68,10 @@ def get_species_db(name):
         query = "SELECT * FROM species WHERE national_pokedex_number = ?"
         rows = db.execute(query, (name,)).fetchall()
         if not rows:
-            return None
+            query = "SELECT * FROM species WHERE LOWER(alt_internal_name) = ?"
+            rows = db.execute(query, (name,)).fetchall()
+            if not rows:
+                return None
 
     results = process_rows(rows, None)
 
