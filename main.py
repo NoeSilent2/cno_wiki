@@ -315,3 +315,6 @@ def get_origins():
 @app.route("/credits")
 def get_credits():
     return render_template("credits.html")
+
+if __name__ == '__main__':
+    app.run()
