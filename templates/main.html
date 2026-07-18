@@ -17,6 +17,75 @@
 </style>
 {% endblock %}
 
+{% block pre_header %}
+<nav style="padding:0rem 0.5rem; height:32px; gap:8px; margin:0.5rem auto;">
+    <div class="gnn" style="width:60px; height:100%; display:flex; justify-content:center; align-items:center;">
+        <p style="letter-spacing:2px; font-family:'Comic Sans MS', 'Comic Sans', 'Comic Neue', 'Comic Sans Fallback', 'Balsamiq Sans', 'Patrick Hand', 'Architects Daughter', 'Chalkboard SE', cursive !important">
+            GNN
+        </p>
+    </div>
+    <div class="gnn" style="height:100%; flex:1; display:flex; align-items:stretch; overflow:hidden;">
+        <div id="gnn-scroller" style="display:flex; white-space:nowrap; will-change:transform; align-items:center;">
+            <script>
+                document.addEventListener('DOMContentLoaded', () => {
+                    const scroller = document.querySelector('div#gnn-scroller')
+                    if (scroller) {
+                        let news = [
+                            "Niche micro-celebrity Gary has created the 'Gary News Network'.",
+                            "JUST IN: The Main Page has received a desperately needed shipment of Flexible UI Elements.",
+                            "Website Admin overheard talking about introducing non-native Wobbling Cats. Public advised to stay alert.",
+                            "Local residents haven't raised $3,000 for the 'Learned-By' Foundation, a subsidiary of the Moves Page.",
+                            "New traffic reforms have lead to a 63% increase in Species URL Directions.",
+                            "Compression expert claims that withholding 'Learned-By' funding from Mega's and Regional Biases will reduce government spending by 8%.",
+                            "Protests have forced the Website Admin to double the maximum search results.",
+                            "'Cobblemon & Origins Wiki'- a new YouTube creator- has recently been making waves with his debut video 'github basics - how to contribute'.",
+                            "An influx of Geebles has forced the C&O Police Department to reduce contrast city-wide.",
+                            "Sightings of notorious vandal 'duder65' have been increasing. Citizens advised to throw rotten produce at him.",
+                            "Scientists are still struggling to cure the 'Spawn-Condition' Virus. Progress is slow, but steady, renowned Virologist NoeSilent says on the matter.",
+                            "Local entrepreneur Henry has stated that extending the Battle Menu to include Held Items was a failure.",
+                            "The nation-wide phenomenon, Gary, has recently graduated with a degree in Time Zones and 3D Modeling.",
+                            "Police found known drug-lord Thundurus in the Bronx late last night, missing both legs.",
+                            "Secretive government technology- 'The Datascraper'- has been made less secret by recent Freedom of Information requests.",
+                            "New Charity focusing on Browser-Caching Awareness has been increasing in popularity.",
+                            "Female-only Pokemon affirmed through new legislation, misgendering them 95% less.",
+                            "Police reforms have allowed previously oppressed Female Variants to be seen in public again.",
+                            "New Tournament Director icarus_05 pressuring news groups into being more verbose.",
+                            "Datapack creator 'Lasercraft32' found grieving over the death of Obyless, national day of mourning being planned by The Meowl Committee.",
+                            "Further Variant-Reforms have given national visibility to Pokemon of color through the new 'Color-Variant' button.",
+                            "A medical breakthrough in Backface-Culling results in the complete eradication of the disease. Shiny Fakemon organize events to celebrate this milestone.",
+                            "Oricorio's across the world left shocked at the recent decision to recognize Baile as the default Dance Style.",
+                            "Local strip-club owner found guilty of rat-related crimes. Reporters left too stunned to describe in greater detail.",
+                            "The rapid appointment of shield2550, jackiboi23, and icarus_05 have sent waves through neighboring counties.",
+                            "DRAMA: Government official allegedly caused the C&O YouTube Channel to be set to 'Kids Only' after logging in from the UK.",
+                            "Education Programs have been receiving numerous delays due to recent Government Contracts to build a really cool statue.",
+                            "Rumors that a favorite Town Representative will resign causes record sadness levels.",
+                            "Astronauts say that the Moon is real, but citizens are suspicious given the continued delays on the End Update.",
+                            "JUST IN: Owner of C&O found to have put ANOTHER AI Generated mod in the modpack. It is promptly removed for causing multiple known issues.",
+                            "ADVISORY: Smoke from the forest fires in Canada is making my throat hurt. It's really uncomfortable.",
+                            "BREAKTHROUGH: The violent pooping disease found to be caused by pooping violently. Doctors left stunned.",
+                            "Neighborhood watch reports the appearance of a Goblin, who has been catching Pokemon as soon as they appear and babbling nonsense.",
+                            "Editorial: Why you should worship Bunger, and why Meowl isn't the same thing.",
+                            "UPCOMING: National day of remembrance for the Flabebe Massacre.",
+                            "C&O Developers caught playing Palworld instead of working on the update. Nobody is surprised.",
+                            "'Haha, trust us guys, we're working on the update' C&O Owner 'duder65' said, while clearly playing Beetleball Ranked alone.",
+                            "Recent Demo for game 'Beetleball' has already been nominated for every award, and is expected to win Game of the Year despite not being released yet."
+                        ]
+                        news = news.sort(() => Math.random() - 0.5);
+                        news = [...news, ...news];
+                        news.forEach(entry => {
+                            const item = document.createElement('p')
+                            item.className = 'gnn-item';
+                            item.textContent = entry;
+                            scroller.appendChild(item);
+                        })
+                    }
+                })
+            </script>
+        </div>
+    </div>
+</nav>
+{% endblock %}
+
 {% block body %}
 <div style="display:flex; margin: 2rem auto; max-width: 1200px; width:90%; padding: 2rem 2rem; gap:12px; margin-top:21px; margin-bottom:21px; flex-wrap:wrap;">
 
@@ -107,6 +176,7 @@
         <div style="height:auto; overflow-y: auto; max-height:400px">
             <ul class="log">
                 <p>July 17</p>
+                <li>Limited GNN to the Main Page</li>
                 <li>Opened up Gary News Network</li>
                 <li>Main page elements more flexible</li>
                 <p>July 3</p>
