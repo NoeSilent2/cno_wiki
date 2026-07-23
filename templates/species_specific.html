@@ -640,6 +640,30 @@
                                                                     </td>
                                                                 </tr>
                                                                 {% endif %}
+                                                                {% if spawn.weightMultiplier %}
+                                                                <tr>
+                                                                    <td colspan="3">
+                                                                        Chance-Multiplier
+                                                                        <div style="border:1px solid #333; background:#111; min-height:15px; padding:8px; gap:4px; display:grid;" class="roundy">
+                                                                            <div style="border:1px dotted #333; background:#000;" class="roundy">
+                                                                                <p style="margin:2px; display:inline; font-weight:bold;">x{{ spawn.weightMultiplier.multiplier }} Multiplier</p>
+                                                                            </div>
+                                                                            {% for key, value in spawn.weightMultiplier.condition.items() %}
+                                                                                <div style="border:1px dotted #333; background:#000;" class="roundy">
+                                                                                    {% if value is iterable and value is not string and value is not mapping %}
+                                                                                        <p style="margin:2px; display:inline;">{{ key.title() }}:</p>
+                                                                                        {% for entry in value %}
+                                                                                            <p style="margin:2px;">{{ entry }}</p>
+                                                                                        {% endfor %}
+                                                                                    {% else %}
+                                                                                        <p style="margin:2px; display:inline;">{{ key }}: {{ value }}</p>
+                                                                                    {% endif %}
+                                                                                </div>
+                                                                            {% endfor %}
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                                {% endif %}
                                                             </tbody>
                                                         </table>
                                                     </td>
