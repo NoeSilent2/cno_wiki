@@ -79,13 +79,9 @@
                                 <td width="25%" class="roundy" style="background: #000">
                                     <table width="100%">
                                         <tbody>
-                                            {% if species.legendary > 0 %}
-                                            <tr>
-                                                <i style="font-size:1.2rem; color:#ccc;">
-                                                    {{ (species.legendary == 5 and "Legendary") or (species.legendary == 4 and "Mythical") or (species.legendary == 3 and "Powerhouse") or (species.legendary == 2 and "Ultra-Beast") or (species.legendary == 1 and "Fossilmon") or "SUPER FREAK!" }}
-                                                </i>
-                                            </tr>
-                                            {% endif %}
+                                            {% if species.legendary > 0 %}<tr><td><i style="font-size:1.2rem; color:#eee; margin:8px;">
+                                                        {{ (species.legendary == 5 and "Legendary") or (species.legendary == 4 and "Mythical") or (species.legendary == 3 and "Powerhouse") or (species.legendary == 2 and "Ultra-Beast") or (species.legendary == 1 and "Fossilmon") or "SUPER FREAK!" }}
+                                            </i></td></tr>{% endif %}
                                             <tr>
                                                 <td>
                                                     <big>
