@@ -6,6 +6,7 @@
 {% block extra_head %}
 <link rel="stylesheet" href="{{ url_for('static', filename='css/simpletable.css') }}">
 <style>
+    td { background:#0a0a0a; color:#eee; border:1px solid #bbb; padding:4px}
     .hp { background:#111a0b }
     .attack { background:#221e0e}
     .defence { background:#251810 }
@@ -47,10 +48,10 @@
             {name:"Type2",width:"10px",hidden:true},
             {name:"Exp",width:"60px"},
             {name:"HP", attributes: (cell) => { if (cell) { return {'class': 'hp'} } else { return {'class': 'hp'} }}},
-            {name:"Attack", attributes: (cell) => { if (cell) { return {'class': 'attack'} } else { return {'class': 'attack'} }}},
-            {name:"Defence", attributes: (cell) => { if (cell) { return {'class': 'defence'} } else { return {'class': 'defence'} }}},
-            {name:"Sp.Attack", attributes: (cell) => { if (cell) { return {'class': 'spattack'} } else { return {'class': 'spattack'} }}},
-            {name:"Sp.Defence", attributes: (cell) => { if (cell) { return {'class': 'spdefence'} } else { return {'class': 'spdefence'} }}},
+            {name:"Attack", attributes: (cell) => { if (cell) { return {'class': ['attack','evbold']} } else { return {'class': 'attack'} }}},
+            {name:"Defence", attributes: (cell) => { if (cell) { return {'class': 'defence, evbold'} } else { return {'class': 'defence'} }}},
+            {name:"Sp.Attack", attributes: (cell) => { if (cell) { return {'class': 'spattack; evbold'} } else { return {'class': 'spattack'} }}},
+            {name:"Sp.Defence", attributes: (cell) => { if (cell) { return {'class': 'spdefence evbold'} } else { return {'class': 'spdefence'} }}},
             {name:"Speed", attributes: (cell) => { if (cell) { return {'class': 'speed'} } else { return {'class': 'speed'} }}},
             {name:"internal_name",hidden:true}],
         data: species.map(emp => [
@@ -77,12 +78,6 @@
                 'background-color': '#333',
                 color: '#eee',
                 'border-bottom': '3px solid #eee',
-                padding: "4px"
-            },
-            td: {
-                'background-color': '#0a0a0a',
-                color: '#eee',
-                border: '1px solid #bbb',
                 padding: "4px"
             }
         }
