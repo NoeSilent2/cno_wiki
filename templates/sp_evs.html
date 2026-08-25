@@ -26,7 +26,7 @@
     new gridjs.Grid({
         columns: [
             {name:"Dex",width:"60px"}, 
-            {name:"Name",width:"145px", formatter: (cell, row) => gridjs.html(`<a href='/species/${row.cells[10].data}'>${cell}</a>`)}, 
+            {name:"Name",width:"145px", formatter: (cell, row) => gridjs.html(`<a href='/species/${row.cells[11].data}'>${cell}</a>`)}, 
             {name:"Type",width:"82px", formatter: (cell, row) => {
                 if (row.cells[3].data) {
                     return gridjs.html(`<div style="display:flex"><div style="height:36px; padding:0px 1px 0px 0px"><img src="/types/${cell}.png" title="${cell}" alt="${cell}"></div><div style="height:36px;"><img src="/types/${row.cells[3].data}.png" title="${row.cells[3].data}" alt="${row.cells[3].data}"></div></div>`)
@@ -35,18 +35,20 @@
                 }
             }}, 
             {name:"Type2",width:"10px",hidden:true},
-            {name:"HP",width:"60px", attributes: (cell) => { return {'style': 'background:#111a0b; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding:4px; text-align:center'}}},
-            {name:"Atk",width:"60px", attributes: (cell) => { return {'style': 'background:#221e0e; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding:4px; text-align:center'}}},
-            {name:"Def",width:"60px", attributes: (cell) => { return {'style': 'background:#251810; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding:4px; text-align:center'}}},
-            {name:"SpA",width:"60px", attributes: (cell) => { return {'style': 'background:#0f2125; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding:4px; text-align:center'}}},
-            {name:"SpD",width:"60px", attributes: (cell) => { return {'style': 'background:#141722; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding:4px; text-align:center'}}},
-            {name:"Spe",width:"60px", attributes: (cell) => { return {'style': 'background:#2c1427; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding:4px; text-align:center'}}},
+            {name:"Exp",width:"60px"},
+            {name:"HP", attributes: (cell) => { return {'style': 'background:#111a0b; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding:4px; text-align:center'}}},
+            {name:"Attack", attributes: (cell) => { return {'style': 'background:#221e0e; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding:4px; text-align:center'}}},
+            {name:"Defence", attributes: (cell) => { return {'style': 'background:#251810; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding:4px; text-align:center'}}},
+            {name:"Sp.Attack", attributes: (cell) => { return {'style': 'background:#0f2125; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding:4px; text-align:center'}}},
+            {name:"Sp.Defence", attributes: (cell) => { return {'style': 'background:#141722; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding:4px; text-align:center'}}},
+            {name:"Speed", attributes: (cell) => { return {'style': 'background:#2c1427; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding:4px; text-align:center'}}},
             {name:"internal_name",hidden:true}],
         data: species.map(emp => [
             emp.national_pokedex_number,
             emp.name,
             emp.types.primary,
             emp.types.secondary,
+            emp.experience,
             emp.evs.hp,
             emp.evs.attack,
             emp.evs.defence,
@@ -59,7 +61,7 @@
         style: {
             table: {
                 border: '3px solid #fff',
-                width: 'auto'
+                width: '100%'
             },
             th: {
                 'background-color': '#333',

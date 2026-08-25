@@ -190,6 +190,7 @@ table_keys = {"evs":[
     "national_pokedex_number",
     "name",
     "types",
+    "experience",
     "evs",
     "internal_name"
 ],"species":[
