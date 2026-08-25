@@ -4,8 +4,9 @@
 {% block title %}EVs - {{ super() }}{% endblock %}
 
 {% block extra_head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/simpletable.css') }}">
 <style>
-    td { background:#0a0a0a; color:#eee; border:1px solid #bbb; padding:4px}
+    td { background:#0a0a0a; color:#eee; border:1px solid #bbb; padding:4px; text-align:left;}
     .hp { background:#111a0b }
     .attack { background:#221e0e}
     .defence { background:#251810 }
@@ -15,7 +16,6 @@
     .evbold { text-align:center; font-weight:bold; color:#fff }
     .evlight { text-align:center; color:#aaa }
 </style>
-<link rel="stylesheet" href="{{ url_for('static', filename='css/simpletable.css') }}">
 {% endblock %}
 
 {% block body %}
@@ -79,6 +79,9 @@
                 color: '#eee',
                 'border-bottom': '3px solid #eee',
                 padding: "4px"
+            },
+            td: {
+                'background-color': '0'
             }
         }
     }).render(document.getElementById('table'));
