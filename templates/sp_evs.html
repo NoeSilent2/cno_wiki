@@ -25,7 +25,7 @@
 
     new gridjs.Grid({
         columns: [
-            {name:"Dex",width:"50px"}, 
+            {name:"Dex",width:"60px"}, 
             {name:"Name",width:"145px", formatter: (cell, row) => gridjs.html(`<a href='/species/${row.cells[10].data}'>${cell}</a>`)}, 
             {name:"Type",width:"82px", formatter: (cell, row) => {
                 if (row.cells[3].data) {
@@ -35,12 +35,12 @@
                 }
             }}, 
             {name:"Type2",width:"10px",hidden:true},
-            {name:"HP",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#111a0b; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding: 4px'}}}},
-            {name:"Atk",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#221e0e; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding: 4px'}}}},
-            {name:"Def",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#251810; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding: 4px'}}}},
-            {name:"SpA",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#0f2125; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding: 4px'}}}},
-            {name:"SpD",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#141722; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding: 4px'}}}},
-            {name:"Spe",width:"50px", attributes: (cell) => { if (cell) { return {'style': 'background:#2c1427; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding: 4px'}}}},
+            {name:"HP",width:"60px", attributes: (cell) => { return {'style': 'background:#111a0b; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding:4px; text-align:center'}}},
+            {name:"Atk",width:"60px", attributes: (cell) => { return {'style': 'background:#221e0e; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding:4px; text-align:center'}}},
+            {name:"Def",width:"60px", attributes: (cell) => { return {'style': 'background:#251810; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding:4px; text-align:center'}}},
+            {name:"SpA",width:"60px", attributes: (cell) => { return {'style': 'background:#0f2125; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding:4px; text-align:center'}}},
+            {name:"SpD",width:"60px", attributes: (cell) => { return {'style': 'background:#141722; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding:4px; text-align:center'}}},
+            {name:"Spe",width:"60px", attributes: (cell) => { return {'style': 'background:#2c1427; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding:4px; text-align:center'}}},
             {name:"internal_name",hidden:true}],
         data: species.map(emp => [
             emp.national_pokedex_number,

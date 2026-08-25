@@ -3,6 +3,10 @@
 
 {% block title %}Fossilmons - {{ super() }}{% endblock %}
 
+{% block extra_head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/simpletable.css') }}">
+{% endblock %}
+
 {% block body %}
 {% block main %}
 <main>
