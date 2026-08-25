@@ -5,6 +5,16 @@
 
 {% block extra_head %}
 <link rel="stylesheet" href="{{ url_for('static', filename='css/simpletable.css') }}">
+<style>
+    .hp { background:#111a0b }
+    .attack { background:#221e0e}
+    .defence { background:#251810 }
+    .spattack { background:#0f2125 }
+    .spdefence { background:#141722 }
+    .speed { background:#2c1427 }
+    .evbold { text-align:center; font-weight:bold; color:#fff }
+    .evlight { text-align:center; color:#aaa }
+</style>
 {% endblock %}
 
 {% block body %}
@@ -36,12 +46,12 @@
             }}, 
             {name:"Type2",width:"10px",hidden:true},
             {name:"Exp",width:"60px"},
-            {name:"HP", attributes: (cell) => { return {'style': 'background:#111a0b; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding:4px; text-align:center'}}},
-            {name:"Attack", attributes: (cell) => { return {'style': 'background:#221e0e; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding:4px; text-align:center'}}},
-            {name:"Defence", attributes: (cell) => { return {'style': 'background:#251810; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding:4px; text-align:center'}}},
-            {name:"Sp.Attack", attributes: (cell) => { return {'style': 'background:#0f2125; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding:4px; text-align:center'}}},
-            {name:"Sp.Defence", attributes: (cell) => { return {'style': 'background:#141722; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding:4px; text-align:center'}}},
-            {name:"Speed", attributes: (cell) => { return {'style': 'background:#2c1427; color:#fff; border:1px solid #ccc; border-bottom:0px solid black; padding:4px; text-align:center'}}},
+            {name:"HP", attributes: (cell) => { if (cell) { return {'class': 'evbold hp'} } else { return {'style': 'evlight hp'} }}},
+            {name:"Attack", attributes: (cell) => { if (cell) { return {'class': 'evbold attack'} } else { return {'class': 'evlight attack'} }}},
+            {name:"Defence", attributes: (cell) => { if (cell) { return {'class': 'evbold defence'} } else { return {'class': 'evlight defence'} }}},
+            {name:"Sp.Attack", attributes: (cell) => { if (cell) { return {'class': 'evbold spattack'} } else { return {'class': 'evlight spattack'} }}},
+            {name:"Sp.Defence", attributes: (cell) => { if (cell) { return {'class': 'evbold spdefence'} } else { return {'class': 'evlight spdefence'} }}},
+            {name:"Speed", attributes: (cell) => { if (cell) { return {'class': 'evbold speed'} } else { return {'class': 'evlight speed'} }}},
             {name:"internal_name",hidden:true}],
         data: species.map(emp => [
             emp.national_pokedex_number,
