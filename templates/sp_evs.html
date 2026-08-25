@@ -21,15 +21,22 @@
 <script>
     const species = {{ species | tojson }};
     
+    const head = 'background:#333; color:#eee; border-bottom:3px solid #eee; padding:4px; '
     const a = 'border:1px solid #bbb; padding:4px; text-align:center; '
     const ev = 'color:#fff; font-weight:bold; '
-    const no = 'color:#aaa; '
+    const no = 'color:#555; '
     const hp = 'background:#111a0b; '
+    const hpno = 'background:#040801; '
     const atk = 'background:#221e0e; '
+    const atkno = 'background:#0d0b03; '
     const def = 'background:#251810; '
+    const defno = 'background:#0f0804; '
     const spa = 'background:#0f2125; '
+    const spano = 'background:#040e10; '
     const spd = 'background:#141722; '
-    const spe = 'background:#2c1427; '
+    const spdno = 'background:#06080d; '
+    const spe = 'background:#2a1225; '
+    const speno = 'background:#10050e; '
 
     console.log(species)
 
@@ -46,12 +53,12 @@
             }}, 
             {name:"Type2",width:"10px",hidden:true},
             {name:"Exp",width:"60px"},
-            {name:"HP", attributes: (cell) => { if (cell) { return {'style': a+ev+hp} } else { return {'style': a+no+hp} }}},
-            {name:"Attack", attributes: (cell) => { if (cell) { return {'style': a+ev+atk} } else { return {'style': a+no+atk} }}},
-            {name:"Defence", attributes: (cell) => { if (cell) { return {'style': a+ev+def} } else { return {'style': a+no+def} }}},
-            {name:"Sp.Attack", attributes: (cell) => { if (cell) { return {'style': a+ev+spa} } else { return {'style': a+no+spa} }}},
-            {name:"Sp.Defence", attributes: (cell) => { if (cell) { return {'style': a+ev+spd} } else { return {'style': a+no+spd} }}},
-            {name:"Speed", attributes: (cell) => { if (cell) { return {'style': a+ev+spe} } else { return {'style': a+no+spe} }}},
+            {name:"HP", attributes: (cell) => { if (cell) { return {'style': a+ev+hp} } else { if (cell==0) { return {'style': a+no+hpno}} else {return {'style': head}}}}},
+            {name:"Attack", attributes: (cell) => { if (cell) { return {'style': a+ev+atk} } else { if (cell==0) { return {'style': a+no+atkno}} else {return {'style': head}} }}},
+            {name:"Defence", attributes: (cell) => { if (cell) { return {'style': a+ev+def} } else { if (cell==0) { return {'style': a+no+defno}} else {return {'style': head}} }}},
+            {name:"Sp.Attack", attributes: (cell) => { if (cell) { return {'style': a+ev+spa} } else { if (cell==0) { return {'style': a+no+spano}} else {return {'style': head}} }}},
+            {name:"Sp.Defence", attributes: (cell) => { if (cell) { return {'style': a+ev+spd} } else { if (cell==0) { return {'style': a+no+spdno}} else {return {'style': head}} }}},
+            {name:"Speed", attributes: (cell) => { if (cell) { return {'style': a+ev+spe} } else { if (cell==0) { return {'style': a+no+speno}} else {return {'style': head}} }}},
             {name:"internal_name",hidden:true}],
         data: species.map(emp => [
             emp.national_pokedex_number,
