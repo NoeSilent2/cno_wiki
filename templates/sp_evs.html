@@ -32,8 +32,6 @@
 <script>
     const species = {{ species | tojson }};
     
-    const bg = {'style':'border:1px solid #bbb; padding:4px;'}
-
     console.log(species)
 
     new gridjs.Grid({
@@ -49,12 +47,12 @@
             }}, 
             {name:"Type2",width:"10px",hidden:true},
             {name:"Exp",width:"60px"},
-            {name:"HP", attributes: (cell) => { if (cell) { return {'class': 'hp evbold'}.concat(bg) } else { return {'class': 'hp evlight'}.concat(bg) }}},
-            {name:"Attack", attributes: (cell) => { if (cell) { return {'class': 'attack evbold'}.concat(bg) } else { return {'class': 'attack evlight'}.concat(bg) }}},
-            {name:"Defence", attributes: (cell) => { if (cell) { return {'class': 'defence evbold'}.concat(bg) } else { return {'class': 'defence evlight'}.concat(bg) }}},
-            {name:"Sp.Attack", attributes: (cell) => { if (cell) { return {'class': 'spattack evbold'}.concat(bg) } else { return {'class': 'spattack evlight'}.concat(bg) }}},
-            {name:"Sp.Defence", attributes: (cell) => { if (cell) { return {'class': 'spdefence evbold'}.concat(bg) } else { return {'class': 'spdefence evlight'}.concat(bg) }}},
-            {name:"Speed", attributes: (cell) => { if (cell) { return {'class': 'speed evbold'}.concat(bg) } else { return {'class': 'speed evlight'}.concat(bg) }}},
+            {name:"HP", attributes: (cell) => { if (cell) { return {'class': 'hp evbold'} } else { return {'class': 'hp evlight'} }}},
+            {name:"Attack", attributes: (cell) => { if (cell) { return {'class': 'attack evbold'} } else { return {'class': 'attack evlight'} }}},
+            {name:"Defence", attributes: (cell) => { if (cell) { return {'class': 'defence evbold'} } else { return {'class': 'defence evlight'} }}},
+            {name:"Sp.Attack", attributes: (cell) => { if (cell) { return {'class': 'spattack evbold'} } else { return {'class': 'spattack evlight'} }}},
+            {name:"Sp.Defence", attributes: (cell) => { if (cell) { return {'class': 'spdefence evbold'} } else { return {'class': 'spdefence evlight'} }}},
+            {name:"Speed", attributes: (cell) => { if (cell) { return {'class': 'speed evbold'} } else { return {'class': 'speed evlight'} }}},
             {name:"internal_name",hidden:true}],
         data: species.map(emp => [
             emp.national_pokedex_number,
