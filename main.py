@@ -186,7 +186,13 @@ def get_dmoves():
     return render_template("dmoves.html")
 
 
-table_keys = {"species":[
+table_keys = {"evs":[
+    "national_pokedex_number",
+    "name",
+    "types",
+    "evs",
+    "internal_name"
+],"species":[
     "national_pokedex_number",
     "name",
     "types",
@@ -260,12 +266,17 @@ def get_fossils():
     result = get_pokemon_with("legendary", pokemon_type["Fossil"], table_keys['species'] +["fossils"])
     return render_template("sp_fossils.html", fossils=result)
 
+@app.route("/evs")
+def get_evs():
+    result = get_pokemon_with(None, None, table_keys['evs'])
+
+    return render_template("sp_evs", species=result)
+
 @app.route("/species")
 def get_species():
     result = get_pokemon_with(None, None, table_keys['species'])
 
     return render_template("sp_all.html", species=result)
-
 
 @app.route("/search")
 def search_database():
@@ -315,6 +326,10 @@ def get_origins():
 @app.route("/credits")
 def get_credits():
     return render_template("credits.html")
+
+@app.errorhandler(500)
+def get_error500():
+    return render_template("500.html")
 
 if __name__ == '__main__':
     app.run()
