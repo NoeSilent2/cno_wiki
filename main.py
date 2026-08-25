@@ -270,7 +270,7 @@ def get_fossils():
 def get_evs():
     result = get_pokemon_with(None, None, table_keys['evs'])
 
-    return render_template("sp_evs", species=result)
+    return render_template("sp_evs.html", species=result)
 
 @app.route("/species")
 def get_species():
